@@ -181,7 +181,7 @@ include($root . "/include/header.php");
 		<h3>初回無料体験</h3>
 		<p>お近くの店舗を選択してください。<br>店舗ごとにご予約可能です。</p>
 		<div class="link purple">
-			<a href="#">RESERVED</a>
+			<a href="<?php echo $dir; ?>salonlist/">RESERVED</a>
 		</div>
 
 	</section>

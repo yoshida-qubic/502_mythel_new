@@ -104,7 +104,7 @@ include($root . "/include/header.php");
 			<h3>今なら45分体験無料</h3>
 			<p>月額5,980円のセルフエステが今なら体験無料。<br>脱毛・痩身・フェイシャル・ホワイトニングから選べる！<br>MYTHELならではのトータルセルフエステを是非お試し下さい。</p>
 			<div class="link purple">
-				<a href="#">無料体験のお申し込み ▶︎</a>
+				<a href="<?php echo $dir; ?>salonlist/">無料体験のお申込み ▶︎</a>
 			</div>
 		</div>
 	</section>
@@ -164,7 +164,7 @@ include($root . "/include/header.php");
 		<h3>初回無料体験</h3>
 		<p>お近くの店舗を選択してください。<br>店舗ごとにご予約可能です。</p>
 		<div class="link purple">
-			<a href="#">RESERVED</a>
+			<a href="<?php echo $dir; ?>salonlist/">RESERVED</a>
 		</div>
 
 	</section>

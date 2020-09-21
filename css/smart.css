@@ -69,11 +69,13 @@ section,
 .century{ font-family: 'Century Gothic',sans-serif; }
 @font-face {
 	font-family: 'kapital_t';
-	 src: url(../fonts/KapitalLight.otf);
+	 src: url(../fonts/KapitalLight.woff),
+	 	url(../fonts/KapitalLight.otf);
 }
 @font-face {
 	font-family: 'kapital_n';
-	 src: url(../fonts/KapitalRegular.otf);
+	 src: url(../fonts/KapitalRegular.woff),
+	 	url(../fonts/KapitalRegular.otf);
 }
 .kapital_t{ font-family: kapital_t; }
 .kapital_n{ font-family: kapital_n; }
@@ -87,7 +89,7 @@ main{ padding-top:4.5rem; }
 	font-family: kapital_t;
 	letter-spacing: 0.5rem;
 }
-.sub_ttl.green{ color: var(--green); }
+.sub_ttl.green{ color: #2a6a7e; }
 .link a{
 	padding: 1rem;
 	letter-spacing: 0.25rem;
@@ -95,15 +97,15 @@ main{ padding-top:4.5rem; }
 	text-align: center;
 }
 .link.purple a{
-	background: var(--purple);
+	background: #7a74a2;
 	color: #fff;
 }
 .link.white a{
-	color: var(--purple);
+	color: #7a74a2;
 	background: #fff;
 }
 .link.notice a{
-	background: var(--grey);
+	background: #6a6969;
 	color: #fff;
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ 共通 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
@@ -189,7 +191,7 @@ header ul li.h_reserved{
 	margin: 1rem 0 0;
 }
 header ul li.h_reserved a{
-	background: var(--dark_purple);
+	background: #505076;
 	padding: 0.5rem 2.5rem;
 }
 header ul.consent{
@@ -231,7 +233,7 @@ header.active .menu_open{
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ フッター ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 footer{
-	background: var(--dark_grey);
+	background: #3a3a3a;
 	padding:2rem 0;
 }
 footer nav ul{
@@ -286,7 +288,7 @@ footer .copy{
 	display: block;
 } */
 .top01{
-	background-color: var(--purple);
+	background-color: #7a74a2;
 	background-image: url(../images/top/top01_mv.png);
 	background-position: right 0% bottom 0%;
 	background-size: auto 85%;
@@ -318,7 +320,7 @@ footer .copy{
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .top02 a{
-	background: var(--dark_grey);
+	background: #3a3a3a;
 	color: #fff;
 	text-align: center;
 	padding: 2rem 0;
@@ -340,7 +342,7 @@ footer .copy{
 }
 .top03_wrap{margin: 3rem 0 0;}
 .top03 .box{
-	background: var(--purple);
+	background: #7a74a2;
 	color: #fff;
 	padding: 0.5rem;
 	margin: 1rem 0 0;
@@ -369,7 +371,7 @@ footer .copy{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: var(--dark_purple);
+	color: #505076;
 	border-radius: 50%;
 	font-family: 'Century Gothic',sans-serif;
 	font-size: 1.5rem;
@@ -406,7 +408,7 @@ footer .copy{
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ04 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .top04{
-	background: var(--dark_purple);
+	background: #505076;
 	color: #fff;
 	padding: 3rem 0;
 	text-align: center;
@@ -446,7 +448,7 @@ footer .copy{
 .top05 .box .txt h3{
 	text-align: center;
 	font-size: 1.2rem;
-	color: var(--purple);
+	color: #7a74a2;
 	line-height: 1.5;
 	padding: 2rem 0;
 }
@@ -458,7 +460,7 @@ footer .copy{
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ06 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .top06{
-	border-top:0.5rem solid var(--dark_purple);
+	border-top:0.5rem solid #505076;
 	background-image: url(../images/common/cta.png) ,url(../images/common/cta02.png);
 	background-position: center top 15% ,bottom 40% right;
 	background-size: 80% auto , 40% auto;
@@ -482,13 +484,13 @@ footer .copy{
 	letter-spacing: 0.25rem;
 	font-size: 1.5rem;
 	color: #fff;
-	background: var(--dark_purple);
+	background: #505076;
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ06 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ 下層タイトル ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .lower_ttl{
-	background: var(--purple);
+	background: #7a74a2;
 	padding: 4rem 0 2rem;
 }
 .lower_ttl .ttl_in{
@@ -532,7 +534,7 @@ footer .copy{
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ アバウト02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .about02{
 	padding: 3rem 0;
-	color: var(--grey);	
+	color: #6a6969;	
 	background: #eae9e9;
 	text-align: center;
 }
@@ -556,7 +558,7 @@ footer .copy{
 	width: 4.5rem;
 	height: 4.5rem;
 	color: #fff;
-	background: var(--purple);
+	background: #7a74a2;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -581,7 +583,7 @@ footer .copy{
 }
 .about03 .ttl p{
 	text-align: center;
-	color: var(--dark_purple);
+	color: #505076;
 	font-size: 1.5rem;
 }
 .about03 .box{
@@ -619,7 +621,7 @@ footer .copy{
 	width: 50%;
 	height: 0.4rem;
 	content: '';
-	background: var(--dark_purple);
+	background: #505076;
 }
 .about03 .box p{ text-align: left; }
 .about03 .icon{ text-align: center; }
@@ -652,7 +654,7 @@ footer .copy{
 	font-size: 1.5rem;
 	line-height: 1.5;
 	margin: 0 0 1rem;
-	color: var(--purple);
+	color: #7a74a2;
 	font-weight: normal;
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ プライス01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
@@ -666,7 +668,7 @@ footer .copy{
 }
 .price03 .ttl{
 	text-align: center;
-	color: var(--dark_purple);
+	color: #505076;
 	margin: 0 0 3rem;
 
 }
@@ -686,7 +688,7 @@ footer .copy{
 	content: '';
 	width: 1rem;
 	height: 0.2rem;
-	background: var(--dark_purple);
+	background: #505076;
 }
 .price03 .ttl h2::before{ right :100%; }
 .price03 .ttl h2::after{ left:100%; }
@@ -706,11 +708,11 @@ footer .copy{
 .price03 table td{
 	font-weight: normal;
 	text-align: center;
-	border-bottom: 0.25rem solid var(--dark_purple);
+	border-bottom: 0.25rem solid #505076;
 	vertical-align: top;
 }
 .price03 table thead th{
-	background: var(--dark_purple);
+	background: #505076;
 	color: #fff;
 	white-space: nowrap;
 }
@@ -746,7 +748,7 @@ footer .copy{
 	text-align: left;
 }
 .price03 table .purple{
-	color: var(--dark_purple);
+	color: #505076;
 }
 .price03 .box .scrollable{
 	position: absolute;
@@ -800,14 +802,14 @@ footer .copy{
 	font-size: 1.5rem;
 	line-height: 1.5;
 	margin: 0 0 1rem;
-	color: var(--purple);
+	color: #7a74a2;
 	font-weight: normal;
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ faq01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ faq02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
  .faq02{
-	background: var(--dark_purple);
+	background: #505076;
 }
 .faq02 .box{
 	padding: 0.5rem 0;
@@ -923,14 +925,14 @@ footer .copy{
 	font-size: 1.5rem;
 	line-height: 1.5;
 	margin: 0 0 1rem;
-	color: var(--purple);
+	color: #7a74a2;
 	font-weight: normal;
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ サロンリスト01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ サロンリスト02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .salonlist02{
-	background: var(--dark_purple);
+	background: #505076;
 	padding: 3rem 0 2rem;
 }
 .salonlist02 .box{
@@ -968,7 +970,7 @@ footer .copy{
 	padding: 0 0 6rem;
 }
 .salonlist03 .box{
-	color: var(--purple);
+	color: #7a74a2;
 	margin: 3rem 0 0;
 }
 .salonlist03 .box h3{
@@ -980,7 +982,7 @@ footer .copy{
 	margin: 0 0 0.5rem;
 }
 .salonlist03 .box .item{
-	border-top: 1px solid var(--purple);
+	border-top: 1px solid #7a74a2;
 	margin: 0.5rem 0 2rem;
 	padding: 0.5rem 0 0;
 }
@@ -1011,11 +1013,11 @@ footer .copy{
 .salon02 .box{
 	background: rgba(255, 255, 255, .67);
 	padding:1rem;
-	color: var(--dark_purple);
+	color: #505076;
 }
 .salon02 .box p{
 	font-size: 1.2rem;
-	border-bottom: 1px solid var(--purple);
+	border-bottom: 1px solid #7a74a2;
 }
 .salon02 h1{
 	font-size: 1.2rem;
@@ -1026,7 +1028,7 @@ footer .copy{
 	margin: 1rem 0;
 }
 .salon02 dl dt{
-	background: var(--dark_purple);
+	background: #505076;
 	color: #fff;
 	padding: 0 1rem;
 }
@@ -1054,7 +1056,7 @@ footer .copy{
 }
 .salon03 .box{
 	background: #d9d8e0;
-	border-top: 1rem solid var(--dark_purple);
+	border-top: 1rem solid #505076;
 	padding: 0 1.5rem 1.5rem;
 	position: relative;
 }
@@ -1071,7 +1073,7 @@ footer .copy{
 	z-index: 100;
 }
 .salon03 .box .txt h2{
-	color: var(--purple);
+	color: #7a74a2;
 	font-size: 1.5rem;
 }
 .salon03 .box .txt h3{
@@ -1127,7 +1129,7 @@ footer .copy{
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン03 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .machine03{
-	background: var(--dark_purple);
+	background: #505076;
 	padding: 3rem 0 4rem;
 	color: #fff;
 }
@@ -1201,7 +1203,7 @@ footer .copy{
 	transform: translate(-50%,-50%);
 	width: 3.5rem;
 	height: 3.5rem;
-	background: var(--purple);
+	background: #7a74a2;
 	font-size: 1.8rem;
 	border-radius: 50%;
 	display: flex;
@@ -1293,7 +1295,7 @@ footer .copy{
 	background: #fff;
 	margin:2rem 0;
 	position: relative;
-	border: 2px dashed var(--dark_purple);
+	border: 2px dashed #505076;
 }
 .machine04 .bottom .bottom_in .item .number{
 	position: absolute;
@@ -1302,7 +1304,7 @@ footer .copy{
 	transform: translate(-50%,-50%);
 	width: 3.5rem;
 	height: 3.5rem;
-	background: var(--purple);
+	background: #7a74a2;
 	font-size: 1.8rem;
 	border-radius: 50%;
 	display: flex;
@@ -1330,7 +1332,7 @@ footer .copy{
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン05 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .machine05{
 	padding:3rem 0;
-	background: var(--dark_purple);
+	background: #505076;
 	color: #fff;
 }
 .machine05 .box .img{
@@ -1417,7 +1419,7 @@ footer .copy{
 .topics02 h2{
 	font-size: 1.5rem;
 	margin: 0 0 2rem;
-	color: var(--purple);
+	color: #7a74a2;
 	font-weight: normal;
 	text-align: center;
 }
@@ -1460,14 +1462,14 @@ footer .copy{
 	font-size: 1.5rem;
 	line-height: 1.5;
 	margin: 0 0 1rem;
-	color: var(--purple);
+	color: #7a74a2;
 	font-weight: normal;
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ fc01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ fc02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .fc02{
-	background: var(--dark_purple);
+	background: #505076;
 	padding: 2rem 0;
 }
 .fc02 a{ font-size: 1rem; }
@@ -1489,7 +1491,7 @@ footer .copy{
 	left:0;
 	width: 40%;
 	content: '';
-	background: var(--dark_purple);
+	background: #505076;
 	height: 4px;
 }
 .fc03 .box .item{
@@ -1511,7 +1513,7 @@ footer .copy{
 	justify-content: center;
 	align-items: center;
 	border-radius: 50%;
-	background: var(--purple);
+	background: #7a74a2;
 	text-align: center;
 	font-weight: bold;
 	color: #fff;
@@ -1521,7 +1523,7 @@ footer .copy{
 	font-size: 1.1rem;
 }
 .fc03 .box .item p{
-	color: var(--dark_purple);
+	color: #505076;
 	line-height: 1.5;
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ fc03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
@@ -1543,7 +1545,7 @@ footer .copy{
 	left:0;
 	width: 40%;
 	content: '';
-	background: var(--dark_purple);
+	background: #505076;
 	height: 4px;
 }
 .fc04 .box .red{
@@ -1563,7 +1565,7 @@ footer .copy{
 	background: #eee;
 	right:0;
 	top:0;
-	border: 1px solid var(--dark_purple);
+	border: 1px solid #505076;
 	border-left: 1px solid transparent;
 	border-radius: 0 0.25rem 0.25rem 0;
 	display: flex;
@@ -1574,7 +1576,7 @@ footer .copy{
 .fc04 .box .input_wrap textarea{
 	width: 100%;
 	padding: 0.5rem 1rem;
-	border: 1px solid var(--purple);
+	border: 1px solid #7a74a2;
 	border-radius: 0.25rem;
 	font-size: 16px;
 }
@@ -1589,11 +1591,11 @@ footer .copy{
 	margin: 1rem 0 0;
 }
 .fc04 .box .submit_btn input{
-	background: var(--dark_purple);
+	background: #505076;
 	color: #fff;
 	width: 100%;
 	padding: 1rem;
-	border:1px solid var(--dark_purple);
+	border:1px solid #505076;
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ fc04 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
@@ -1618,7 +1620,7 @@ footer .copy{
 	font-size: 1.5rem;
 	line-height: 1.5;
 	margin: 0 0 1rem;
-	color: var(--purple);
+	color: #7a74a2;
 	font-weight: normal;
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ fc01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
@@ -1690,7 +1692,7 @@ footer .copy{
 }
 .trandsaction table th,
 .trandsaction table td{
-	border: 1px solid var(--dark_purple);
+	border: 1px solid #505076;
 	padding: 0.5rem 1rem;
 	font-size: 0.8rem;
 }
