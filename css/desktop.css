@@ -1,0 +1,1858 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+/* @media screen and (min-width:1440px) {} */
+/* @media screen and (min-width:1280px) and ( max-width:1439px) {} */
+/* @media screen and (min-width:769px) and ( max-width:1279px) {} */
+/* @media screen and (min-width:1026px) and ( max-width:1279px) {} */
+/* @media screen and (min-width:769px) and ( max-width:1025px) {} */
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ ベース設定 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+html{
+	color: #000;
+	font-size:16px;
+	font-family: "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+	/*font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;*/
+	/*font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;*/
+	line-height: 2;
+}
+a{
+	color: #000;
+	display: block;
+}
+#wrapper{
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
+	height: auto;
+}
+section,
+.section{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+.container{
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+	padding:0 3rem;
+}
+/* @media screen and (min-width:1540px) {
+	.container{max-width: 1480px;}
+} */
+@media screen and (min-width:1280px) and ( max-width:1539px) {
+	html{font-size: 15px;}
+}
+@media screen and (min-width:768px) and ( max-width:1279px) {
+	html{font-size: 14px;}
+}
+.is_sp{display: none;}
+.is_tab{display: none;}
+@media screen and (min-width:768px) and ( max-width:1025px) {
+	html{font-size: 13px;}
+	.is_hidden_tab{display: none;}
+	.is_tab{display: block;}
+} 
+:root{
+	--grey: #6a6969;
+	--dark_grey: #3a3a3a;
+	--purple: #7a74a2;
+	--dark_purple:#505076;
+	--green: #2a6a7e;
+}
+.objectCover {
+	width:100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: 50% 50%; 
+	font-family: 'object-fit: cover;object-position: 50% 50%;'
+}
+.objectContain {
+	width:100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: 50% 50%; 
+	font-family: 'object-fit: contain;object-position: 50% 50%;'
+}
+.point_reader{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+.preload * { transition: none !important; }
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ ベース設定 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ 共通 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.century{ font-family: 'Century Gothic',sans-serif; }
+@font-face {
+	font-family: 'kapital_t';
+	 src: url(../fonts/KapitalLight.otf);
+}
+@font-face {
+	font-family: 'kapital_n';
+	 src: url(../fonts/KapitalRegular.otf);
+}
+.kapital_t{
+	font-family: kapital_t;
+}
+.kapital_n{
+	font-family: kapital_n;
+}
+.mincho{ font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif; }
+.kozuka{font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;}
+.libre{font-family: 'Libre Baskerville', serif;}
+main{
+	padding-top:9rem;
+}
+.sub_ttl{
+	font-size: 3rem;
+	text-align: center;
+	font-family: kapital_t;
+	letter-spacing: 0.5rem;
+}
+.sub_ttl.green{ color: var(--green); }
+.sub_ttl.dark_purple{ color: var(--dark_purple); }
+.link{
+	width: 30rem;
+	text-align: center;
+	margin: 0 auto;
+	z-index: 1000;
+	position: relative;
+}
+.link.small{
+	width: 20rem;
+}
+.link.left{
+	margin:0;
+}
+.link a{
+	padding: 1rem;
+	font-size: 1.2rem;
+	letter-spacing: 0.25rem;
+	font-family: kapital_t,"ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+	transition: .5s cubic-bezier(.91,.08,.17,.93);
+	position: relative;
+}
+.link.purple a{
+	border: 1px solid var(--purple);
+	color: #fff;
+}
+.link.white a{
+	color: var(--dark_purple);
+	border: 1px solid #fff;
+}
+.link.notice a{
+	background: var(--grey);
+	color: #fff;
+}
+.link.purple a:hover{ color: var(--dark_purple); }
+.link.white a:hover{ color: #fff; }
+.link a::before,
+.link a::after{
+	position: absolute;
+	top:0;
+	left:0;
+	display: block;
+	content: '';
+	width: 100%;
+	height: 100%;
+	z-index: -2;
+}
+.link a::after{
+	z-index: -1;
+	transition: .5s cubic-bezier(.91,.08,.17,.93);
+	transform: scaleX(0);
+	transform-origin: left center;
+}
+.link a:hover::after{ transform: scaleX(1); }
+.link.purple a::before{ background: var(--purple); }
+.link.purple a::after{ background: #fff; }
+.link.white a::before{ background: #fff; }
+.link.white a::after{ background: var(--dark_purple); }
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ 共通 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ ナビ ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+header{
+	background: #3a3a3a;
+	position: fixed;
+	top:0;
+	left:50%;
+	transform: translateX(-50%);
+	width: 100%;
+	max-width: 1920px;
+	border-bottom: 1rem solid #fff;
+	box-shadow: 0 0.33rem 0 #908e93;
+	z-index: 50000;
+	transition: .3s;
+}
+header.active{
+	transition: .6s;
+	border-bottom: 0.25rem solid #fff;
+	box-shadow: 0 0.2rem 0 #908e93;
+}
+.header_in{
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+header .logo{
+	position: absolute;
+	top:0;
+	left:15%;
+	left:10%;
+	transform: translateX(-50%);
+	width: 15rem;
+	height: 15rem;
+	background: #3a3a3a;
+	box-shadow: 0 0 0.3rem rgba(0, 0, 0, .6);
+	transition: .3s;
+}
+header.active .logo{
+	height: 8rem;
+	transition: .6s;
+}
+header .logo a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	padding: 1.5rem;
+	transition: .3s;
+}
+header .logo a:hover{
+	background: #000;
+}
+header ul{
+	display: flex;
+	justify-content: flex-end;
+}
+header ul li a{
+	color: #fff;
+	padding: 3rem;
+	transition: .3s;
+	position: relative;
+}
+header ul li.h_reserved a{
+	background: var(--dark_purple);
+}
+header ul li a::before{
+	position: absolute;
+	top:49%;
+	left:40%;
+	transform: scaleX(0);
+	transform-origin: left center;
+	width: 30%;
+	height: 1px;
+	background: #fff;
+	transition: .15s;
+	content: '';
+	z-index: 10;
+}
+header ul li a:hover::before{
+transform:  scaleX(1);
+}
+header.active ul li a{
+	transition: .6s;
+	padding: 1.5rem 3rem;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ ナビ ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ フッター ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+footer{
+	background: var(--dark_grey);
+}
+footer nav ul{
+	padding:1rem 0;
+	display: flex;
+	justify-content: space-between;
+}
+footer nav ul li a{
+	padding:2rem 3rem;
+	color: #fff;
+	position: relative;
+	z-index: 10;
+}
+footer nav ul li a::before{
+	position: absolute;
+	top:49%;
+	left:40%;
+	transform: scaleX(0);
+	transform-origin: left center;
+	width: 30%;
+	height: 1px;
+	background: #fff;
+	transition: .15s;
+	content: '';
+	z-index: -1;
+}
+footer nav ul li a:hover::before{
+transform:  scaleX(1);
+}
+footer .logo{
+	width: 20rem;
+	margin: 2rem auto 5rem;
+}
+footer .f_insta{
+	width: 12rem;
+	margin:0 auto;
+}
+footer .f_insta a img{
+	transition: .3s;
+}
+footer .f_insta a:hover img{
+	opacity: .8;
+}
+footer ul.att{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding:0 2rem;
+	margin: 5rem 0 3rem;
+}
+footer ul.att li{
+	width: 22%;
+}
+footer ul.att li a{
+	padding: 1rem;
+	color: #fff;
+	text-align: center;
+}
+footer ul.att li a:hover{
+	text-decoration: underline;
+}
+footer .copy{
+	padding:0 0 2rem;
+	text-align: center;
+	color: #fff;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ フッター ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ01 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+/* .top01{
+	background-color: var(--purple);
+	background-image: url(../images/top/top01_mv.png);
+	background-position: right 10% top 10%;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+}
+.top01 .box{
+	display: inline-block;
+	padding: 10rem 0;
+	text-align: center;
+	color: #fff;
+}
+.top01 .box h1 img{
+	width: 30rem;
+}
+.top01 .box p{
+	margin: 8rem 0 0;
+	font-size: 1.5rem;
+	line-height: 1.5;
+}
+.top01 .box p span{
+	font-size: 2.5rem;
+	letter-spacing: 0.5rem;
+	padding: 0 0.5rem;
+} */
+.top01 video{
+	width: 100%;
+	display: block;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.top02 a{
+	background: var(--dark_grey);
+	color: #fff;
+	text-align: center;
+	letter-spacing: 0.25rem;
+	padding: 2.5rem 0;
+	transition: .6s;
+}
+.top02 a:hover{
+	opacity: .8;
+}
+.top02 a img{
+	width: 2rem;
+	margin-right: 2rem;
+	vertical-align: middle;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ02 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ03 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.top03{
+	background: url(../images/top/top03_bg.jpg) left top / contain no-repeat;
+	padding: 6rem 0 4rem;
+}
+.top03_in{
+	width: 55%;
+	max-width: 900px;
+	margin: 0 5% 0 auto;
+}
+.top03 .box{
+	background: var(--purple);
+	color: #fff;
+	padding: 0.5rem;
+	margin: 1rem 0 0;
+}
+.top03 .box .item{
+	border:0.25rem solid #fff;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.top03 .box .item .inner{
+	padding: 0 2rem;
+	width: 100%;
+	text-align: center;
+}
+.top03 .box .item .flex_wrap{
+	display: flex;
+	margin: 1rem 0 0;
+}
+.top03 .box .item .inner_in{
+	width: 50%;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.top03 .box .item p.number{
+	width: 5rem;
+	height: 5rem;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--dark_purple);
+	border-radius: 50%;
+	font-family: 'Century Gothic',sans-serif;
+	font-size: 3rem;
+}
+.top03 .item .inner p{
+	font-size: 1.5rem;
+}
+.top03 .box .inner_in p{font-size: 1.4rem;}
+.top03 .box .inner_in p span{font-size: 1.8rem;}
+.top03 .box .item h3{
+	border-bottom: 1px solid #fff;
+	font-size: 2rem;
+	margin:0 0 1rem;
+}
+.top03 .box .item h4{
+	font-size: 2rem;
+	font-weight: normal;
+	margin: 0 auto 0 2rem;
+}
+.top03 .box .item .img{
+	height: 5rem;
+}
+.top03 .box .item .img img{
+	height: 100%;
+	width:auto;
+}
+.top03_in .att{
+	text-align:center;
+	margin: 3rem 0 0;
+	line-height: 2.5;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ04 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.top04{
+	background: var(--dark_purple);
+	color: #fff;
+	padding: 6rem 0;
+	text-align: center;
+}
+.top04 h3{
+	font-size: 2.3rem;
+	text-shadow: 0.25rem 0.25rem 0.5rem #000;
+}
+.top04 p{
+	margin: 2rem 0 4rem;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ04 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ05 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.top05{
+	padding:6rem 0;
+}
+.top05 .ttl{
+	text-align: center;
+}
+.top05 .ttl p{ 
+	font-size: 2rem;
+}
+.top05 .box{
+	display: flex;
+	justify-content: space-around;
+	margin: 5rem 0;
+	align-items: center;
+}
+.top05 .box.re{
+	flex-direction: row-reverse;
+}
+.top05 .box .img{
+	width: 50%;
+	max-width: 480px;
+	padding:0 1rem;
+	text-align: center;
+}
+.top05 .box .txt{
+	padding:0 1rem;
+	max-width: 480px;
+	width: 50%;
+}
+.top05 .box .txt h3{
+	font-size: 2rem;
+	color: var(--purple);
+	line-height: 1.5;
+}
+.top05 .box .txt p{
+	line-height: 2.5;
+	margin: 3rem 0;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ05 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ06 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.top06{
+	border-top:0.5rem solid var(--dark_purple);
+	background-image: url(../images/common/cta.png) ,url(../images/common/cta02.png);
+	background-position: center top 10% ,center right;
+	background-size: 50% auto , 30% auto;
+	background-repeat: no-repeat;
+	text-align: center;
+	overflow: hidden;
+	padding:6rem 0;
+}
+.top06 h3{
+	font-size: 1.8rem;
+}
+.top06 p{
+	margin: 1rem 0 2rem;
+}
+.top06::before{
+	position: absolute;
+	top:0;
+	left: 0;
+	display: block;
+	content: '';
+	background: var(--dark_purple);
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+	transform:translateY(100px);
+	transition: .6s;
+}
+.top06:hover::before{
+	opacity: .6;
+	transform:translateY(0);
+}
+.top06 .link{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%)translateY(100px);
+	padding:1rem 1rem 0.5rem;
+	z-index: 500;
+	font-size: 1.5rem;
+	color: var(--dark_purple);
+	opacity: 0;
+	transition: .3s;
+}
+.top06:hover .link{
+	opacity: 1;
+	transform: translate(-50%,-50%);
+	transition: .3s .3s;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ06 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ 下層タイトル ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.lower_ttl{
+	background: var(--purple);
+	padding: 2rem 0;
+}
+.lower_ttl .ttl_in{
+	font-family: kapital_t,"ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+	color: #fff;
+	text-align: center;
+	font-size: 6rem;
+	font-weight: normal;
+	letter-spacing: 0.75rem;
+}
+.lower_ttl_bg{
+		background: url(../images/common/cta.png) center top 10% / 60% auto no-repeat;
+}
+.lower_ttl_bg .box{
+	display: flex;
+}
+.lower_ttl_bg p{
+	color: #6a6969;
+	font-size: 1.5rem;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ 下層タイトル ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ アバウト01 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.about01 .box{
+	padding: 2rem 0 0;
+	align-items: center;
+}
+.about01 .box .img{
+	width: 60%;
+	text-align: center;
+}
+.about01 .box .img img{
+	max-width: 35rem;
+}
+.about01 .box .txt{
+	width: 40%;
+	text-align: center;
+}
+.about01 .box .txt p{
+	display: inline-block;
+	text-align: left;
+	line-height: 2.8;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ アバウト01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ アバウト02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.about02{
+	padding: 6rem 0;
+	color: var(--grey);	
+	background: #eae9e9;
+	text-align: center;
+}
+.about02 h2{
+	font-size: 2rem;
+	margin: 0 0 2rem;
+}
+.about02 p{
+	font-size:1.2rem;	
+}
+.about02 .item{
+	display: flex;
+	justify-content: space-between;
+	margin: 6rem 0 0;
+}
+.about02 .item .inner{
+	position: relative;
+	width: 30%;
+	background: #fcf9f9;
+	padding: 3rem 0.5rem 2rem;
+}
+.about02 .item .circle{
+	position: absolute;
+	top:0;
+	left:50%;
+	transform: translate(-50%,-50%);
+	border-radius: 50%;
+	border: 0.25rem solid #fcf9f9;
+	width: 5rem;
+	height: 5rem;
+	color: #fff;
+	background: var(--purple);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.about02 .item .circle p{
+	padding: 0.5rem 0 0;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+.about02 .item h3{
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.about02 .item p{
+	font-size: 1rem;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ アバウト02 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ アバウト03 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.about03{
+	padding: 6rem 0 8rem;
+}
+.about03 .ttl{
+	margin:0 0 4rem;
+}
+.about03 .ttl p{
+	text-align: center;
+	color: var(--dark_purple);
+	font-size: 2rem;
+	letter-spacing: 0.5rem;
+}
+.about03 .box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 1000px;
+	margin: 2rem auto;
+}
+.about03 .box .img{
+	width: 30%;
+}
+.about03 .box .txt{
+	width:70%;
+	padding: 0 5rem;
+}
+.about03 .box .txt .number{
+	font-size: 1.5rem;
+	letter-spacing: 0.5rem;
+	line-height: 1.5;
+}
+.about03 .box .txt h3{
+	font-size: 1.8rem;
+	border-bottom: 0.4rem solid #b3b3ee;
+	font-weight: normal;
+	margin: 0 0 1rem;
+	position: relative;
+}
+.about03 .box .txt h3::before{
+	position: absolute;
+	left:0;
+	top:100%;
+	width: 35%;
+	height: 0.4rem;
+	content: '';
+	background: var(--dark_purple);
+}
+
+.about03 .icon{
+	text-align: center;
+}
+.about03 .link{
+	margin-top: 5rem;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ アバウト03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ プライス01 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.price01 .box{
+	padding: 2rem 0 0;
+	align-items: center;
+}
+.price01 .box .img{
+	width: 50%;
+	text-align: center;
+}
+.price01 .box .img img{
+	max-width: 35rem;
+	width: 100%;
+}
+.price01 .box .txt{
+	width: 50%;
+	padding: 5rem 0 0 5rem;
+}
+.price01 .box .txt h2{
+	font-size: 2.5rem;
+	line-height: 1.5;
+	margin: 0 0 3rem;
+	color: var(--purple);
+	font-weight: normal;
+}
+.price01 .box .txt p{
+	display: inline-block;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ プライス01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ プライス03 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.price03{
+	padding: 0 0 6rem;
+}
+.price03_in{
+	margin: 6rem 0;
+}
+.price03 .ttl{
+	text-align: center;
+	color: var(--dark_purple);
+	margin: 0 0 3rem;
+
+}
+.price03 .ttl h2{
+	display: inline-block;
+	position: relative;
+	font-size: 2.2rem;
+	letter-spacing: 0.5rem;
+	padding: 0 2rem;
+	margin: 0 0 1rem;
+}
+.price03 .ttl h2::before,
+.price03 .ttl h2::after{
+	position: absolute;
+	top:50%;
+	transform: translate(0,-50%);
+	content: '';
+	width: 1rem;
+	height: 0.2rem;
+	background: var(--dark_purple);
+}
+.price03 .ttl h2::before{
+	right :100%;
+}
+.price03 .ttl h2::after{
+	left:100%;
+}
+.price03 .ttl p{
+	font-size: 1.2rem;
+	margin: -1rem 0 0;
+}
+.price03 table{
+	width: 100%;
+}
+.price03 table th,
+.price03 table td{
+	font-weight: normal;
+	text-align: center;
+	border-bottom: 0.25rem solid var(--dark_purple);
+	vertical-align: top;
+}
+.price03 table thead th{
+	background: var(--dark_purple);
+	color: #fff;
+	white-space: nowrap;
+}
+.price03 table th{
+	font-size: 1.2rem;
+	padding: 0.5rem 2rem;
+}
+.price03 table tbody th{
+	text-align: left;
+	padding: 2rem;
+	font-size: 1.5rem;
+}
+.price03 table tbody th span{
+	font-size: 1.1rem;
+	display: block;
+}
+.price03 table td{
+	font-size: 2rem;
+	padding: 2rem 1rem;
+	color: #515251;
+}
+.price03 table .small{
+	font-size: 1rem;
+}
+.price03 table .middle{
+	font-size: 1.2rem;
+}
+.price03 table .txt{
+	font-size: 1.5rem;
+}
+.price03 table .left{
+	text-align: left;
+}
+.price03 table .purple{
+	color: var(--dark_purple);
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ プライス03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ faq01 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.faq01 .box{
+	padding: 2rem 0 0;
+	align-items: center;
+}
+.faq01 .box .img{
+	width: 30%;
+	text-align: center;
+}
+.faq01 .box .img img{
+	max-width: 35rem;
+	width: 100%;
+}
+.faq01 .box .txt{
+	padding: 5rem 0 0 5rem;
+	width: 70%;
+}
+.faq01 .box .txt h2{
+	font-size: 2.5rem;
+	line-height: 1.5;
+	margin: 0 0 3rem;
+	color: var(--purple);
+	font-weight: normal;
+}
+.faq01 .box .txt p{
+	display: inline-block;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ faq01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ faq02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.faq02{
+	background: var(--dark_purple);
+	padding: 2rem 0;
+}
+.faq02 .box{
+	display: flex;
+	max-width: 1080px;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+.faq02 .box .link{margin:0;}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ faq02 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ faq03 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.faq03{
+	/* margin: 6rem 0; */
+	padding: 3rem 0;
+}
+.faq03 h2{
+	font-size: 1.6rem;
+	color: #515251;
+	border-bottom: solid 4px #b3b3ee;
+	position: relative;
+	padding:0 0 0.25rem;
+	margin: 0 0 2rem;
+}
+.faq03 h2::after {
+	position: absolute;
+	content: '';
+	display: block;
+	border-bottom: solid 4px #505076;
+	top: 100%;
+	left:0;
+	width: 17%;
+	height: 4px;
+}
+.faq03 .box{
+	max-width: 1080px;
+	margin: 0 auto;
+}
+.faq03 .box .item{
+	border-bottom: 3px solid #fff;
+}
+.faq03 .box .item .que{
+	background: #ececec;
+	padding: 2rem 8rem;
+	position: relative;
+	cursor: pointer;
+}
+.faq03 .box .item .que::before {
+	content: '';
+	background: url(../images/faq/q.png) center center/cover no-repeat;
+	top: 50%;
+	left: 1.5rem;
+	transform: translateY(-50%);
+	width: 3rem;
+	height: 3rem;
+	position: absolute;
+}
+.faq03 .box .item .que::after {
+	width: 0.7rem;
+	height: 0.7rem;
+	border: 0px;
+	border-top: solid 2px #c2c0c4;
+	border-right: solid 2px #c2c0c4;
+	transform: rotate(135deg);
+	position: absolute;
+	right: 4%;
+	transition: 0.3s;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	content: '';
+}
+.faq03 .box .item .que.active::after{
+    transform: rotate(-45deg);
+}
+.faq03 .box .item .ans{
+	background: #c3c0c4;
+	color: #fff;
+	padding: 2rem 4rem 2rem 8rem;
+	position: relative;
+	display: none;
+}
+.faq03 .box .item .ans::before {
+	content: '';
+	background: url(../images/faq/a.png) center center/cover no-repeat;
+	top: 0;
+	top: 50%;
+	left: 1.5rem;
+	height: 3rem;
+	transform: translateY(-50%);
+	width: 3rem;
+	position: absolute;
+}
+.faq03 .box .item .ans a{
+	text-decoration: underline;
+	color: #fff;
+	display: inline;
+}
+.faq03 .link{
+	margin: 6rem auto 3rem;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ faq03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ サロンリスト01 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.salonlist01 .box{
+	padding: 2rem 0 0;
+	align-items: center;
+}
+.salonlist01 .box .img{
+	width: 60%;
+	margin-left: -10%;
+	text-align: center;
+}
+.salonlist01 .box .img img{
+	width: 100%;
+}
+.salonlist01 .box .txt{
+	width: 50%;
+	padding: 5rem 0 0 3rem;
+}
+.salonlist01 .box .txt h2{
+	font-size: 2.5rem;
+	line-height: 1.5;
+	margin: 0 0 3rem;
+	color: var(--purple);
+	font-weight: normal;
+}
+.salonlist01 .box .txt p{
+	display: inline-block;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ サロンリスト01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ サロンリスト02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.salonlist02{
+	background: var(--dark_purple);
+	padding: 3rem 0;
+}
+.salonlist02 .box{
+	display: flex;
+	justify-content: space-between;
+}
+.salonlist02 .box a{
+	background: #fff;
+	padding: 0.75rem 0.5rem 1.25rem;
+	text-align: center;
+	width: 100%;
+	margin: 0 0.25rem;
+	position: relative;
+	transition: .3s;
+}
+.salonlist02 .box a::before{
+	position: absolute;
+	bottom:0.75rem;
+	left:50%;
+	transform: translate(-50%,0);
+	content: '';
+	background: url(../images/salonlist/salonlist02_icon.png) center / contain no-repeat;
+	width: 1rem;
+	height: 0.75rem;
+	display: block;
+	transition: .15s;
+}
+.salonlist02 .box a:hover{
+	background: var(--purple);
+	color: #fff;
+}
+.salonlist02 .box a:hover::before{
+	bottom:0.5rem;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ サロンリスト02 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ サロンリスト03 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.salonlist03{
+	padding: 3rem 0 6rem;
+}
+.salonlist03 .box{
+	max-width: 960px;
+	margin: 0 auto;
+	color: var(--purple);
+	padding: 3rem 0 0;
+}
+.salonlist03 .box h3{
+	font-weight: normal;
+	font-size: 1.2rem;
+}
+.salonlist03 .box h4{
+	font-size: 1.5rem;
+	margin: 0 0 1rem;
+}
+.salonlist03 .box .item{
+	border-top: 1px solid var(--purple);
+	margin: 0.5rem 0 2rem;
+	padding: 0.5rem 0 0;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.salonlist03 .box .item dl{
+	display: flex;
+}
+.salonlist03 .box .item dl dt{
+	white-space: nowrap;
+}
+.salonlist03 .box .inner{
+	width: 65%;
+}
+.salonlist03 .box .link{
+	width: 30%;
+}
+.salonlist03 .box .link a{font-size: 1rem;}
+.salonlist03 .box .bottom{
+	margin: 2rem 0;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ サロンリスト03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ サロンページ02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.salon02{
+	background: url(../images/salon/salon02_bg.png) center / cover no-repeat;
+	padding: 3rem 0;
+}
+.salon02 .box{
+	max-width: 1120px;
+	margin: 0 auto;
+	background: rgba(255, 255, 255, .67);
+	padding:5rem 3rem;
+	color: var(--dark_purple);
+}
+.salon02 .box p{
+	font-size: 1.2rem;
+	border-bottom: 1px solid var(--purple);
+}
+.salon02 h1{
+	font-size: 1.5rem;
+	margin: 1rem 0;
+	font-weight: normal;
+}
+.salon02 dl{
+	display: flex;
+	margin: 1rem 0;
+	font-size: 1.1rem;
+}
+.salon02 dl dt{
+	white-space: nowrap;
+}
+.salon02 .slider{
+	margin: 5rem 0;
+}
+.salon02 .bottom{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+.salon02 .bottom .map{
+	width: 60%;
+}
+.salon02 .bottom .cta_zone{
+	width: 38%;
+}
+.salon02 .bottom .cta_zone .link{
+	width: 100%;
+	margin: 1rem 0 0;
+}
+.salon02 .bottom .cta_zone .link a{
+	font-size: 1rem;
+	letter-spacing: 0;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ サロンページ02 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ サロンページ03 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.salon03{
+	padding: 5rem 0 8rem;
+}
+.salon03 .box{
+	max-width: 1120px;
+	margin: 0 auto;
+	display: flex;
+	background: #d9d8e0;
+	border-top: 1rem solid var(--dark_purple);
+	padding: 0 3rem;
+	align-items: center;
+}
+.salon03 .box .img{
+	width: 50%;
+	margin-top: -1rem;
+}
+.salon03 .box .txt{
+	width: 55%;
+	margin-left: -5%;
+}
+.salon03 .box .txt h2{
+	color: var(--purple);
+	font-size: 1.5rem;
+}
+.salon03 .box .txt h3{
+	font-size: 2rem;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ サロンページ03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.machine02{
+	padding: 3rem 0 0;
+}
+.machine02 .box{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin:0 auto;
+}
+.machine02 .box .img{
+	width: 22%;
+	margin-left: -3%;
+}
+.machine02 .box .txt{
+	width: 57%;
+	margin-right: -15%;
+	z-index: 50;
+}
+.machine02 .box .txt h2{
+	color: #515251;
+	margin: 0 0 1rem;
+	font-weight: normal;
+	font-size: 2rem;
+}
+.machine02 .box .txt p{
+	color: #2a6a7e;
+	font-size: 1.1rem;
+	line-height: 1.5;
+}
+.machine02 .box .txt .item{
+	margin: 1rem 0;
+}
+.machine02 .box .txt .inner p{
+	color: #515251;
+	font-size: 0.8rem;
+	margin: 2rem 0 0;
+}
+.machine02 .box .img_bg{
+	width: 40%;
+	margin-right: -3%;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ マシン02 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン03 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.machine03{
+	background: var(--dark_purple);
+	padding: 6rem 0;
+	color: #fff;
+}
+.machine03 .box{
+	display: flex;
+	align-items: center;
+}
+.machine03 .box .img{
+	width: 55%;
+	margin-left: -5%;
+}
+.machine03 .box .txt{
+	width: 60%;
+	margin-left: -10%;
+}
+.machine03 .box .txt h2{
+	font-size: 2.5rem;
+	font-weight: 100;
+	margin: 0 0 0.5rem;
+}
+.machine03 .box .txt p{
+	font-size: 1.1rem;
+}
+.machine03 .box .txt .item{
+	padding-left: 20%;
+}
+.machine03 .box .txt .inner{
+	padding-left: 20%;
+	margin-top: -6rem;
+}
+.machine03 .box .txt .inner p{
+	font-size: 0.8rem;
+	margin: 1rem 0 0;
+}
+.machine03 .bottom{
+	text-align: center;
+	margin: 2rem 0 3rem;
+}
+.machine03 .bottom h3{
+	font-size: 1.6rem;
+}
+.machine03 .bottom h3 .small{
+	font-size: 1.2rem;
+}
+.machine03 .bottom h3 .red{
+	color: #fc3e01;
+}
+.machine03 .bottom .bottom_in{
+	display: flex;
+	justify-content: space-around;
+	margin: 10rem 0;
+}
+.machine03 .bottom .bottom_in .item{
+	width: 32%;
+	max-width: 20rem;
+	position: relative;
+	z-index:  10;
+}
+.machine03 .bottom .bottom_in .item::before{
+	z-index:  -1;
+	border-radius: 50%;
+	content: '';
+	display: block;
+	padding-top: 100%;
+	width: 100%;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	background: #fff;
+	border: 2px dashed #fc3e01;
+}
+.machine03 .bottom .bottom_in .item .number{
+	position: absolute;
+	top:-5rem;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width: 5rem;
+	height: 5rem;
+	background: var(--purple);
+	font-size: 2rem;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	align-items: center;
+	border:1px solid #fff
+}
+.machine03 .bottom .bottom_in .item h4{
+	color: #2a6a7e;
+	font-size: 1.1rem;
+	line-height: 1.5;
+	margin: 0 0 2rem;
+	position: relative;
+}
+.machine03 .bottom .bottom_in .item h4::before{
+	position: absolute;
+	bottom:-1rem;
+	left:50%;
+	transform: translateX(-50%);
+	background: #2a6a7e;
+	width: 80%;
+	height: 3px;
+	content: '';
+}
+.machine03 .bottom .bottom_in .item p{
+	color: #fc3e01;
+	line-height: 1.5;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ マシン03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン04 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.machine04{
+	padding: 6rem 0;
+}
+.machine04 .box{
+	display: flex;
+	align-items: center;
+}
+.machine04 .box .img{
+	width: 60%;
+	margin:0  -10%;
+}
+.machine04 .box .txt{
+	width: 50%;
+}
+.machine04 .box .txt h2{
+	font-size: 2.5rem;
+	font-weight: 100;
+	margin: 0 0 0.5rem;
+	color: #515251;
+}
+.machine04 .box .txt p{
+	font-size: 1.2rem;
+	color: var(--dark_purple);
+}
+.machine04 .box .txt .item{
+	padding-right: 20%;
+	margin: 2rem 0;
+}
+.machine04 .box .txt .inner p{
+	font-size: 1rem;
+	margin: 1rem 0 0;
+	color: #515251;
+}
+.machine04 .bottom{
+	text-align: center;
+	margin: 2rem 0 3rem;
+}
+.machine04 .bottom h3{
+	font-size: 1.6rem;
+}
+.machine04 .bottom h3 .small{
+	font-size: 1.2rem;
+}
+.machine04 .bottom h3 .red{
+	color: #fc3e01;
+}
+.machine04 .bottom .bottom_in{
+	display: flex;
+	justify-content: space-around;
+	margin: 7rem 0;
+}
+.machine04 .bottom .bottom_in .item{
+	width: 24%;
+	max-width: 15rem;
+	position: relative;
+	z-index:  10;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.machine04 .bottom .bottom_in .item::before{
+	z-index:  -1;
+	border-radius: 50%;
+	content: '';
+	display: block;
+	padding-top: 100%;
+	width: 100%;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	border: 2px dashed var(--dark_purple);
+}
+.machine04 .bottom .bottom_in .item .number{
+	position: absolute;
+	top:-2.5rem;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width: 5rem;
+	height: 5rem;
+	background: var(--purple);
+	font-size: 2rem;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	align-items: center;
+	border:1px solid #fff
+}
+.machine04 .bottom .bottom_in .item h4{
+	color: #2a6a7e;
+	font-size: 1.1rem;
+	line-height: 1.5;
+	margin: 0 0 2rem;
+	position: relative;
+}
+.machine04 .bottom .bottom_in .item h4::before{
+	position: absolute;
+	bottom:-1rem;
+	left:50%;
+	transform: translateX(-50%);
+	background: #2a6a7e;
+	width: 12rem;
+	height: 3px;
+	content: '';
+}
+.machine04 .bottom .bottom_in .item p{
+	color: #fc3e01;
+	line-height: 1.5;
+	font-size: 0.9rem;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ マシン04 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン05 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.machine05{
+	padding:6rem 0;
+	background: var(--dark_purple);
+	color: #fff;
+}
+.machine05 .box{
+	display: flex;
+	align-items: flex-end;
+	margin: 0 0 3rem;
+}
+.machine05 .box .img{
+	margin-left: -5%;
+	padding-right: 2rem;
+	width: 50%;
+}
+.machine05 .box .txt{
+	width: 55%;
+}
+.machine05 .box .txt h2{
+	font-size: 2.5rem;
+	font-weight: 100;
+	margin: 0 0 0.5rem;
+}
+.machine05 .box .txt p{
+	font-size: 1.5rem;
+}
+.machine05 .box .txt .inner{
+	margin: 1rem 0 0;
+}
+.machine05 .box .txt .inner p{
+	font-size: 1rem;
+}
+.machine05 .box .txt .item{
+	padding:0 5rem;
+	margin-top: -3rem;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ マシン05 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン06 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.machine06{
+	padding:6rem 0 8rem;
+}
+.machine06 .box{
+	display: flex;
+	margin: 0 0 2rem;
+}
+.machine06 .box .txt{
+	width: 45%;
+}
+.machine06 .box .img{
+	width: 55%;
+	padding-right: 3rem;
+}
+.machine06 .box .txt h2{
+	font-size: 2.5rem;
+	font-weight: 100;
+	margin: 0 0 0.5rem;
+	color: #515251;
+}
+.machine06 .box .txt p{
+	font-size: 1.5rem;
+	margin: 2rem 0 0;
+	color: #2a6a7e;
+}
+.machine06 .box .txt .inner{
+	margin: 2rem 0 0;
+}
+.machine06 .box .txt .inner p{
+	margin: 0;
+	font-size: 1rem;
+	color: #515251;
+	line-height: 2.5rem;
+
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ マシン06 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ お知らせ02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.topics02{
+	padding:6rem 0;
+}
+.topics02 .box{
+	padding:0 3rem;
+}
+.topics02 h2{
+	font-size: 2rem;
+	margin: 0 0 6rem;
+	color: var(--purple);
+	font-weight: normal;
+	text-align: center;
+}
+.topics02 .item{
+	margin: 3rem 0;
+}
+.topics02 .item h3{
+	margin: 5rem 0 2rem;
+	font-weight: normal;
+}
+.topics02 .item p{
+	margin: 2rem 0;
+}
+.topics02 ol{
+	margin-left: 2rem;
+}
+.topics02 ol li{
+	list-style: decimal;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ お知らせ02 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ fc01 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.fc01 .box{
+	padding: 2rem 0 0;
+	align-items: center;
+}
+.fc01 .box .img{
+	width: 50%;
+	margin-left: -10%;
+	text-align: center;
+}
+.fc01 .box .img img{
+	width: 100%;
+}
+.fc01 .box .txt{
+	width: 60%;
+	padding: 5rem 0 0 3rem;
+}
+.fc01 .box .txt h2{
+	font-size: 2.5rem;
+	line-height: 1.5;
+	margin: 0 0 3rem;
+	color: var(--purple);
+	font-weight: normal;
+}
+.fc01 .box .txt p{
+	display: inline-block;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ fc01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ fc02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.fc02{
+	background: var(--dark_purple);
+	padding: 3rem 0;
+}
+.fc02 a{ font-size: 1rem; }
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ fc02 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ fc03 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.fc03{
+	padding:6rem 0 3rem;
+}
+.fc03 .box{
+	max-width: 1080px;
+	margin: 0 auto;
+}
+.fc03 .box h2{
+	font-size: 1.5rem;
+	border-bottom: 4px solid #b3b3ee;
+	padding: 0 0 0.5rem;
+	position: relative;
+}
+.fc03 .box h2::before{
+	position: absolute;
+	top:100%;
+	left:0;
+	width: 17%;
+	content: '';
+	background: var(--dark_purple);
+	height: 4px;
+}
+.fc03 .box .item{
+	margin: 3rem 0 3rem 3rem;
+	position: relative;
+	padding: 0.5rem 2rem 0.5rem 5rem;
+	background: #fcf9f9;
+}
+.fc03 .box .item p.number{
+	position: absolute;
+	line-height: 1.5;
+	top:50%;
+	left:0;
+	transform: translate(-50%,-50%);
+	width: 7rem;
+	height: 7rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	background: var(--purple);
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+.fc03 .box .item h3{
+	font-weight: normal;
+	font-size: 1.1rem;
+}
+.fc03 .box .item p{
+	color: var(--dark_purple);
+	height: 3rem;
+	line-height: 1.2;
+	display: flex;
+	align-items: center;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ fc03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ fc04 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.fc04{
+	padding:3rem 0 6rem;
+}
+.fc04 .box{
+	max-width: 1080px;
+	margin: 0 auto;
+}
+.fc04 .box h2{
+	font-size: 1.5rem;
+	border-bottom: 4px solid #b3b3ee;
+	padding: 0 0 0.5rem;
+	position: relative;
+	margin: 0 0 2rem;
+}
+.fc04 .box h2::before{
+	position: absolute;
+	top:100%;
+	left:0;
+	width: 17%;
+	content: '';
+	background: var(--dark_purple);
+	height: 4px;
+}
+.fc04 .box .red{
+	color: #f00;
+}
+.fc04 .box .input_wrap{
+	display: flex;
+	align-items: center;
+	margin: 1.5rem 0;
+}
+.fc04 .box .input_wrap .item{
+	width: 20%;
+}
+.fc04 .box .input_wrap .input{
+	width: 80%;
+}
+.fc04 .box .input_wrap .select{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.fc04 .box .input_wrap .select label{width: 20%;}
+.fc04 .box .input_wrap .select label.cal{
+	width: 80%;
+	position: relative;
+}
+.fc04 .box .input_wrap .select label.cal .icon{
+	position: absolute;
+	width: 3rem;
+	height: 100%;
+	background: #eee;
+	right:0;
+	top:0;
+	border: 1px solid var(--dark_purple);
+	border-left: 1px solid transparent;
+	border-radius: 0 0.25rem 0.25rem 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fc04 .box .input_wrap input,
+.fc04 .box .input_wrap textarea{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	border: 1px solid var(--purple);
+	border-radius: 0.25rem;
+	font-size: 16px;
+}
+.fc04 .box .input_wrap textarea{
+	height: 10rem;
+}
+.fc04 .box .submit_btn{
+	text-align: center;
+	margin: 3rem 0 0;
+}
+.fc04 .box .submit_btn input{
+	background: var(--dark_purple);
+	color: #fff;
+	border:1px solid var(--dark_purple);
+	padding: 1rem 5rem;
+	transition: .3s;
+}
+.fc04 .box .submit_btn input:hover{
+	background: #fff;
+	color: var(--dark_purple);
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ fc04 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ thanks01 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.thanks01 .box{
+	padding: 2rem 0 0;
+	align-items: center;
+}
+.thanks01 .box .img{
+	width: 50%;
+	margin-left: -10%;
+	text-align: center;
+}
+.thanks01 .box .img img{
+	width: 100%;
+}
+.thanks01 .box .txt{
+	width: 60%;
+	padding: 5rem 0 0 3rem;
+}
+.thanks01 .box .txt h2{
+	font-size: 2.5rem;
+	line-height: 1.5;
+	margin: 0 0 3rem;
+	color: var(--purple);
+	font-weight: normal;
+}
+.thanks01 .box .txt p{
+	display: inline-block;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ thanks01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ プライバシー01 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.privacy01{
+	padding: 6rem 0 4rem;
+	text-align: center;
+}
+.privacy01 h1{
+	font-size: 2.2rem;
+}
+.privacy01 .box{
+	text-align: left;
+	margin: 3rem auto;
+	max-width: 960px;
+}
+.privacy01 .item h2{
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+.privacy01 .item{
+	margin-bottom: 3rem;
+}
+.privacy01 .item p{
+	margin-bottom: 1rem;
+}
+.privacy01 .item ol{
+	margin-left: 3rem;
+}
+.privacy01 .item ol.brackets{
+	counter-reset: li;
+}
+.privacy01 .item ol > li{
+	list-style: decimal;
+	margin-top: 0.5rem;
+}
+.privacy01 .item ol.brackets > li{
+	list-style: none;
+	margin-top: 0.5rem;
+}
+.privacy01 .item ol.brackets > li::before{
+	counter-increment: li;
+	content: '（'counter(li)'）';
+	line-height: 1.6;
+	margin-left: -2.6rem;
+}
+.privacy01 .item address{
+	font-style: normal;
+}
+.privacy01 .item address a{
+	color: #696868;
+	text-decoration: underline;
+	display: inline;
+}
+.privacy01 .item .notes{
+	margin-top: 1rem;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ プライバシー01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ 特商法 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.trandsaction{
+	padding: 6rem 0 4rem;
+	text-align: center;
+}
+.trandsaction h1{
+	font-size: 2.2rem;
+}
+.trandsaction .box{
+	text-align: left;
+	margin: 3rem auto;
+	max-width: 960px;
+}
+.trandsaction table th,
+.trandsaction table td{
+	border: 1px solid var(--dark_purple);
+	padding: 0.5rem 1rem;
+}
+.trandsaction table th{ 
+	width: 30%;
+}
+
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ 特商法 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
