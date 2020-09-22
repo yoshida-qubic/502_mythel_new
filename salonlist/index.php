@@ -23,10 +23,10 @@ include($root . "/include/header.php");
 				<div class="box">
 					<div class="img"><img src="<?php echo $imgDir; ?>salonlist01_mv.png"></div>
 					<div class="txt">
-						<h2>MYTHELの<br class="is_pc">全国店舗の紹介</h2>
-						<p>下記より体験したい店舗をお選び頂き<br>
-							ご希望の日時・基本情報を入力して、<br>
-							体験予約を行ってください。
+						<h2><span class="trans_wrap"><span class="trans_in">MYTHELの</span></span><br class="is_pc"><span class="trans_wrap"><span class="trans_in">全国店舗の紹介</span></span></h2>
+						<p><span class="trans_wrap"><span class="trans_in">下記より体験したい店舗をお選び頂き</span></span><br>
+							<span class="trans_wrap"><span class="trans_in">ご希望の日時・基本情報を入力して、</span></span><br>
+							<span class="trans_wrap"><span class="trans_in">体験予約を行ってください。</span></span>
 						</p>
 					</div>
 				</div>

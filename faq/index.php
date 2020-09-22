@@ -22,11 +22,11 @@ include($root . "/include/header.php");
 			<div class="container">
 				<div class="box">
 					<div class="txt">
-						<h2>よくある質問</h2>
-						<p>MYTHELご来店時に、いただくご質問にお答えします。<br>
-							料金からマシンのことまで、不明な点がございましたら、<br class="is_pc">
-							スタッフ、またはお問い合わせフォームより<br class="is_pc">
-							お気軽にお問い合わせください。</p>
+						<h2><span class="trans_wrap"><span class="trans_in">よくある質問</span></span></h2>
+						<p><span class="trans_wrap"><span class="trans_in">MYTHELご来店時に、いただくご質問にお答えします。</span></span><br>
+							<span class="trans_wrap"><span class="trans_in">料金からマシンのことまで、不明な点がございましたら、</span></span><br class="is_pc">
+							<span class="trans_wrap"><span class="trans_in">スタッフ、またはお問い合わせフォームより</span></span><br class="is_pc">
+							<span class="trans_wrap"><span class="trans_in">お気軽にお問い合わせください。</span></span></p>
 					</div>
 					<div class="img"><img src="<?php echo $imgDir; ?>faq01_mv.png"></div>
 				</div>

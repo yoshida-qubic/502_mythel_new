@@ -23,8 +23,8 @@ include($root . "/include/header.php");
 				<div class="box">
 					<div class="img"><img src="<?php echo $imgDir; ?>fc01_mv.png"></div>
 					<div class="txt">
-						<h2>MYTHEL <br class="is_pc">FC加盟店募集中</h2>
-						<p>現在の事業以外に新規事業を探しているが、悩んでいる。<br class="is_pc">これから事業を立ち上げたい方。<br>大募集中です。<br class="is_pc">まずはお問い合わせください。
+						<h2><span class="trans_wrap"><span class="trans_in">MYTHEL </span></span><br class="is_pc"><span class="trans_wrap"><span class="trans_in">FC加盟店募集中</span></span></h2>
+						<p><span class="trans_wrap"><span class="trans_in">現在の事業以外に新規事業を探しているが、悩んでいる。</span></span><br class="is_pc"><span class="trans_wrap"><span class="trans_in">これから事業を立ち上げたい方。</span></span><br><span class="trans_wrap"><span class="trans_in">大募集中です。</span></span><br class="is_pc"><span class="trans_wrap"><span class="trans_in">まずはお問い合わせください。</span></span>
 						</p>
 					</div>
 				</div>

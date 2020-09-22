@@ -22,10 +22,10 @@ include($root . "/include/header.php");
 			<div class="container">
 				<div class="box">
 					<div class="txt">
-						<h2>MYTHELの<br>
-							利用料金について</h2>
+						<h2><span class="trans_wrap"><span class="trans_in">MYTHELの</span></span><br>
+							<span class="trans_wrap"><span class="trans_in">利用料金について</span></span></h2>
 
-						<p>MYTHEL（ミセル）ではお客様ひとり一人に合わせて選べるコースをご用意しております。
+						<p><span class="trans_wrap"><span class="trans_in">MYTHEL（ミセル）ではお客様ひとり一人に合わせて選べるコースをご用意しております。</span></span>
 						</p>
 					</div>
 					<div class="img"><img src="<?php echo $imgDir; ?>price01_mv.png"></div>

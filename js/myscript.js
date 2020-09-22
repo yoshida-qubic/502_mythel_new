@@ -19,6 +19,13 @@ const tabletwidth = 1025;
 $(function () {
 	$("body").removeClass("preload");
 
+	setTimeout(function () {
+		$('.lower_ttl').addClass('active');
+	}, 300);
+	setTimeout(function () {
+		$('.lower_ttl_bg .box').addClass('active');
+	}, 1000);
+
 	$(window).on('load scroll', function () {
 		let scrollPos = $(this).scrollTop();
 

@@ -23,14 +23,14 @@ include($root . "/include/header.php");
 				<div class="box">
 					<div class="img"><img src="<?php echo $imgDir; ?>about01_mv.png"></div>
 					<div class="txt">
-						<p>ノーファンデのキレイな肌<br class="is_pc">
-							魅せるウエスト<br>
-							魅せる二の腕<br class="is_pc">
-							魅せるレッグライン<br>
-							通わなきゃ理想には近づけない<br>
-							理想の身体は自分で創る<br>
-							私史上最高のワタシに・・・<br>
-							通える定額制エステ誕生！
+						<p><span class="trans_wrap"><span class="trans_in">ノーファンデのキレイな肌</span></span><br class="is_pc">
+							<span class="trans_wrap"><span class="trans_in">魅せるウエスト</span></span><br>
+							<span class="trans_wrap"><span class="trans_in">魅せる二の腕</span></span><br class="is_pc">
+							<span class="trans_wrap"><span class="trans_in">魅せるレッグライン</span></span><br>
+							<span class="trans_wrap"><span class="trans_in">通わなきゃ理想には近づけない</span></span><br>
+							<span class="trans_wrap"><span class="trans_in">理想の身体は自分で創る</span></span><br>
+							<span class="trans_wrap"><span class="trans_in">私史上最高のワタシに・・・</span></span><br>
+							<span class="trans_wrap"><span class="trans_in">通える定額制エステ誕生！</span></span>
 						</p>
 					</div>
 				</div>
