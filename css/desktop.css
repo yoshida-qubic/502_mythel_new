@@ -170,6 +170,15 @@ main{
 .link.purple a::after{ background: #fff; }
 .link.white a::before{ background: #fff; }
 .link.white a::after{ background: #505076; }
+.fadeup{
+	transform:translate(0 ,50px);
+	opacity: 0.01;
+	transition: 1s;
+}
+.fadeup.active{
+	transform:translate(0 ,0);
+	opacity: 1;
+}
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ 共通 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ ナビ ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
@@ -1149,6 +1158,13 @@ transform:translate(0,0);
 .salon02{
 	background: url(../images/salon/salon02_bg.png) center / cover no-repeat;
 	padding: 3rem 0;
+	transition: 1s;
+	transform:translate(0,50px);
+	opacity: 0.01;
+}
+.salon02.active{
+	opacity: 1;
+	transform:translate(0,0);
 }
 .salon02 .box{
 	max-width: 1120px;
@@ -1231,6 +1247,13 @@ transform:translate(0,0);
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .machine02{
 	padding: 3rem 0 0;
+	transition: 1s;
+	transform: translate(0,50px);
+	opacity: 0.01;
+}
+.machine02.active{
+	transform: translate(0,0);
+	opacity: 1;
 }
 .machine02 .box{
 	display: flex;

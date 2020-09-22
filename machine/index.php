@@ -55,7 +55,7 @@ include($root . "/include/header.php");
 	<section class="machine03">
 		<div class="container">
 
-			<div class="box">
+			<div class="box fadeup">
 				<div class="img">
 					<img src="<?php echo $imgDir; ?>machine03_img01.png">
 				</div>
@@ -74,34 +74,34 @@ include($root . "/include/header.php");
 			</div>
 
 			<div class="bottom">
-				<h3>４<span class="small">つの</span>機能<span class="small">の</span><span class="red">相乗効果</span><span class="small">で</span><br class="is_sp"><span class="red">効率的</span><span class="small">にセルライト</span><span class="small red">撃退!!</span></h3>
+				<h3 class="fadeup">４<span class="small">つの</span>機能<span class="small">の</span><span class="red">相乗効果</span><span class="small">で</span><br class="is_sp"><span class="red">効率的</span><span class="small">にセルライト</span><span class="small red">撃退!!</span></h3>
 
 				<div class="bottom_in">
 
-					<div class="item">
+					<div class="item fadeup">
 
 						<p class="number">01</p>
 						<h4>超音波キャビテーション<br class="is_pc">＆<br class="is_pc">ラジオ波</h4>
 						<p>頑固なセルライトを速攻分解<br>ラジオ波と同時出力で<br>サイズダウンに最適</p>
 					</div>
 
-					<div class="item">
+					<div class="item fadeup">
 						<p class="number">02</p>
 						<h4>ラジオ波<br class="is_pc">＆<br class="is_pc">バキューム</h4>
 						<p>バキューム＆ラジオ波で<br>固い脂肪を揉みほぐし<br>むくみなどを解消</p>
 					</div>
 
-					<div class="item">
+					<div class="item fadeup">
 						<p class="number">03</p>
 						<h4>フェイシャルラジオ波<br class="is_pc">＆<br>フェイシャルEMS・EP</h4>
 						<p>お顔のたるみやリフトアップ<br>最後にEPで化粧水を<br>導入していきます</p>
 					</div>
 				</div>
 
-				<h3>たった45分で<span class="red">劇的スリム</span>に！</h3>
+				<h3 class="fadeup">たった45分で<span class="red">劇的スリム</span>に！</h3>
 
 			</div>
-			<div class="link white"><a href="<?php echo $dir; ?>salonlist/">無料体験のお申込み ▶︎</a></div>
+			<div class="link white fadeup"><a href="<?php echo $dir; ?>salonlist/">無料体験のお申込み ▶︎</a></div>
 
 
 
@@ -114,7 +114,7 @@ include($root . "/include/header.php");
 	<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン04 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
 	<section class="machine04">
 		<div class="container">
-			<div class="box">
+			<div class="box fadeup">
 				<div class="txt">
 					<h2 class="libre">SOLCA facial Machine</h2>
 					<p>1台7役のアクアフェイシャルマシン<br>vSOLCA Aqua Facial</p>
@@ -133,29 +133,29 @@ include($root . "/include/header.php");
 			</div>
 
 			<div class="bottom">
-				<h3>7<span class="small">つの</span>機能<span class="small">の</span><span class="red">相乗効果</span><span class="small">で</span><br class="is_sp"><span class="red">効率的</span><span class="small">に</span><span class="red">美肌</span><span class="small">ケア!!</span></h3>
+				<h3 class="fadeup">7<span class="small">つの</span>機能<span class="small">の</span><span class="red">相乗効果</span><span class="small">で</span><br class="is_sp"><span class="red">効率的</span><span class="small">に</span><span class="red">美肌</span><span class="small">ケア!!</span></h3>
 
 				<div class="bottom_in">
 
-					<div class="item">
+					<div class="item fadeup">
 
 						<p class="number">01</p>
 						<h4>水素バキューム<br class="is_pc">＆<br>ダイアモンドピーリング</h4>
 						<p>水素の力でお肌の汚れを<br class="is_pc">落とし、<br class="is_sp">さらにピーリング<br class="is_pc">でキメを整えます</p>
 					</div>
 
-					<div class="item">
+					<div class="item fadeup">
 						<p class="number">02</p>
 						<h4>&nbsp;<br class="is_pc">スクライバー<br class="is_pc">&nbsp;</h4>
 						<p>バキュームで出来ない<br>細かい部分をスクライバー<br class="is_pc">で掃除します</p>
 					</div>
 
-					<div class="item">
+					<div class="item fadeup">
 						<p class="number">03</p>
 						<h4>フェイシャル超音波<br class="is_pc">＆<br>フェイシャルラジオ波</h4>
 						<p>お顔のたるみや脂肪に<br class="is_pc">アプローチ<br>リフトアップにも最適</p>
 					</div>
-					<div class="item">
+					<div class="item fadeup">
 						<p class="number">04</p>
 						<h4>マイクロスプレー<br class="is_pc">＆<br class="is_pc">LEDマスク</h4>
 						<p>ミクロで噴射するスプレーで<br>化粧水をお顔に塗布<br>さらにLEDで美肌に</p>
@@ -164,7 +164,7 @@ include($root . "/include/header.php");
 
 
 			</div>
-			<div class="link purple"><a href="<?php echo $dir; ?>salonlist/">無料体験のお申込み ▶︎</a></div>
+			<div class="link purple fadeup"><a href="<?php echo $dir; ?>salonlist/">無料体験のお申込み ▶︎</a></div>
 		</div>
 	</section>
 	<!-- ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ マシン04 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ -->
@@ -173,7 +173,7 @@ include($root . "/include/header.php");
 	<section class="machine05">
 		<div class="container">
 
-			<div class="box">
+			<div class="box fadeup">
 				<div class="img">
 					<img src="<?php echo $imgDir; ?>machine05_img01.png">
 				</div>
@@ -191,7 +191,7 @@ include($root . "/include/header.php");
 				</div>
 
 			</div>
-			<div class="link white"><a href="<?php echo $dir; ?>salonlist/">無料体験のお申込み ▶︎</a></div>
+			<div class="link white fadeup"><a href="<?php echo $dir; ?>salonlist/">無料体験のお申込み ▶︎</a></div>
 
 		</div>
 	</section>
@@ -200,7 +200,7 @@ include($root . "/include/header.php");
 	<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン06 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
 	<section class="machine06">
 		<div class="container">
-			<div class="box">
+			<div class="box fadeup">
 
 				<div class="txt">
 					<h2 class="libre">Nail Printer as</h2>
@@ -219,7 +219,7 @@ include($root . "/include/header.php");
 				</div>
 
 			</div>
-			<div class="link purple"><a href="<?php echo $dir; ?>salonlist/">無料体験のお申込み ▶︎</a></div>
+			<div class="link purple fadeup"><a href="<?php echo $dir; ?>salonlist/">無料体験のお申込み ▶︎</a></div>
 		</div>
 	</section>
 	<!-- ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ マシン06 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ -->

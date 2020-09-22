@@ -50,7 +50,7 @@ include($root . "/include/header.php");
 	<section class="fc03">
 		<div class="container">
 
-			<div class="box">
+			<div class="box fadeup">
 				<h2>MYTEHL FCのコンセプト</h2>
 				<div class="item">
 					<p class="number">POINT<br>1</p>

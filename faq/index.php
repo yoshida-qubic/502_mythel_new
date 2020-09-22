@@ -55,9 +55,9 @@ include($root . "/include/header.php");
 		<div class="container">
 
 			<div class="box">
-				<h2>初めての方へ</h2>
+				<h2 class="fadeup">初めての方へ</h2>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>MYTHELってなんですか？</p>
 					</div>
@@ -66,7 +66,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>トータルセルフエステってなんですか？</p>
 					</div>
@@ -75,7 +75,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>体験はできますか？</p>
 					</div>
@@ -84,7 +84,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>セルフエステ初めてなので、上手くできますか？</p>
 					</div>
@@ -93,7 +93,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>入会を検討しているのですが、どうすればいいですか？</p>
 					</div>
@@ -102,7 +102,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>部屋数は何部屋ですか？</p>
 					</div>
@@ -111,7 +111,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>1日に何回通えますか？</p>
 					</div>
@@ -120,7 +120,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>体験の際には何を持っていけばいいですか？</p>
 					</div>
@@ -129,7 +129,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>何分前にお店に行けばいいですか？</p>
 					</div>
@@ -138,7 +138,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>体験当日は、どれくらい時間がかかりますか？</p>
 					</div>
@@ -147,7 +147,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>予約は何回分できますか？</p>
 					</div>
@@ -156,7 +156,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>友達（家族）同士で体験に行くことは可能ですか？</p>
 					</div>
@@ -165,7 +165,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>見学はできますか？</p>
 					</div>
@@ -174,7 +174,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>クレジットカードを持ってない場合の支払い方法は？</p>
 					</div>
@@ -183,7 +183,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>妊娠中や授乳中に体験はできますか？</p>
 					</div>
@@ -192,7 +192,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>入会は何歳から可能ですか？</p>
 					</div>
@@ -201,7 +201,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>入会金はかかりますか？</p>
 					</div>
@@ -210,7 +210,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>月会費はいくらですか？</p>
 					</div>
@@ -219,7 +219,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>使用できるクレジットカードの種類を教えてください。</p>
 					</div>
@@ -228,7 +228,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>自分の名義ではないクレジットカードでも登録は可能ですか？</p>
 					</div>
@@ -237,7 +237,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>都度払いの利用はできますか？</p>
 					</div>
@@ -246,7 +246,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>営業時間を教えてください</p>
 					</div>
@@ -255,7 +255,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>子供を連れて行ってもいいですか？</p>
 					</div>
@@ -264,7 +264,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>清掃はきちんとされていますか？</p>
 					</div>
@@ -273,7 +273,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>どうしてこんなに安く通えるのですか？</p>
 					</div>
@@ -282,7 +282,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>勧誘はありますか？</p>
 					</div>
@@ -292,7 +292,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>初めてですが業務用のマシンを使用して大丈夫ですか？</p>
 					</div>
@@ -301,7 +301,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>怪我や火傷などが心配です</p>
 					</div>
@@ -311,7 +311,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>効果はありますか？</p>
 					</div>
@@ -320,7 +320,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>男性の利用は可能ですか？</p>
 					</div>
@@ -341,10 +341,10 @@ include($root . "/include/header.php");
 		<div class="container">
 
 			<div class="box">
-				<h2>会員様へ</h2>
+				<h2 class="fadeup">会員様へ</h2>
 
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>予約なしでも大丈夫ですか？</p>
 					</div>
@@ -353,7 +353,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>当日予約はできますか？</p>
 					</div>
@@ -362,7 +362,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>予約の変更・キャンセルはできますか？</p>
 					</div>
@@ -371,7 +371,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>キャンセル料はかかりますか？</p>
 					</div>
@@ -380,7 +380,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>遅刻するとどうなりますか？</p>
 					</div>
@@ -389,7 +389,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>今月一度も通っていませんが、翌月の月会費に充ててもらえますか？</p>
 					</div>
@@ -398,7 +398,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>予約メールが届きません。</p>
 					</div>
@@ -407,7 +407,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>アプリのパスワードを忘れてしましました。</p>
 					</div>
@@ -416,7 +416,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>プラン変更は可能ですか？</p>
 					</div>
@@ -425,7 +425,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>退会・休会はいつまでに申請すればいいですか？</p>
 					</div>
@@ -434,7 +434,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item">
+				<div class="item fadeup">
 					<div class="que">
 						<p>店舗変更は可能ですか？</p>
 					</div>
@@ -446,7 +446,7 @@ include($root . "/include/header.php");
 
 			</div>
 
-			<div class="link purple"><a href="<?php echo $dir; ?>salonlist/">無料体験のお申込み ▶︎</a></div>
+			<div class="link purple fadeup"><a href="<?php echo $dir; ?>salonlist/">無料体験のお申込み ▶︎</a></div>
 
 		</div>
 	</section>

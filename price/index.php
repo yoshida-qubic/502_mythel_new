@@ -38,9 +38,9 @@ include($root . "/include/header.php");
 	<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ プライス02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
 	<section class="top04 price02">
 		<div class="container">
-			<h3>今なら45分体験無料</h3>
-			<p>月額5,980円のセルフエステが今なら体験無料。<br>脱毛・痩身・フェイシャル・ホワイトニングから選べる！<br>MYTHELならではのトータルセルフエステを是非お試し下さい。</p>
-			<div class="link white">
+			<h3 class="fadeup">今なら45分体験無料</h3>
+			<p class="fadeup">月額5,980円のセルフエステが今なら体験無料。<br>脱毛・痩身・フェイシャル・ホワイトニングから選べる！<br>MYTHELならではのトータルセルフエステを是非お試し下さい。</p>
+			<div class="link white fadeup">
 				<a href="<?php echo $dir; ?>salonlist/">無料体験のお申込み ▶︎</a>
 			</div>
 		</div>
@@ -52,11 +52,11 @@ include($root . "/include/header.php");
 		<div class="container">
 			<div class="price03_in">
 				<div class="ttl">
-					<h2 class="kapital_t">PRICE</h2>
-					<h3 class="sub_ttl">VISITOR</h3>
-					<p><strong>都度払い料金</strong></p>
+					<h2 class="kapital_t fadeup">PRICE</h2>
+					<h3 class="sub_ttl fadeup">VISITOR</h3>
+					<p class="fadeup"><strong>都度払い料金</strong></p>
 				</div>
-				<div class="box">
+				<div class="box fadeup">
 					<table>
 						<thead>
 							<tr>
@@ -91,11 +91,11 @@ include($root . "/include/header.php");
 			</div>
 			<div class="price03_in">
 				<div class="ttl">
-					<h2 class="kapital_t">PRICE</h2>
-					<h3 class="sub_ttl">MONTHLY</h3>
-					<p><strong>月額利用料</strong></p>
+					<h2 class="kapital_t fadeup">PRICE</h2>
+					<h3 class="sub_ttl fadeup">MONTHLY</h3>
+					<p class="fadeup"><strong>月額利用料</strong></p>
 				</div>
-				<div class="box">
+				<div class="box fadeup">
 					<table>
 						<thead>
 							<tr>
@@ -154,7 +154,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 			</div>
-			<div class="link purple"><a href="<?php echo $dir; ?>salonlist/">無料体験のお申込み ▶︎</a></div>
+			<div class="link purple fadeup"><a href="<?php echo $dir; ?>salonlist/">無料体験のお申込み ▶︎</a></div>
 		</div>
 	</section>
 

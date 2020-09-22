@@ -23,7 +23,7 @@ $(function () {
 		$('.lower_ttl').addClass('active');
 	}, 300);
 	setTimeout(function () {
-		$('.lower_ttl_bg .box').addClass('active');
+		$('.lower_ttl_bg .box, .machine02,.salon02, .faq02, .salonlist02').addClass('active');
 	}, 1000);
 
 	$(window).on('load scroll', function () {
@@ -33,6 +33,32 @@ $(function () {
 			$('header').addClass('active');
 		} else {
 			$('header').removeClass('active');
+		}
+
+		if (w <= spwidth) {
+			$('.fadeup').each(function () {
+
+
+
+				let position = $(this).offset().top;
+				let windowHeight = $(window).height();
+				if (scrollPos > position - windowHeight - 100) {
+					$(this).addClass('active');
+				}
+			});
+		} else {
+
+			
+			$('.fadeup').each(function () {
+				
+				
+				
+				let position = $(this).offset().top;
+				let windowHeight = $(window).height();
+				if (scrollPos > position - windowHeight + 100) {
+					$(this).addClass('active');
+				}
+			});
 		}
 		
 	});

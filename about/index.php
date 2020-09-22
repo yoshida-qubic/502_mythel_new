@@ -40,27 +40,27 @@ include($root . "/include/header.php");
 	<!-- ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ アバウト01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ -->
 
 	<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ アバウト02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
-	<section class="about02">
+	<section class="about02 fadeup">
 		<div class="container">
-			<div class="box">
+			<div class="box fadeup">
 				<h2>美容業界最新のセルフエステで<br>トータルで自分自身と向き合える<br>定額制セルフエステ</h2>
 				<p>通常エステでしか受けれないマシンが月額制で使い放題！<br>空いた時間に気軽に通える！<br class="is_pc">MYTHELで最先端のエステマシンをお試し下さい。</p>
 				<div class="item">
-					<div class="inner">
+					<div class="inner fadeup">
 						<div class="circle">
 							<p class="kapital_t">POINT<br>1</p>
 						</div>
 						<h3>全部屋個室</h3>
 						<p>全部屋完全個室で<br>自分と向き合える空間</p>
 					</div>
-					<div class="inner">
+					<div class="inner fadeup">
 						<div class="circle">
 							<p class="kapital_t">POINT<br>2</p>
 						</div>
 						<h3>パウダールーム完備</h3>
 						<p>施術後も安心<br>綺麗なパウダールーム完備</p>
 					</div>
-					<div class="inner">
+					<div class="inner fadeup">
 						<div class="circle">
 							<p class="kapital_t">POINT<br>3</p>
 						</div>
@@ -79,11 +79,11 @@ include($root . "/include/header.php");
 		<div class="container">
 
 			<div class="ttl">
-				<h2 class="sub_ttl dark_purple">FLOW</h2>
-				<p><strong>MYTHELのご利用の流れ</strong></p>
+				<h2 class="sub_ttl dark_purple fadeup">FLOW</h2>
+				<p class="fadeup"><strong>MYTHELのご利用の流れ</strong></p>
 			</div>
 
-			<div class="box">
+			<div class="box fadeup">
 				<div class="img"><img src="<?php echo $imgDir; ?>about03_img01.jpg"></div>
 				<div class="txt">
 					<p class="kapital_t number">STEP 01</p>
@@ -94,7 +94,7 @@ include($root . "/include/header.php");
 
 			<div class="icon"><img src="<?php echo $imgDir; ?>about03_icon.jpg"></div>
 
-			<div class="box">
+			<div class="box fadeup">
 				<div class="img"><img src="<?php echo $imgDir; ?>about03_img02.jpg"></div>
 				<div class="txt">
 					<p class="kapital_t number">STEP 02</p>
@@ -107,7 +107,7 @@ include($root . "/include/header.php");
 			</div>
 
 			<div class="icon"><img src="<?php echo $imgDir; ?>about03_icon.jpg"></div>
-			<div class="box">
+			<div class="box fadeup">
 				<div class="img"><img src="<?php echo $imgDir; ?>about03_img03.jpg"></div>
 				<div class="txt">
 					<p class="kapital_t number">STEP 03</p>
@@ -119,7 +119,7 @@ include($root . "/include/header.php");
 			</div>
 
 			<div class="icon"><img src="<?php echo $imgDir; ?>about03_icon.jpg"></div>
-			<div class="box">
+			<div class="box fadeup">
 				<div class="img"><img src="<?php echo $imgDir; ?>about03_img04.jpg"></div>
 				<div class="txt">
 					<p class="kapital_t number">STEP 04</p>
@@ -130,7 +130,7 @@ include($root . "/include/header.php");
 				</div>
 			</div>
 
-			<div class="link purple"><a href="<?php echo $dir; ?>salonlist/">無料体験のお申込み ▶︎</a></div>
+			<div class="link purple fadeup"><a href="<?php echo $dir; ?>salonlist/">無料体験のお申込み ▶︎</a></div>
 
 		</div>
 	</section>
