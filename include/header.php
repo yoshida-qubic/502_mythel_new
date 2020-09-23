@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta charset="utf-8">
   <meta name="format-detection" content="telephone=no">
-  <title><?php echo $meta_ttl; ?>定額制セルフエステ MYTHLE</title>
+  <title><?php echo $meta_ttl; ?>定額制セルフエステ MYTHLE SelfBeautyGym</title>
   <!-- <link rel="shortcut icon" href="./images/favicon.ico" /> -->
   <!-- <link rel="apple-touch-icon" href="./images/favicon.ico"" /> -->
   <link rel="stylesheet" type="text/css" href="<?php echo $dir; ?>style.css">
