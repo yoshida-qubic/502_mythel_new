@@ -21,7 +21,7 @@ include($root . "/include/header.php");
 		</div>
 
 		<div class="movie is_pc">
-			<video autoplay muted playsinline loop controls>
+			<video autoplay muted playsinline loop>
 				<source src="<?php echo $dir; ?>movie/movie.mp4" type="video/mp4">
 			</video>
 		</div>
