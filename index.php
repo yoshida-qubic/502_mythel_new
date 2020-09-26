@@ -90,7 +90,7 @@ include($root . "/include/header.php");
 				</div>
 
 				<div class="att kozuka fadeup">
-					<p>どちらか１つをプレゼント！<br>※抗体検査キットは取り扱いのない店舗がございます。</p>
+					<p>どちらか１つをプレゼント！<br>※プレゼントキャンペーンは実施していない店舗もございます。ご来店前に店舗にご確認お願いします。</p>
 				</div>
 			</div>
 

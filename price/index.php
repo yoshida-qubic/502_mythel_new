@@ -141,7 +141,7 @@ include($root . "/include/header.php");
 							<tr>
 								<th>Plutinum</th>
 								<th>AllTime <span>Open〜最終受付まで</span></th>
-								<td>75<span class="small">min</span></td>
+								<td>100<span class="small">min</span></td>
 								<td class="purple">19,800<span class="middle">円(税別)</span></td>
 								<td><span class="txt">全てのマシン</span></td>
 							</tr>
