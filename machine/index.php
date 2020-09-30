@@ -203,7 +203,7 @@ include($root . "/include/header.php");
 			<div class="box fadeup">
 
 				<div class="txt">
-					<h2 class="libre">Nail Printer as</h2>
+					<h2 class="libre">Nail Printer</h2>
 					<p>驚くほど高性能な<br>次世代ネイルプリンター </p>
 					<p>750種類以上のデザイン<br>さらに写真取込も可能！</p>
 					<div class="inner">
