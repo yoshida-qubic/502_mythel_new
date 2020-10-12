@@ -2,7 +2,7 @@
 $area = '関西エリア';
 $salonname = '豊中駅前店';
 $holiday = '不定休（研修等で店休になる場合があります）';
-$buisiness_hours = 'OPEN 10:00 〜 CLOSE 21:00';
+$buisiness_hours = 'OPEN 11:00 〜 CLOSE 21:00';
 $address = '〒560-0021　大阪府豊中市本町1-10-1 豊中駅前ボーゼムビル3階';
 $access = '阪急電鉄豊中駅より徒歩1分';
 

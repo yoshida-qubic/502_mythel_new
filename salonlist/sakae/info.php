@@ -3,9 +3,9 @@
 $area = '東海エリア';
 $salonname = '栄店';
 $holiday = '不定休（研修等で店休になる場合があります）';
-$buisiness_hours = 'OPEN 10:00 〜 CLOSE 21:00';
+$buisiness_hours = 'OPEN 11:00 〜 CLOSE 22:00';
 $address = '〒460-0008 愛知県名古屋市中区栄3丁目25番39サカエサウススクエア 3B';
-$access = '';
+$access = '名古屋市営地下鉄名城線 矢場町駅 徒歩5分';
 
 $room_number = '10';
 $machine = '脱毛2台・キャビテーション4台・フェイシャル1台・ホワイトニング1台・ネイル1台';
