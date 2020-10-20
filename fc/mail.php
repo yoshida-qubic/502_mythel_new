@@ -33,6 +33,7 @@ function funcManagerAddress($user, $user_kana, $zip1, $pref1, $addr1, $addr2, $a
 
     $mailto = 'info@tree-co.net,tsukiyama@tree-co.net'; 
     // $mailto = 'register@qu-bic.jp'; 
+    // $mailto = 'miura@qu-bic.jp'; 
     $subject = "個別説明会申込メール"; 
 
     $content = "MYTHEL FCページより、個別説明会申込がありました。\n\n";
@@ -125,6 +126,7 @@ function funcContactAddress($comp_name, $user, $user_kana, $email, $tel, $date01
 
     $mailfrom="From:" .mb_encode_mimeheader("MYTHEL FC本部") ."<'info@tree-co.net'>";
     // $mailfrom="From:" .mb_encode_mimeheader("MYTHEL FC本部") . "<'register@qu-bic.jp'>";
+    // $mailfrom="From:" .mb_encode_mimeheader("MYTHEL FC本部") . "<'miura@qu-bic.jp'>";
 
     if(mb_send_mail($mailto,$subject,$content,$mailfrom) == true){
         $contactFlag = "○";

@@ -162,8 +162,8 @@ include($root . "/include/header.php");
 						<div class="input_wrap">
 							<div class="item">種別<span class="red">*</span></div>
 							<div class="radio">
-								<label class="label02"><input type="radio" name="type" id="type1" checked><span>個人</span></label>
-								<label class="label02"><input type="radio" name="type" id="type2"><span>法人</span></label>
+								<label class="label02"><input type="radio" name="type" id="type1" value="個人" checked><span>個人</span></label>
+								<label class="label02"><input type="radio" name="type" id="type2" value="法人"><span>法人</span></label>
 							</div>
 						</div>
 
@@ -171,10 +171,10 @@ include($root . "/include/header.php");
 							<div class="item">開業予定資金<span class="red">*</div>
 							<div class="select02">
 								<select name="opening_fund" id="opening_fund" required>
-									<option value="0">0〜100万円</option>
-									<option value="1">101〜500万円</option>
-									<option value="2">501〜1,000万円</option>
-									<option value="3">1,000万円以上</option>
+									<option value="0〜100万円">0〜100万円</option>
+									<option value="101〜500万円">101〜500万円</option>
+									<option value="501〜1,000万円">501〜1,000万円</option>
+									<option value="1,000万円以上">1,000万円以上</option>
 								</select>
 								<span class="icon"><i class="far fa-angle-down"></i></span>
 							</div>
@@ -184,12 +184,12 @@ include($root . "/include/header.php");
 							<div class="item">開業予定時期<span class="red">*</div>
 							<div class="select02">
 								<select name="opening_time" id="opening_time" required>
-									<option value="0">3ヶ月以内</option>
-									<option value="1">6ヶ月以内</option>
-									<option value="2">1年以内</option>
-									<option value="3">3年以内</option>
-									<option value="4">5年以内</option>
-									<option value="5">まだ決めていない</option>
+									<option value="3ヶ月以内">3ヶ月以内</option>
+									<option value="6ヶ月以内">6ヶ月以内</option>
+									<option value="1年以内">1年以内</option>
+									<option value="3年以内">3年以内</option>
+									<option value="5年以内">5年以内</option>
+									<option value="まだ決めていない">まだ決めていない</option>
 								</select>
 								<span class="icon"><i class="far fa-angle-down"></i></span>
 							</div>
