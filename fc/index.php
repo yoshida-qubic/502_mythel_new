@@ -97,24 +97,58 @@ include($root . "/include/header.php");
 					<div class="form_wrap">
 
 						<div class="input_wrap">
-
-							<div class="item">御社名<span class="red">*</span></div>
-							<div class="input">
-								<input type="text" name="comp_name" id="comp_name" required>
-							</div>
-						</div>
-
-						<div class="input_wrap">
-							<div class="item">ご担当者様名<span class="red">*</span></div>
+							<div class="item">お名前<span class="red">*</span></div>
 							<div class="input">
 								<input type="text" name="user" id="user" required>
 							</div>
 						</div>
 
 						<div class="input_wrap">
-							<div class="item">ふりがな<span class="red">*</span></div>
+							<div class="item">フリガナ<span class="red">*</span></div>
 							<div class="input">
 								<input type="text" name="user_kana" id="user_kana" required>
+							</div>
+						</div>
+
+						<div class="input_wrap">
+							<div class="item">郵便番号<span class="red">*</div>
+							<div class="input">
+								<input type="text" name="zip1" id="zip1" maxlength="8">
+							</div>
+						</div>
+
+						<div class="input_wrap">
+							<div class="item">都道府県<span class="red">*</div>
+							<div class="input">
+								<input type="text" name="pref1" id="pref1" required>
+							</div> 
+						</div>
+
+						<div class="input_wrap">
+							<div class="item">市区町村<span class="red">*</span></div>
+							<div class="input">
+								<input type="text" name="addr1" id="addr1" required>
+							</div>
+						</div>
+
+						<div class="input_wrap">
+							<div class="item">番地<span class="red">*</span></div>
+							<div class="input">
+								<input type="text" name="addr2" id="addr2" required>
+							</div>
+						</div>
+
+						<div class="input_wrap">
+							<div class="item">建物名</div>
+							<div class="input">
+								<input type="text" name="addr3" id="addr3">
+							</div>
+						</div>
+
+						<div class="input_wrap">
+							<div class="item">電話番号<span class="red">*</span></div>
+							<div class="input">
+								<input type="tel" name="tel" id="tel" required>
 							</div>
 						</div>
 
@@ -126,34 +160,41 @@ include($root . "/include/header.php");
 						</div>
 
 						<div class="input_wrap">
-							<div class="item">電話番号<span class="red">*</span></div>
-							<div class="input">
-								<input type="tel" name="tel" id="tel" required>
-							</div>
-						</div>
-
-
-
-						<div class="input_wrap">
-							<div class="select">
-								<label for="date01">説明会希望日1</label>
-								<label class="cal"><input type="text" cmanCLDat="USE:ON,FORM:3" name="date01" id="date01" class="form_date"><span class="icon"><i class="far fa-calendar-alt"></i></span></label>
+							<div class="item">種別<span class="red">*</span></div>
+							<div class="radio">
+								<label class="label02"><input type="radio" name="type" id="type1" checked><span>個人</span></label>
+								<label class="label02"><input type="radio" name="type" id="type2"><span>法人</span></label>
 							</div>
 						</div>
 
 						<div class="input_wrap">
-							<div class="select">
-								<label for="date02">説明会希望日2</label>
-								<label class="cal"><input type="text" cmanCLDat="USE:ON,FORM:3" name="date02" id="date02" class="form_date"><span class="icon"><i class="far fa-calendar-alt"></i></span></label>
+							<div class="item">開業予定資金<span class="red">*</div>
+							<div class="select02">
+								<select name="opening_fund" id="opening_fund" required>
+									<option value="0">0〜100万円</option>
+									<option value="1">101〜500万円</option>
+									<option value="2">501〜1,000万円</option>
+									<option value="3">1,000万円以上</option>
+								</select>
+								<span class="icon"><i class="far fa-angle-down"></i></span>
 							</div>
 						</div>
 
 						<div class="input_wrap">
-							<div class="item">お問い合わせ内容<span class="red">*</span></div>
-							<div class="input">
-								<textarea name="msg" id="msg"></textarea>
+							<div class="item">開業予定時期<span class="red">*</div>
+							<div class="select02">
+								<select name="opening_time" id="opening_time" required>
+									<option value="0">3ヶ月以内</option>
+									<option value="1">6ヶ月以内</option>
+									<option value="2">1年以内</option>
+									<option value="3">3年以内</option>
+									<option value="4">5年以内</option>
+									<option value="5">まだ決めていない</option>
+								</select>
+								<span class="icon"><i class="far fa-angle-down"></i></span>
 							</div>
 						</div>
+
 
 						<div class="inner">
 							<input type="checkbox" name="agree02" id="j13" value="チェック済み" class="ichk" required>

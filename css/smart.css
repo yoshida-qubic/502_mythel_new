@@ -1656,16 +1656,51 @@ transform:translate(0,0);
 	justify-content: center;
 	align-items: center;
 }
-.fc04 .box .input_wrap input,
-.fc04 .box .input_wrap textarea{
+.fc04 .box .input_wrap input:not([type="radio"]),
+.fc04 .box .input_wrap textarea,
+.fc04 .box .input_wrap select{
 	width: 100%;
 	padding: 0.5rem 1rem;
 	border: 1px solid #7a74a2;
 	border-radius: 0.25rem;
 	font-size: 16px;
 }
+.fc04 .box .input_wrap select{
+	-webkit-appearance: none;
+  appearance: none;
+}
 .fc04 .box .input_wrap textarea{
 	height: 10rem;
+}
+.fc04 .box .input_wrap .radio{
+	display: flex;
+	align-items: center;
+}
+.fc04 .box .input_wrap .radio label.label02{
+	display: flex;
+	align-items: center;
+	margin-right: 3rem;
+}
+.fc04 .box .input_wrap .radio label.label02 span{
+	margin-left: 0.5rem;
+}
+.fc04 .box .input_wrap .select02{
+	position: relative;
+}
+.fc04 .box .input_wrap .select02 .icon{
+	position: absolute;
+	width: 2.5rem;
+	height: 100%;
+	background: #eee;
+	right:0;
+	top:0;
+	border: 1px solid #505076;
+	border-left: 1px solid transparent;
+	border-radius: 0 0.25rem 0.25rem 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: -1;
 }
 .fc04 .inner{
 	font-size: 0.8rem;

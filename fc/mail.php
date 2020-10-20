@@ -7,14 +7,18 @@ mb_internal_encoding( "utf-8" );
 //【２】HTMLエンティティ変換
 
 
-$comp_name = htmlspecialchars($_POST['comp_name'], ENT_QUOTES);
 $user = htmlspecialchars($_POST['user'], ENT_QUOTES);
 $user_kana = htmlspecialchars($_POST['user_kana'], ENT_QUOTES);
-$email = htmlspecialchars($_POST['email'], ENT_QUOTES);
+$zip1 = htmlspecialchars($_POST['zip1'], ENT_QUOTES);
+$pref1 = htmlspecialchars($_POST['pref1'], ENT_QUOTES);
+$addr1 = htmlspecialchars($_POST['addr1'], ENT_QUOTES);
+$addr2 = htmlspecialchars($_POST['addr2'], ENT_QUOTES);
+$addr3 = htmlspecialchars($_POST['addr3'], ENT_QUOTES);
 $tel = htmlspecialchars($_POST['tel'], ENT_QUOTES);
-$date01 = htmlspecialchars($_POST['date01'], ENT_QUOTES);
-$date02 = htmlspecialchars($_POST['date02'], ENT_QUOTES);
-$msg = htmlspecialchars($_POST['msg'], ENT_QUOTES);
+$email = htmlspecialchars($_POST['email'], ENT_QUOTES);
+$type = htmlspecialchars($_POST['type'], ENT_QUOTES);
+$opening_fund = htmlspecialchars($_POST['opening_fund'], ENT_QUOTES);
+$opening_time = htmlspecialchars($_POST['opening_time'], ENT_QUOTES);
 $agree02 = htmlspecialchars($_POST['agree02'], ENT_QUOTES);
 
 
@@ -25,7 +29,7 @@ $msg = mb_convert_kana($msg,"sKV");
 
 
 //管理者受信用メール送信処理
-function funcManagerAddress($comp_name, $user,$user_kana, $email, $tel, $date01, $date02, $msg, $agree02){
+function funcManagerAddress($user, $user_kana, $zip1, $pref1, $addr1, $addr2, $addr3, $tel, $email, $type, $opening_fund, $opening_time, $agree02){
 
     $mailto = 'info@tree-co.net,tsukiyama@tree-co.net'; 
     // $mailto = 'register@qu-bic.jp'; 
@@ -38,20 +42,22 @@ function funcManagerAddress($comp_name, $user,$user_kana, $email, $tel, $date01,
 
 
 
-    $content .= "【会社名】：".$comp_name."\n";
-    $content .= "【ご担当者様名】：".$user."\n";
-    $content .= "【ふりがな】：".$user_kana."\n";
-    
-    $content .= "【メールアドレス】：".$email."\n";
+    $content .= "【お名前】：".$user."\n";
+    $content .= "【フリガナ】：".$user_kana."\n";
+
+    $content .= "【郵便番号】：".$zip1."\n";
+    $content .= "【都道府県】：".$pref1."\n";
+    $content .= "【市区町村】：".$addr1."\n";
+    $content .= "【番地】：".$addr2."\n";
+    $content .= "【建物名】：".$addr3."\n";
+
     $content .= "【電話番号】：".$tel."\n";
-    
+    $content .= "【メールアドレス】：".$email."\n";
+    $content .= "【種別】：".$type."\n";
 
 
-    $content .= "【説明会希望日1】：".$date01."\n";
-    $content .= "【説明会希望日2】：".$date02."\n";
-
-    $content .= "【お問い合わせ内容*】\n";
-    $content .= $msg . "\n";
+    $content .= "【開業予定資金】：".$opening_fund."\n";
+    $content .= "【開業予定時期】：".$opening_time."\n";
 
     $content .= "個人情報の取り扱いについて、プライバシーポリシーをご確認いただき、ご同意の上でご送信ください。：".$agree02."\n\n";
 
@@ -83,20 +89,22 @@ function funcContactAddress($comp_name, $user, $user_kana, $email, $tel, $date01
     $content .= "--------------------------------\n\n";
 
 
-    $content .= "【会社名】：" . $comp_name . "\n";
-    $content .= "【ご担当者様名】：" . $user . "\n";
-    $content .= "【ふりがな】：" . $user_kana . "\n";
+    $content .= "【お名前】：".$user."\n";
+    $content .= "【フリガナ】：".$user_kana."\n";
 
-    $content .= "【メールアドレス】：" . $email . "\n";
-    $content .= "【電話番号】：" . $tel . "\n";
+    $content .= "【郵便番号】：".$zip1."\n";
+    $content .= "【都道府県】：".$pref1."\n";
+    $content .= "【市区町村】：".$addr1."\n";
+    $content .= "【番地】：".$addr2."\n";
+    $content .= "【建物名】：".$addr3."\n";
+
+    $content .= "【電話番号】：".$tel."\n";
+    $content .= "【メールアドレス】：".$email."\n";
+    $content .= "【種別】：".$type."\n";
 
 
-
-    $content .= "【説明会希望日1】：" . $date01 . "\n";
-    $content .= "【説明会希望日2】：" . $date02 . "\n";
-
-    $content .= "【お問い合わせ内容*】\n";
-    $content .= $msg . "\n";
+    $content .= "【開業予定資金】：".$opening_fund."\n";
+    $content .= "【開業予定時期】：".$opening_time."\n";
 
     $content .= "個人情報の取り扱いについて、プライバシーポリシーをご確認いただき、ご同意の上でご送信ください。：" . $agree02 . "\n\n";
 
@@ -128,9 +136,9 @@ function funcContactAddress($comp_name, $user, $user_kana, $email, $tel, $date01
 
 
 //送信者用自動返信メール送信
-$contactAddress = funcContactAddress($comp_name, $user, $user_kana, $email, $tel, $date01, $date02, $msg, $agree02);
+$contactAddress = funcContactAddress($user, $user_kana, $zip1, $pref1, $addr1, $addr2, $addr3, $tel, $email, $type, $opening_fund, $opening_time, $agree02);
 //管理者受信用メール送信
-$managerAddress = funcManagerAddress($comp_name, $user, $user_kana, $email, $tel, $date01, $date02, $msg, $agree02);
+$managerAddress = funcManagerAddress($user, $user_kana, $zip1, $pref1, $addr1, $addr2, $addr3, $tel, $email, $type, $opening_fund, $opening_time, $agree02);
 
 if($contactAddress === "○" && $managerAddress === "○" ){
         header("Location: ./thanks/");

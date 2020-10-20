@@ -82,7 +82,10 @@ $(function () {
 	}); 
 
 
-	
+	$('#zip1').zip2addr({
+		pref: '#pref1',
+		addr: '#addr1'
+	});
 
 
 
