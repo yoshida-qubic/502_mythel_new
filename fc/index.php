@@ -4,7 +4,7 @@ $dirname = basename(__DIR__);
 $root = str_replace($dirname, '', $root);
 $dir = '../';
 $imgDir = '../images/fc/';
-$meta_ttl = 'FC - FC加盟について | ';
+$meta_ttl = '全国FC加盟店募集中！ | ';
 include($root . "/include/header.php");
 
 ?>
@@ -15,7 +15,7 @@ include($root . "/include/header.php");
 	<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ fc01 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
 	<section class="fc01">
 		<div class="lower_ttl">
-			<h1 class="ttl_in">FC</h1>
+			<h1 class="ttl_in">全国FC加盟店募集中！</h1>
 		</div>
 		<div class="lower_ttl_bg">
 
