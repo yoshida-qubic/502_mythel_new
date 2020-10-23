@@ -171,10 +171,10 @@ include($root . "/include/header.php");
 							<div class="item">開業予定資金<span class="red">*</div>
 							<div class="select02">
 								<select name="opening_fund" id="opening_fund" required>
-									<option value="0〜100万円">0〜100万円</option>
-									<option value="101〜500万円">101〜500万円</option>
-									<option value="501〜1,000万円">501〜1,000万円</option>
-									<option value="1,000万円以上">1,000万円以上</option>
+									<option value="300~500万円">300~500万円</option>
+									<option value="500~700万円">500~700万円</option>
+									<option value="501〜1,000万円">700〜1,000万円</option>
+									<option value="1,000万円以上">1,000〜1,500万円</option>
 								</select>
 								<span class="icon"><i class="far fa-angle-down"></i></span>
 							</div>
