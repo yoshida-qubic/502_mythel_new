@@ -43,7 +43,7 @@ include($root . "/include/header.php");
 			<div class="box">
 				<a href="#area01">北海道</a>
 				<a href="#area02">東北</a>
-				<!-- <a href="#area03">関東</a> -->
+				<a href="#area03">関東</a>
 				<!-- <a href="#area04">甲信越</a> -->
 				<a href="#area05">東海</a>
 				<a href="#area06">関西</a>
@@ -82,13 +82,15 @@ include($root . "/include/header.php");
 			</div>
 
 
-			<!-- <div class="box" id="area03">
+			<div class="box" id="area03">
 				<h3>関東エリア</h3>
 
+				<!-- 水戸店 -->
+				<?php include("./mito/info.php"); ?>
+				<?php include("./template_notice.php"); ?>
+				<!-- 水戸店 -->
 
-				
-
-			</div> -->
+			</div>
 
 
 
