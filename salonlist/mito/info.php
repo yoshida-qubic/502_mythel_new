@@ -1,6 +1,6 @@
 <?php
 $area = '関東エリア';
-$salonname = '水戸店 11月16日OPEN予定';
+$salonname = '水戸宮町店 11月16日OPEN予定';
 $holiday = '不定休（研修等で店休になる場合があります）';
 $buisiness_hours = 'OPEN 10:00 〜 CLOSE 21:00';
 $address = '〒310-0015 茨城県水戸市宮町2-4-24 杉山ビル2F';
@@ -20,7 +20,7 @@ $map_link = 'https://goo.gl/maps/6EAu7Xg9PmBvjLNm8';
 
 
 
-$reserved = '';
+$reserved = 'https://1cs.jp/mythelmito/r';
 
 $slug = 'mito';
 

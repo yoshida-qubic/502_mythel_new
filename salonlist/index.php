@@ -49,6 +49,7 @@ include($root . "/include/header.php");
 				<a href="#area06">関西</a>
 				<!-- <a href="#area07">中国・四国</a> -->
 				<a href="#area08">九州・沖縄</a>
+				<a href="#area09">OPEN予定</a>
 			</div>
 		</div>
 	</div>
@@ -87,7 +88,7 @@ include($root . "/include/header.php");
 
 				<!-- 水戸店 -->
 				<?php include("./mito/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
+				<?php include("./template.php"); ?>
 				<!-- 水戸店 -->
 
 			</div>
@@ -154,6 +155,30 @@ include($root . "/include/header.php");
 				<!-- 札幌店 -->
 				<?php include("./ogurakita/info.php"); ?>
 				<?php include("./template_notice.php"); ?>
+				<!-- 札幌店 -->
+
+
+
+			</div>
+
+
+
+			<div class="box" id="area09">
+				<h3>OPEN予定</h3>
+
+				<!-- 札幌店 -->
+				<div class="item">
+					<div class="inner">
+						<h4>
+							札幌3店舗、青森1店舗、仙台3店舗、山形1店舗、茨城4店舗、埼玉1店舗、群馬1店舗、新潟2店舗、金沢1店舗
+							東京5店舗、横浜2店舗、静岡2店舗、名古屋5店舗、岐阜1店舗、京都3店舗、
+							大阪3店舗、広島1店舗、岡山1店舗、博多2店舗、小倉2店舗、鹿児島1店舗、宮崎1店舗、長崎1店舗、愛媛1店舗
+						</h4>
+					</div>
+					<div class="link notice">
+						<a>OPEN予定</a>
+					</div>
+				</div>
 				<!-- 札幌店 -->
 
 
