@@ -80,6 +80,12 @@ include($root . "/include/header.php");
 				<?php include("./template.php"); ?>
 				<!-- 仙台駅前店 -->
 
+
+				<!-- 仙台国分町店 -->
+				<?php include("./sendaikokubuncho/info.php"); ?>
+				<?php include("./template_notice.php"); ?>
+				<!-- 仙台国分町店 -->
+
 			</div>
 
 
@@ -90,6 +96,12 @@ include($root . "/include/header.php");
 				<?php include("./mito/info.php"); ?>
 				<?php include("./template.php"); ?>
 				<!-- 水戸店 -->
+
+
+				<!-- モザイクモール港北店 -->
+				<?php include("./mosaicmall_kouhoku/info.php"); ?>
+				<?php include("./template_notice.php"); ?>
+				<!-- モザイクモール港北店 -->
 
 			</div>
 
@@ -107,6 +119,12 @@ include($root . "/include/header.php");
 				<?php include("./sakae/info.php"); ?>
 				<?php include("./template.php"); ?>
 				<!-- 栄店 -->
+
+
+				<!-- モレラ岐阜店 -->
+				<?php include("./malera_gifu/info.php"); ?>
+				<?php include("./template_notice.php"); ?>
+				<!-- モレラ岐阜店 -->
 
 
 
@@ -152,10 +170,10 @@ include($root . "/include/header.php");
 			<div class="box" id="area08">
 				<h3>九州・沖縄エリア</h3>
 
-				<!-- 札幌店 -->
+				<!-- 小倉北店 -->
 				<?php include("./ogurakita/info.php"); ?>
 				<?php include("./template_notice.php"); ?>
-				<!-- 札幌店 -->
+				<!-- 小倉北店 -->
 
 
 
