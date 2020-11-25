@@ -20,7 +20,7 @@ $map_link = 'https://goo.gl/maps/6mbNJNEQeZjooNfcA';
 
 
 
-$reserved = '';
+$reserved = 'https://1cs.jp/mythelmaleragifu/r';
 
 $slug = 'malera_gifu';
 

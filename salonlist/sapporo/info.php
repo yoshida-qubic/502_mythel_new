@@ -22,7 +22,7 @@ $map_link = 'https://goo.gl/maps/RSmXj4MfKAvmskcz6';
 $schedule = '12月';
 
 
-$reserved = '';
+$reserved = 'https://1cs.jp/mythelsapporoodori/r';
 
 
 $slug = 'sapporo';

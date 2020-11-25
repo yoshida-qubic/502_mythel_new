@@ -20,7 +20,7 @@ $map_link = 'https://goo.gl/maps/JxnKhwBDEud7hChx7';
 
 
 
-$reserved = '';
+$reserved = 'https://1cs.jp/mythelmosaicmallkohoku/r';
 
 $slug = 'mosaicmall_kouhoku';
 

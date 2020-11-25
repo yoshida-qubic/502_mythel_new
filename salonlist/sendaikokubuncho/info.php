@@ -20,7 +20,7 @@ $map_link = 'https://goo.gl/maps/YqDfMnSoC9ZLDnED8';
 
 
 
-$reserved = '';
+$reserved = 'https://1cs.jp/mythelsendaikokubuncho/r';
 
 $slug = 'sendaikokubuncho';
 
