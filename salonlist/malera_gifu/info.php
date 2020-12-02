@@ -1,6 +1,6 @@
 <?php
 $area = '東海エリア';
-$salonname = 'MYTHEL モレラ岐阜店 12月18日OPEN予定';
+$salonname = 'モレラ岐阜店 12月18日OPEN予定';
 $holiday = '不定休（研修等で店休になる場合があります）';
 $buisiness_hours = 'OPEN 10:00 〜 CLOSE 21:00';
 $address = '〒501-0497 岐阜県本巣市三橋1100 1F';

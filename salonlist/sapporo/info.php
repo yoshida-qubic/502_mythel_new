@@ -1,7 +1,7 @@
 <?php
 
 $area = '北海道エリア';
-$salonname = 'MYTHEL 札幌大通店　12月18日OPEN予定';
+$salonname = '札幌大通店　12月18日OPEN予定';
 $holiday = '不定休（研修等で店休になる場合があります）';
 $buisiness_hours = 'OPEN 11:00 〜 CLOSE 20:00';
 $address = '〒060-0061 北海道札幌市中央区南1条西4-14-8 第40ビッグビル4F';

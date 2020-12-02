@@ -1,6 +1,6 @@
 <?php
 $area = '関東エリア';
-$salonname = 'MYTHEL モザイクモール港北店 12月18日OPEN予定';
+$salonname = 'モザイクモール港北店 12月18日OPEN予定';
 $holiday = '不定休（研修等で店休になる場合があります）';
 $buisiness_hours = 'OPEN 10:00 〜 CLOSE 21:00';
 $address = '〒224-0003 神奈川県横浜市都筑区中川中央1-31-1-2 2F';
