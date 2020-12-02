@@ -65,7 +65,7 @@ include($root . "/include/header.php");
 
 				<!-- 札幌店 -->
 				<?php include("./sapporo/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
+				<?php include("./template.php"); ?>
 				<!-- 札幌店 -->
 
 
@@ -83,7 +83,7 @@ include($root . "/include/header.php");
 
 				<!-- 仙台国分町店 -->
 				<?php include("./sendaikokubuncho/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
+				<?php include("./template.php"); ?>
 				<!-- 仙台国分町店 -->
 
 			</div>
@@ -100,7 +100,7 @@ include($root . "/include/header.php");
 
 				<!-- モザイクモール港北店 -->
 				<?php include("./mosaicmall_kouhoku/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
+				<?php include("./template.php"); ?>
 				<!-- モザイクモール港北店 -->
 
 			</div>
@@ -123,7 +123,7 @@ include($root . "/include/header.php");
 
 				<!-- モレラ岐阜店 -->
 				<?php include("./malera_gifu/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
+				<?php include("./template.php"); ?>
 				<!-- モレラ岐阜店 -->
 
 
