@@ -75,9 +75,11 @@ include($root . "/include/header.php");
 							<div class="swiper-slide">
 								<img src="<?php echo $imgDir; ?>slider03.jpg">
 							</div>
-
 							<div class="swiper-slide">
 								<img src="<?php echo $imgDir; ?>slider04.jpg">
+							</div>
+							<div class="swiper-slide">
+								<img src="<?php echo $imgDir; ?>slider05.jpg">
 							</div>
 						</div>
 					</div>
@@ -89,9 +91,9 @@ include($root . "/include/header.php");
 							loop: true,
 							slidesPerView: 4,
 							spaceBetween: 20,
-							// autoplay: {
-							// 	delay: 6000,
-							// },
+							autoplay: {
+								delay: 6000,
+							},
 							slideActiveClass: 'active',
 							speed: 800,
 							simulateTouch: false,
