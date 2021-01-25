@@ -30,15 +30,15 @@ include($root . "/include/header.php");
           </tr>
           <tr>
             <th>メールアドレス</th>
-            <td>info@lovees-self.com</td>
+            <td>info@mythel.jp</td>
           </tr>
           <tr>
             <th>サイトURL</th>
-            <td>lovees-self.com</td>
+            <td>mythel.jp</td>
           </tr>
           <tr>
             <th>お問い合わせ</th>
-            <td>info@lovees-self.com</td>
+            <td>info@mythel.jp</td>
           </tr>
           <tr>
             <th>提供価格</th>

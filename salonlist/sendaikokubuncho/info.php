@@ -1,6 +1,6 @@
 <?php
 $area = '東北エリア';
-$salonname = '仙台国分町店';
+$salonname = '仙台広瀬通り店';
 $holiday = '不定休（研修等で店休になる場合があります）';
 $buisiness_hours = 'OPEN 10:00 〜 CLOSE 22:00';
 $address = '〒980-0803 宮城県仙台市青葉区国分町2丁目2-5柴崎ビル2階';
