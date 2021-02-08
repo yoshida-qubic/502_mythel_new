@@ -53,45 +53,6 @@ include($root . "/include/header.php");
 			<div class="price03_in">
 				<div class="ttl">
 					<h2 class="kapital_t fadeup">PRICE</h2>
-					<h3 class="sub_ttl fadeup">VISITOR</h3>
-					<p class="fadeup"><strong>都度払い料金</strong></p>
-				</div>
-				<div class="box fadeup">
-					<table>
-						<thead>
-							<tr>
-								<th class="left">利用可能時間</th>
-								<th>分数</th>
-								<th>金額</th>
-								<th>施術内容</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<th>DayTime <span>Open〜15時までに入店</span></th>
-								<td>45<span class="small">min</span></td>
-								<td class="purple">4,000<span class="middle">円(税別)</span></td>
-								<td><span class="txt">全てのマシン</span></td>
-							</tr>
-							<tr>
-								<th>NightTime <span>15時〜最終受付まで</span></th>
-								<td>45<span class="small">min</span></td>
-								<td class="purple">6,000<span class="middle">円(税別)</span></td>
-								<td><span class="txt">全てのマシン</span></td>
-							</tr>
-
-						</tbody>
-					</table>
-
-					<div class="scrollable is_sp">
-						<i class="far fa-hand-point-up"></i>
-						<span>スクロールできます</span>
-					</div>
-				</div>
-			</div>
-			<div class="price03_in">
-				<div class="ttl">
-					<h2 class="kapital_t fadeup">PRICE</h2>
 					<h3 class="sub_ttl fadeup">MONTHLY</h3>
 					<p class="fadeup"><strong>月額利用料</strong></p>
 				</div>
@@ -148,6 +109,45 @@ include($root . "/include/header.php");
 
 						</tbody>
 					</table>
+					<div class="scrollable is_sp">
+						<i class="far fa-hand-point-up"></i>
+						<span>スクロールできます</span>
+					</div>
+				</div>
+			</div>
+			<div class="price03_in">
+				<div class="ttl">
+					<h2 class="kapital_t fadeup">PRICE</h2>
+					<h3 class="sub_ttl fadeup">VISITOR</h3>
+					<p class="fadeup"><strong>都度払い料金</strong></p>
+				</div>
+				<div class="box fadeup">
+					<table>
+						<thead>
+							<tr>
+								<th class="left">利用可能時間</th>
+								<th>分数</th>
+								<th>金額</th>
+								<th>施術内容</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th>DayTime <span>Open〜15時までに入店</span></th>
+								<td>45<span class="small">min</span></td>
+								<td class="purple">4,000<span class="middle">円(税別)</span></td>
+								<td><span class="txt">全てのマシン</span></td>
+							</tr>
+							<tr>
+								<th>NightTime <span>15時〜最終受付まで</span></th>
+								<td>45<span class="small">min</span></td>
+								<td class="purple">6,000<span class="middle">円(税別)</span></td>
+								<td><span class="txt">全てのマシン</span></td>
+							</tr>
+
+						</tbody>
+					</table>
+
 					<div class="scrollable is_sp">
 						<i class="far fa-hand-point-up"></i>
 						<span>スクロールできます</span>
