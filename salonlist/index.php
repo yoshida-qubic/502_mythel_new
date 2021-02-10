@@ -121,6 +121,12 @@ include($root . "/include/header.php");
 				<!-- 栄店 -->
 
 
+				<!-- TSUKI 星ヶ丘店 -->
+				<?php include("./tsuki_hoshigaoka/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- TSUKI 星ヶ丘店 -->
+
+
 				<!-- モレラ岐阜店 -->
 				<?php include("./malera_gifu/info.php"); ?>
 				<?php include("./template.php"); ?>
