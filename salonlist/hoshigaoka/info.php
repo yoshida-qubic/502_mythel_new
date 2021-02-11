@@ -1,6 +1,6 @@
 <?php
 $area = '東海エリア';
-$salonname = 'TSUKI MYTHEL星ヶ丘店';
+$salonname = '星ヶ丘店';
 $holiday = '不定休（研修等で店休になる場合があります）';
 $buisiness_hours = 'OPEN 10:00 〜 CLOSE 21:00';
 $address = '〒464-0026 愛知県名古屋市千種区井上町77大峯ビル4階東';
@@ -23,7 +23,7 @@ $schedule = '2月16日';
 
 $reserved = '';
 
-$slug = 'tsuki_hoshigaoka';
+$slug = 'hoshigaoka';
 
 
 ?>

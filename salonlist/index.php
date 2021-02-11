@@ -121,10 +121,10 @@ include($root . "/include/header.php");
 				<!-- 栄店 -->
 
 
-				<!-- TSUKI 星ヶ丘店 -->
-				<?php include("./tsuki_hoshigaoka/info.php"); ?>
+				<!-- 星ヶ丘店 -->
+				<?php include("./hoshigaoka/info.php"); ?>
 				<?php include("./template.php"); ?>
-				<!-- TSUKI 星ヶ丘店 -->
+				<!-- 星ヶ丘店 -->
 
 
 				<!-- モレラ岐阜店 -->
@@ -160,7 +160,7 @@ include($root . "/include/header.php");
 					<p>※京都烏丸店と西院店で入会の方はどちらの店舗でもご使用頂けます。</p>
 				</div>
 
-			
+
 
 
 				<!-- 豊中駅前店 -->
