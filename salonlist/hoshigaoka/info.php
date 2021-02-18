@@ -21,7 +21,7 @@ $map_link = 'https://goo.gl/maps/XY5U14jHo1ugXSTeA';
 $schedule = '2月16日';
 
 
-$reserved = '';
+$reserved = 'https://1cs.jp/mythelhoshigaoka/r';
 
 $slug = 'hoshigaoka';
 
