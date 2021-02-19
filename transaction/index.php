@@ -22,7 +22,7 @@ include($root . "/include/header.php");
           </tr>
           <tr>
             <th>所在地</th>
-            <td>〒550-0015 大阪市西区南堀江2丁目13-30 サンイーストビル9F</td>
+            <td>〒108-0073 東京都港区三田5-13-9</td>
           </tr>
           <tr>
             <th>代表者</th>
