@@ -31,7 +31,7 @@ $msg = mb_convert_kana($msg,"sKV");
 //管理者受信用メール送信処理
 function funcManagerAddress($user, $user_kana, $zip1, $pref1, $addr1, $addr2, $addr3, $tel, $email, $type, $opening_fund, $opening_time, $agree02){
 
-    $mailto = 'info@tree-co.net,tsukiyama@tree-co.net,e-tamura@tree.co.net'; 
+    $mailto = 'info@tree-co.net,tsukiyama@tree-co.net,e-tamura@tree-co.net'; 
     // $mailto = 'register@qu-bic.jp'; 
     // $mailto = 'miura@qu-bic.jp'; 
     $subject = "個別説明会申込メール"; 
