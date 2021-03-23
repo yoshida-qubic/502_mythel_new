@@ -39,7 +39,7 @@ include($root . "/include/header.php");
 	<section class="top04 price02">
 		<div class="container">
 			<h3 class="fadeup">今なら45分体験無料</h3>
-			<p class="fadeup">月額6,578円のセルフエステが今なら体験無料。<br>脱毛・痩身・フェイシャル・ホワイトニングから選べる！<br>MYTHELならではのトータルセルフエステを是非お試し下さい。</p>
+			<p class="fadeup">月額6,578円（税込）のセルフエステが今なら体験無料。<br>脱毛・痩身・フェイシャル・ホワイトニングから選べる！<br>MYTHELならではのトータルセルフエステを是非お試し下さい。</p>
 			<div class="link white fadeup">
 				<a href="<?php echo $dir; ?>salonlist/">無料体験のお申込み ▶︎</a>
 			</div>

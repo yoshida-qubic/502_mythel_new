@@ -46,8 +46,9 @@ footer ul.att li a{
   .top03 .box .item .inner{
     padding:0 1rem;
   }
-  .top03 .box .inner_in p{font-size: 1.1rem;}
+  .top03 .box .inner_in p{font-size: 1rem;}
   .top03 .box .inner_in p span{font-size: 1.2rem;}
+  .top03 .box .inner_in p span.small{font-size: 0.7rem;}
   .top03 .box .item p.number{
     font-size: 1.5rem;
     width: 3rem;

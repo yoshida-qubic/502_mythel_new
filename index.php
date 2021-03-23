@@ -15,7 +15,7 @@ include($root . "/include/header.php");
 					<img src="./images/top/top01_txt01.png" alt="定額制セルフエステ MUTHEL">
 				</h1>
 
-				<p class="mincho">月額<span>6,578</span>円で通い放題の<br class="is_pc">セルフエステ</p>
+				<p class="mincho">月額<span>6,578</span>円（税込）で通い放題の<br class="is_pc">セルフエステ</p>
 
 			</div>
 		</div>
@@ -50,8 +50,8 @@ include($root . "/include/header.php");
 							<div class="flex_wrap">
 								<div class="inner_in">
 									<p class="number">01</p>
-									<p>入会金¥<span>11,000</span>無料</p>
-									<p>事務手数料¥<span>3,300</span>無料</p>
+									<p>入会金¥<span>11,000</span><span class="small">（税込）</span>無料</p>
+									<p>事務手数料¥<span>3,300</span><span class="small">（税込）</span>無料</p>
 								</div>
 								<div class="inner_in">
 									<p class="number">02</p>
@@ -102,7 +102,7 @@ include($root . "/include/header.php");
 	<section class="top04">
 		<div class="container">
 			<h3 class="fadeup">今なら45分体験無料</h3>
-			<p class="fadeup">月額6,578円のセルフエステが今なら体験無料。<br>脱毛・痩身・フェイシャル・ホワイトニングから選べる！<br>MYTHELならではのトータルセルフエステを是非お試し下さい。</p>
+			<p class="fadeup">月額6,578円（税込）のセルフエステが今なら体験無料。<br>脱毛・痩身・フェイシャル・ホワイトニングから選べる！<br>MYTHELならではのトータルセルフエステを是非お試し下さい。</p>
 			<div class="link purple fadeup">
 				<a href="<?php echo $dir; ?>salonlist/">無料体験のお申込み ▶︎</a>
 			</div>
@@ -132,7 +132,7 @@ include($root . "/include/header.php");
 				<div class="img"><img src="./images/top/top05_img02.jpg"></div>
 				<div class="txt">
 					<h3>全国初の<br>定額制トータルセルフ</h3>
-					<p>MYTHELはセルフエステ史上初のトータルセルフエステ！<br>さらに月額6,578円からで全てのマシンを使い放題！何回通ってもOKなので通常のエステサロンに行くより何倍もお得！<br>まずは料金をチェックして下さい。</p>
+					<p>MYTHELはセルフエステ史上初のトータルセルフエステ！<br>さらに月額6,578円（税込）からで全てのマシンを使い放題！何回通ってもOKなので通常のエステサロンに行くより何倍もお得！<br>まずは料金をチェックして下さい。</p>
 					<div class="link left small purple">
 						<a href="<?php echo $dir; ?>price/">PRICE</a>
 					</div>

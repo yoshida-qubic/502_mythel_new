@@ -431,6 +431,12 @@ footer .copy{
 	flex-direction: column;
 	justify-content: space-between;
 }
+.top03 .box .item .inner_in:first-of-type{
+	width: 55%;
+}
+.top03 .box .item .inner_in:last-of-type{
+	width: 45%;
+}
 .top03 .box .item p.number{
 	width: 5rem;
 	height: 5rem;
@@ -446,8 +452,9 @@ footer .copy{
 .top03 .item .inner p{
 	font-size: 1.5rem;
 }
-.top03 .box .inner_in p{font-size: 1.4rem;}
-.top03 .box .inner_in p span{font-size: 1.8rem;}
+.top03 .box .inner_in p{font-size: 1.3rem;}
+.top03 .box .inner_in p span{font-size: 1.7rem;}
+.top03 .box .inner_in p span.small{font-size: 1rem;}
 .top03 .box .item h3{
 	border-bottom: 1px solid #fff;
 	font-size: 2rem;

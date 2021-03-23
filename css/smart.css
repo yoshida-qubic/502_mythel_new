@@ -400,6 +400,7 @@ footer .copy{
 	font-size: 1rem;
 	font-weight: normal;
 }
+.top03 .box .inner_in p span.small{font-size: 0.7rem;}
 .top03 .box .item .img{
 	height: 2.5rem;
 }
