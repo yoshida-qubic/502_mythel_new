@@ -39,7 +39,7 @@ include($root . "/include/header.php");
 	<section class="top04 price02">
 		<div class="container">
 			<h3 class="fadeup">今なら45分体験無料</h3>
-			<p class="fadeup">月額5,980円のセルフエステが今なら体験無料。<br>脱毛・痩身・フェイシャル・ホワイトニングから選べる！<br>MYTHELならではのトータルセルフエステを是非お試し下さい。</p>
+			<p class="fadeup">月額6,578円のセルフエステが今なら体験無料。<br>脱毛・痩身・フェイシャル・ホワイトニングから選べる！<br>MYTHELならではのトータルセルフエステを是非お試し下さい。</p>
 			<div class="link white fadeup">
 				<a href="<?php echo $dir; ?>salonlist/">無料体験のお申込み ▶︎</a>
 			</div>
@@ -72,14 +72,14 @@ include($root . "/include/header.php");
 								<th>Silver</th>
 								<th>DayTime <span>Open〜15時までに入店</span><span>平日のみ利用可能</span></th>
 								<td>45<span class="small">min</span></td>
-								<td class="purple">5,980<span class="middle">円(税別)</span></td>
+								<td class="purple">6,578<span class="middle">円(税込)</span></td>
 								<td><span class="txt">全てのマシン</span></td>
 							</tr>
 							<tr>
 								<th>Gold</th>
 								<th>AllTime <span>Open〜最終受付まで</span></th>
 								<td>45<span class="small">min</span></td>
-								<td class="purple">9,980<span class="middle">円(税別)</span></td>
+								<td class="purple">10,978<span class="middle">円(税込)</span></td>
 								<td><span class="txt">全てのマシン</span></td>
 							</tr>
 
@@ -87,7 +87,7 @@ include($root . "/include/header.php");
 								<th>Silver Plus</th>
 								<th>DayTime <span>Open〜15時までに入店</span><span>平日のみ利用可能</span></th>
 								<td>75<span class="small">min</span></td>
-								<td class="purple">12,800<span class="middle">円(税別)</span></td>
+								<td class="purple">14,080<span class="middle">円(税込)</span></td>
 								<td><span class="txt">全てのマシン</span></td>
 							</tr>
 
@@ -95,7 +95,7 @@ include($root . "/include/header.php");
 								<th>Gold Plus</th>
 								<th>AllTime <span>Open〜最終受付まで</span></th>
 								<td>75<span class="small">min</span></td>
-								<td class="purple">16,800<span class="middle">円(税別)</span></td>
+								<td class="purple">18,480<span class="middle">円(税込)</span></td>
 								<td><span class="txt">全てのマシン</span></td>
 							</tr>
 
@@ -103,7 +103,7 @@ include($root . "/include/header.php");
 								<th>Plutinum</th>
 								<th>AllTime <span>Open〜最終受付まで</span></th>
 								<td>100<span class="small">min</span></td>
-								<td class="purple">19,800<span class="middle">円(税別)</span></td>
+								<td class="purple">21,780<span class="middle">円(税込)</span></td>
 								<td><span class="txt">全てのマシン</span></td>
 							</tr>
 
@@ -135,13 +135,13 @@ include($root . "/include/header.php");
 							<tr>
 								<th>DayTime <span>Open〜15時までに入店</span></th>
 								<td>45<span class="small">min</span></td>
-								<td class="purple">4,000<span class="middle">円(税別)</span></td>
+								<td class="purple">4,400<span class="middle">円(税込)</span></td>
 								<td><span class="txt">全てのマシン</span></td>
 							</tr>
 							<tr>
 								<th>NightTime <span>15時〜最終受付まで</span></th>
 								<td>45<span class="small">min</span></td>
-								<td class="purple">6,000<span class="middle">円(税別)</span></td>
+								<td class="purple">6,600<span class="middle">円(税込)</span></td>
 								<td><span class="txt">全てのマシン</span></td>
 							</tr>
 
