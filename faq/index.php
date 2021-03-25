@@ -23,8 +23,8 @@ include($root . "/include/header.php");
 				<div class="box">
 					<div class="txt">
 						<h2><span class="trans_wrap"><span class="trans_in">よくある質問</span></span></h2>
-						<p><span class="trans_wrap"><span class="trans_in">MYTHELご来店時に、いただくご質問にお答えします。</span></span><br>
-							<span class="trans_wrap"><span class="trans_in">料金からマシンのことまで、不明な点がございましたら、</span></span><br class="is_pc">
+						<p><span class="trans_wrap"><span class="trans_in">MYTHELご来店時に、<br class="is_sp">いただくご質問にお答えします。</span></span><br>
+							<span class="trans_wrap"><span class="trans_in">料金からマシンのことまで、<br class="is_sp">不明な点がございましたら、</span></span><br class="is_pc">
 							<span class="trans_wrap"><span class="trans_in">スタッフ、またはお問い合わせフォームより</span></span><br class="is_pc">
 							<span class="trans_wrap"><span class="trans_in">お気軽にお問い合わせください。</span></span></p>
 					</div>
