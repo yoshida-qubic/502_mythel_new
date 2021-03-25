@@ -1,7 +1,7 @@
 <?php
 $area = '東海エリア';
 $salonname = 'モレラ岐阜店';
-$holiday = '不定休（研修等で店休になる場合があります）';
+$holiday = '不定休<span>（研修等で店休になる場合があります）</span>';
 $buisiness_hours = 'OPEN 10:00 〜 CLOSE 21:00';
 $address = '〒501-0497 岐阜県本巣市三橋1100 1F';
 $access = '樽見鉄道「モレラ岐阜駅」より徒歩1分';

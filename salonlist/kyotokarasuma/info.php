@@ -1,7 +1,7 @@
 <?php
 $area = '関西エリア';
 $salonname = '京都烏丸店';
-$holiday = '不定休（研修等で店休になる場合があります）';
+$holiday = '不定休<span>（研修等で店休になる場合があります）</span>';
 $buisiness_hours = 'OPEN 10:00 〜 CLOSE 21:00';
 $address = '〒600-8083 京都府京都市下京区高倉通仏光寺上ル西前町377-5';
 $access = '阪急烏丸駅から徒歩5分';

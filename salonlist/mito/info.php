@@ -1,7 +1,7 @@
 <?php
 $area = '関東エリア';
 $salonname = '水戸宮町店';
-$holiday = '不定休（研修等で店休になる場合があります）';
+$holiday = '不定休<span>（研修等で店休になる場合があります）</span>';
 $buisiness_hours = 'OPEN 10:00 〜 CLOSE 21:00';
 $address = '〒310-0015 茨城県水戸市宮町2-4-24 杉山ビル2F';
 $access = 'JR常盤線 水戸駅 徒歩5分';
