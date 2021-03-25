@@ -1,7 +1,7 @@
 <?php
 $area = 'エリア';
 $salonname = '';
-$holiday = '不定休（研修等で店休になる場合があります）';
+$holiday = '不定休<span>（研修等で店休になる場合があります）</span>';
 $buisiness_hours = 'OPEN :00 〜 CLOSE :00';
 $address = '';
 $access = '';
