@@ -23,8 +23,8 @@ include($root . "/include/header.php");
 				<div class="box">
 					<div class="txt">
 						<h2><span class="trans_wrap"><span class="trans_in">よくある質問</span></span></h2>
-						<p><span class="trans_wrap"><span class="trans_in">MYTHELご来店時に、いただくご質問にお答えします。</span></span><br>
-							<span class="trans_wrap"><span class="trans_in">料金からマシンのことまで、不明な点がございましたら、</span></span><br class="is_pc">
+						<p><span class="trans_wrap"><span class="trans_in">MYTHELご来店時に、<br class="is_sp">いただくご質問にお答えします。</span></span><br>
+							<span class="trans_wrap"><span class="trans_in">料金からマシンのことまで、<br class="is_sp">不明な点がございましたら、</span></span><br class="is_pc">
 							<span class="trans_wrap"><span class="trans_in">スタッフ、またはお問い合わせフォームより</span></span><br class="is_pc">
 							<span class="trans_wrap"><span class="trans_in">お気軽にお問い合わせください。</span></span></p>
 					</div>
@@ -206,7 +206,7 @@ include($root . "/include/header.php");
 						<p>入会金はかかりますか？</p>
 					</div>
 					<div class="ans">
-						<p>定額制の会員入会には初回のみ10,000円（税別）と事務手数料3,000円（税別）がかかります。ただし、キャンペーン適用で初回体験後にその日の内に会員になられた方は入会金と事務手数料は無料となります。</p>
+						<p>定額制の会員入会には初回のみ11,000円（税込）と事務手数料3,300円（税込）がかかります。ただし、キャンペーン適用で初回体験後にその日の内に会員になられた方は入会金と事務手数料は無料となります。</p>
 					</div>
 				</div>
 
@@ -421,7 +421,7 @@ include($root . "/include/header.php");
 						<p>プラン変更は可能ですか？</p>
 					</div>
 					<div class="ans">
-						<p>初回プラン変更は無料です。2回目以降は事務手数料3000円が必要となります。</p>
+						<p>初回プラン変更は無料です。2回目以降は事務手数料3,300円（税込）が必要となります。</p>
 					</div>
 				</div>
 

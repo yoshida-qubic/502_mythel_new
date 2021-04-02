@@ -1,7 +1,7 @@
 <?php
 $area = '関西エリア';
 $salonname = 'MENS京都西院店';
-$holiday = '不定休（研修等で店休になる場合があります）';
+$holiday = '不定休<span>（研修等で店休になる場合があります）</span>';
 $buisiness_hours = 'OPEN 10:00 〜 CLOSE 21:00';
 $address = '〒615-0025 京都市右京区西院西矢掛町18番2';
 $access = '阪急西院駅 徒歩8分 ／ 京福電気鉄道西院駅 徒歩10分';

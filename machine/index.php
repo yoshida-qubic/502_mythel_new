@@ -36,7 +36,7 @@ include($root . "/include/header.php");
 					</div>
 					<div class="inner">
 						<p>−6℃冷却で痛みのない無痛脱毛！ ２週間に1回の脱毛が可能！</p>
-						<p>最短6ヶ月で脱毛卒業！ ※効果には個人差があります。</p>
+						<p>最短6ヶ月で脱毛卒業！ <br class="is_sp">※効果には個人差があります。</p>
 					</div>
 				</div>
 				<div class="img_bg">

@@ -1,7 +1,7 @@
 <?php
 $area = '東海エリア';
 $salonname = '星ヶ丘店';
-$holiday = '不定休（研修等で店休になる場合があります）';
+$holiday = '不定休<span>（研修等で店休になる場合があります）</span>';
 $buisiness_hours = 'OPEN 10:00 〜 CLOSE 21:00';
 $address = '〒464-0026 愛知県名古屋市千種区井上町77大峯ビル4階東';
 $access = '東山線 星ヶ丘駅1分';

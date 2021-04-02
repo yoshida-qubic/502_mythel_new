@@ -44,7 +44,7 @@ include($root . "/include/header.php");
 		<div class="container">
 			<div class="box fadeup">
 				<h2>美容業界最新のセルフエステで<br>トータルで自分自身と向き合える<br>定額制セルフエステ</h2>
-				<p>通常エステでしか受けれないマシンが月額制で使い放題！<br>空いた時間に気軽に通える！<br class="is_pc">MYTHELで最先端のエステマシンをお試し下さい。</p>
+				<p>通常エステでしか受けれないマシンが<br class="is_sp">月額制で使い放題！<br>空いた時間に気軽に通える！<br class="is_pc">MYTHELで<br class="is_sp">最先端のエステマシンをお試し下さい。</p>
 				<div class="item">
 					<div class="inner fadeup">
 						<div class="circle">
