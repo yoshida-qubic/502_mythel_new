@@ -10,8 +10,8 @@
       <dd><?php echo $holiday; ?></dd>
     </dl>
     <dl>
-      <dt>アクセス：</dt>
-      <dd><?php echo $access; ?></dd>
+      <dt>所在地：</dt>
+      <dd><?php echo $address; ?></dd>
     </dl>
     <dl>
       <dt>TEL：</dt>
