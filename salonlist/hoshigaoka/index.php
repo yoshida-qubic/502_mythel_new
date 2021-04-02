@@ -27,14 +27,15 @@ include($root . "/include/header.php");
 			<div class="box">
 				<p>SALON</p>
 				<h1><?php echo $salonname; ?></h1>
-				<dl>
-					<dt>定休日：</dt>
-					<dd><?php echo $holiday; ?></dd>
-				</dl>
 
 				<dl>
 					<dt>営業時間：</dt>
 					<dd><?php echo $buisiness_hours; ?></dd>
+				</dl>
+				
+				<dl>
+					<dt>定休日：</dt>
+					<dd><?php echo $holiday; ?></dd>
 				</dl>
 
 				<dl>

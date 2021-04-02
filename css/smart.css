@@ -77,8 +77,16 @@ section,
 	 src: url(../fonts/KapitalRegular.woff),
 	 	url(../fonts/KapitalRegular.otf);
 }
+@font-face {
+  font-family: "exodusdemo";
+  src: url(../fonts/ExodusDemo-Striped.woff),
+        url(../fonts/ExodusDemo-Striped.otf);
+}  
 .kapital_t{ font-family: kapital_t; }
 .kapital_n{ font-family: kapital_n; }
+.exodusdemo{
+	font-family: exodusdemo;
+}
 .mincho{ font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif; }
 .kozuka{	font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;}
 .libre{font-family: 'Libre Baskerville', serif;}
@@ -352,8 +360,16 @@ footer .copy{
 .top03_in{
 	padding: 0 2rem;
 }
+.top03_in .top03_wrap {
+	margin: 0 0 1rem;
+}
+.top03_in .top03_wrap:last-of-type {
+	margin: 0;
+}
 .top03_wrap{margin: 3rem 0 0;}
-.top03 .box{
+.top03 .box,
+.top03 .box02
+{
 	background: #7a74a2;
 	color: #fff;
 	padding: 0.5rem;
@@ -416,6 +432,76 @@ footer .copy{
 	margin: 2rem 0 0;
 	font-size: 0.8rem;
 	line-height: 2.5;
+}
+
+.top03 .box02 .item {
+	border:0.25rem solid #fff;
+	padding: 1rem;
+}
+
+.top03 .box02 .item .txt {
+	/* width: 68%; */
+	/* height: 100%; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	max-width: 400px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.top03 .box02 .item .txt .txt01 {
+	font-size: 1.1rem;
+	line-height: 1.5;
+	margin: 0 0 1rem;
+}
+
+.top03 .box02 .item .txt .txt01 .big {
+	font-size: 1.6rem;
+}
+
+.top03 .box02 .item .txt .txt01 .medium {
+	font-size: 1.3rem;
+}
+
+.top03 .box02 .item .txt h4 {
+	font-size: 1.8rem;
+	line-height: 1;
+	letter-spacing: 0.3rem;
+	margin: 0 0 2rem;
+}
+
+.top03 .box02 .item .txt h4 .red {
+	color: #e71e17;
+}
+
+.top03 .box02 .item .txt ol {
+	padding: 0 0 0 1.5rem;
+	margin: 1rem 0;
+}
+
+.top03 .box02 .item .txt ol li{
+	list-style: decimal;
+}
+
+.top03 .box02 .item .txt .txt02 {
+	font-size: 1.5rem;
+	line-height: 1.5;
+	margin: 0 0 2rem;
+}
+
+.top03 .box02 .item .txt .txt03 {
+	font-size: 0.9rem;
+}
+
+.top03 .box02 .item .img {
+	max-width: 160px;
+	margin: 0 auto;
+}
+
+.top03 .box02 .item .img img {
+	width: 100%;
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 

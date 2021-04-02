@@ -64,12 +64,12 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="att kozuka fadeup">
+				<!-- <div class="att kozuka fadeup">
 					<p>さらにGoldプラン以上のコース契約のお客様には</p>
-				</div>
+				</div> -->
 
 
-				<div class="box fadeup">
+				<!-- <div class="box fadeup">
 					<div class="item">
 						<p class="number">03</p>
 						<h4>コロナ抗体検査キット</h4>
@@ -77,8 +77,8 @@ include($root . "/include/header.php");
 							<img src="./images/top/top03_img01.png">
 						</div>
 					</div>
-				</div>
-
+				</div> -->
+<!-- 
 				<div class="box fadeup">
 					<div class="item">
 						<p class="number">04</p>
@@ -87,12 +87,50 @@ include($root . "/include/header.php");
 							<img src="./images/top/top03_img02.png">
 						</div>
 					</div>
+				</div> -->
+
+				<!-- <div class="att kozuka fadeup">
+					<p>どちらか１つをプレゼント！<br>※プレゼントキャンペーンは実施していない店舗もございます。ご来店前に店舗にご確認お願いします。</p>
+				</div> -->
+			</div>
+
+			<h2 class="sub_ttl green fadeup">新機種導入！</h2>
+			<div class="top03_wrap">
+
+
+				<div class="box02 fadeup">
+					<div class="item">
+						<div class="img is_pc">
+							<img src="./images/top/top03_img03.png">
+						</div>
+						<div class="txt">
+							<p class="txt01"><span class="big">話題</span>の<span class="medium">最新美容</span>マシンがMYTHELに導入決定！</p>
+							<h4 class="exodusdemo">MAGWAVE <span class="red">EX</span></h4>
+							<div class="img is_sp">
+							<img src="./images/top/top03_img03.png">
+						</div>
+							<ol>
+								<li>
+								美しいBODYラインを創る全く新しい痩身マシン
+								</li>
+								<li>
+								30分寝ているだけで驚きの効果実感！
+								</li>
+								<li>
+								30分で腹筋運動３万回の効果！
+								</li>
+							</ol>
+							<p class="txt02">MAGWAVEは<br class="is_sp">専用コースのみ<br class="is_pc is_hidden_tab">お使い頂けます。</p>
+							<p class="txt03">※一部未導入の店舗があります。店舗までご確認下さい。</p>
+						</div>
+					</div>
 				</div>
 
-				<div class="att kozuka fadeup">
-					<p>どちらか１つをプレゼント！<br>※プレゼントキャンペーンは実施していない店舗もございます。ご来店前に店舗にご確認お願いします。</p>
-				</div>
+			
 			</div>
+
+
+
 
 		</div>
 	</section>

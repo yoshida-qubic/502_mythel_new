@@ -86,11 +86,20 @@ include($root . "/include/header.php");
 				<?php include("./template.php"); ?>
 				<!-- 仙台国分町店 -->
 
-			</div>
+				<!-- 盛岡店 -->
+				<?php include("./morioka/info.php"); ?>
+				<?php include("./template_notice.php"); ?>
+				<!-- 盛岡店-->
 
+			</div>
 
 			<div class="box" id="area03">
 				<h3>関東エリア</h3>
+
+				<!-- Qplaza 原宿店 -->
+				<?php include("./qplaza_harajyuku/info.php"); ?>
+				<?php include("./template_notice.php"); ?>
+				<!-- Qplaza 原宿店-->
 
 				<!-- 水戸店 -->
 				<?php include("./mito/info.php"); ?>
@@ -102,12 +111,18 @@ include($root . "/include/header.php");
 				<?php include("./mosaicmall_kouhoku/info.php"); ?>
 				<?php include("./template.php"); ?>
 				<!-- モザイクモール港北店 -->
-
+				
 			</div>
 
+			<div class="box" id="area02">
+				<h3>甲信越エリア</h3>
 
+				<!-- ながの東急百貨店内 -->
+				<?php include("./nagano_tokyu/info.php"); ?>
+				<?php include("./template_notice.php"); ?>
+				<!-- ながの東急百貨店内 -->
 
-
+			</div>
 
 			<div class="box" id="area05">
 				<h3>東海エリア</h3>
@@ -120,11 +135,15 @@ include($root . "/include/header.php");
 				<?php include("./template.php"); ?>
 				<!-- 栄店 -->
 
-
 				<!-- 星ヶ丘店 -->
 				<?php include("./hoshigaoka/info.php"); ?>
 				<?php include("./template.php"); ?>
 				<!-- 星ヶ丘店 -->
+				
+				<!-- 新静岡セノバ店 -->
+				<?php include("./shinshizuoka_cenova/info.php"); ?>
+				<?php include("./template_notice.php"); ?>
+				<!-- 新静岡セノバ店-->
 
 
 				<!-- モレラ岐阜店 -->
@@ -143,6 +162,26 @@ include($root . "/include/header.php");
 			<div class="box" id="area06">
 				<h3>関西エリア</h3>
 
+				<!-- あべのキューズモール -->
+				<?php include("./abeno_qsmall/info.php"); ?>
+				<?php include("./template_notice.php"); ?>
+				<!-- あべのキューズモール-->
+
+				<!-- 豊中駅前店 -->
+				<?php include("./toyonaka/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- 豊中駅前店 -->
+
+				<!-- アリオ鳳 -->
+				<?php include("./ario_otori/info.php"); ?>
+				<?php include("./template_notice.php"); ?>
+				<!-- アリオ鳳 -->
+
+				<!-- 尼崎キューズモール店 -->
+				<?php include("./amagasaki_qsmall/info.php"); ?>
+				<?php include("./template_notice.php"); ?>
+				<!-- 尼崎キューズモール店 -->
+
 				<!-- 京都烏丸店 -->
 				<?php include("./kyotokarasuma/info.php"); ?>
 				<?php include("./template.php"); ?>
@@ -151,7 +190,6 @@ include($root . "/include/header.php");
 					<p>※京都烏丸店と西院店で入会の方はどちらの店舗でもご使用頂けます。</p>
 				</div>
 
-
 				<!-- MENS京都西院店 -->
 				<?php include("./kyotosaiin/info.php"); ?>
 				<?php include("./template.php"); ?>
@@ -159,14 +197,6 @@ include($root . "/include/header.php");
 				<div class="bottom">
 					<p>※京都烏丸店と西院店で入会の方はどちらの店舗でもご使用頂けます。</p>
 				</div>
-
-
-
-
-				<!-- 豊中駅前店 -->
-				<?php include("./toyonaka/info.php"); ?>
-				<?php include("./template.php"); ?>
-				<!-- 豊中駅前店 -->
 
 
 			</div>
@@ -187,7 +217,7 @@ include($root . "/include/header.php");
 
 
 
-			<div class="box" id="area09">
+			<!-- <div class="box" id="area09">
 				<h3>OPEN予定</h3>
 
 				<div class="item openplans">
@@ -217,7 +247,7 @@ include($root . "/include/header.php");
 
 
 
-			</div>
+			</div> -->
 
 
 
