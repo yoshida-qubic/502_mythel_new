@@ -496,6 +496,11 @@ footer .copy{
 	line-height: 2.5;
 }
 
+.top03 .box02_sub_ttl {
+	font-weight: normal;
+	margin: 3rem 0 0;
+}
+
 .top03 .box02 .item {
 	border:0.25rem solid #fff;
 	padding: 1rem;
@@ -518,6 +523,7 @@ footer .copy{
 
 .top03 .box02 .item .txt .txt01 {
 	font-size: 1.5rem;
+	font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "游明朝", YuMincho, "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 
 .top03 .box02 .item .txt .txt01 .big {
@@ -553,6 +559,7 @@ footer .copy{
 	font-size: 1.8rem;
 	line-height: 1.5;
 	margin: 0 0 3rem;
+	font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "游明朝", YuMincho, "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 
 .top03 .box02 .item .img {

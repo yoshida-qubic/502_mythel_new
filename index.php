@@ -94,7 +94,7 @@ include($root . "/include/header.php");
 				</div> -->
 			</div>
 
-			<h2 class="sub_ttl green fadeup">新機種導入！</h2>
+			<h2 class="sub_ttl green fadeup box02_sub_ttl">新機種導入！</h2>
 			<div class="top03_wrap">
 
 
