@@ -96,10 +96,10 @@ include($root . "/include/header.php");
 			<div class="box" id="area03">
 				<h3>関東エリア</h3>
 
-				<!-- Qplaza 原宿店 -->
-				<?php include("./qplaza_harajyuku/info.php"); ?>
+				<!-- 原宿店 -->
+				<?php include("./harajyuku/info.php"); ?>
 				<?php include("./template_notice.php"); ?>
-				<!-- Qplaza 原宿店-->
+				<!-- 原宿店-->
 
 				<!-- 水戸店 -->
 				<?php include("./mito/info.php"); ?>
@@ -162,10 +162,10 @@ include($root . "/include/header.php");
 			<div class="box" id="area06">
 				<h3>関西エリア</h3>
 
-				<!-- あべのキューズモール -->
-				<?php include("./abeno_qsmall/info.php"); ?>
+				<!-- 天王寺店 -->
+				<?php include("./tennoji/info.php"); ?>
 				<?php include("./template_notice.php"); ?>
-				<!-- あべのキューズモール-->
+				<!-- 天王寺店-->
 
 				<!-- 豊中駅前店 -->
 				<?php include("./toyonaka/info.php"); ?>
@@ -177,10 +177,10 @@ include($root . "/include/header.php");
 				<?php include("./template_notice.php"); ?>
 				<!-- アリオ鳳 -->
 
-				<!-- 尼崎キューズモール店 -->
-				<?php include("./amagasaki_qsmall/info.php"); ?>
+				<!-- 尼崎店 -->
+				<?php include("./amagasaki/info.php"); ?>
 				<?php include("./template_notice.php"); ?>
-				<!-- 尼崎キューズモール店 -->
+				<!-- 尼崎店 -->
 
 				<!-- 京都烏丸店 -->
 				<?php include("./kyotokarasuma/info.php"); ?>
