@@ -67,26 +67,41 @@ include($root . "/include/header.php");
 				<div class="slider">
 					<div class="swiper-container">
 						<div class="swiper-wrapper">
-						<div class="swiper-slide">
-								<img src="<?php echo $imgDir; ?>slider01.jpg">
+							<!-- <div class="swiper-slide">
+								<img src="<?php //echo $imgDir; ?>slider01.jpg">
 							</div>
 							<div class="swiper-slide">
-								<img src="<?php echo $imgDir; ?>slider02.jpg">
+								<img src="<?php //echo $imgDir; ?>slider02.jpg">
 							</div>
 							<div class="swiper-slide">
-								<img src="<?php echo $imgDir; ?>slider03.jpg">
+								<img src="<?php //echo $imgDir; ?>slider03.jpg">
 							</div>
 							<div class="swiper-slide">
-								<img src="<?php echo $imgDir; ?>slider04.jpg">
+								<img src="<?php //echo $imgDir; ?>slider04.jpg">
 							</div>
 							<div class="swiper-slide">
-								<img src="<?php echo $imgDir; ?>slider05.jpg">
+								<img src="<?php //echo $imgDir; ?>slider05.jpg">
 							</div>
 							<div class="swiper-slide">
-								<img src="<?php echo $imgDir; ?>slider06.jpg">
+								<img src="<?php //echo $imgDir; ?>slider06.jpg">
 							</div>
 							<div class="swiper-slide">
-								<img src="<?php echo $imgDir; ?>slider07.jpg">
+								<img src="<?php //echo $imgDir; ?>slider07.jpg">
+							</div> -->
+							<div class="swiper-slide">
+								<img src="<?php echo $imgDir; ?>slider08.jpg">
+							</div>
+							<div class="swiper-slide">
+								<img src="<?php echo $imgDir; ?>slider09.jpg">
+							</div>
+							<div class="swiper-slide">
+								<img src="<?php echo $imgDir; ?>slider10.jpg">
+							</div>
+							<div class="swiper-slide">
+								<img src="<?php echo $imgDir; ?>slider11.jpg">
+							</div>
+							<div class="swiper-slide">
+								<img src="<?php echo $imgDir; ?>slider12.jpg">
 							</div>
 						</div>
 					</div>
