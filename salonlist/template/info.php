@@ -24,5 +24,7 @@ $reserved = '';
 
 $slug = '';
 
+$schedule =  '';
+
 
 ?>

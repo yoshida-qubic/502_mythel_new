@@ -24,5 +24,7 @@ $reserved = 'https://1cs.jp/mythelcenova/r';
 
 $slug = 'shinshizuoka_cenova';
 
+$schedule = '5月21日';
+
 
 ?>
