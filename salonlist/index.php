@@ -142,7 +142,7 @@ include($root . "/include/header.php");
 				
 				<!-- 新静岡セノバ店 -->
 				<?php include("./shinshizuoka_cenova/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
+				<?php include("./template.php"); ?>
 				<!-- 新静岡セノバ店-->
 
 
