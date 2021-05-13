@@ -390,8 +390,11 @@ footer .copy{
 	text-align: left;
 	padding-left: 4.5rem;
 	position: relative;
-	margin: 0.5rem 0;
+	margin: 0.5rem auto 2rem;
+	width: 100%;
+	max-width: 270px;
 }
+
 .top03 .box .item p.number{
 	width: 3rem;
 	height: 3rem;
@@ -420,12 +423,14 @@ footer .copy{
 	font-weight: normal;
 }
 .top03 .box .inner_in p span.small{font-size: 0.7rem;}
-.top03 .box .item .img{
-	height: 2.5rem;
-}
 .top03 .box .item .img img{
 	height: 100%;
 	width:auto;
+}
+
+.top03 .box .item p.txt01 {
+	font-size: 0.8rem;
+	margin: 1rem 0 0;
 }
 .top03_in .att{
 	text-align:center;

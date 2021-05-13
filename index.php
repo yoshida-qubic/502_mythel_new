@@ -42,7 +42,7 @@ include($root . "/include/header.php");
 			<div class="top03_wrap">
 
 				<div class="box fadeup">
-					<div class="item">
+					<!-- <div class="item">
 						<div class="inner">
 							<h3>入会キャンペーン実施中</h3>
 							<p>当日体験時に入会申し込みを行うと</p>
@@ -60,6 +60,39 @@ include($root . "/include/header.php");
 								</div>
 							</div>
 
+						</div>
+					</div> -->
+					<div class="item">
+						<div class="inner">
+							<h3>夏はすぐそこ！<br class="is_sp">脱毛キャンペーン実施中</h3>
+							<p>当日体験時に入会申し込みを行うと</p>
+
+							<div class="flex_wrap">
+								<div class="inner_in">
+									<p class="number">01</p>
+									<div class="txt">
+										<p>入会金¥<span>11,000</span><span class="small"></span>無料</p>
+										<p>事務手数料¥<span>3,300</span><span class="small"></span>無料</p>
+										<p>入会当月のコース会費無料</p>
+										<span>※入会日からの月末まで</span>
+									</div>
+								</div>
+								<div class="inner_in">
+									<p class="number">02</p>
+									<div class="txt">
+										<p>さらに各店舗10名限定<br>
+											ボディミストプレゼント！</p>
+									</div>
+									<div class="img is_pc">
+										<img src="./images/top/top03_img04.png" alt="">
+									</div>
+								</div>
+								<div class="img is_sp">
+										<img src="./images/top/top03_img04.png" alt="">
+									</div>
+							</div>
+
+							<p class="txt01">※一部実施しいていない店舗がございます。<br class="is_tab">詳しくは店舗にお問い合わせ下さい。</p>
 						</div>
 					</div>
 				</div>
