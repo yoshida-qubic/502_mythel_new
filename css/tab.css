@@ -44,14 +44,11 @@ footer ul.att li a{
     margin: 0.5rem 0 0;
   }
   .top03 .box .item .inner{
-    padding:0 1rem;
+    padding:0;
   }
   .top03 .box .item h3 {
     font-size: 1.5rem;
 }
-  .top03 .box .item .flex_wrap {
-    display: block;
-  }
   .top03 .box .item .inner_in:first-of-type {
     width: 100%;
   }
@@ -67,8 +64,9 @@ footer ul.att li a{
   .top03 .box .inner_in p span.small{font-size: 1rem;}
   .top03 .box .inner_in .img {
     position: absolute;
-    bottom: 0;
-    left: 60%;
+    bottom: -30%;
+    right: 15%;
+    max-width: 25px;
   }
   .top03 .box .item p.number{
     font-size: 1.7rem;
@@ -101,16 +99,12 @@ footer ul.att li a{
   font-size: 1.2rem;
 }
 
-.top03 .item .inner_in:nth-of-type(2) {
-  margin: 1rem 0 0;
-}
-
 .top03 .box .inner_in .txt {
   min-width: 119px;
 }
 
 .top03 .item .inner_in p {
-font-size: 1.2rem;
+font-size: 1.1rem;
 }
 
 .top03 .box .inner_in span {
