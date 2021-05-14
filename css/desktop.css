@@ -446,13 +446,20 @@ footer .copy{
 	text-align: left;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 }
 .top03 .box .item .inner_in:first-of-type{
 	width: 55%;
 }
 .top03 .box .item .inner_in:last-of-type{
 	width: 45%;
+	position: relative;
+}
+
+.top03 .box .inner_in .img {
+	position: absolute;
+	bottom: 0;
+	right: 5%;
 }
 .top03 .box .item p.number{
 	width: 5rem;
@@ -469,8 +476,17 @@ footer .copy{
 .top03 .item .inner p{
 	font-size: 1.5rem;
 }
-.top03 .box .inner_in p{font-size: 1.3rem;}
-.top03 .box .inner_in p span{font-size: 1.7rem;}
+.top03 .item .inner p.txt01{
+	font-size: 1rem;
+}
+.top03 .box .inner_in .txt {
+	padding-top: 0.5rem;
+}
+.top03 .box .inner_in p{
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+.top03 .box .inner_in p span{font-size: 1.6rem;}
 .top03 .box .inner_in p span.small{font-size: 1rem;}
 .top03 .box .item h3{
 	border-bottom: 1px solid #fff;
@@ -569,6 +585,20 @@ footer .copy{
 
 .top03 .box02 .item .img img {
 	width: 100%;
+}
+
+@media screen and (min-width:1026px) and ( max-width:1279px) {
+
+	.top03 .box .item h3 {
+		font-size: 1.8rem;
+	}
+	.top03 .box .inner_in .img {
+		right: -10%;
+	}
+	.top03 .item .inner p.txt01 {
+    font-size: 0.9rem;
+}
+
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 

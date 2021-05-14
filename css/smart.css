@@ -386,11 +386,19 @@ footer .copy{
 	width: 100%;
 	text-align: center;
 }
+.top03 .box .item .flex_wrap {
+	max-width: 300px;
+	margin: 0 auto;
+}
 .top03 .box .item .inner_in{
 	text-align: left;
 	padding-left: 4.5rem;
 	position: relative;
 	margin: 0.5rem 0;
+}
+
+.top03 .box .item .inner_in:last-of-type {
+	margin: 1rem 0;
 }
 .top03 .box .item p.number{
 	width: 3rem;
@@ -420,12 +428,18 @@ footer .copy{
 	font-weight: normal;
 }
 .top03 .box .inner_in p span.small{font-size: 0.7rem;}
-.top03 .box .item .img{
+/* .top03 .box .item .img{
 	height: 2.5rem;
+} */
+.top03 .box .item .img {
+	margin: 0 0 1rem;
 }
 .top03 .box .item .img img{
 	height: 100%;
 	width:auto;
+}
+.top03 .box .item .txt01 {
+	font-size: 0.9rem;
 }
 .top03_in .att{
 	text-align:center;
