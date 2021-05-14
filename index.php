@@ -44,22 +44,33 @@ include($root . "/include/header.php");
 				<div class="box fadeup">
 					<!-- <div class="item">
 						<div class="inner">
-							<h3>入会キャンペーン実施中</h3>
+							<h3>夏はすぐそこ！<br class="is_sp">脱毛キャンペーン実施中</h3>
 							<p>当日体験時に入会申し込みを行うと</p>
 
 							<div class="flex_wrap">
 								<div class="inner_in">
 									<p class="number">01</p>
-									<p>入会金¥<span>11,000</span><span class="small">（税込）</span>無料</p>
-									<p>事務手数料¥<span>3,300</span><span class="small">（税込）</span>無料</p>
+									<div class="txt">
+										<p>入会金¥<span>11,000</span><span class="small">（税込）</span>無料</p>
+										<p>事務手数料¥<span>3,300</span><span class="small">（税込）</span>無料</p>
+										<p>入会当月のコース会費無料</p>
+										<p>※入会日からの月末まで</p>
+									</div>
 								</div>
 								<div class="inner_in">
 									<p class="number">02</p>
-									<p>入会当月のコース会費無料</p>
-									<p>※入会日からの月末まで</p>
+									<div class="txt">
+										<p>さらに各店舗10名限定<br>ボディミストプレゼント！</p>
+									</div>
+									<div class="img is_pc">
+										<img src="./images/top/top03_img04.png">
+									</div>
 								</div>
 							</div>
-
+							<div class="img is_sp">
+								<img src="./images/top/top03_img04.png">
+							</div>
+							<p class="txt01">※一部実施していない店舗がございます。<br class="is_tab">詳しくは店舗にお問い合わせ下さい。</p>
 						</div>
 					</div> -->
 					<div class="item">

@@ -46,21 +46,40 @@ footer ul.att li a{
   .top03 .box .item .inner{
     padding:0 1rem;
   }
-  /* .top03 .box .inner_in p{font-size: 1rem;} */
-  .top03 .box .inner_in p span{font-size: 1rem;}
-  .top03 .box .inner_in p span.small{font-size: 0.7rem;}
-  .top03 .box .item p.number {
-    font-size: 1rem;
-    width: 2rem;
-    height: 2rem;
-    min-width: 26px;
-    min-height: 26px;
-    margin-right: 0.5rem;
+  .top03 .box .item h3 {
+    font-size: 1.5rem;
+}
+  .top03 .box .item .flex_wrap {
+    display: block;
+  }
+  .top03 .box .item .inner_in:first-of-type {
+    width: 100%;
+  }
+  .top03 .box .item .inner_in:last-of-type {
+    margin: 1.5rem 0 0;
+    width: 100%;
+  }
+  .top03 .box .inner_in p{font-size: 1.3rem;}
+  .top03 .box .inner_in p span{font-size: 1.5rem;}
+  .top03 .box .inner_in p span.small{font-size: 1rem;}
+  .top03 .box .inner_in .img {
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+  }
+  .top03 .box .item p.number{
+    font-size: 1.7rem;
+    width: 4rem;
+    height: 4rem;
   }
   
   .top03 .box .item h4{
     font-size: 1.5rem;
   }
+
+  /* .top03 .box .item .img{
+	height: 3rem;
+} */
 
 .top03_in .att{
   margin: 1rem 0 0;

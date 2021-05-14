@@ -586,11 +586,22 @@ footer .copy {
 	width: 50%;
 	text-align: left;
 	display: flex;
-	align-items: center;
+	flex-direction: column;
+	/* justify-content: space-between; */
+}
+.top03 .box .item .inner_in:first-of-type{
+	width: 55%;
 }
 
 .top03 .box .item .inner_in:first-of-type {
 	width: 45%;
+	position: relative;
+}
+
+.top03 .box .inner_in .img {
+	position: absolute;
+	bottom: 0;
+	right: 5%;
 }
 
 .top03 .box .item .inner_in:nth-of-type(2) {
@@ -642,31 +653,20 @@ footer .copy {
 	width: 65%;
 }
 
-.top03 .box .item .inner_in:nth-of-type(2) .img {
-	width: 15%;
-	text-align: center;
-}
-
-/* 
-.top03 .box .item .img {
-	height: initial;
-}
-
-.top03 .box .item .img img {
-	width: 100%;
-} */
-
-.top03 .box p.txt01 {
+.top03 .item .inner p.txt01{
 	font-size: 1rem;
-	margin: 2rem 0 0;
 }
+.top03 .box .inner_in .txt {
+	padding-top: 0.5rem;
+}
+.top03 .box .inner_in p{
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+.top03 .box .inner_in p span{font-size: 1.6rem;}
+.top03 .box .inner_in p span.small{font-size: 1rem;}
+.top03 .box .item h3{
 
-/* .top03 .box .inner_in p{font-size: 1.3rem;}
-.top03 .box .inner_in p span{font-size: 1.7rem;}
-.top03 .box .inner_in p span.small{font-size: 1rem;} */
-
-
-/* .top03 .box .item h3{
 	border-bottom: 1px solid #fff;
 	font-size: 2rem;
 	margin:0 0 1rem;
@@ -766,45 +766,22 @@ footer .copy {
 }
 
 
-@media screen and (min-width:1026px) and (max-width:1279px) {
+@media screen and (min-width:1026px) and ( max-width:1279px) {
+=======
 
-	.top03 .box .item .flex_wrap {
-		display: block;
-	}
 
-	.top03 .box .item .flex_wrap .inner_in {
-		width: 100%;
-	}
-
-	/* .top03 .box .item p.number {
-		font-size: 1.8rem;
-		width: 3.5rem;
-		height: 3.5rem;
-	}
 
 	.top03 .box .item h3 {
 		font-size: 1.8rem;
 	}
 
-	.top03 .item .inner p {
-		font-size: 1.3rem;
+	.top03 .box .inner_in .img {
+		right: -10%;
 	}
+	.top03 .item .inner p.txt01 {
+    font-size: 0.9rem;
+}
 
-	.top03 .box .inner_in p {
-		font-size: 0.8rem;
-	}
-
-	.top03 .box .inner_in span {
-		font-size: 0.6rem;
-	}
-
-	.top03 .box .inner_in p span {
-		font-size: 1.3rem;
-	}
-
-	.top03 .box p.txt01 {
-		font-size: 0.8rem;
-	} */
 }
 
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
