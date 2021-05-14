@@ -606,7 +606,7 @@ footer .copy {
 
 .top03 .box .item .inner_in:nth-of-type(2) {
 	width: 52%;
-
+	position: relative;
 }
 
 .top03 .box .item .number_wrap {
@@ -646,11 +646,11 @@ footer .copy {
 
 .top03 .box .item .inner_in .txt {
 	padding-left: 1rem;
-	width: 75%;
+	/* width: 75%; */
 }
 
 .top03 .box .item .inner_in:nth-of-type(2) .txt {
-	width: 65%;
+	/* width: 65%; */
 }
 
 .top03 .item .inner p.txt01{
@@ -660,7 +660,7 @@ footer .copy {
 	padding-top: 0.5rem;
 }
 .top03 .box .inner_in p{
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	line-height: 1.5;
 }
 .top03 .box .inner_in p span{font-size: 1.6rem;}
@@ -767,16 +767,13 @@ footer .copy {
 
 
 @media screen and (min-width:1026px) and ( max-width:1279px) {
-=======
-
-
 
 	.top03 .box .item h3 {
 		font-size: 1.8rem;
 	}
 
 	.top03 .box .inner_in .img {
-		right: -10%;
+		right: 0;
 	}
 	.top03 .item .inner p.txt01 {
     font-size: 0.9rem;
