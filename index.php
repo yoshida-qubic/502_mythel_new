@@ -69,27 +69,31 @@ include($root . "/include/header.php");
 
 							<div class="flex_wrap">
 								<div class="inner_in">
-									<p class="number">01</p>
+									<div class="number_wrap">
+										<p class="number">01</p>
+									</div>
 									<div class="txt">
 										<p>入会金¥<span>11,000</span><span class="small"></span>無料</p>
 										<p>事務手数料¥<span>3,300</span><span class="small"></span>無料</p>
 										<p>入会当月のコース会費無料</p>
-										<span>※入会日からの月末まで</span>
+										<p>※入会日からの月末まで</p>
 									</div>
 								</div>
 								<div class="inner_in">
-									<p class="number">02</p>
+									<div class="number_wrap">
+										<p class="number">02</p>
+									</div>
 									<div class="txt">
 										<p>さらに各店舗10名限定<br>
 											ボディミストプレゼント！</p>
 									</div>
 									<div class="img is_pc">
-										<img src="./images/top/top03_img04.png" alt="">
+										<img src="./images/top/top03_img04.png">
 									</div>
 								</div>
 								<div class="img is_sp">
-										<img src="./images/top/top03_img04.png" alt="">
-									</div>
+									<img src="./images/top/top03_img04.png">
+								</div>
 							</div>
 
 							<p class="txt01">※一部実施しいていない店舗がございます。<br class="is_tab">詳しくは店舗にお問い合わせ下さい。</p>
@@ -111,7 +115,7 @@ include($root . "/include/header.php");
 						</div>
 					</div>
 				</div> -->
-<!-- 
+				<!-- 
 				<div class="box fadeup">
 					<div class="item">
 						<p class="number">04</p>
@@ -140,17 +144,17 @@ include($root . "/include/header.php");
 							<p class="txt01"><span class="big">話題</span>の<span class="medium">最新美容</span>マシンがMYTHELに導入決定！</p>
 							<h4 class="exodusdemo">MAGWAVE <span class="red">EX</span></h4>
 							<div class="img is_sp">
-							<img src="./images/top/top03_img03.png">
-						</div>
+								<img src="./images/top/top03_img03.png">
+							</div>
 							<ol>
 								<li>
-								美しいBODYラインを創る全く新しい痩身マシン
+									美しいBODYラインを創る全く新しい痩身マシン
 								</li>
 								<li>
-								30分寝ているだけで驚きの効果実感！
+									30分寝ているだけで驚きの効果実感！
 								</li>
 								<li>
-								30分で腹筋運動３万回の効果！
+									30分で腹筋運動３万回の効果！
 								</li>
 							</ol>
 							<p class="txt02">MAGWAVEは<br class="is_sp">専用コースのみ<br class="is_pc is_hidden_tab">お使い頂けます。</p>
@@ -159,7 +163,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-			
+
 			</div>
 
 
