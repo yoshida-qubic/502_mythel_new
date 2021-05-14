@@ -394,12 +394,16 @@ footer .copy{
 	text-align: left;
 	padding-left: 4.5rem;
 	position: relative;
-	margin: 0.5rem 0;
+	margin: 0.5rem auto 2rem;
+	width: 100%;
+	max-width: 270px;
 }
+
 
 .top03 .box .item .inner_in:last-of-type {
 	margin: 1rem 0;
 }
+
 .top03 .box .item p.number{
 	width: 3rem;
 	height: 3rem;
@@ -434,12 +438,15 @@ footer .copy{
 .top03 .box .item .img {
 	margin: 0 0 1rem;
 }
+
 .top03 .box .item .img img{
 	height: 100%;
 	width:auto;
 }
+
 .top03 .box .item .txt01 {
 	font-size: 0.9rem;
+
 }
 .top03_in .att{
 	text-align:center;

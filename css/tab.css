@@ -72,12 +72,15 @@ footer ul.att li a{
     width: 4rem;
     height: 4rem;
   }
+  
   .top03 .box .item h4{
     font-size: 1.5rem;
   }
+
   /* .top03 .box .item .img{
 	height: 3rem;
 } */
+
 .top03_in .att{
   margin: 1rem 0 0;
 }
@@ -87,8 +90,33 @@ footer ul.att li a{
   letter-spacing: 0.2rem;
 }
 
-.top03 .box02 .item .img {
-  min-width: 140px;
+.top03 .box .item h3 {
+  font-size: 1.5rem;
+}
+
+.top03 .item .inner p {
+  font-size: 1.2rem;
+}
+
+.top03 .box .inner_in .txt {
+  min-width: 119px;
+}
+
+.top03 .item .inner_in p {
+font-size: 0.7rem;
+}
+
+.top03 .box .inner_in span {
+  font-size: 0.6rem;
+}
+
+.top03 .box .inner_in .img {
+  min-width: 30px;
+}
+
+.top03 .box p.txt01 {
+  font-size: 0.8rem;
+  margin: 1rem 0 0;
 }
 
 
