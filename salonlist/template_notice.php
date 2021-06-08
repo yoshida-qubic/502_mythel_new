@@ -19,6 +19,6 @@
     </dl>
   </div>
 
-  <div class="link notice"><a>OPEN予定</a></div>
+  <div class="link notice"><a><?php echo $schedule; ?>OPEN予定</a></div>
 
 </div>

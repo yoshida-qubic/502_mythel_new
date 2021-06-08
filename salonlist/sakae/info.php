@@ -14,11 +14,11 @@ $tel = '052-228-9975';
 
 $map = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.697426926388!2d136.90240575122243!3d35.16416606566499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600370d29ca4b453%3A0x75e8e47b8da12e0c!2z44CSNDYwLTAwMDgg5oSb55-l55yM5ZCN5Y-k5bGL5biC5Lit5Yy65qCE77yT5LiB55uu77yS77yV4oiS77yT77yZIOOCteOCq-OCqOOCteOCpuOCueOCueOCr-OCqOOCoiAzQg!5e0!3m2!1sja!2sjp!4v1600510096178!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>';
 
-$tel_tag = '0522289975';
+$tel_tag = str_replace(array('-', 'ー', '−', '―', '‐'), '', $tel);
 
 $map_link = 'https://goo.gl/maps/77Kc9Miu6LD44Wbt7';
 
-
+$schedule = '';
 
 
 $reserved = 'https://1cs.jp/mythelsakae/r';

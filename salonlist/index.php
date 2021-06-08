@@ -86,20 +86,25 @@ include($root . "/include/header.php");
 				<?php include("./template.php"); ?>
 				<!-- 仙台国分町店 -->
 
-				<!-- 盛岡店 -->
-				<?php include("./morioka/info.php"); ?>
+				<!-- 盛岡菜園店 -->
+				<?php include("./morioka_saien/info.php"); ?>
 				<?php include("./template_notice.php"); ?>
-				<!-- 盛岡店-->
+				<!-- 盛岡菜園店 -->
 
 			</div>
 
 			<div class="box" id="area03">
 				<h3>関東エリア</h3>
 
-				<!-- 原宿店 -->
-				<?php include("./harajyuku/info.php"); ?>
+				<!-- キュープラザ原宿店 -->
+				<?php include("./qplaza_harajyuku/info.php"); ?>
 				<?php include("./template_notice.php"); ?>
-				<!-- 原宿店-->
+				<!-- キュープラザ原宿店-->
+
+				<!-- トレッサ横浜店 -->
+				<?php include("./tressa_yokohama/info.php"); ?>
+				<?php include("./template_notice.php"); ?>
+				<!-- トレッサ横浜店-->
 
 				<!-- 水戸店 -->
 				<?php include("./mito/info.php"); ?>

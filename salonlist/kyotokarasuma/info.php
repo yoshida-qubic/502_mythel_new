@@ -13,11 +13,11 @@ $tel = '075-204-7569';
 
 $map = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.2008016816444!2d135.76049497229096!3d35.00167822354178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600109ab580711e7%3A0xe95285dbbadfa236!2zTVlUSEVMIOeDj-S4uOW6lw!5e0!3m2!1sja!2sjp!4v1600515708239!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>';
 
-$tel_tag = '0752047569';
+$tel_tag = str_replace(array('-', 'ー', '−', '―', '‐'), '', $tel);
 
 $map_link = 'https://goo.gl/maps/ygfscgGcCmsS721W8';
 
-
+$schedule = '';
 
 
 $reserved = 'https://1cs.jp/mythelkyoto/r';

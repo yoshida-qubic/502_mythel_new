@@ -14,7 +14,7 @@ $tel = '011-219-2231';
 
 $map = '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5830.316514127228!2d141.351826!3d43.059139!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDPCsDAzJzMyLjkiTiAxNDHCsDIxJzA2LjYiRQ!5e0!3m2!1sja!2sus!4v1605578521141!5m2!1sja!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>';
 
-$tel_tag = '0112192231';
+$tel_tag = str_replace(array('-', 'ー', '−', '―', '‐'), '', $tel);
 
 $map_link = 'https://goo.gl/maps/RSmXj4MfKAvmskcz6';
 

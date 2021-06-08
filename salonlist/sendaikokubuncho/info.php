@@ -13,11 +13,11 @@ $tel = '022-208-3082';
 
 $map = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3132.7406970469965!2d140.8671283512313!3d38.2623195916315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8a283ba9c4e231%3A0x2b9c58fd7b7f2940!2z44CSOTgwLTA4MDMg5a6u5Z-O55yM5LuZ5Y-w5biC6Z2S6JGJ5Yy65Zu95YiG55S677yS5LiB55uu77yS4oiS77yVIOaftOW0juODk-ODqw!5e0!3m2!1sja!2sjp!4v1605578086731!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>';
 
-$tel_tag = '0222083082';
+$tel_tag = str_replace(array('-', 'ー', '−', '―', '‐'), '', $tel);
 
 $map_link = 'https://goo.gl/maps/YqDfMnSoC9ZLDnED8';
 
-
+$schedule = '';
 
 
 $reserved = 'https://1cs.jp/mythelsendaikokubuncho/r';

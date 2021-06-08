@@ -13,11 +13,11 @@ $tel = '';
 
 $map = '';
 
-$tel_tag = '';
+$tel_tag = str_replace(array('-', 'ー', '−', '―', '‐'), '', $tel);
 
 $map_link = '';
 
-
+$schedule = '';
 
 
 $reserved = '';

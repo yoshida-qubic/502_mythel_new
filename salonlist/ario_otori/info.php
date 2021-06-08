@@ -13,11 +13,11 @@ $tel = '';
 
 $map = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d886.8956406676984!2d135.4588949531939!3d34.524486077507085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000db27d5ae284d%3A0x268094129ac948a4!2z44Ki44Oq44Kq6bOz!5e0!3m2!1sja!2sjp!4v1617587603070!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>';
 
-$tel_tag = '';
+$tel_tag = str_replace(array('-', 'ー', '−', '―', '‐'), '', $tel);
 
 $map_link = 'https://goo.gl/maps/JDzqM7rG53ncAFEF7';
 
-
+$schedule = '';
 
 
 $reserved = '';

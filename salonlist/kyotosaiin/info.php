@@ -13,11 +13,11 @@ $tel = '075-325-1185';
 
 $map = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.161594947435!2d135.7258941016133!3d35.00265978026159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001072636ac4d5b%3A0x3ce944ca84df1f9d!2zTVlUSEVMIE1lbidzIOilv-mZouW6lw!5e0!3m2!1sja!2sjp!4v1600667446227!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>';
 
-$tel_tag = '0753251185';
+$tel_tag = str_replace(array('-', 'ー', '−', '―', '‐'), '', $tel);
 
 $map_link = 'https://goo.gl/maps/N2S9ZmqpXFtAYY4U6';
 
-
+$schedule = '';
 
 
 $reserved = 'https://1cs.jp/mythelsaiin/r';
