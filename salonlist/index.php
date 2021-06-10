@@ -88,7 +88,7 @@ include($root . "/include/header.php");
 
 				<!-- 盛岡菜園店 -->
 				<?php include("./morioka_saien/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
+				<?php include("./template.php"); ?>
 				<!-- 盛岡菜園店 -->
 
 			</div>
@@ -98,13 +98,8 @@ include($root . "/include/header.php");
 
 				<!-- キュープラザ原宿店 -->
 				<?php include("./qplaza_harajyuku/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
+				<?php include("./template.php"); ?>
 				<!-- キュープラザ原宿店-->
-
-				<!-- トレッサ横浜店 -->
-				<?php include("./tressa_yokohama/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
-				<!-- トレッサ横浜店-->
 
 				<!-- 水戸店 -->
 				<?php include("./mito/info.php"); ?>
@@ -116,7 +111,11 @@ include($root . "/include/header.php");
 				<?php include("./mosaicmall_kouhoku/info.php"); ?>
 				<?php include("./template.php"); ?>
 				<!-- モザイクモール港北店 -->
-				
+
+				<!-- トレッサ横浜店 -->
+				<?php include("./tressa_yokohama/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- トレッサ横浜店-->
 			</div>
 
 			<div class="box" id="area02">
@@ -211,10 +210,10 @@ include($root . "/include/header.php");
 			<div class="box" id="area08">
 				<h3>九州・沖縄エリア</h3>
 
-				<!-- 小倉北店 -->
-				<?php include("./ogurakita/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
-				<!-- 小倉北店 -->
+				<!-- 小倉南守恒店 -->
+				<?php include("./kokuraminami_moritsune/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- 小倉南守恒店 -->
 
 
 
