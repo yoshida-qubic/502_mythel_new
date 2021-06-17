@@ -20,7 +20,7 @@ $map_link = 'https://goo.gl/maps/HDyfAVT1pEcXEbHg6';
 $schedule = '';
 
 
-$reserved = '';
+$reserved = 'https://1cs.jp/mythelkokuraminami/r';
 
 $slug = 'kokuraminami_moritsune';
 
