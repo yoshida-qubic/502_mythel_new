@@ -20,7 +20,7 @@ $map_link = 'https://goo.gl/maps/RcBUKRK3ikkks7Ng7';
 $schedule = '6月25日';
 
 
-$reserved = '';
+$reserved = 'https://1cs.jp/mythelmoriokasaien/r';
 
 $slug = 'morioka_saien';
 
