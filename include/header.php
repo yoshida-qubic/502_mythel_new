@@ -9,9 +9,9 @@
   <!-- <link rel="shortcut icon" href="./images/favicon.ico" /> -->
   <!-- <link rel="apple-touch-icon" href="./images/favicon.ico"" /> -->
   <link rel="stylesheet" type="text/css" href="<?php echo $dir; ?>style.css">
-  <link rel="stylesheet" type="text/css" href="<?php echo $dir; ?>css/desktop.css" media="screen and (min-width: 768px)">
-  <link rel="stylesheet" type="text/css" href="<?php echo $dir; ?>css/tab.css" media="screen and (min-width: 768px) and (max-width: 1279px)">
-  <link rel="stylesheet" type="text/css" href="<?php echo $dir; ?>css/smart.css" media="screen and (max-width: 767px)">
+  <link rel="stylesheet" type="text/css" href="<?php echo $dir; ?>css/desktop.css?<?php echo date("YmdHis"); ?>" media="screen and (min-width: 768px)">
+  <link rel="stylesheet" type="text/css" href="<?php echo $dir; ?>css/tab.css?<?php echo date("YmdHis"); ?>" media="screen and (min-width: 768px) and (max-width: 1279px)">
+  <link rel="stylesheet" type="text/css" href="<?php echo $dir; ?>css/smart.css?<?php echo date("YmdHis"); ?>" media="screen and (max-width: 767px)">
   <link rel="stylesheet" href="<?php echo $dir; ?>css/swiper.min.css" type="text/css" />
   <script defer src="<?php echo $dir; ?>js/all.min.js"></script>
   <script defer src="<?php echo $dir; ?>js/swiper.min.js"></script>

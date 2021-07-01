@@ -1646,6 +1646,11 @@ footer .copy {
 	white-space: nowrap;
 }
 
+.salon02 .box .notes p {
+	font-size: 1.1rem;
+	border-bottom: none;
+}
+
 .salon02 .slider {
 	margin: 5rem 0;
 }

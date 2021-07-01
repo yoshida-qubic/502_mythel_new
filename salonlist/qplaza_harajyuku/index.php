@@ -63,6 +63,9 @@ include($root . "/include/header.php");
 					<dd><?php echo $tel; ?></dd>
 				</dl>
 
+				<div class="notes">
+					<p>※入会特典はありません。</p>
+				</div>
 
 				<div class="slider">
 					<div class="swiper-container">

@@ -1242,6 +1242,10 @@ transform:translate(0,0);
 .salon02 dl dd span{
 	font-size: 0.7rem;
 }
+.salon02 .box .notes p{
+	font-size: 1rem;
+	border-bottom: none;
+}
 .salon02 .slider{
 	margin: 3rem 0;
 }
