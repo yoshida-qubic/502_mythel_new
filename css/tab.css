@@ -1,28 +1,28 @@
 .header_in{ padding: 0 2rem; }
 header ul li a{
-    padding: 3rem 2.5rem;
-  }
-  header .logo{
-    left:2%;
-    transform: translateX(0);
-    width: 13rem;
-    height: 13rem;
-  }
+		padding: 3rem 2.5rem;
+	}
+	header .logo{
+		left:2%;
+		transform: translateX(0);
+		width: 13rem;
+		height: 13rem;
+	}
 @media screen and (min-width:768px) and ( max-width:1025px) {
-  .header_in{ padding: 0 1rem; }
-  header .logo{
-    left:0;
-    transform: translateX(0);
-    width: 10rem;
-    height: 10rem;
-  }
-  header ul li a{
-    padding: 3rem 1.8rem;
-  }
-  header.active ul li a{
-    padding: 1.5rem 2rem;
-  }
-  footer nav ul li a{
+	.header_in{ padding: 0 1rem; }
+	header .logo{
+		left:0;
+		transform: translateX(0);
+		width: 10rem;
+		height: 10rem;
+	}
+	header ul li a{
+		padding: 3rem 1.8rem;
+	}
+	header.active ul li a{
+		padding: 1.5rem 2rem;
+	}
+	footer nav ul li a{
 	padding:2rem 1rem;
 	color: #fff;
 }
@@ -37,70 +37,70 @@ footer ul.att li a{
 	margin: 0 3% 0 auto;
 }
 @media screen and (min-width:768px) and ( max-width:1025px) {
-  .top03_in{
-    margin: 0 0 0 auto;
-  }
-  .top03 .box{
-    margin: 0.5rem 0 0;
-  }
-  .top03 .box .item .inner{
-    padding:0;
-  }
-  .top03 .box .item h3 {
-    font-size: 1.5rem;
+	.top03_in{
+		margin: 0 0 0 auto;
+	}
+	.top03 .box{
+		margin: 0.5rem 0 0;
+	}
+	.top03 .box .item .inner{
+		padding:0;
+	}
+	.top03 .box .item h3 {
+		font-size: 1.5rem;
 }
-  .top03 .box .item .inner_in:first-of-type {
-    width: 100%;
-  }
-  .top03 .box .item .inner_in:last-of-type {
-    margin: 1.5rem 0 0;
-    width: 100%;
-  }
-  .top03 .box .item .inner_in:nth-of-type(2) {
-    width: 100%;
-  }
-  .top03 .box .inner_in p{font-size: 1.3rem;}
-  .top03 .box .inner_in p span{font-size: 1.5rem;}
-  .top03 .box .inner_in p span.small{font-size: 1rem;}
-  .top03 .box .inner_in .img {
-    position: absolute;
-    bottom: -30%;
-    right: 15%;
-    max-width: 25px;
-  }
-  .top03 .box .item p.number{
-    font-size: 1.7rem;
-    width: 4rem;
-    height: 4rem;
-  }
-  
-  .top03 .box .item h4{
-    font-size: 1.5rem;
-  }
+	.top03 .box .item .inner_in:first-of-type {
+		width: 100%;
+	}
+	.top03 .box .item .inner_in:last-of-type {
+		margin: 1.5rem 0 0;
+		width: 100%;
+	}
+	.top03 .box .item .inner_in:nth-of-type(2) {
+		width: 100%;
+	}
+	.top03 .box .inner_in p{font-size: 1.3rem;}
+	.top03 .box .inner_in p span{font-size: 1.5rem;}
+	.top03 .box .inner_in p span.small{font-size: 1rem;}
+	.top03 .box .inner_in .img {
+		position: absolute;
+		bottom: -30%;
+		right: 15%;
+		max-width: 25px;
+	}
+	.top03 .box .item p.number{
+		font-size: 1.7rem;
+		width: 4rem;
+		height: 4rem;
+	}
+	
+	.top03 .box .item h4{
+		font-size: 1.5rem;
+	}
 
-  /* .top03 .box .item .img{
+	/* .top03 .box .item .img{
 	height: 3rem;
 } */
 
 .top03_in .att{
-  margin: 1rem 0 0;
+	margin: 1rem 0 0;
 }
 
 .top03 .box02 .item .txt h4 {
 	font-size: 2.3rem;
-  letter-spacing: 0.2rem;
+	letter-spacing: 0.2rem;
 }
 
 .top03 .box .item h3 {
-  font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
 .top03 .item .inner p {
-  font-size: 1.2rem;
+	font-size: 1.2rem;
 }
 
 .top03 .box .inner_in .txt {
-  min-width: 119px;
+	min-width: 119px;
 }
 
 .top03 .item .inner_in p {
@@ -108,30 +108,44 @@ font-size: 1.1rem;
 }
 
 .top03 .box .inner_in span {
-  font-size: 1.1rem;
+	font-size: 1.1rem;
 }
 .top03 .box p.txt01 {
-  font-size: 0.8rem;
-  margin: 1rem 0 0;
+	font-size: 0.8rem;
+	margin: 1rem 0 0;
 }
 
 
 
 @media screen and (min-width:768px) and ( max-width:1025px) {
-  .price03 table th{
-    padding: 0.5rem;
-  }
-  .price03 table tbody th{
-    padding: 2rem 0.5rem;
-  }
-  .price03 table tbody th span{
-    display: block;
-  }
+	.price03 table th{
+		padding: 0.5rem;
+	}
+	.price03 table tbody th{
+		padding: 2rem 0.5rem;
+	}
+	.price03 table tbody th span{
+		display: block;
+	}
 
-  .salon03 .box .img{
+	.salon03 .box .img{
 	width: 45%;
+	}
+	.salon03 .box .txt{
+		width: 60%;
+	}
 }
-.salon03 .box .txt{
-	width: 60%;
-}
+
+@media screen and (min-width:768px) and ( max-width:1025px) {
+	.salonlist02 .box {
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.salonlist02 .box a {
+		width: 23.5%;
+		margin-top: 1rem;
+	}
+	.salonlist02 .box a:nth-of-type(-n+4){
+		margin-top: 0;
+	}
 }

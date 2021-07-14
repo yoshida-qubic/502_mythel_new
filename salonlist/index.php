@@ -44,12 +44,12 @@ include($root . "/include/header.php");
 				<a href="#area01">北海道</a>
 				<a href="#area02">東北</a>
 				<a href="#area03">関東</a>
-				<!-- <a href="#area04">甲信越</a> -->
+				<a href="#area04">北陸・甲信越</a>
 				<a href="#area05">東海</a>
 				<a href="#area06">関西</a>
 				<!-- <a href="#area07">中国・四国</a> -->
 				<a href="#area08">九州・沖縄</a>
-				<a href="#area09">OPEN予定</a>
+				<!-- <a href="#area09">OPEN予定</a> -->
 			</div>
 		</div>
 	</div>
@@ -116,16 +116,25 @@ include($root . "/include/header.php");
 				<?php include("./tressa_yokohama/info.php"); ?>
 				<?php include("./template.php"); ?>
 				<!-- トレッサ横浜店-->
+
+				<!-- ドン・キホーテ二俣川店 -->
+				<?php include("./donki_futamatagawa/info.php"); ?>
+				<?php include("./template_notice.php"); ?>
+				<!-- ドン・キホーテ二俣川店-->
 			</div>
 
-			<div class="box" id="area02">
-				<h3>甲信越エリア</h3>
+			<div class="box" id="area04">
+				<h3>北陸・甲信越エリア</h3>
+
+				<!-- イオンモール白山店 -->
+				<?php include("./aeonmall_hakusan/info.php"); ?>
+				<?php include("./template_notice.php"); ?>
+				<!-- イオンモール白山店 -->
 
 				<!-- ながの東急百貨店内 -->
 				<?php include("./nagano_tokyu/info.php"); ?>
 				<?php include("./template_notice.php"); ?>
 				<!-- ながの東急百貨店内 -->
-
 			</div>
 
 			<div class="box" id="area05">

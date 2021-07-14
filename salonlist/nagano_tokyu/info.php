@@ -1,5 +1,5 @@
 <?php
-$area = '甲信越エリア';
+$area = '北陸・甲信越エリア';
 $salonname = 'ながの東急百貨店内';
 $holiday = '不定休<span>（研修等で店休になる場合があります）</span>';
 $buisiness_hours = 'OPEN 10:00 〜 CLOSE 19:00';
