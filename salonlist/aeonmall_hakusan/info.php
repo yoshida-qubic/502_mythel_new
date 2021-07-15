@@ -20,7 +20,7 @@ $map_link = 'https://goo.gl/maps/cRxCGvaVpziUpStR8';
 
 
 
-$reserved = '';
+$reserved = 'https://1cs.jp/mythelhakusanaeonmall/r';
 
 $slug = 'aeonmall_hakusan';
 

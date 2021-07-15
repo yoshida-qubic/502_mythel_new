@@ -20,7 +20,7 @@ $map_link = 'https://goo.gl/maps/Xq4ga7EREM71kkcBA';
 
 
 
-$reserved = '';
+$reserved = 'https://1cs.jp/donkifutamatagawa/r';
 
 $slug = 'donki_futamatagawa';
 

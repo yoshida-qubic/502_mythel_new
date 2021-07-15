@@ -101,12 +101,6 @@ include($root . "/include/header.php");
 				<?php include("./template.php"); ?>
 				<!-- キュープラザ原宿店-->
 
-				<!-- 水戸店 -->
-				<?php include("./mito/info.php"); ?>
-				<?php include("./template.php"); ?>
-				<!-- 水戸店 -->
-
-
 				<!-- モザイクモール港北店 -->
 				<?php include("./mosaicmall_kouhoku/info.php"); ?>
 				<?php include("./template.php"); ?>
@@ -119,8 +113,13 @@ include($root . "/include/header.php");
 
 				<!-- ドン・キホーテ二俣川店 -->
 				<?php include("./donki_futamatagawa/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
-				<!-- ドン・キホーテ二俣川店-->
+				<?php include("./template.php"); ?>
+				<!-- ドン・キホーテ二俣川店 -->
+
+				<!-- 水戸店 -->
+				<?php include("./mito/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- 水戸店 -->
 			</div>
 
 			<div class="box" id="area04">
@@ -128,7 +127,7 @@ include($root . "/include/header.php");
 
 				<!-- イオンモール白山店 -->
 				<?php include("./aeonmall_hakusan/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
+				<?php include("./template.php"); ?>
 				<!-- イオンモール白山店 -->
 
 				<!-- ながの東急百貨店内 -->
