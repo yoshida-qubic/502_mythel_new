@@ -71,17 +71,17 @@ include($root . "/include/header.php");
 					<div class="swiper-container">
 						<div class="swiper-wrapper">
 							<div class="swiper-slide">
-								<img src="<?php echo $imgDir; ?>slider01.jpg">
+								<img src="<?php echo $imgDir; ?>slider01.jpg?210726">
 							</div>
 							<div class="swiper-slide">
-								<img src="<?php echo $imgDir; ?>slider02.jpg">
+								<img src="<?php echo $imgDir; ?>slider02.jpg?210726">
 							</div>
 							<div class="swiper-slide">
-								<img src="<?php echo $imgDir; ?>slider03.jpg">
+								<img src="<?php echo $imgDir; ?>slider03.jpg?210726">
 							</div>
 
 							<div class="swiper-slide">
-								<img src="<?php echo $imgDir; ?>slider04.jpg">
+								<img src="<?php echo $imgDir; ?>slider04.jpg?210726">
 							</div>
 						</div>
 					</div>
