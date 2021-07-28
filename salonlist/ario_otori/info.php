@@ -25,5 +25,4 @@ $reserved = 'https://1cs.jp/mythelariootori/r';
 $slug = 'ario_otori';
 
 
-
 ?>
