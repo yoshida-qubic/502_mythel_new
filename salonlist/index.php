@@ -186,7 +186,7 @@ include($root . "/include/header.php");
 
 				<!-- アリオ鳳 -->
 				<?php include("./ario_otori/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
+				<?php include("./template.php"); ?>
 				<!-- アリオ鳳 -->
 
 				<!-- 尼崎店 -->
