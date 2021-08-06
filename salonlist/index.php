@@ -174,10 +174,10 @@ include($root . "/include/header.php");
 			<div class="box" id="area06">
 				<h3>関西エリア</h3>
 
-				<!-- 天王寺店 -->
-				<?php include("./tennoji/info.php"); ?>
+				<!-- あべのキューズモール店 -->
+				<?php include("./abeno_qs_mall/info.php"); ?>
 				<?php include("./template_notice.php"); ?>
-				<!-- 天王寺店-->
+				<!-- あべのキューズモール店-->
 
 				<!-- 豊中駅前店 -->
 				<?php include("./toyonaka/info.php"); ?>
@@ -189,10 +189,10 @@ include($root . "/include/header.php");
 				<?php include("./template.php"); ?>
 				<!-- アリオ鳳 -->
 
-				<!-- 尼崎店 -->
-				<?php include("./amagasaki/info.php"); ?>
+				<!-- あまがさきキューズモール店 -->
+				<?php include("./amagasaki_qs_mall/info.php"); ?>
 				<?php include("./template_notice.php"); ?>
-				<!-- 尼崎店 -->
+				<!-- あまがさきキューズモール店 -->
 
 				<!-- 京都烏丸店 -->
 				<?php include("./kyotokarasuma/info.php"); ?>
