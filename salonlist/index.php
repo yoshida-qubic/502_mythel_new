@@ -151,6 +151,11 @@ include($root . "/include/header.php");
 				<?php include("./hoshigaoka/info.php"); ?>
 				<?php include("./template.php"); ?>
 				<!-- 星ヶ丘店 -->
+
+				<!-- イオン三好店 -->
+				<?php include("./aeon_miyoshi/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- イオン三好店 -->
 				
 				<!-- 新静岡セノバ店 -->
 				<?php include("./shinshizuoka_cenova/info.php"); ?>
