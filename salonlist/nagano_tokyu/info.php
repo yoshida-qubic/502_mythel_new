@@ -7,7 +7,7 @@ $address = '〒380-8539 長野県長野市南千歳１丁目１−１ 7F';
 $access = 'JR長野駅 徒歩約3分';
 
 $room_number = '';
-$machine = '脱毛台・キャビテーション台・フェイシャル台・ホワイトニング台・ネイル台';
+$machine = '脱毛器 1台・キャビテーション 3台・フェイシャル 2台・ハイドラフェイシャル 1台・MAGWAVE EX 1台・WAVEEホワイトニング';
 
 $tel = '026-217-5446';
 
@@ -20,7 +20,7 @@ $map_link = 'https://goo.gl/maps/NCdh5hfrUZL1DEdc9';
 $schedule = '';
 
 
-$reserved = '';
+$reserved = 'https://1cs.jp/mythelnaganotokyu/r';
 
 $slug = 'nagano_tokyu';
 

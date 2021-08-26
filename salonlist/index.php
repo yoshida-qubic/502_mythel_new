@@ -132,7 +132,7 @@ include($root . "/include/header.php");
 
 				<!-- ながの東急百貨店内 -->
 				<?php include("./nagano_tokyu/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
+				<?php include("./template.php"); ?>
 				<!-- ながの東急百貨店内 -->
 			</div>
 
