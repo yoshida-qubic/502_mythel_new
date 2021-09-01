@@ -1233,6 +1233,61 @@ footer .copy {
 	margin: -1rem 0 0;
 }
 
+.price03 .ttl .type_b_shoplist{
+	border: solid 2px #505076;
+	padding: 1rem 2rem;
+	margin: 0 0 4rem;
+	text-align: left;
+}
+.price03 .ttl .type_b_shoplist ul{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -1.5rem;
+}
+.price03 .ttl .type_b_shoplist ul li{
+	list-style: disc;
+	margin-left: 3rem;
+	font-size: 1.1rem;
+}
+.price03 .ttl .type_b_shoplist p{
+	margin: 1rem 0 0;
+	font-size: 1rem;
+	border-top: solid 1;
+}
+
+.price03 .type_menu_tab{
+	margin-bottom: 3rem;
+}
+.price03 .type_menu_tab ul{
+	display: flex;
+	justify-content: center;
+}
+.price03 .type_menu_tab ul li{
+	width: 12rem;
+	padding: 0.5rem;
+	background: #eae9e9;
+	text-align: center;
+	margin-right: 2rem;
+	font-size: 1.2rem;
+	transition: .3s;
+	cursor: pointer;
+}
+.price03 .type_menu_tab ul li:last-of-type{
+	margin-right: 0;
+}
+.price03 .type_menu_tab ul li.active{
+	color: #fff;
+	background: #505076;
+}
+.price03 .type_menu_tab ul li:hover{
+	color: #fff;
+	background: #7a74a2;
+}
+
+.price03 .box.hide{
+	display: none;
+}
+
 .price03 table {
 	width: 100%;
 }
@@ -1273,6 +1328,10 @@ footer .copy {
 	color: #515251;
 }
 
+.price03 table td.facility_contents {
+	font-size: 1rem;
+}
+
 .price03 table .small {
 	font-size: 1rem;
 }
@@ -1283,6 +1342,10 @@ footer .copy {
 
 .price03 table .txt {
 	font-size: 1.5rem;
+}
+
+.price03 table td.facility_contents .txt {
+	font-size: 1rem;
 }
 
 .price03 table .left {
