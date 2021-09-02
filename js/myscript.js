@@ -93,8 +93,8 @@ $(function () {
 		$(this).addClass('active');
 		// クリックしたタブが何番目か取得し、それに応じて表の表示切替
 		var idx = $(this).index();
-		$('.price03 .box').hide();
-		$('.price03 .box').eq(idx).show();
+		$('.price03 .box.monthly').hide();
+		$('.price03 .box.monthly').eq(idx).show();
 	});
 
 

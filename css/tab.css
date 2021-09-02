@@ -123,9 +123,13 @@ font-size: 1.1rem;
 	}
 	.price03 table tbody th{
 		padding: 2rem 0.5rem;
+		font-size: 1.4rem;
 	}
 	.price03 table tbody th span{
 		display: block;
+	}
+	.price03 table td{
+		font-size: 1.8rem;
 	}
 
 	.salon03 .box .img{

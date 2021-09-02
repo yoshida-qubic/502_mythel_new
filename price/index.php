@@ -78,7 +78,7 @@ include($root . "/include/header.php");
 					</ul>
 				</div>
 
-				<div class="box fadeup">
+				<div class="box monthly fadeup">
 					<table>
 						<thead>
 							<tr>
@@ -130,7 +130,7 @@ include($root . "/include/header.php");
 							</tr>
 
 							<tr>
-								<th>ダイアモンド</th>
+								<th>ダイア<br class="is_tab">モンド</th>
 								<th>AllTime <span>Open〜最終受付まで</span></th>
 								<td>45<span class="small">min</span></td>
 								<td class="purple">21,980<span class="middle">円(税込)</span></td>
@@ -144,7 +144,7 @@ include($root . "/include/header.php");
 							</tr>
 
 							<tr>
-								<th>ホリデープラン</th>
+								<th>ホリデー<br class="is_tab">プラン</th>
 								<th>AllTime <span>Open〜最終受付まで</span><span>土日祝のみ利用可能</span></th>
 								<td>45<span class="small">min</span></td>
 								<td class="purple">10,980<span class="middle">円(税込)</span></td>
@@ -158,7 +158,7 @@ include($root . "/include/header.php");
 							</tr>
 
 							<tr>
-								<th>ハイフ＆ラジオ波プラン</th>
+								<th>ハイフ＆<br class="is_tab">ラジオ波<br class="is_tab">プラン</th>
 								<th>AllTime <span>Open〜最終受付まで</span></th>
 								<td>45<span class="small">min</span></td>
 								<td class="purple">10,980<span class="middle">円(税込)</span></td>
@@ -169,7 +169,7 @@ include($root . "/include/header.php");
 							</tr>
 
 							<tr>
-								<th>MAGWAVEプラン</th>
+								<th>MAGWAVE<br class="is_tab">プラン</th>
 								<th>AllTime <span>Open〜最終受付まで</span></th>
 								<td>40<span class="small">min</span></td>
 								<td class="purple">13,980<span class="middle">円(税込)</span></td>
@@ -187,7 +187,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="box hide">
+				<div class="box monthly hide">
 					<table>
 						<thead>
 							<tr>
@@ -246,10 +246,6 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 			</div>
-
-
-
-
 
 
 			<div class="price03_in">
