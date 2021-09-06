@@ -88,8 +88,9 @@ $(function () {
 	});
 
 	// PRICE：月額利用料のタブメニュー切替
-	$('.price03 .type_menu_tab ul li').on('click',function(){
+	$('.price03 .type_menu_tab ul li').on('click', function(){
 		$('.price03 .type_menu_tab ul li').removeClass('active');
+		$('.price03 .type_menu_tab ul li').css('cursor','pointer');
 		$(this).addClass('active');
 		// クリックしたタブが何番目か取得し、それに応じて表の表示切替
 		var idx = $(this).index();
