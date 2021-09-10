@@ -46,7 +46,7 @@
 		<script src="<?php echo $dir; ?>js/picturefill.min.js" defer></script>
 		<script type="text/javascript" src="<?php echo $dir; ?>js/cmanCalendar_v093.js" defer></script>
 		<script type="text/javascript" src="<?php echo $dir; ?>js/jquery.zip2addr.js" defer></script>
-		<script type="text/javascript" src="<?php echo $dir; ?>js/myscript.js" defer></script>
+		<script type="text/javascript" src="<?php echo $dir; ?>js/myscript.js?<?php echo date("YmdHis"); ?>" defer></script>
 		</body>
 
 		</html>

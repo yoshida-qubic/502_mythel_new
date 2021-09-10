@@ -2202,6 +2202,106 @@ footer .copy {
 
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ マシン06 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン07 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.machine07 {
+	padding: 6rem 0;
+	background: #505076;
+	color: #fff;
+}
+
+.machine07 .box {
+	display: flex;
+	align-items: flex-start;
+	margin: 0 0 1rem;
+}
+
+.machine07 .box .img {
+	margin-left: 5%;
+	padding-right: 2rem;
+	width: 40%;
+}
+
+.machine07 .box .txt {
+	width: 55%;
+}
+
+.machine07 .box .txt h2 {
+	font-size: 2.5rem;
+	font-weight: 100;
+	margin: 0 0 0.5rem;
+}
+
+.machine07 .box .txt p {
+	font-size: 1.5rem;
+	margin: 2rem 0 0;
+}
+
+.machine07 .box .txt .inner {
+	margin: 2rem 0 0;
+}
+
+.machine07 .box .txt .inner p {
+	font-size: 1rem;
+	line-height: 2.5;
+}
+
+.machine07 .box .txt .item {
+	padding: 0 5rem;
+	margin-top: -3rem;
+}
+
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ マシン07 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン08 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.machine08 {
+	padding: 6rem 0 8rem;
+}
+
+.machine08 .box {
+	display: flex;
+	margin: 0 0 3rem;
+}
+
+.machine08 .box .txt {
+	width: 50%;
+}
+
+.machine08 .box .img {
+	width: 50%;
+	padding-right: 3rem;
+}
+
+.machine08 .box .txt h2 {
+	font-size: 2.5rem;
+	font-weight: 100;
+	margin: 0 0 0.5rem;
+	color: #515251;
+}
+
+.machine08 .box .txt p {
+	font-size: 1.5rem;
+	margin: 2rem 0 0;
+	color: #2a6a7e;
+}
+
+.machine08 .box .txt p span {
+	font-size: 2.2rem;
+}
+
+.machine08 .box .txt .inner {
+	margin: 2rem 0 0;
+	width: 77%;
+}
+
+.machine08 .box .txt .inner p {
+	margin: 0;
+	font-size: 1rem;
+	color: #515251;
+	line-height: 2.5rem;
+}
+
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ マシン08 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ お知らせ02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .topics02 {
 	padding: 6rem 0;

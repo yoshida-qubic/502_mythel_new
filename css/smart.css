@@ -1684,6 +1684,83 @@ transform:translate(0,0);
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ マシン06 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン07 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.machine07{
+	padding:3rem 0;
+	background: #505076;
+	color: #fff;
+}
+.machine07 .box .img{
+	width: 35%;
+	margin: 0 auto;
+}
+.machine07 .box .txt{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 0 0 3rem;
+}
+.machine07 .box .txt h2{
+	margin: 1rem 0;
+	font-weight: normal;
+	text-align: center;
+	font-size: 1.5rem;
+	order: 2;
+}
+.machine07 .box .txt p{
+	order: 3;
+	font-size: 1.2rem;
+}
+.machine07 .box .txt .inner{
+	order: 4;
+	margin: 1rem 0 0;
+}
+.machine07 .box .txt .inner p{
+	font-size: 0.8rem;
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ マシン07 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン08 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.machine08{
+	padding: 3rem 0;
+}
+.machine08 .box{
+	display: flex;
+	flex-direction: column-reverse;
+	margin: 0 0 3rem;
+}
+.machine08 .box .img{
+	width: 50%;
+	margin: 0 auto;
+}
+.machine08 .box .txt{
+	text-align: center;
+}
+.machine08 .box .txt h2{
+	font-size: 1.5rem;
+	font-weight: 100;
+	margin: 1rem 0;
+	color: #515251;
+}
+.machine08 .box .txt p{
+	font-size: 1.2rem;
+	color: #2a6a7e;
+	margin: 1rem 0 0;
+}
+.machine08 .box .txt p span{
+	font-size: 1.6rem;
+}
+.machine08 .box .txt .inner{
+	margin: 2rem 0 0;
+}
+.machine08 .box .txt .inner p{
+	margin: 0;
+	font-size: 0.8em;
+	color: #515251;
+
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ マシン06 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ お知らせ02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .topics02{
 	padding:3rem 0;
