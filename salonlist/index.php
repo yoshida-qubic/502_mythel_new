@@ -196,7 +196,7 @@ include($root . "/include/header.php");
 
 				<!-- あまがさきキューズモール店 -->
 				<?php include("./amagasaki_qs_mall/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
+				<?php include("./template.php"); ?>
 				<!-- あまがさきキューズモール店 -->
 
 				<!-- 京都烏丸店 -->

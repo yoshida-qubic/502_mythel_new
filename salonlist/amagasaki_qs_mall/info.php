@@ -7,7 +7,7 @@ $address = '〒661-0976 兵庫県尼崎市潮江1-3-1 2F';
 $access = 'JR神戸線・宝塚線・東西線「尼崎駅」北口より直結';
 
 $room_number = '';
-$machine = '脱毛台・キャビテーション台・フェイシャル台・ホワイトニング台・ネイル台';
+$machine = '脱毛器 1台・キャビテーション 3台・フェイシャル 1台・ホワイトニング 1台・HIFU 3台・MAGWAVE 1台';
 
 $tel = '06-6423-8660';
 
@@ -20,7 +20,7 @@ $map_link = 'https://goo.gl/maps/z9NSjtXpotAkGyDJ7';
 $schedule = '';
 
 
-$reserved = '';
+$reserved = 'https://1cs.jp/mythelamagasaki/r';
 
 $slug = 'amagasaki_qs_mall';
 
