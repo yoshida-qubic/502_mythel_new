@@ -156,6 +156,11 @@ include($root . "/include/header.php");
 				<?php include("./aeon_miyoshi/info.php"); ?>
 				<?php include("./template.php"); ?>
 				<!-- イオン三好店 -->
+
+				<!-- イーアス春日井店 -->
+				<?php include("./iias_kasugai/info.php"); ?>
+				<?php include("./template_notice.php"); ?>
+				<!-- イーアス春日井店 -->
 				
 				<!-- 新静岡セノバ店 -->
 				<?php include("./shinshizuoka_cenova/info.php"); ?>
