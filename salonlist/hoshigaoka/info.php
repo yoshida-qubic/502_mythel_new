@@ -6,8 +6,8 @@ $buisiness_hours = 'OPEN 10:00 〜 CLOSE 21:00';
 $address = '〒464-0026 愛知県名古屋市千種区井上町77大峯ビル4階東';
 $access = '東山線 星ヶ丘駅1分';
 
-$room_number = '6';
-$machine = '脱毛2台・キャビテーション1台・フェイシャル1台・ホワイトニング1台・MAGWAVE EX 1台';
+$room_number = '7';
+$machine = '脱毛2台・キャビテーション2台・ハイドラフェイシャル1台・フェイシャル1台・ホワイトニング1台・MAGWAVE EX 1台';
 
 $tel = '052-784-5085';
 
