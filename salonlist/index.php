@@ -186,7 +186,7 @@ include($root . "/include/header.php");
 
 				<!-- あべのキューズモール店 -->
 				<?php include("./abeno_qs_mall/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
+				<?php include("./template.php"); ?>
 				<!-- あべのキューズモール店-->
 
 				<!-- 豊中駅前店 -->
