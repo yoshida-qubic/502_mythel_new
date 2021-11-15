@@ -55,7 +55,6 @@ include($root . "/include/header.php");
 					<h2 class="kapital_t fadeup">PRICE</h2>
 					<div class="type_b_shoplist fadeup">
 						<ul>
-							<li>札幌大通店</li>
 							<li>仙台駅前店</li>
 							<li>仙台広瀬通り店</li>
 							<li>モザイクモール港北店</li>
