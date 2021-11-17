@@ -1282,6 +1282,9 @@ transform:translate(0,0);
 	margin: 1rem 0;
 	font-weight: normal;
 }
+.salon02 h1 span{
+	font-size: 1rem;
+}
 .salon02 dl{
 	margin: 1rem 0;
 }

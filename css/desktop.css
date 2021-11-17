@@ -1697,6 +1697,9 @@ footer .copy {
 	margin: 1rem 0;
 	font-weight: normal;
 }
+.salon02 h1 span{
+	font-size: 1.2rem;
+}
 
 .salon02 dl {
 	display: flex;

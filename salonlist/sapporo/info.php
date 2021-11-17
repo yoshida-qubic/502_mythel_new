@@ -2,6 +2,7 @@
 
 $area = '北海道エリア';
 $salonname = '札幌大通店';
+$salontype = '女性専用店舗';
 $holiday = '不定休<span>（研修等で店休になる場合があります）</span>';
 $buisiness_hours = 'OPEN 11:00 〜 CLOSE 20:00';
 $address = '〒060-0061 北海道札幌市中央区南1条西4-14-8 第40ビッグビル4F';

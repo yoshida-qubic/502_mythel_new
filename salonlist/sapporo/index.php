@@ -26,7 +26,7 @@ include($root . "/include/header.php");
 		<div class="container">
 			<div class="box">
 				<p>SALON</p>
-				<h1><?php echo $salonname; ?></h1>
+				<h1><?php echo $salonname; ?><?php if(!empty($salontype)){ echo '<span>（' . $salontype . '）</span>'; } ?></h1>
 
 				<dl>
 					<dt>営業時間：</dt>
