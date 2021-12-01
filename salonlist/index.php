@@ -159,7 +159,7 @@ include($root . "/include/header.php");
 
 				<!-- イーアス春日井店 -->
 				<?php include("./iias_kasugai/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
+				<?php include("./template.php"); ?>
 				<!-- イーアス春日井店 -->
 				
 				<!-- 新静岡セノバ店 -->
