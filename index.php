@@ -41,7 +41,7 @@ include($root . "/include/header.php");
 			<h2 class="sub_ttl green fadeup">CAMPAIGN</h2>
 			<div class="top03_wrap">
 
-				<div class="box fadeup">
+				<!-- <div class="box campaign01 fadeup"> -->
 					<!-- <div class="item">
 						<div class="inner">
 							<h3>夏はすぐそこ！<br class="is_sp">脱毛キャンペーン実施中</h3>
@@ -73,7 +73,8 @@ include($root . "/include/header.php");
 							<p class="txt01">※一部実施していない店舗がございます。<br class="is_tab">詳しくは店舗にお問い合わせ下さい。</p>
 						</div>
 					</div> -->
-					<div class="item">
+
+					<!-- <div class="item">
 						<div class="inner">
 							<h3>夏はすぐそこ！<br class="is_sp">脱毛キャンペーン実施中</h3>
 							<p>当日体験時に入会申し込みを行うと</p>
@@ -104,6 +105,37 @@ include($root . "/include/header.php");
 								</div>
 								<div class="img is_sp">
 									<img src="./images/top/top03_img04.png">
+								</div>
+							</div>
+
+							<p class="txt01">※一部実施しいていない店舗がございます。<br class="is_tab">詳しくは店舗にお問い合わせ下さい。</p>
+						</div>
+					</div> -->
+				<!-- </div> -->
+				
+				<div class="box campaign02 fadeup">
+					<div class="item">
+						<div class="inner">
+							<h3>2022年<br class="is_sp">お正月キャンペーン実施中</h3>
+							<p>当日体験時に入会申し込みを行うと</p>
+
+							<div class="flex_wrap">
+								<div class="inner_in">
+									<div class="number_wrap">
+										<p class="number">01</p>
+									</div>
+									<div class="txt">
+										<p>入会金¥<span>11,000</span>無料</p>
+										<p>事務手数料¥<span>3,300</span>無料</p>
+									</div>
+								</div>
+								<div class="inner_in">
+									<div class="number_wrap">
+										<p class="number">02</p>
+									</div>
+									<div class="txt">
+										<p>入会当月のコース会費無料</p>
+									</div>
 								</div>
 							</div>
 
@@ -146,7 +178,7 @@ include($root . "/include/header.php");
 			<div class="top03_wrap">
 
 
-				<div class="box02 fadeup">
+				<!-- <div class="box02 fadeup">
 					<div class="item">
 						<div class="img is_pc">
 							<img src="./images/top/top03_img03.png">
@@ -171,6 +203,44 @@ include($root . "/include/header.php");
 							<p class="txt02">MAGWAVEは<br class="is_sp">専用コースのみ<br class="is_pc is_hidden_tab">お使い頂けます。</p>
 							<p class="txt03">※一部未導入の店舗があります。店舗までご確認下さい。</p>
 						</div>
+					</div>
+				</div> -->
+
+
+				<div class="box03 fadeup">
+					<div class="item">
+						<p class="txt01"><span class="big">話題</span>の<span class="medium">最新美容</span>マシンが<br class="is_tab">MYTHELに導入決定！</p>
+
+						<div class="flex_wrap">
+							<div class="l_inner">
+								<div class="img01">
+									<img src="./images/top/top03_img05.png" alt="">
+								</div>
+								<div class="txt">
+									<h4><img src="./images/top/top03_txt01.png" alt="Cell Burn Pro"></h4>
+									<div class="img02">
+										<img src="./images/top/top03_img06.jpg" alt="">
+									</div>
+								</div>
+							</div>
+
+							<div class="r_inner">
+								<div class="img01">
+									<img src="./images/top/top03_img07.png" alt="">
+								</div>
+								<div class="txt">
+									<h4><img src="./images/top/top03_txt02.png" alt="Aqua Impact"></h4>
+									<ul class="point_wrap">
+										<li>肌再生</li>
+										<li>老化<br>防止</li>
+										<li>ニキビ<br>ケア</li>
+										<li>美白<br>効果</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<p class="txt02">※一部未導入の店舗があります。<br class="is_sp">店舗までご確認下さい。</p>
 					</div>
 				</div>
 

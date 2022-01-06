@@ -46,9 +46,16 @@ footer ul.att li a{
 	.top03 .box .item .inner{
 		padding:0;
 	}
+	.top03 .box.campaign02 .item .flex_wrap{
+		display: block;
+		margin: 1rem 0 1.5rem;
+	}
 	.top03 .box .item h3 {
 		font-size: 1.5rem;
-}
+	}
+	.top03 .box.box.campaign02 .item .inner_in{
+		justify-content: center;
+	}
 	.top03 .box .item .inner_in:first-of-type {
 		width: 100%;
 	}
@@ -67,6 +74,9 @@ footer ul.att li a{
 		bottom: -30%;
 		right: 15%;
 		max-width: 25px;
+	}
+	.top03 .box .item .number_wrap {
+		width: auto;
 	}
 	.top03 .box .item p.number{
 		font-size: 1.7rem;
@@ -115,6 +125,20 @@ font-size: 1.1rem;
 	margin: 1rem 0 0;
 }
 
+.top03 .box03 .flex_wrap{
+	display: block;
+	margin: 2rem auto 1rem;
+	width: 90%;
+}
+.top03 .box03 .flex_wrap .l_inner,
+.top03 .box03 .flex_wrap .r_inner{
+	width: 100%;
+}
+.top03 .box03 .flex_wrap .r_inner ul{
+	max-width: 11rem;
+	justify-content: flex-start;
+	margin: 0 2rem;
+}
 
 
 @media screen and (min-width:768px) and ( max-width:1025px) {

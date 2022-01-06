@@ -367,7 +367,8 @@ footer .copy{
 }
 .top03_wrap{margin: 3rem 0 0;}
 .top03 .box,
-.top03 .box02
+.top03 .box02,
+.top03 .box03
 {
 	background: #7a74a2;
 	color: #fff;
@@ -459,7 +460,8 @@ footer .copy{
 	margin: 3rem 0 0;
 }
 
-.top03 .box02 .item {
+.top03 .box02 .item,
+.top03 .box03 .item {
 	border:0.25rem solid #fff;
 	padding: 1rem;
 }
@@ -476,18 +478,21 @@ footer .copy{
 	margin: 0 auto;
 }
 
-.top03 .box02 .item .txt .txt01 {
+.top03 .box02 .item .txt .txt01,
+.top03 .box03 .item .txt01 {
 	font-size: 1.1rem;
 	line-height: 1.5;
 	margin: 0 0 1rem;
 	font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "游明朝", YuMincho, "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 
-.top03 .box02 .item .txt .txt01 .big {
+.top03 .box02 .item .txt .txt01 .big,
+.top03 .box03 .item .txt01 .big {
 	font-size: 1.6rem;
 }
 
-.top03 .box02 .item .txt .txt01 .medium {
+.top03 .box02 .item .txt .txt01 .medium,
+.top03 .box03 .item .txt01 .medium {
 	font-size: 1.3rem;
 }
 
@@ -529,6 +534,74 @@ footer .copy{
 
 .top03 .box02 .item .img img {
 	width: 100%;
+}
+
+.top03 .box03 .flex_wrap{
+	margin: 1rem 0;
+}
+.top03 .box03 .flex_wrap .l_inner,
+.top03 .box03 .flex_wrap .r_inner{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.top03 .box03 .flex_wrap .l_inner .img01{
+	width: 30%;
+}
+.top03 .box03 .flex_wrap .r_inner .img01{
+	width: 34%;
+}
+.top03 .box03 .flex_wrap .img01 img,
+.top03 .box03 .flex_wrap .img02 img{
+	width: 100%;
+	height: auto;
+}
+.top03 .box03 .flex_wrap .l_inner .txt{
+	width: 65%;
+}
+.top03 .box03 .flex_wrap .r_inner .txt{
+	width: 62%;
+}
+.top03 .box03 .flex_wrap .txt h4{
+	width: auto;
+	height: 1.7rem;
+	margin-bottom: 1rem;
+}
+.top03 .box03 .flex_wrap .txt h4 img{
+	width: auto;
+	height: 100%;
+}
+.top03 .box03 .flex_wrap .r_inner ul{
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	max-width: 10rem;
+	width: 100%;
+	margin: 0 auto 0 1rem;
+}
+.top03 .box03 .flex_wrap .r_inner ul li{
+	width: 3.8rem;
+	height: 3.8rem;
+	border-radius: 50%;
+	background: #f4eabc;
+	color: #7a74a2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1rem;
+	line-height: 1.2;
+	text-align: center;
+	margin: 1rem 1rem 0 0;
+}
+.top03 .box03 .flex_wrap .r_inner ul li:nth-of-type(-n+2){
+	margin-top: 0;
+}
+.top03 .box03 .flex_wrap .r_inner ul li:nth-of-type(2n),
+.top03 .box03 .flex_wrap .r_inner ul li:last-of-type{
+	margin-right: 0;
+}
+.top03 .box03 p.txt02{
+	font-size: 0.9rem;
 }
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
