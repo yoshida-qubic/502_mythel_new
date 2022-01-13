@@ -20,7 +20,7 @@ $map_link = 'https://goo.gl/maps/QEeptvS3HWrR9Wms6';
 
 
 
-$reserved = '';
+$reserved = 'https://1cs.jp/mytheliiaskasugai/r';
 
 $slug = 'iias_kasugai';
 

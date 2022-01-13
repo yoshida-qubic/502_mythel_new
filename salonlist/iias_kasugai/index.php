@@ -116,8 +116,8 @@ include($root . "/include/header.php");
 					<div class="cta_zone">
 						<div class="link purple is_sp"><a href="tel:<?php echo $tel_tag; ?>"><i class="far fa-mobile-android"></i> <?php echo $tel; ?></a></div>
 						<div class="link purple"><a href="<?php echo $map_link; ?>" target="_blank">GoogleMap</a></div>
-						<!-- <div class="link purple"><a href="<?php //echo $reserved; ?>" target="_blank"><?php echo $salonname; ?>の予約はこちら ▶︎</a></div> -->
-						<div class="link notice"><a><?php echo $schedule; ?>OPEN予定</a></div>
+						<div class="link purple"><a href="<?php echo $reserved; ?>" target="_blank"><?php echo $salonname; ?>の予約はこちら ▶︎</a></div>
+						<!-- <div class="link notice"><a><?php //echo $schedule; ?>OPEN予定</a></div> -->
 					</div>
 				</div>
 			</div>
@@ -140,7 +140,7 @@ include($root . "/include/header.php");
 					<h2>TRIAL</h2>
 					<h3>初回体験無料</h3>
 					<p>最先端のトータルビューティーマシンを使い放題<br>
-						脱毛・痩身・フェイシャル・ホワイトニング・ネイルが使い放題<br>
+						脱毛・痩身・フェイシャル・ホワイトニングが使い放題<br>
 						さらに当日の入会申込で入会金・事務手数料無料！
 					</p>
 				</div>
