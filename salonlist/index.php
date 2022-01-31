@@ -117,8 +117,9 @@ include($root . "/include/header.php");
 				<!-- ドン・キホーテ二俣川店 -->
 
 				<!-- 水戸店 -->
-				<?php include("./mito/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<!-- 2022/01/31 削除 -->
+				<?php //include("./mito/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- 水戸店 -->
 			</div>
 
@@ -194,9 +195,9 @@ include($root . "/include/header.php");
 				<?php include("./template.php"); ?>
 				<!-- 豊中駅前店 -->
 
-				<!-- アリオ鳳 -->
-				<?php include("./ario_otori/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<!-- アリオ鳳 2022/01/31削除 -->
+				<?php //include("./ario_otori/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- アリオ鳳 -->
 
 				<!-- あまがさきキューズモール店 -->
