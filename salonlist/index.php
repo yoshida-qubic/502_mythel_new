@@ -121,6 +121,11 @@ include($root . "/include/header.php");
 				<?php //include("./mito/info.php"); ?>
 				<?php //include("./template.php"); ?>
 				<!-- 水戸店 -->
+
+				<!-- ひたちの店 -->
+				<?php include("./hitachino/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- ひたちの店 -->
 			</div>
 
 			<div class="box" id="area04">
