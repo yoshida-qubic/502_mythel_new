@@ -47,7 +47,7 @@ include($root . "/include/header.php");
 				<a href="#area04">北陸・甲信越</a>
 				<a href="#area05">東海</a>
 				<a href="#area06">関西</a>
-				<!-- <a href="#area07">中国・四国</a> -->
+				<a href="#area07">中国・四国</a>
 				<a href="#area08">九州・沖縄</a>
 				<!-- <a href="#area09">OPEN予定</a> -->
 			</div>
@@ -162,6 +162,11 @@ include($root . "/include/header.php");
 				<?php include("./iias_kasugai/info.php"); ?>
 				<?php include("./template.php"); ?>
 				<!-- イーアス春日井店 -->
+
+				<!-- mozoワンダーシティ店 -->
+				<?php include("./mozo_wondercity/info.php"); ?>
+				<?php include("./template_notice.php"); ?>
+				<!-- mozoワンダーシティ店 -->
 				
 				<!-- 新静岡セノバ店 -->
 				<?php include("./shinshizuoka_cenova/info.php"); ?>
@@ -209,17 +214,28 @@ include($root . "/include/header.php");
 				<?php include("./kyotokarasuma/info.php"); ?>
 				<?php include("./template.php"); ?>
 				<!-- 京都烏丸店 -->
-				<div class="bottom">
-					<p>※京都烏丸店と西院店で入会の方はどちらの店舗でもご使用頂けます。</p>
-				</div>
 
+				<!-- MENS京都西院店 2022/02/01削除 -->
+				<?php //include("./kyotosaiin/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- MENS京都西院店 -->
-				<?php include("./kyotosaiin/info.php"); ?>
-				<?php include("./template.php"); ?>
-				<!-- MENS京都西院店 -->
-				<div class="bottom">
-					<p>※京都烏丸店と西院店で入会の方はどちらの店舗でもご使用頂けます。</p>
-				</div>
+				<!-- <div class="bottom"> -->
+					<!-- <p>※京都烏丸店と西院店で入会の方はどちらの店舗でもご使用頂けます。</p> -->
+				<!-- </div> -->
+
+
+			</div>
+
+
+
+			<div class="box" id="area07">
+				<h3>中国・四国エリア</h3>
+
+				<!-- 島根出雲店 -->
+				<?php include("./shimane_izumo/info.php"); ?>
+				<?php include("./template_notice.php"); ?>
+				<!-- 島根出雲店 -->
+
 
 
 			</div>
