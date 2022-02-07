@@ -1,6 +1,6 @@
 <?php
 $area = '関東エリア';
-$salonname = 'ひたちの店';
+$salonname = 'ひたち野うしく店';
 $salontype = '';
 $holiday = '不定休<span>（研修等で店休になる場合があります）</span>';
 $buisiness_hours = 'OPEN 10:00 〜 CLOSE 20:00';
