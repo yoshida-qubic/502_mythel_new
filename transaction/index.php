@@ -29,6 +29,10 @@ include($root . "/include/header.php");
             <td>築山　誠</td>
           </tr>
           <tr>
+            <th>電話番号</th>
+            <td>06-6684-9193</td>
+          </tr>
+          <tr>
             <th>メールアドレス</th>
             <td>info@mythel.jp</td>
           </tr>
