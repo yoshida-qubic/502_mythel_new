@@ -73,8 +73,11 @@ include($root . "/include/header.php");
             <td>入会後即時</td>
           </tr>
           <tr>
-            <th>返品について</th>
-            <td>サービスの特性上、返品不可</td>
+            <th>返品・<br class="is_sp">交換不良品・<br class="is_sp">解約について</th>
+            <td>
+              退会希望月の2ヶ月前の手続きとなります。<br>
+              店舗にご来店いただき、所定の手続きを経て、退会月の翌々月末日に退会完了致します。
+            </td>
           </tr>
           <tr>
             <th>その他</th>
