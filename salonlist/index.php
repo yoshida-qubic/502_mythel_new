@@ -170,7 +170,7 @@ include($root . "/include/header.php");
 
 				<!-- mozoワンダーシティ店 -->
 				<?php include("./mozo_wondercity/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
+				<?php include("./template.php"); ?>
 				<!-- mozoワンダーシティ店 -->
 				
 				<!-- 新静岡セノバ店 -->
