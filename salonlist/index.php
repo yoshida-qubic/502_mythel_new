@@ -82,8 +82,9 @@ include($root . "/include/header.php");
 
 
 				<!-- 仙台国分町店 -->
-				<?php include("./sendaikokubuncho/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<!-- 2022/03/01 削除 -->
+				<?php //include("./sendaikokubuncho/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- 仙台国分町店 -->
 
 				<!-- 盛岡菜園店 -->
@@ -149,8 +150,9 @@ include($root . "/include/header.php");
 
 
 				<!-- 栄店 -->
-				<?php include("./sakae/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<!-- 2022/03/01 削除 -->
+				<?php //include("./sakae/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- 栄店 -->
 
 				<!-- 星ヶ丘店 -->
@@ -201,8 +203,9 @@ include($root . "/include/header.php");
 				<!-- あべのキューズモール店-->
 
 				<!-- 豊中駅前店 -->
-				<?php include("./toyonaka/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<!-- 2022/03/01 削除 -->
+				<?php //include("./toyonaka/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- 豊中駅前店 -->
 
 				<!-- アリオ鳳 2022/01/31削除 -->
