@@ -4,7 +4,7 @@ $salonname = 'mozoワンダーシティ店';
 $salontype = '';
 $holiday = '不定休<span>（研修等で店休になる場合があります）</span>';
 $buisiness_hours = 'OPEN 10:00 〜 CLOSE 21:00';
-$address = '〒452-0817 愛知県名古屋市西区二方町40mozoワンダーシティ4F';
+$address = '〒452-0817 愛知県名古屋市西区二方町40mozoワンダーシティ4F 紀伊國屋書店様奥';
 $access = '名鉄・地下鉄「上小田井駅」北口より徒歩約5分、城北線「小田井駅」より徒歩約10分';
 
 $room_number = '13';
@@ -21,7 +21,7 @@ $map_link = 'https://goo.gl/maps/TyEZq8uSWRJggdoJ9';
 
 
 
-$reserved = 'https://beauty.hotpepper.jp/kr/slnH000503630/';
+$reserved = 'https://mythel.hacomono.jp/reserve/schedule/2/7/';
 
 $slug = 'mozo_wondercity';
 

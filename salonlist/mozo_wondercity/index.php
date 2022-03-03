@@ -76,9 +76,17 @@ include($root . "/include/header.php");
 							<div class="swiper-slide">
 								<img src="<?php echo $imgDir; ?>slider03.jpg">
 							</div>
-
 							<div class="swiper-slide">
 								<img src="<?php echo $imgDir; ?>slider04.jpg">
+							</div>
+							<div class="swiper-slide">
+								<img src="<?php echo $imgDir; ?>slider05.jpg">
+							</div>
+							<div class="swiper-slide">
+								<img src="<?php echo $imgDir; ?>slider06.jpg">
+							</div>
+							<div class="swiper-slide">
+								<img src="<?php echo $imgDir; ?>slider07.jpg">
 							</div>
 						</div>
 					</div>
