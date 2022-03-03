@@ -241,7 +241,7 @@ include($root . "/include/header.php");
 
 				<!-- 島根出雲店 -->
 				<?php include("./shimane_izumo/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
+				<?php include("./template.php"); ?>
 				<!-- 島根出雲店 -->
 
 

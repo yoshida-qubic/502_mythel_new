@@ -76,9 +76,14 @@ include($root . "/include/header.php");
 							<div class="swiper-slide">
 								<img src="<?php echo $imgDir; ?>slider03.jpg">
 							</div>
-
 							<div class="swiper-slide">
 								<img src="<?php echo $imgDir; ?>slider04.jpg">
+							</div>
+							<div class="swiper-slide">
+								<img src="<?php echo $imgDir; ?>slider05.jpg">
+							</div>
+							<div class="swiper-slide">
+								<img src="<?php echo $imgDir; ?>slider06.jpg">
 							</div>
 						</div>
 					</div>
@@ -116,8 +121,8 @@ include($root . "/include/header.php");
 					<div class="cta_zone">
 						<div class="link purple is_sp"><a href="tel:<?php echo $tel_tag; ?>"><i class="far fa-mobile-android"></i> <?php echo $tel; ?></a></div>
 						<div class="link purple"><a href="<?php echo $map_link; ?>" target="_blank">GoogleMap</a></div>
-						<!-- <div class="link purple"><a href="<?php //echo $reserved; ?>" target="_blank"><?php echo $salonname; ?>の予約はこちら ▶︎</a></div> -->
-						<div class="link notice"><a><?php echo $schedule; ?>OPEN予定</a></div>
+						<div class="link purple"><a href="<?php echo $reserved; ?>" target="_blank"><?php echo $salonname; ?>の予約はこちら ▶︎</a></div>
+						<!-- <div class="link notice"><a><?php //echo $schedule; ?>OPEN予定</a></div> -->
 					</div>
 				</div>
 			</div>
