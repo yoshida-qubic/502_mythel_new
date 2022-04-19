@@ -20,7 +20,7 @@ $map_link = 'https://goo.gl/maps/J2GzNaWWkKE6yba76';
 $schedule = '';
 
 
-$reserved = 'https://1cs.jp/mythelabeno/r';
+$reserved = 'https://mythel.hacomono.jp/reserve/schedule/1/1/';
 
 $slug = 'abeno_qs_mall';
 
