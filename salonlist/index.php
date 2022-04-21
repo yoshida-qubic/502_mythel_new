@@ -174,6 +174,11 @@ include($root . "/include/header.php");
 				<?php include("./mozo_wondercity/info.php"); ?>
 				<?php include("./template.php"); ?>
 				<!-- mozoワンダーシティ店 -->
+
+				<!-- MEGAドン・キホーテ豊橋店 -->
+				<?php include("./megadonki_toyohashi/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- MEGAドン・キホーテ豊橋店 -->
 				
 				<!-- 新静岡セノバ店 -->
 				<?php include("./shinshizuoka_cenova/info.php"); ?>
@@ -212,6 +217,11 @@ include($root . "/include/header.php");
 				<?php //include("./ario_otori/info.php"); ?>
 				<?php //include("./template.php"); ?>
 				<!-- アリオ鳳 -->
+
+				<!-- アルザ泉大津店 -->
+				<?php include("./alzar_izumiotsu/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- アルザ泉大津店-->
 
 				<!-- あまがさきキューズモール店 -->
 				<?php include("./amagasaki_qs_mall/info.php"); ?>
