@@ -116,7 +116,7 @@ include($root . "/include/header.php");
 				<div class="box campaign02 fadeup">
 					<div class="item">
 						<div class="inner">
-							<h3>2022年<br class="is_sp">お正月キャンペーン実施中</h3>
+							<h3>2022年<br class="is_sp">5月キャンペーン実施中</h3>
 							<p>当日体験時に入会申し込みを行うと</p>
 
 							<div class="flex_wrap">
@@ -277,7 +277,7 @@ include($root . "/include/header.php");
 				<div class="img"><img src="./images/top/top05_img01.jpg"></div>
 				<div class="txt">
 					<h3>PRO使用の<br>エステ機器が使い放題</h3>
-					<p>MYTHELでは結果重視のマシンを導入しています。<br>高品質で安全・簡単操作可能な美容マシンを使用しお客様にご満足いた抱いております。<br>更に、キャビテーション・脱毛・ホワイトニング・フェイシャル・ネイルが全て使い放題！<br>時間いっぱい施術可能です。</p>
+					<p>MYTHELでは結果重視のマシンを導入しています。<br>高品質で安全・簡単操作可能な美容マシンを使用しお客様にご満足頂いております。<br>更に、キャビテーション・脱毛・ホワイトニング・フェイシャル・ネイルが全て使い放題！<br>時間いっぱい施術可能です。</p>
 					<div class="link left small purple">
 						<a href="<?php echo $dir; ?>about/">WHAT’S MYTHEL</a>
 					</div>
