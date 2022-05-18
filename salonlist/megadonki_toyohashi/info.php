@@ -8,7 +8,7 @@ $address = '〒441-8061 愛知県豊橋市藤沢町141 MEGAドン・キホーテ
 $access = '豊橋鉄道渥美線「愛知大学前駅」より徒歩約20分、「豊橋駅」東口より豊鉄バス 小浜大崎線「藤沢町」下車徒歩1分';
 
 $room_number = '';
-$machine = '脱毛1台・キャビテーション1台・ラジオ波1台・フェイシャル1台・ハイフ1台・MAGWAVE EX1台';
+$machine = '脱毛2台・キャビテーション1台・ラジオ波1台・フェイシャル1台・ハイフ1台・MAGWAVE EX2台';
 
 $tel = '0532-39-5623';
 
@@ -21,7 +21,7 @@ $map_link = 'https://goo.gl/maps/CHNiwmSUD7ZRrADVA';
 
 
 
-$reserved = '';
+$reserved = 'https://mythel.hacomono.jp/reserve/schedule/4/52/';
 
 $slug = 'megadonki_toyohashi';
 
