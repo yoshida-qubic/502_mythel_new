@@ -21,7 +21,7 @@ $map_link = 'https://goo.gl/maps/yQS5sJUhSM8DAXxZ9';
 
 
 
-$reserved = '';
+$reserved = 'https://mythel.hacomono.jp/reserve/schedule/16/93/';
 
 $slug = 'alzar_izumiotsu';
 
