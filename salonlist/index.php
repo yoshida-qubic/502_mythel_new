@@ -41,7 +41,7 @@ include($root . "/include/header.php");
 
 		<div class="container">
 			<div class="box">
-				<a href="#area01">北海道</a>
+				<!-- <a href="#area01">北海道</a> -->
 				<a href="#area02">東北</a>
 				<a href="#area03">関東</a>
 				<a href="#area04">北陸・甲信越</a>
@@ -60,24 +60,26 @@ include($root . "/include/header.php");
 	<section class="salonlist03">
 		<div class="container">
 
-			<div class="box" id="area01">
-				<h3>北海道エリア</h3>
+			<!-- <div class="box" id="area01"> -->
+				<!-- <h3>北海道エリア</h3> -->
 
 				<!-- 札幌店 -->
-				<?php include("./sapporo/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<!-- 2022/06/03 削除 -->
+				<?php //include("./sapporo/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- 札幌店 -->
 
 
 
-			</div>
+			<!-- </div> -->
 
 			<div class="box" id="area02">
 				<h3>東北エリア</h3>
 
 				<!-- 仙台駅前店 -->
-				<?php include("./sendai/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<!-- 2022/06/03 削除 -->
+				<?php //include("./sendai/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- 仙台駅前店 -->
 
 
@@ -124,8 +126,9 @@ include($root . "/include/header.php");
 				<!-- 水戸店 -->
 
 				<!-- ひたちの店 -->
-				<?php include("./hitachino/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<!-- 2022/06/03 削除 -->
+				<?php //include("./hitachino/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- ひたちの店 -->
 			</div>
 
@@ -138,8 +141,9 @@ include($root . "/include/header.php");
 				<!-- イオンモール白山店 -->
 
 				<!-- ながの東急百貨店内 -->
-				<?php include("./nagano_tokyu/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<!-- 2022/06/03 削除 -->
+				<?php //include("./nagano_tokyu/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- ながの東急百貨店内 -->
 			</div>
 
@@ -181,8 +185,9 @@ include($root . "/include/header.php");
 				<!-- MEGAドン・キホーテ豊橋店 -->
 				
 				<!-- 新静岡セノバ店 -->
-				<?php include("./shinshizuoka_cenova/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<!-- 2022/06/03 削除 -->
+				<?php //include("./shinshizuoka_cenova/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- 新静岡セノバ店-->
 
 
