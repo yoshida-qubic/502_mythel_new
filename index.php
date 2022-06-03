@@ -116,7 +116,7 @@ include($root . "/include/header.php");
 				<div class="box campaign02 fadeup">
 					<div class="item">
 						<div class="inner">
-							<h3>2022年<br class="is_sp">5月キャンペーン実施中</h3>
+							<h3>2022年<br class="is_sp">6月キャンペーン実施中</h3>
 							<p>当日体験時に入会申し込みを行うと</p>
 
 							<div class="flex_wrap">

@@ -167,7 +167,7 @@ font-size: 1.1rem;
 @media screen and (min-width:768px) and ( max-width:1025px) {
 	.salonlist02 .box {
 		flex-wrap: wrap;
-		justify-content: space-around;
+		justify-content: center;
 	}
 	.salonlist02 .box a {
 		width: 23.5%;
