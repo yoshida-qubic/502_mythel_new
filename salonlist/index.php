@@ -228,6 +228,11 @@ include($root . "/include/header.php");
 				<?php include("./template.php"); ?>
 				<!-- アルザ泉大津店-->
 
+				<!-- 守口店 -->
+				<?php include("./moriguchi/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- 守口店-->
+
 				<!-- あまがさきキューズモール店 -->
 				<?php include("./amagasaki_qs_mall/info.php"); ?>
 				<?php include("./template.php"); ?>
