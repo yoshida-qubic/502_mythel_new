@@ -20,7 +20,7 @@ $map_link = 'https://goo.gl/maps/QEeptvS3HWrR9Wms6';
 
 
 
-$reserved = 'https://1cs.jp/mytheliiaskasugai/r';
+$reserved = 'https://mythel.hacomono.jp/reserve/schedule/5/23/';
 
 $slug = 'iias_kasugai';
 

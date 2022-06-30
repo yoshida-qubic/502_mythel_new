@@ -20,7 +20,7 @@ $map_link = 'https://goo.gl/maps/Xq4ga7EREM71kkcBA';
 
 
 
-$reserved = 'https://1cs.jp/donkifutamatagawa/r';
+$reserved = 'https://mythel.hacomono.jp/reserve/schedule/12/51/';
 
 $slug = 'donki_futamatagawa';
 
