@@ -10,7 +10,7 @@ $access = '京阪本線「西三荘駅」より徒歩14分、京阪本線「守�
 $room_number = '10';
 $machine = '脱毛1台・キャビテーション1台・ラジオ派1台・フェイシャル1台・ホワイトニング1台・MAGWAVE EX2台';
 
-$tel = '未定';
+$tel = '070-1810-5556';
 
 $map = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.0868761959355!2d135.57485611559807!3d34.72820448042739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e1ba021540fd%3A0xd6ba1f8a6179ae35!2z44CSNTcwLTAwMzIg5aSn6Ziq5bqc5a6I5Y-j5biC6I-K5rC06YCa77yT5LiB55uu77yX4oiS77yR77yU!5e0!3m2!1sja!2sjp!4v1654674915442!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
 
