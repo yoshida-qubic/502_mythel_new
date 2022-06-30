@@ -20,7 +20,7 @@ $map_link = 'https://goo.gl/maps/cFvcjrPAfCqtf8jR8';
 
 
 
-$reserved = 'https://1cs.jp/mythelaeonmiyoshi/r';
+$reserved = 'https://mythel.hacomono.jp/reserve/schedule/6/30/';
 
 $slug = 'aeon_miyoshi';
 

@@ -20,7 +20,7 @@ $map_link = 'https://goo.gl/maps/z9NSjtXpotAkGyDJ7';
 $schedule = '';
 
 
-$reserved = 'https://1cs.jp/mythelamagasaki/r';
+$reserved = 'https://mythel.hacomono.jp/reserve/schedule/13/53/';
 
 $slug = 'amagasaki_qs_mall';
 

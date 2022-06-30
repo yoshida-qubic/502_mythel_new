@@ -20,7 +20,7 @@ $map_link = 'https://goo.gl/maps/YTih5NtcJVRs6toJ8';
 $schedule = '7月1日';
 
 
-$reserved = 'https://1cs.jp/mythelqplazaharajuku/r';
+$reserved = 'https://mythel.hacomono.jp/reserve/schedule/11/50/';
 
 $slug = 'qplaza_harajyuku';
 
