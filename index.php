@@ -36,10 +36,10 @@ include($root . "/include/header.php");
 	<!-- ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ02 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ -->
 
 	<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ03 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
-	<section class="top03 fadeup">
-		<div class="top03_in">
-			<h2 class="sub_ttl green fadeup">CAMPAIGN</h2>
-			<div class="top03_wrap">
+	<!-- <section class="top03 fadeup"> -->
+		<!-- <div class="top03_in"> -->
+			<!-- <h2 class="sub_ttl green fadeup">CAMPAIGN</h2> -->
+			<!-- <div class="top03_wrap"> -->
 
 				<!-- <div class="box campaign01 fadeup"> -->
 					<!-- <div class="item">
@@ -113,7 +113,7 @@ include($root . "/include/header.php");
 					</div> -->
 				<!-- </div> -->
 				
-				<div class="box campaign02 fadeup">
+				<!-- <div class="box campaign02 fadeup">
 					<div class="item">
 						<div class="inner">
 							<h3>2022年<br class="is_sp">6月キャンペーン実施中</h3>
@@ -142,7 +142,7 @@ include($root . "/include/header.php");
 							<p class="txt01">※一部実施しいていない店舗がございます。<br class="is_tab">詳しくは店舗にお問い合わせ下さい。</p>
 						</div>
 					</div>
-				</div>
+				</div> -->
 
 				<!-- <div class="att kozuka fadeup">
 					<p>さらにGoldプラン以上のコース契約のお客様には</p>
@@ -172,10 +172,10 @@ include($root . "/include/header.php");
 				<!-- <div class="att kozuka fadeup">
 					<p>どちらか１つをプレゼント！<br>※プレゼントキャンペーンは実施していない店舗もございます。ご来店前に店舗にご確認お願いします。</p>
 				</div> -->
-			</div>
+			<!-- </div> -->
 
-			<h2 class="sub_ttl green fadeup box02_sub_ttl">新機種導入！</h2>
-			<div class="top03_wrap">
+			<!-- <h2 class="sub_ttl green fadeup box02_sub_ttl">新機種導入！</h2> -->
+			<!-- <div class="top03_wrap"> -->
 
 
 				<!-- <div class="box02 fadeup">
@@ -207,7 +207,7 @@ include($root . "/include/header.php");
 				</div> -->
 
 
-				<div class="box03 fadeup">
+				<!-- <div class="box03 fadeup">
 					<div class="item">
 						<p class="txt01"><span class="big">話題</span>の<span class="medium">最新美容</span>マシンが<br class="is_tab">MYTHELに導入決定！</p>
 
@@ -242,17 +242,49 @@ include($root . "/include/header.php");
 
 						<p class="txt02">※一部未導入の店舗があります。<br class="is_sp">店舗までご確認下さい。</p>
 					</div>
-				</div>
+				</div> -->
 
 
+			<!-- </div> -->
+
+
+
+
+		<!-- </div> -->
+	<!-- </section> -->
+	<!-- ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ -->
+	
+	<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ07 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
+	<section class="top07">
+		<div class="top07_in">
+			<div class="bg">
+				<img src="./images/top/top07_bg01.png" alt="">
 			</div>
+			<div class="box">
+				<div class="container">
+					<div class="box_in">
+						<h2>
+							<img src="./images/top/top07_txt01.png" alt="2022 SUMMER CAMPAING">
+						</h2>
+						<figure>
+							<img src="./images/top/top07_txt02.png" alt="7.31 fri - 8.31 WED">
+						</figure>
 
-
-
-
+						<div class="txt">
+							<p>
+								ご入会されたお客様全員に<br>
+								契約コースに応じたお店で使えるチケットをプレゼント！
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="img">
+					<img src="./images/top/top07_txt03.png" alt="">
+				</div>
+			</div>
 		</div>
 	</section>
-	<!-- ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ -->
+	<!-- ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ07 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ -->
 
 	<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ04 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
 	<section class="top04">
