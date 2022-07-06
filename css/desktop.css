@@ -1001,6 +1001,85 @@ footer .copy {
 
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ06 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ07 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.top07 .box{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: flex-end;
+}
+.top07 .box .box_in{
+	position: relative;
+	padding-bottom: 18vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.top07 .box .box_in h2{
+	max-width: 1180px;
+	width: 90%;
+	margin: 0 auto;
+}
+.top07 .box .box_in figure{
+	max-width: 735px;
+	width: 57%;
+	margin: 0.5rem auto 0;
+}
+.top07 .box .box_in .txt{
+	background: rgba(95,187,207,.72);
+	padding: 1rem 2.5rem;
+	transform: rotate(-4.83deg);
+	margin-top: 11vw;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 15px 20px 7px rgba(10,2,4,.25);
+}
+.top07 .box .box_in .txt p{
+	color: #fdfcfc;
+	font-size: 2.2rem;
+	font-weight: 700;
+	line-height: 1.33;
+	letter-spacing: 0.15em;
+}
+.top07 .box .img{
+	position: absolute;
+	bottom: 3rem;
+	right: 5%;
+	max-width: 411px;
+	width: 30%;
+}
+@media screen and (min-width:768px) and ( max-width:1279px) {
+	.top07 .box .box_in h2{
+		width: 83%;
+	}
+	.top07 .box .box_in figure{
+		width: 50%;
+	}
+	.top07 .box .box_in .txt{
+		margin-top: 8vw;
+		padding: 1rem 2rem;
+	}
+	.top07 .box .box_in .txt p{
+		font-size: 2rem;
+	}
+}
+@media screen and (min-width:768px) and ( max-width:1025px) {
+	.top07 .box .box_in .txt p{
+		font-size: 1.6rem;
+	}
+	.top07 .box .img{
+		bottom: 2.5rem;
+		width: 25%;
+	}
+}
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ07 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ 下層タイトル ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .lower_ttl {
 	background: #7a74a2;
