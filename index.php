@@ -255,30 +255,34 @@ include($root . "/include/header.php");
 	<!-- ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ -->
 	
 	<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ07 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
-	<section class="top07">
+	<section class="top07 fadeup">
 		<div class="top07_in">
 			<div class="bg">
-				<img src="./images/top/top07_bg01.png" alt="">
+			<picture>
+				<source media="(min-width: 768px)" srcset="./images/top/top07_bg01.jpg">
+				<source media="(max-width: 767px)" srcset="./images/top/top07_bg01_sp.jpg">
+				<img src="./images/top/top07_bg01.jpg" alt="">
+			</picture>
 			</div>
 			<div class="box">
 				<div class="container">
 					<div class="box_in">
-						<h2>
+						<h2 class="fadeup">
 							<img src="./images/top/top07_txt01.png" alt="2022 SUMMER CAMPAING">
 						</h2>
-						<figure>
+						<figure class="fadeup">
 							<img src="./images/top/top07_txt02.png" alt="7.31 fri - 8.31 WED">
 						</figure>
 
-						<div class="txt">
+						<div class="txt fadeup">
 							<p>
 								ご入会されたお客様全員に<br>
-								契約コースに応じたお店で使えるチケットをプレゼント！
+								契約コースに応じたお店で使える<br class="is_sp">チケットをプレゼント！
 							</p>
 						</div>
 					</div>
 				</div>
-				<div class="img">
+				<div class="img fadeup">
 					<img src="./images/top/top07_txt03.png" alt="">
 				</div>
 			</div>
