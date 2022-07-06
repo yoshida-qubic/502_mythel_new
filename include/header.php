@@ -43,7 +43,7 @@
             <li><a href="<?php echo $dir; ?>privacypolicy/">プライバシーポリシー</a></li>
             <li><a href="<?php echo $dir; ?>membership/">会員規約</a></li>
             <li><a href="<?php echo $dir; ?>facilityterm/">施設利用規約</a></li>
-            <li><a href="https://www.tree-co.net/" target="_blank">会社概要</a></li>
+            <!-- <li><a href="https://www.tree-co.net/" target="_blank">会社概要</a></li> -->
             <li><a href="<?php echo $dir; ?>transaction/">特商法取引</a></li>
             <li><a href="<?php echo $dir; ?>pdf/consent_form.pdf" download="consent_form.pdf">未成年同意書</a></li>
             <li><a href=" <?php echo $dir; ?>fc/">FC加盟について </a> </li>
