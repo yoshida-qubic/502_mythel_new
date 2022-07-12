@@ -226,12 +226,17 @@ include($root . "/include/header.php");
 				<!-- アルザ泉大津店 -->
 				<?php include("./alzar_izumiotsu/info.php"); ?>
 				<?php include("./template.php"); ?>
-				<!-- アルザ泉大津店-->
+				<!-- アルザ泉大津店 -->
 
 				<!-- 守口店 -->
 				<?php include("./moriguchi/info.php"); ?>
 				<?php include("./template.php"); ?>
-				<!-- 守口店-->
+				<!-- 守口店 -->
+
+				<!-- 枚方店 -->
+				<?php include("./hirakata/info.php"); ?>
+				<?php include("./template_notice.php"); ?>
+				<!-- 枚方店 -->
 
 				<!-- あまがさきキューズモール店 -->
 				<?php include("./amagasaki_qs_mall/info.php"); ?>
