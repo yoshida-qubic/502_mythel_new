@@ -24,5 +24,6 @@ $reserved = 'https://1cs.jp/mythelmosaicmallkohoku/r';
 
 $slug = 'mosaicmall_kouhoku';
 
+$instagram_link = '';
 
 ?>

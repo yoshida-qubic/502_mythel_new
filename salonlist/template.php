@@ -19,6 +19,13 @@
     </dl>
   </div>
 
-  <div class="link purple"><a href="<?php echo $slug; ?>/">店舗の詳細はこちら ▶︎</a></div>
+  <div class="link_wrap">
+    <?php if($instagram_link != ''){ ?>
+    <div class="link instagram purple">
+      <a href="<?php echo $instagram_link; ?>" target="_blank" rel="noopener"></a>
+    </div>
+    <?php } ?>
+    <div class="link purple"><a href="<?php echo $slug; ?>/">店舗の詳細はこちら ▶︎</a></div>
+  </div>
 
 </div>

@@ -24,5 +24,6 @@ $reserved = 'https://mythel.hacomono.jp/reserve/schedule/1/1/';
 
 $slug = 'abeno_qs_mall';
 
+$instagram_link = 'https://www.instagram.com/mythel.abenoqs/';
 
 ?>

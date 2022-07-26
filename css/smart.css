@@ -1372,6 +1372,10 @@ transform:translate(0,0);
 .salonlist03 .box .link{
 	margin: 0.5rem 0;
 }
+.salonlist03 .box .link.instagram a{
+	background: #7a74a2 url(../images/common/f_icon.png) center center / 60% no-repeat;
+	height: 4rem;
+}
 .salonlist03 .box .bottom{
 	font-size: 0.8rem;
 }

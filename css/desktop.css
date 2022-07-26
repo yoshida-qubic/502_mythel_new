@@ -1818,12 +1818,33 @@ footer .copy {
 	width: 65%;
 }
 
-.salonlist03 .box .link {
+.salonlist03 .box .link_wrap{
 	width: 30%;
+}
+
+.salonlist03 .box .link {
+	width: 100%;
+}
+
+.salonlist03 .box .link + .link{
+	margin-top: 1rem;
 }
 
 .salonlist03 .box .link a {
 	font-size: 1rem;
+}
+
+.salonlist03 .box .link.instagram a{
+	background: url(../images/common/f_icon.png) center center / 65% no-repeat;
+	height: 4.125rem;
+}
+
+.salonlist03 .box .link.instagram.notice a{
+	background: #6a6969 url(../images/common/f_icon.png) center center / 65% no-repeat;
+}
+
+.salonlist03 .box .link.instagram a:hover{
+	background: url(../images/common/f_icon02.png) center center / 65% no-repeat;
 }
 
 .salonlist03 .box .bottom {

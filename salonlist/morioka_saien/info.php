@@ -24,5 +24,6 @@ $reserved = 'https://mythel.hacomono.jp/reserve/schedule/9/49/';
 
 $slug = 'morioka_saien';
 
+$instagram_link = 'https://www.instagram.com/mythel_moriokasaien/';
 
 ?>

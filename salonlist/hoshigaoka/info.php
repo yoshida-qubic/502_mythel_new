@@ -25,5 +25,6 @@ $reserved = 'https://1cs.jp/mythelhoshigaoka/r';
 
 $slug = 'hoshigaoka';
 
+$instagram_link = 'https://www.instagram.com/mythel_hoshigaoka/';
 
 ?>

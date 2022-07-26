@@ -19,6 +19,13 @@
     </dl>
   </div>
 
-  <div class="link notice"><a><?php echo $schedule; ?>coming soon</a></div>
+  <div class="link_wrap">
+    <?php if($instagram_link != ''){ ?>
+    <div class="link instagram purple">
+      <a href="<?php echo $instagram_link; ?>" target="_blank" rel="noopener"></a>
+    </div>
+    <?php } ?>
+    <div class="link notice"><a><?php echo $schedule; ?>coming soon</a></div>
+  </div>
 
 </div>

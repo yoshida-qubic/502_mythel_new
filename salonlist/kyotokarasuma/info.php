@@ -24,5 +24,6 @@ $reserved = 'https://1cs.jp/mythelkyoto/r';
 
 $slug = 'kyotokarasuma';
 
+$instagram_link = 'https://www.instagram.com/mythel_kyotokarasuma/';
 
 ?>

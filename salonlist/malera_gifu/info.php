@@ -24,5 +24,6 @@ $reserved = 'https://mythel.hacomono.jp/reserve/schedule/8/38/';
 
 $slug = 'malera_gifu';
 
+$instagram_link = 'https://www.instagram.com/mythel_maleragifu/';
 
 ?>
