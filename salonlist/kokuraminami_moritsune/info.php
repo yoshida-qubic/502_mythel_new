@@ -24,5 +24,6 @@ $reserved = 'https://mythel.hacomono.jp/reserve/schedule/15/85/';
 
 $slug = 'kokuraminami_moritsune';
 
+$instagram_link = 'https://www.instagram.com/mythel_kokuraminami.moritsune/';
 
 ?>

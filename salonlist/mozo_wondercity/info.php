@@ -27,5 +27,6 @@ $slug = 'mozo_wondercity';
 
 $schedule = '2月25日';
 
+$instagram_link = 'https://www.instagram.com/mythel_mozo/';
 
 ?>

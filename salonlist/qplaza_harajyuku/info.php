@@ -24,5 +24,6 @@ $reserved = 'https://mythel.hacomono.jp/reserve/schedule/11/50/';
 
 $slug = 'qplaza_harajyuku';
 
+$instagram_link = 'https://www.instagram.com/mythel_harajuku/?hl=ja';
 
 ?>

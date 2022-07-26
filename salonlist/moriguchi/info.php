@@ -27,5 +27,6 @@ $slug = 'moriguchi';
 
 $schedule = '';
 
+$instagram_link = 'https://www.instagram.com/mythel_moriguchi/';
 
 ?>

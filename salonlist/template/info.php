@@ -27,5 +27,7 @@ $slug = '';
 
 $schedule = '';
 
+$instagram_link = '';
+
 
 ?>

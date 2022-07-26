@@ -27,5 +27,6 @@ $slug = 'shimane_izumo';
 
 $schedule = '3月1日';
 
+$instagram_link = 'https://www.instagram.com/mythel__r4.0301/';
 
 ?>

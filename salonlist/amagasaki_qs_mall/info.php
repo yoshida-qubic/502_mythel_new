@@ -24,5 +24,6 @@ $reserved = 'https://mythel.hacomono.jp/reserve/schedule/13/53/';
 
 $slug = 'amagasaki_qs_mall';
 
+$instagram_link = 'https://www.instagram.com/mythel_amagasaki/';
 
 ?>

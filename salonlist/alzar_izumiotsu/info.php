@@ -27,5 +27,6 @@ $slug = 'alzar_izumiotsu';
 
 $schedule = '';
 
+$instagram_link = 'https://www.instagram.com/mythel_izumi/';
 
 ?>

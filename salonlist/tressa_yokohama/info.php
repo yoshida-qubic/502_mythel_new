@@ -26,5 +26,6 @@ $slug = 'tressa_yokohama';
 
 $schedule = '7月8日';
 
+$instagram_link = 'https://www.instagram.com/mythel_tressayokohama/';
 
 ?>

@@ -27,5 +27,6 @@ $slug = 'megadonki_toyohashi';
 
 $schedule = '';
 
+$instagram_link = 'https://www.instagram.com/mythel_toyohashi/';
 
 ?>

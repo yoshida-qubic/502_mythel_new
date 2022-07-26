@@ -26,5 +26,7 @@ $slug = 'donki_futamatagawa';
 
 $schedule = '8月1日';
 
+$instagram_link = 'https://www.instagram.com/mythel_futamatagawa/';
+
 
 ?>

@@ -26,5 +26,7 @@ $slug = 'aeon_miyoshi';
 
 $schedule = '';
 
+$instagram_link = 'https://www.instagram.com/mythel_miyoshi/';
+
 
 ?>

@@ -27,5 +27,6 @@ $slug = 'hirakata';
 
 $schedule = '';
 
+$instagram_link = '';
 
 ?>

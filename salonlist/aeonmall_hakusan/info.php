@@ -26,5 +26,6 @@ $slug = 'aeonmall_hakusan';
 
 $schedule = '7月19日';
 
+$instagram_link = 'https://www.instagram.com/mythel_hakusan/';
 
 ?>

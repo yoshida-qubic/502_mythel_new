@@ -26,5 +26,6 @@ $slug = 'iias_kasugai';
 
 $schedule = '';
 
+$instagram_link = 'https://www.instagram.com/mythel_kasugai/';
 
 ?>
