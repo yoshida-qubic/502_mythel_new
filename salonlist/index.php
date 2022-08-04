@@ -105,8 +105,9 @@ include($root . "/include/header.php");
 				<!-- キュープラザ原宿店-->
 
 				<!-- モザイクモール港北店 -->
-				<?php include("./mosaicmall_kouhoku/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<!-- 2022/08/04 削除 -->
+				<?php //include("./mosaicmall_kouhoku/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- モザイクモール港北店 -->
 
 				<!-- トレッサ横浜店 -->
