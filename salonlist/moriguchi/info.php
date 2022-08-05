@@ -21,7 +21,7 @@ $map_link = 'https://goo.gl/maps/LeKt8z2YfqDioqns9';
 
 
 
-$reserved = '';
+$reserved = 'https://mythel.hacomono.jp/reserve/schedule/17/100/';
 
 $slug = 'moriguchi';
 

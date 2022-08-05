@@ -21,7 +21,7 @@ $map_link = 'https://goo.gl/maps/xT8zeSXrRQE1Eg8G8';
 
 
 
-$reserved = '';
+$reserved = 'https://mythel.hacomono.jp/reserve/schedule/18/105/';
 
 $slug = 'hirakata';
 
