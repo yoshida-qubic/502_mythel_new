@@ -236,7 +236,7 @@ include($root . "/include/header.php");
 
 				<!-- 枚方店 -->
 				<?php include("./hirakata/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
+				<?php include("./template.php"); ?>
 				<!-- 枚方店 -->
 
 				<!-- あまがさきキューズモール店 -->
