@@ -3,7 +3,7 @@ $area = '関西エリア';
 $salonname = '枚方店';
 $salontype = '';
 $holiday = '不定休<span>（研修等で店休になる場合があります）</span>';
-$buisiness_hours = '月〜土 OPEN 10:00 〜 CLOSE 20:00 / 日・祝 OPEN 10:00 〜 CLOSE 18:00';
+$buisiness_hours = '月〜土 OPEN 10:00 〜 CLOSE 21:00 / 日・祝 OPEN 10:00 〜 CLOSE 18:00';
 $address = '〒573-0027 大阪府枚方市大垣内町1-1-3 阪本ビル401';
 $access = '京阪本線「枚方市駅」より徒歩6分、京阪交野線「宮之阪駅」より徒歩9分';
 
@@ -27,6 +27,6 @@ $slug = 'hirakata';
 
 $schedule = '';
 
-$instagram_link = '';
+$instagram_link = 'https://instagram.com/mythel_hirakata/';
 
 ?>
