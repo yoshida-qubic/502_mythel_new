@@ -26,13 +26,15 @@ include($root . "/include/header.php");
 		<div class="container">
 			<div class="box">
 				<p>SALON</p>
-				<h1><?php echo $salonname; ?><?php if(!empty($salontype)){ echo '<span>（' . $salontype . '）</span>'; } ?></h1>
+				<h1><?php echo $salonname; ?><?php if (!empty($salontype)) {
+																				echo '<span>（' . $salontype . '）</span>';
+																			} ?></h1>
 
 				<dl>
 					<dt>営業時間：</dt>
 					<dd><?php echo $buisiness_hours; ?></dd>
 				</dl>
-				
+
 				<dl>
 					<dt>定休日：</dt>
 					<dd><?php echo $holiday; ?></dd>
@@ -116,8 +118,9 @@ include($root . "/include/header.php");
 					<div class="cta_zone">
 						<div class="link purple is_sp"><a href="tel:<?php echo $tel_tag; ?>"><i class="far fa-mobile-android"></i> <?php echo $tel; ?></a></div>
 						<div class="link purple"><a href="<?php echo $map_link; ?>" target="_blank">GoogleMap</a></div>
-						<!-- <div class="link purple"><a href="<?php //echo $reserved; ?>" target="_blank"><?php echo $salonname; ?>の予約はこちら ▶︎</a></div> -->
-						<div class="link notice"><a><?php echo $schedule; ?>OPEN予定</a></div>
+						<div class="link purple"><a href="<?php echo $reserved; ?>" target="_blank"><?php echo $salonname; ?>の予約はこちら ▶︎</a></div>
+						<!-- <div class="link notice"><a><?php //echo $schedule; 
+																							?>OPEN予定</a></div> -->
 					</div>
 				</div>
 			</div>
