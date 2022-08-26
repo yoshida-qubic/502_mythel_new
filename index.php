@@ -37,12 +37,12 @@ include($root . "/include/header.php");
 
 	<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ03 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
 	<!-- <section class="top03 fadeup"> -->
-		<!-- <div class="top03_in"> -->
-			<!-- <h2 class="sub_ttl green fadeup">CAMPAIGN</h2> -->
-			<!-- <div class="top03_wrap"> -->
+	<!-- <div class="top03_in"> -->
+	<!-- <h2 class="sub_ttl green fadeup">CAMPAIGN</h2> -->
+	<!-- <div class="top03_wrap"> -->
 
-				<!-- <div class="box campaign01 fadeup"> -->
-					<!-- <div class="item">
+	<!-- <div class="box campaign01 fadeup"> -->
+	<!-- <div class="item">
 						<div class="inner">
 							<h3>夏はすぐそこ！<br class="is_sp">脱毛キャンペーン実施中</h3>
 							<p>当日体験時に入会申し込みを行うと</p>
@@ -74,7 +74,7 @@ include($root . "/include/header.php");
 						</div>
 					</div> -->
 
-					<!-- <div class="item">
+	<!-- <div class="item">
 						<div class="inner">
 							<h3>夏はすぐそこ！<br class="is_sp">脱毛キャンペーン実施中</h3>
 							<p>当日体験時に入会申し込みを行うと</p>
@@ -111,9 +111,9 @@ include($root . "/include/header.php");
 							<p class="txt01">※一部実施しいていない店舗がございます。<br class="is_tab">詳しくは店舗にお問い合わせ下さい。</p>
 						</div>
 					</div> -->
-				<!-- </div> -->
-				
-				<!-- <div class="box campaign02 fadeup">
+	<!-- </div> -->
+
+	<!-- <div class="box campaign02 fadeup">
 					<div class="item">
 						<div class="inner">
 							<h3>2022年<br class="is_sp">6月キャンペーン実施中</h3>
@@ -144,12 +144,12 @@ include($root . "/include/header.php");
 					</div>
 				</div> -->
 
-				<!-- <div class="att kozuka fadeup">
+	<!-- <div class="att kozuka fadeup">
 					<p>さらにGoldプラン以上のコース契約のお客様には</p>
 				</div> -->
 
 
-				<!-- <div class="box fadeup">
+	<!-- <div class="box fadeup">
 					<div class="item">
 						<p class="number">03</p>
 						<h4>コロナ抗体検査キット</h4>
@@ -158,7 +158,7 @@ include($root . "/include/header.php");
 						</div>
 					</div>
 				</div> -->
-				<!-- 
+	<!-- 
 				<div class="box fadeup">
 					<div class="item">
 						<p class="number">04</p>
@@ -169,16 +169,16 @@ include($root . "/include/header.php");
 					</div>
 				</div> -->
 
-				<!-- <div class="att kozuka fadeup">
+	<!-- <div class="att kozuka fadeup">
 					<p>どちらか１つをプレゼント！<br>※プレゼントキャンペーンは実施していない店舗もございます。ご来店前に店舗にご確認お願いします。</p>
 				</div> -->
-			<!-- </div> -->
+	<!-- </div> -->
 
-			<!-- <h2 class="sub_ttl green fadeup box02_sub_ttl">新機種導入！</h2> -->
-			<!-- <div class="top03_wrap"> -->
+	<!-- <h2 class="sub_ttl green fadeup box02_sub_ttl">新機種導入！</h2> -->
+	<!-- <div class="top03_wrap"> -->
 
 
-				<!-- <div class="box02 fadeup">
+	<!-- <div class="box02 fadeup">
 					<div class="item">
 						<div class="img is_pc">
 							<img src="./images/top/top03_img03.png">
@@ -207,7 +207,7 @@ include($root . "/include/header.php");
 				</div> -->
 
 
-				<!-- <div class="box03 fadeup">
+	<!-- <div class="box03 fadeup">
 					<div class="item">
 						<p class="txt01"><span class="big">話題</span>の<span class="medium">最新美容</span>マシンが<br class="is_tab">MYTHELに導入決定！</p>
 
@@ -245,24 +245,24 @@ include($root . "/include/header.php");
 				</div> -->
 
 
-			<!-- </div> -->
+	<!-- </div> -->
 
 
 
 
-		<!-- </div> -->
+	<!-- </div> -->
 	<!-- </section> -->
 	<!-- ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ -->
-	
+
 	<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ07 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
 	<section class="top07 fadeup">
 		<div class="top07_in">
 			<div class="bg">
-			<picture>
-				<source media="(min-width: 768px)" srcset="./images/top/top07_bg01.jpg">
-				<source media="(max-width: 767px)" srcset="./images/top/top07_bg01_sp.jpg">
-				<img src="./images/top/top07_bg01.jpg" alt="">
-			</picture>
+				<picture>
+					<source media="(min-width: 768px)" srcset="./images/top/top07_bg01.jpg">
+					<source media="(max-width: 767px)" srcset="./images/top/top07_bg01_sp.jpg">
+					<img src="./images/top/top07_bg01.jpg" alt="">
+				</picture>
 			</div>
 			<div class="box">
 				<div class="container">
