@@ -1044,7 +1044,10 @@ footer .copy {
 
 .top07 .box .box_in {
 	position: relative;
+	/* ↓9/1に削除する */
 	padding-bottom: 18vw;
+	/* ↓9/1にコメント外す */
+	/* padding-bottom: 16vw; */
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1058,16 +1061,28 @@ footer .copy {
 }
 
 .top07 .box .box_in figure {
+	/* ↓9/1に削除する */
 	max-width: 735px;
+	/* ↓9/1にコメント外す */
+	max-width: 980px;
+	/* ↓9/1に削除する */
 	width: 57%;
+	/* ↓9/1にコメント外す */
+	/* width: 70%; */
 	margin: 0.5rem auto 0;
 }
 
 .top07 .box .box_in .txt {
+	/* ↓9/1に削除する */
 	background: rgba(95, 187, 207, .72);
+	/* ↓9/1にコメント外す */
+	/* background: rgba(207, 95, 100, .72); */
 	padding: 1rem 2.5rem;
 	transform: rotate(-4.83deg);
+	/* ↓9/1に削除する */
 	margin-top: 11vw;
+	/* ↓9/1にコメント外す */
+	/* margin-top: 5vw; */
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -1100,7 +1115,10 @@ footer .copy {
 	}
 
 	.top07 .box .box_in .txt {
+		/* ↓9/1に削除する */
 		margin-top: 8vw;
+		/* ↓9/1にコメント外す */
+		/* margin-top: 4vw; */
 		padding: 1rem 2rem;
 	}
 

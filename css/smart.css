@@ -883,10 +883,16 @@ footer .copy {
 }
 
 .top07 .box .box_in .txt {
+	/* ↓9/1に削除する */
 	background: rgba(95, 187, 207, .72);
+	/* ↓9/1にコメント外す */
+	/* background: rgba(207, 95, 100, .72); */
 	padding: 0.75rem 1rem;
 	transform: rotate(-4.83deg);
+	/* ↓9/1に削除する */
 	margin-top: 15vw;
+	/* ↓9/1にコメント外す */
+	/* margin-top: 7vw; */
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
