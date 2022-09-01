@@ -5,8 +5,8 @@ include($root . "/include/header.php");
 ?>
 
 
-<main>
 
+<main>
 	<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ01 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
 	<section class="top01">
 		<div class="container">
@@ -259,32 +259,32 @@ include($root . "/include/header.php");
 		<div class="top07_in">
 			<div class="bg">
 				<!-- ↓9/1に削除する -->
-				<picture>
+				<!-- <picture>
 					<source media="(min-width: 768px)" srcset="./images/top/top07_bg01.jpg">
 					<source media="(max-width: 767px)" srcset="./images/top/top07_bg01_sp.jpg">
 					<img src="./images/top/top07_bg01.jpg" alt="">
-				</picture>
+				</picture> -->
 				<!-- ↓9/1にコメント外す -->
-				<!-- <picture>
+				<picture>
 					<source media="(min-width: 768px)" srcset="./images/top/top07_bg02.jpg">
 					<source media="(max-width: 767px)" srcset="./images/top/top07_bg02_sp.jpg">
 					<img src="./images/top/top07_bg02.jpg" alt="">
-				</picture> -->
+				</picture>
 			</div>
 			<div class="box">
 				<div class="container">
 					<div class="box_in">
 						<h2 class="fadeup">
 							<!-- ↓9/1に削除する -->
-							<img src="./images/top/top07_txt01.png" alt="2022 SUMMER CAMPAING">
+							<!-- <img src="./images/top/top07_txt01.png" alt="2022 SUMMER CAMPAING"> -->
 							<!-- ↓9/1にコメント外す -->
-							<!-- <img src="./images/top/top07_txt04.png" alt="2022 AUTUMN CAMPAING"> -->
+							<img src="./images/top/top07_txt04.png" alt="2022 AUTUMN CAMPAING">
 						</h2>
 						<figure class="fadeup">
 							<!-- ↓9/1に削除する -->
-							<img src="./images/top/top07_txt02.png" alt="7.1 fri - 8.31 WED">
+							<!-- <img src="./images/top/top07_txt02.png" alt="7.1 fri - 8.31 WED"> -->
 							<!-- ↓9/1にコメント外す -->
-							<!-- <img src="./images/top/top07_txt05.png" alt="9.1 - 10.31"> -->
+							<img src="./images/top/top07_txt05.png" alt="9.1 - 10.31">
 						</figure>
 
 						<div class="txt fadeup">
