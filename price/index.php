@@ -53,10 +53,133 @@ include($root . "/include/header.php");
 			<div class="price03_in">
 				<div class="ttl">
 					<h2 class="kapital_t fadeup">PRICE</h2>
+					<div class="type_b_shoplist fadeup">
+						<ul>
+							<li>京都烏丸店</li>
+						</ul>
+						<p>※上記店舗に限り、Bタイプの料金が適用されます。</p>
+					</div>
 					<h3 class="sub_ttl fadeup">MONTHLY</h3>
 					<p class="fadeup"><strong>月額利用料</strong></p>
 				</div>
-				<div class="box fadeup">
+
+				<div class="type_menu_tab fadeup">
+					<ul>
+						<li class="active">Aタイプ</li>
+						<li>Bタイプ</li>
+					</ul>
+				</div>
+
+				<div class="box monthly fadeup">
+					<table>
+						<thead>
+							<tr>
+								<th>会員コース</th>
+								<th>利用可能時間</th>
+								<th>分数</th>
+								<th>金額</th>
+								<th>施術内容</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th>シルバー</th>
+								<th>DayTime <span>Open〜15時までに入店</span><span>平日のみ利用可能</span></th>
+								<td>45<span class="small">min</span></td>
+								<td class="purple">6,578<span class="middle">円(税込)</span></td>
+								<td class="facility_contents">
+									<span class="txt">脱毛</span><br>
+									<span class="txt">キャビテーション</span><br>
+									<span class="txt">フェイシャル</span><br>
+									<span class="txt">ホワイトニング</span>
+								</td>
+							</tr>
+							<tr>
+								<th>ゴールド</th>
+								<th>AllTime <span>Open〜最終受付まで</span></th>
+								<td>45<span class="small">min</span></td>
+								<td class="purple">10,980<span class="middle">円(税込)</span></td>
+								<td class="facility_contents">
+									<span class="txt">脱毛</span><br>
+									<span class="txt">キャビテーション</span><br>
+									<span class="txt">フェイシャル</span><br>
+									<span class="txt">ホワイトニング</span>
+								</td>
+							</tr>
+
+							<tr>
+								<th>プラチナ</th>
+								<th>AllTime <span>Open〜最終受付まで</span></th>
+								<td>45<span class="small">min</span></td>
+								<td class="purple">15,980<span class="middle">円(税込)</span></td>
+								<td class="facility_contents">
+									<span class="txt">脱毛</span><br>
+									<span class="txt">キャビテーション</span><br>
+									<span class="txt">フェイシャル</span><br>
+									<span class="txt">ホワイトニング</span><br>
+									<span class="txt">MAGWAVE</span>
+								</td>
+							</tr>
+
+							<tr>
+								<th>ダイア<br class="is_tab">モンド</th>
+								<th>AllTime <span>Open〜最終受付まで</span></th>
+								<td>45<span class="small">min</span></td>
+								<td class="purple">21,980<span class="middle">円(税込)</span></td>
+								<td class="facility_contents">
+									<span class="txt">脱毛</span><br>
+									<span class="txt">キャビテーション</span><br>
+									<span class="txt">フェイシャル</span><br>
+									<span class="txt">ホワイトニング</span><br>
+									<span class="txt">MAGWAVE・HIFU</span>
+								</td>
+							</tr>
+
+							<tr>
+								<th>ホリデー<br class="is_tab">プラン</th>
+								<th>AllTime <span>Open〜最終受付まで</span><span>土日祝のみ利用可能</span></th>
+								<td>45<span class="small">min</span></td>
+								<td class="purple">10,980<span class="middle">円(税込)</span></td>
+								<td class="facility_contents">
+									<span class="txt">脱毛</span><br>
+									<span class="txt">キャビテーション</span><br>
+									<span class="txt">フェイシャル</span><br>
+									<span class="txt">ホワイトニング</span><br>
+									<span class="txt">MAGWAVE</span>
+								</td>
+							</tr>
+
+							<tr>
+								<th>ハイフ＆<br class="is_tab">ラジオ波<br class="is_tab">プラン</th>
+								<th>AllTime <span>Open〜最終受付まで</span></th>
+								<td>45<span class="small">min</span></td>
+								<td class="purple">10,980<span class="middle">円(税込)</span></td>
+								<td class="facility_contents">
+									<span class="txt">※ハイフ</span><br>
+									<span class="txt">し放題プラン</span>
+								</td>
+							</tr>
+
+							<tr>
+								<th>MAGWAVE<br class="is_tab">プラン</th>
+								<th>AllTime <span>Open〜最終受付まで</span></th>
+								<td>40<span class="small">min</span></td>
+								<td class="purple">13,980<span class="middle">円(税込)</span></td>
+								<td class="facility_contents">
+									<span class="txt">※MAGWAVE</span><br>
+									<span class="txt">し放題プラン</span>
+								</td>
+							</tr>
+
+						</tbody>
+					</table>
+					<div class="scrollable is_sp">
+						<i class="far fa-hand-point-up"></i>
+						<span>スクロールできます</span>
+					</div>
+				</div>
+
+				<div class="box monthly hide">
 					<table>
 						<thead>
 							<tr>
@@ -115,9 +238,10 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 			</div>
+
+
 			<div class="price03_in">
 				<div class="ttl">
-					<h2 class="kapital_t fadeup">PRICE</h2>
 					<h3 class="sub_ttl fadeup">VISITOR</h3>
 					<p class="fadeup"><strong>都度払い料金</strong></p>
 				</div>

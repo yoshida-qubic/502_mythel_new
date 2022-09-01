@@ -41,15 +41,15 @@ include($root . "/include/header.php");
 
 		<div class="container">
 			<div class="box">
-				<a href="#area01">北海道</a>
+				<!-- <a href="#area01">北海道</a> -->
 				<a href="#area02">東北</a>
 				<a href="#area03">関東</a>
-				<!-- <a href="#area04">甲信越</a> -->
+				<a href="#area04">北陸・甲信越</a>
 				<a href="#area05">東海</a>
 				<a href="#area06">関西</a>
-				<!-- <a href="#area07">中国・四国</a> -->
+				<a href="#area07">中国・四国</a>
 				<a href="#area08">九州・沖縄</a>
-				<a href="#area09">OPEN予定</a>
+				<!-- <a href="#area09">OPEN予定</a> -->
 			</div>
 		</div>
 	</div>
@@ -60,68 +60,92 @@ include($root . "/include/header.php");
 	<section class="salonlist03">
 		<div class="container">
 
-			<div class="box" id="area01">
-				<h3>北海道エリア</h3>
+			<!-- <div class="box" id="area01"> -->
+				<!-- <h3>北海道エリア</h3> -->
 
 				<!-- 札幌店 -->
-				<?php include("./sapporo/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<!-- 2022/06/03 削除 -->
+				<?php //include("./sapporo/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- 札幌店 -->
 
 
 
-			</div>
+			<!-- </div> -->
 
 			<div class="box" id="area02">
 				<h3>東北エリア</h3>
 
 				<!-- 仙台駅前店 -->
-				<?php include("./sendai/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<!-- 2022/06/03 削除 -->
+				<?php //include("./sendai/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- 仙台駅前店 -->
 
 
 				<!-- 仙台国分町店 -->
-				<?php include("./sendaikokubuncho/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<!-- 2022/03/01 削除 -->
+				<?php //include("./sendaikokubuncho/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- 仙台国分町店 -->
 
-				<!-- 盛岡店 -->
-				<?php include("./morioka/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
-				<!-- 盛岡店-->
+				<!-- 盛岡菜園店 -->
+				<?php include("./morioka_saien/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- 盛岡菜園店 -->
 
 			</div>
 
 			<div class="box" id="area03">
 				<h3>関東エリア</h3>
 
-				<!-- 原宿店 -->
-				<?php include("./harajyuku/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
-				<!-- 原宿店-->
-
-				<!-- 水戸店 -->
-				<?php include("./mito/info.php"); ?>
+				<!-- キュープラザ原宿店 -->
+				<?php include("./qplaza_harajyuku/info.php"); ?>
 				<?php include("./template.php"); ?>
-				<!-- 水戸店 -->
-
+				<!-- キュープラザ原宿店-->
 
 				<!-- モザイクモール港北店 -->
-				<?php include("./mosaicmall_kouhoku/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<!-- 2022/08/04 削除 -->
+				<?php //include("./mosaicmall_kouhoku/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- モザイクモール港北店 -->
-				
+
+				<!-- トレッサ横浜店 -->
+				<?php include("./tressa_yokohama/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- トレッサ横浜店-->
+
+				<!-- ドン・キホーテ二俣川店 -->
+				<?php include("./donki_futamatagawa/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- ドン・キホーテ二俣川店 -->
+
+				<!-- 水戸店 -->
+				<!-- 2022/01/31 削除 -->
+				<?php //include("./mito/info.php"); ?>
+				<?php //include("./template.php"); ?>
+				<!-- 水戸店 -->
+
+				<!-- ひたちの店 -->
+				<!-- 2022/06/03 削除 -->
+				<?php //include("./hitachino/info.php"); ?>
+				<?php //include("./template.php"); ?>
+				<!-- ひたちの店 -->
 			</div>
 
-			<div class="box" id="area02">
-				<h3>甲信越エリア</h3>
+			<div class="box" id="area04">
+				<h3>北陸・甲信越エリア</h3>
+
+				<!-- イオンモール白山店 -->
+				<?php include("./aeonmall_hakusan/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- イオンモール白山店 -->
 
 				<!-- ながの東急百貨店内 -->
-				<?php include("./nagano_tokyu/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
+				<!-- 2022/06/03 削除 -->
+				<?php //include("./nagano_tokyu/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- ながの東急百貨店内 -->
-
 			</div>
 
 			<div class="box" id="area05">
@@ -131,18 +155,40 @@ include($root . "/include/header.php");
 
 
 				<!-- 栄店 -->
-				<?php include("./sakae/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<!-- 2022/03/01 削除 -->
+				<?php //include("./sakae/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- 栄店 -->
 
 				<!-- 星ヶ丘店 -->
 				<?php include("./hoshigaoka/info.php"); ?>
 				<?php include("./template.php"); ?>
 				<!-- 星ヶ丘店 -->
+
+				<!-- イオン三好店 -->
+				<?php include("./aeon_miyoshi/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- イオン三好店 -->
+
+				<!-- イーアス春日井店 -->
+				<?php include("./iias_kasugai/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- イーアス春日井店 -->
+
+				<!-- mozoワンダーシティ店 -->
+				<?php include("./mozo_wondercity/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- mozoワンダーシティ店 -->
+
+				<!-- MEGAドン・キホーテ豊橋店 -->
+				<?php include("./megadonki_toyohashi/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- MEGAドン・キホーテ豊橋店 -->
 				
 				<!-- 新静岡セノバ店 -->
-				<?php include("./shinshizuoka_cenova/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<!-- 2022/06/03 削除 -->
+				<?php //include("./shinshizuoka_cenova/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- 新静岡セノバ店-->
 
 
@@ -162,41 +208,68 @@ include($root . "/include/header.php");
 			<div class="box" id="area06">
 				<h3>関西エリア</h3>
 
-				<!-- 天王寺店 -->
-				<?php include("./tennoji/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
-				<!-- 天王寺店-->
-
-				<!-- 豊中駅前店 -->
-				<?php include("./toyonaka/info.php"); ?>
+				<!-- あべのキューズモール店 -->
+				<?php include("./abeno_qs_mall/info.php"); ?>
 				<?php include("./template.php"); ?>
+				<!-- あべのキューズモール店-->
+
+				<!-- 豊中駅前店 -->
+				<!-- 2022/03/01 削除 -->
+				<?php //include("./toyonaka/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- 豊中駅前店 -->
 
-				<!-- アリオ鳳 -->
-				<?php include("./ario_otori/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
+				<!-- アリオ鳳 2022/01/31削除 -->
+				<?php //include("./ario_otori/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- アリオ鳳 -->
 
-				<!-- 尼崎店 -->
-				<?php include("./amagasaki/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
-				<!-- 尼崎店 -->
+				<!-- アルザ泉大津店 -->
+				<?php include("./alzar_izumiotsu/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- アルザ泉大津店 -->
+
+				<!-- 守口店 -->
+				<?php include("./moriguchi/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- 守口店 -->
+
+				<!-- 枚方店 -->
+				<?php include("./hirakata/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- 枚方店 -->
+
+				<!-- あまがさきキューズモール店 -->
+				<?php include("./amagasaki_qs_mall/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- あまがさきキューズモール店 -->
 
 				<!-- 京都烏丸店 -->
 				<?php include("./kyotokarasuma/info.php"); ?>
 				<?php include("./template.php"); ?>
 				<!-- 京都烏丸店 -->
-				<div class="bottom">
-					<p>※京都烏丸店と西院店で入会の方はどちらの店舗でもご使用頂けます。</p>
-				</div>
 
+				<!-- MENS京都西院店 2022/02/01削除 -->
+				<?php //include("./kyotosaiin/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- MENS京都西院店 -->
-				<?php include("./kyotosaiin/info.php"); ?>
+				<!-- <div class="bottom"> -->
+					<!-- <p>※京都烏丸店と西院店で入会の方はどちらの店舗でもご使用頂けます。</p> -->
+				<!-- </div> -->
+
+
+			</div>
+
+
+
+			<div class="box" id="area07">
+				<h3>中国・四国エリア</h3>
+
+				<!-- 島根出雲店 -->
+				<?php include("./shimane_izumo/info.php"); ?>
 				<?php include("./template.php"); ?>
-				<!-- MENS京都西院店 -->
-				<div class="bottom">
-					<p>※京都烏丸店と西院店で入会の方はどちらの店舗でもご使用頂けます。</p>
-				</div>
+				<!-- 島根出雲店 -->
+
 
 
 			</div>
@@ -206,10 +279,10 @@ include($root . "/include/header.php");
 			<div class="box" id="area08">
 				<h3>九州・沖縄エリア</h3>
 
-				<!-- 小倉北店 -->
-				<?php include("./ogurakita/info.php"); ?>
-				<?php include("./template_notice.php"); ?>
-				<!-- 小倉北店 -->
+				<!-- 小倉南守恒店 -->
+				<?php include("./kokuraminami_moritsune/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- 小倉南守恒店 -->
 
 
 

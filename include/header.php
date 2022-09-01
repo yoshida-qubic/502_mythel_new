@@ -9,9 +9,9 @@
   <!-- <link rel="shortcut icon" href="./images/favicon.ico" /> -->
   <!-- <link rel="apple-touch-icon" href="./images/favicon.ico"" /> -->
   <link rel="stylesheet" type="text/css" href="<?php echo $dir; ?>style.css">
-  <link rel="stylesheet" type="text/css" href="<?php echo $dir; ?>css/desktop.css" media="screen and (min-width: 768px)">
-  <link rel="stylesheet" type="text/css" href="<?php echo $dir; ?>css/tab.css" media="screen and (min-width: 768px) and (max-width: 1279px)">
-  <link rel="stylesheet" type="text/css" href="<?php echo $dir; ?>css/smart.css" media="screen and (max-width: 767px)">
+  <link rel="stylesheet" type="text/css" href="<?php echo $dir; ?>css/desktop.css?<?php echo date("YmdHis"); ?>" media="screen and (min-width: 768px)">
+  <link rel="stylesheet" type="text/css" href="<?php echo $dir; ?>css/tab.css?<?php echo date("YmdHis"); ?>" media="screen and (min-width: 768px) and (max-width: 1279px)">
+  <link rel="stylesheet" type="text/css" href="<?php echo $dir; ?>css/smart.css?<?php echo date("YmdHis"); ?>" media="screen and (max-width: 767px)">
   <link rel="stylesheet" href="<?php echo $dir; ?>css/swiper.min.css" type="text/css" />
   <script defer src="<?php echo $dir; ?>js/all.min.js"></script>
   <script defer src="<?php echo $dir; ?>js/swiper.min.js"></script>
@@ -43,7 +43,7 @@
             <li><a href="<?php echo $dir; ?>privacypolicy/">プライバシーポリシー</a></li>
             <li><a href="<?php echo $dir; ?>membership/">会員規約</a></li>
             <li><a href="<?php echo $dir; ?>facilityterm/">施設利用規約</a></li>
-            <li><a href="https://www.tree-co.net/" target="_blank">会社概要</a></li>
+            <!-- <li><a href="https://www.tree-co.net/" target="_blank">会社概要</a></li> -->
             <li><a href="<?php echo $dir; ?>transaction/">特商法取引</a></li>
             <li><a href="<?php echo $dir; ?>pdf/consent_form.pdf" download="consent_form.pdf">未成年同意書</a></li>
             <li><a href=" <?php echo $dir; ?>fc/">FC加盟について </a> </li>

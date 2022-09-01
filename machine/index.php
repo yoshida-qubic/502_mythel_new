@@ -117,7 +117,7 @@ include($root . "/include/header.php");
 			<div class="box fadeup">
 				<div class="txt">
 					<h2 class="libre">SOLCA facial Machine</h2>
-					<p>1台7役のアクアフェイシャルマシン<br>vSOLCA Aqua Facial</p>
+					<p>1台7役のアクアフェイシャルマシン<br>SOLCA Aqua Facial</p>
 					<div class="item">
 						<img src="<?php echo $imgDir; ?>machine04_img01.png">
 					</div>
@@ -224,7 +224,67 @@ include($root . "/include/header.php");
 	</section>
 	<!-- ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ マシン06 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ -->
 
+	<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン07 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
+	<section class="machine07">
+		<div class="container">
 
+			<div class="box fadeup">
+				<div class="img">
+					<img src="<?php echo $imgDir; ?>machine07_img01.png">
+				</div>
+
+				<div class="txt">
+					<h2 class="libre">HYPER HIFU DUAL</h2>
+					<p>セルフエステ史上初！<br>HIFU＆ラジオ波のW出力！</p>
+					<div class="inner">
+						<p>
+							冷却機能付きで、無痛・速攻リフトアップが可能な<br>
+							最新ハイフマシンがMYTHELに登場！<br>
+							3.0mmのカートリッジで真皮層にアプローチし<br>
+							お肌のタイトニングやリフトアップを促します。<br>
+							さらにラジオ波で追い熱を加えお顔のリフトアップを<br>
+							形状記憶させます。ぜひ一度お試し下さい。
+						</p>
+					</div>
+				</div>
+
+			</div>
+			<div class="link white fadeup"><a href="<?php echo $dir; ?>salonlist/">無料体験のお申込み ▶︎</a></div>
+
+		</div>
+	</section>
+	<!-- ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ マシン07 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ -->
+
+	<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン08 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
+	<section class="machine08">
+		<div class="container">
+			<div class="box fadeup">
+
+				<div class="txt">
+					<h2 class="libre">MAGWAVE EX</h2>
+					<p>
+						新時代への扉が開く！<br>
+						磁力のPOWERが炸裂する<br>
+						最新トレーニングマシン！
+					</p>
+					<p>このマシン<span>最強</span>！</p>
+					<div class="inner">
+						<p>
+							MAGWAVE EXは<br>
+							「高強度電磁界」という磁気の力で身体の内部最大7〜10cmまで磁界を浸透させる全く新しい痩身機器です。これによって普段使用しない筋肉にダイレクトに刺激を与え、運動による脂肪燃焼と同じメカニズムを体内で実現し、機械的に150倍（理論上）の運動効果を出すことができます。<br>
+							さらに、HIFU効果で驚きの痩身効果を実感できます。話題性バツグン！これからの痩身エステの常識を変える最先端マシンです。
+						</p>
+					</div>
+				</div>
+				<div class="img">
+					<img src="<?php echo $imgDir; ?>machine08_img01.png">
+				</div>
+
+			</div>
+			<div class="link purple fadeup"><a href="<?php echo $dir; ?>salonlist/">無料体験のお申込み ▶︎</a></div>
+		</div>
+	</section>
+	<!-- ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ マシン08 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ -->
 
 	<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ06 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
 	<section class="top06">

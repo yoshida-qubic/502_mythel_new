@@ -325,7 +325,7 @@ include($root . "/include/header.php");
 						<p>男性の利用は可能ですか？</p>
 					</div>
 					<div class="ans">
-						<p>申し訳ございません。当店は女性専用のセルフエステサロンとなります。</p>
+						<p>店舗により男性も可能です。詳しくは店舗にご確認下さい。</p>
 					</div>
 				</div>
 
@@ -398,14 +398,14 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="item fadeup">
+				<!-- <div class="item fadeup">
 					<div class="que">
 						<p>予約メールが届きません。</p>
 					</div>
 					<div class="ans">
 						<p>ドメイン指定受信許可または拒否設定をしている可能性があります。<br>info@lovees-self.comからのメールを受信できるよう、設定変更をお願いします。それでもメールが届かない場合、ご登録のメールアドレスが間違っている可能性がございます。登録店舗にてメールアドレス変更申請を行ってください。</p>
 					</div>
-				</div>
+				</div> -->
 
 				<div class="item fadeup">
 					<div class="que">

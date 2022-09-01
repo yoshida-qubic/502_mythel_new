@@ -26,7 +26,7 @@ include($root . "/include/header.php");
 		<div class="container">
 			<div class="box">
 				<p>SALON</p>
-				<h1><?php echo $salonname; ?></h1>
+				<h1><?php echo $salonname; ?><?php if(!empty($salontype)){ echo '<span>（' . $salontype . '）</span>'; } ?></h1>
 
 				<dl>
 					<dt>営業時間：</dt>
@@ -140,10 +140,8 @@ include($root . "/include/header.php");
 					<h2>TRIAL</h2>
 					<h3>初回体験無料</h3>
 					<p>最先端のトータルビューティーマシンを使い放題<br>
-						脱毛・痩身・フェイシャル・ホワイトニング・ネイルが使い放題<br>
-						さらに当日の入会申込で入会金・事務手数料無料！<br>
-						さらにコロナ抗体検査キット or カーブシートをプレゼント！<br>
-						まずは店舗でお試し下さい。
+						脱毛・痩身・フェイシャル・ホワイトニングが使い放題<br>
+						さらに当日の入会申込で入会金・事務手数料無料！
 					</p>
 				</div>
 			</div>

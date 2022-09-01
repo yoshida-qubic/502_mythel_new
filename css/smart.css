@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ ベース設定 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-body{-webkit-text-size-adjust: 100%;}
-html{
+body {
+	-webkit-text-size-adjust: 100%;
+}
+
+html {
 	color: #000;
 	font-size: 15px;
-	line-height: ;
 	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
 	line-height: 2;
 	/*font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;*/
@@ -12,127 +15,183 @@ html{
 	/*font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;*/
 	-webkit-text-size-adjust: 100%;
 }
-a{
+
+a {
 	color: #000;
 	display: block;
 }
-#wrapper{
+
+#wrapper {
 	width: 100%;
 	height: 100%;
 }
+
 section,
-.section{
+.section {
 	width: 100%;
 	height: auto;
 	position: relative;
 }
-.container{
+
+.container {
 	width: 100%;
 	max-width: 650px;
 	margin: 0 auto;
-	padding:0 2rem;
+	padding: 0 2rem;
 }
-.is_pc{display: none;}
-.is_hidden_tab{display: none;}
-:root{
+
+.is_pc {
+	display: none;
+}
+
+.is_hidden_tab {
+	display: none;
+}
+
+:root {
 	--grey: #6a6969;
 	--dark_grey: #3a3a3a;
 	--purple: #7a74a2;
-	--dark_purple:#505076;
+	--dark_purple: #505076;
 	--green: #2a6a7e;
 }
+
 .objectCover {
-	width:100%;
+	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	object-position: 50% 50%; 
+	object-position: 50% 50%;
 	font-family: 'object-fit: cover;object-position: 50% 50%;'
 }
+
 .objectContain {
-	width:100%;
+	width: 100%;
 	height: 100%;
 	object-fit: contain;
-	object-position: 50% 50%; 
+	object-position: 50% 50%;
 	font-family: 'object-fit: contain;object-position: 50% 50%;'
 }
-.point_reader{
+
+.point_reader {
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 2;
 	overflow: hidden;
 }
-.inertia{ -webkit-overflow-scrolling: touch; }
-.preload * { transition: none !important; }
+
+.inertia {
+	-webkit-overflow-scrolling: touch;
+}
+
+.preload * {
+	transition: none !important;
+}
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ ベース設定 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ 共通 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.century{ font-family: 'Century Gothic',sans-serif; }
+.century {
+	font-family: 'Century Gothic', sans-serif;
+}
+
 @font-face {
 	font-family: 'kapital_t';
-	 src: url(../fonts/KapitalLight.woff),
-	 	url(../fonts/KapitalLight.otf);
+	src: url(../fonts/KapitalLight.woff),
+		url(../fonts/KapitalLight.otf);
 }
+
 @font-face {
 	font-family: 'kapital_n';
-	 src: url(../fonts/KapitalRegular.woff),
-	 	url(../fonts/KapitalRegular.otf);
+	src: url(../fonts/KapitalRegular.woff),
+		url(../fonts/KapitalRegular.otf);
 }
+
 @font-face {
-  font-family: "exodusdemo";
-  src: url(../fonts/ExodusDemo-Striped.woff),
-        url(../fonts/ExodusDemo-Striped.otf);
-}  
-.kapital_t{ font-family: kapital_t; }
-.kapital_n{ font-family: kapital_n; }
-.exodusdemo{
+	font-family: "exodusdemo";
+	src: url(../fonts/ExodusDemo-Striped.woff),
+		url(../fonts/ExodusDemo-Striped.otf);
+}
+
+.kapital_t {
+	font-family: kapital_t;
+}
+
+.kapital_n {
+	font-family: kapital_n;
+}
+
+.exodusdemo {
 	font-family: exodusdemo;
 }
-.mincho{ font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif; }
-.kozuka{	font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;}
-.libre{font-family: 'Libre Baskerville', serif;}
-main{ padding-top:4.5rem; }
-.sub_ttl{
+
+.mincho {
+	font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+.kozuka {
+	font-family: '小塚ゴシック Pro', 'Kozuka Gothic Pro', sans-serif;
+}
+
+.libre {
+	font-family: 'Libre Baskerville', serif;
+}
+
+main {
+	padding-top: 4.5rem;
+}
+
+.sub_ttl {
 	font-size: 1.7rem;
 	text-align: center;
 	font-family: kapital_t;
 	letter-spacing: 0.5rem;
 }
-.sub_ttl.green{ color: #2a6a7e; }
-.link a{
+
+.sub_ttl.green {
+	color: #2a6a7e;
+}
+
+.link a {
 	padding: 1rem;
 	letter-spacing: 0.25rem;
-	font-family: kapital_t,"ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+	font-family: kapital_t, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
 	text-align: center;
 }
-.link.purple a{
+
+.link.purple a {
 	background: #7a74a2;
 	color: #fff;
 }
-.link.white a{
+
+.link.white a {
 	color: #7a74a2;
 	background: #fff;
 }
-.link.notice a{
+
+.link.notice a {
 	background: #6a6969;
 	color: #fff;
 }
-.fadeup{
+
+.fadeup {
 	opacity: 0.01;
-	transform:translate(0 ,50px);
+	transform: translate(0, 50px);
 	transition: 1s;
 }
-.fadeup.active{
-	transform:translate(0 ,0);
+
+.fadeup.active {
+	transform: translate(0, 0);
 	opacity: 1;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ 共通 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ ナビ ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-header{
+header {
 	background: #3a3a3a;
 	position: fixed;
-	top:0;
-	left:0;
+	top: 0;
+	left: 0;
 	width: 100%;
 	border-bottom: 0.5rem solid #fff;
 	box-shadow: 0 0.25rem 0 #908e93;
@@ -141,20 +200,24 @@ header{
 	display: flex;
 	justify-content: space-between;
 }
-header.active{
+
+header.active {
 	transition: .6s;
 	border-bottom: 0.25rem solid #fff;
 	box-shadow: 0 0.2rem 0 #908e93;
 }
-.header_in{
-height: 4rem;
-transition: .3s;
+
+.header_in {
+	height: 4rem;
+	transition: .3s;
 }
-header.active .header_in{
+
+header.active .header_in {
 	transition: .6s;
 	height: 3.5rem;
 }
-header .logo{
+
+header .logo {
 	position: relative;
 	width: 8rem;
 	height: 8rem;
@@ -163,11 +226,13 @@ header .logo{
 	transition: .3s;
 	z-index: 100;
 }
-header.active .logo{
+
+header.active .logo {
 	transition: .6s;
 	height: 5rem;
 }
-header .logo a{
+
+header .logo a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -175,128 +240,170 @@ header .logo a{
 	padding: 0.5rem;
 	transition: .3s;
 }
-header nav{
+
+header nav {
 	position: absolute;
 	border-top: 0.5rem solid #fff;
-	left:0;
-	top:100%;
+	left: 0;
+	top: 100%;
 	width: 100%;
 	padding: 5rem 3rem;
 	background: #3a3a3a;
 	transform: translateX(100%);
 	opacity: 0;
-	transition: .3s opacity , .3s transform .1s;
+	transition: .3s opacity, .3s transform .1s;
 }
-header nav.active{
+
+header nav.active {
 	transition: .3s opacity .1s, .3s transform;
 	opacity: 1;
 	transform: translateX(0);
 }
-header ul{
+
+header ul {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
-header ul li{width: 50%;}
-header ul li a{
+
+header ul li {
+	width: 50%;
+}
+
+header ul li a {
 	color: #fff;
 	padding: 0.5rem;
 	text-align: center;
 }
-header ul li.h_reserved{
+
+header ul li.h_reserved {
 	width: 100%;
 	margin: 1rem 0 0;
 }
-header ul li.h_reserved a{
+
+header ul li.h_reserved a {
 	background: #505076;
 	padding: 0.5rem 2.5rem;
 }
-header ul.consent{
+
+header ul.consent {
 	margin: 3rem 0 0;
 }
-header ul.consent li a{
+
+header ul.consent li a {
 	font-size: 0.9rem;
 	padding: 0.5rem 0;
 }
 
 
 
-.menu_open{
+.menu_open {
 	width: 4rem;
 	height: 4rem;
 	position: relative;
 	transition: .3s;
 }
-header.active .menu_open{
+
+header.active .menu_open {
 	transition: .6s;
 	height: 3rem;
 }
-.menu_open span{
+
+.menu_open span {
 	position: absolute;
-	top:50%;
-	left:50%;
+	top: 50%;
+	left: 50%;
 	background: #fff;
 	width: 40%;
 	height: 2px;
 	transition: .3s;
 }
-.menu_open span:nth-of-type(1){transform:translate(-50%,-50%) translateY(5px);}
-.menu_open span:nth-of-type(2){transform:translate(-50%,-50%);}
-.menu_open span:nth-of-type(3){transform:translate(-50%,-50%) translateY(-5px);}
-.menu_open.active span:nth-of-type(1){transform:translate(-50%,-50%) rotate(45deg);}
-.menu_open.active span:nth-of-type(2){opacity: 0;}
-.menu_open.active span:nth-of-type(3){transform:translate(-50%,-50%) rotate(135deg);}
+
+.menu_open span:nth-of-type(1) {
+	transform: translate(-50%, -50%) translateY(5px);
+}
+
+.menu_open span:nth-of-type(2) {
+	transform: translate(-50%, -50%);
+}
+
+.menu_open span:nth-of-type(3) {
+	transform: translate(-50%, -50%) translateY(-5px);
+}
+
+.menu_open.active span:nth-of-type(1) {
+	transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.menu_open.active span:nth-of-type(2) {
+	opacity: 0;
+}
+
+.menu_open.active span:nth-of-type(3) {
+	transform: translate(-50%, -50%) rotate(135deg);
+}
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ ナビ ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ フッター ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-footer{
+footer {
 	background: #3a3a3a;
-	padding:2rem 0;
+	padding: 2rem 0;
 }
-footer nav ul{
+
+footer nav ul {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
-footer nav ul li{
+
+footer nav ul li {
 	width: 33%;
 }
-footer nav ul li a{
-	padding:0.5rem;
+
+footer nav ul li a {
+	padding: 0.5rem;
 	color: #fff;
 	position: relative;
 	text-align: center;
 	z-index: 10;
 }
-footer .logo{
+
+footer .logo {
 	width: 13rem;
 	margin: 2rem auto;
 }
-footer .f_insta{
+
+footer .f_insta {
 	width: 10rem;
-	margin:0 auto;
+	margin: 0 auto;
 }
-footer ul.att{
+
+footer ul.att {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 	margin: 2rem 0;
 }
-footer ul.att li{
+
+footer ul.att li {
 	width: 50%;
 }
-footer ul.att li a{
+
+footer ul.att li a {
 	padding: 0.5rem;
 	color: #fff;
 	text-decoration: underline;
 	font-size: 0.9rem;
 	text-align: center;
 }
-footer .copy{
+
+footer .copy {
 	font-size: 0.9rem;
 	text-align: center;
 	color: #fff;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ フッター ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ01 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
@@ -304,14 +411,15 @@ footer .copy{
 	width: 100%;
 	display: block;
 } */
-.top01{
+.top01 {
 	background-color: #7a74a2;
 	background-image: url(../images/top/top01_mv.png);
 	background-position: right 0% bottom 0%;
 	background-size: auto 85%;
 	background-repeat: no-repeat;
 }
-.top01 .box{
+
+.top01 .box {
 	text-align: center;
 	display: inline-block;
 	padding: 5rem 0 2.5rem;
@@ -319,78 +427,96 @@ footer .copy{
 	margin-left: -1rem;
 	width: 50%;
 }
-.top01 .box h1 img{
+
+.top01 .box h1 img {
 	width: 100%;
 	max-width: 400px;
 }
-.top01 .box p{
+
+.top01 .box p {
 	margin: 4rem -3rem 0 0;
 	font-size: 1rem;
 	line-height: 1.5;
 }
-.top01 .box p span{
+
+.top01 .box p span {
 	font-size: 1.5rem;
 	letter-spacing: 0.15rem;
 	padding: 0 0.25rem;
 }
-.top01 .box p span.small{
+
+.top01 .box p span.small {
 	font-size: 0.65rem;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.top02 a{
+.top02 a {
 	background: #3a3a3a;
 	color: #fff;
 	text-align: center;
 	padding: 2rem 0;
 }
-.top02 a img{
+
+.top02 a img {
 	width: 1.5rem;
 	margin-right: 0.5rem;
 	vertical-align: middle;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ02 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ03 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.top03{
+.top03 {
 	background: url(../images/top/top03_bg02.jpg) left 2rem top / 12rem no-repeat;
 	padding: 6rem 0 4rem;
 }
-.top03_in{
+
+.top03_in {
 	padding: 0 2rem;
 }
+
 .top03_in .top03_wrap {
 	margin: 0 0 1rem;
 }
+
 .top03_in .top03_wrap:last-of-type {
 	margin: 0;
 }
-.top03_wrap{margin: 3rem 0 0;}
+
+.top03_wrap {
+	margin: 3rem 0 0;
+}
+
 .top03 .box,
-.top03 .box02
-{
+.top03 .box02,
+.top03 .box03 {
 	background: #7a74a2;
 	color: #fff;
 	padding: 0.5rem;
 	margin: 1rem 0 0;
 }
-.top03 .box .item{
-	border:0.2rem solid #fff;
+
+.top03 .box .item {
+	border: 0.2rem solid #fff;
 	padding: 0.5rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-.top03 .box .item .inner{
+
+.top03 .box .item .inner {
 	width: 100%;
 	text-align: center;
 }
+
 .top03 .box .item .flex_wrap {
 	max-width: 300px;
 	margin: 0 auto;
 }
-.top03 .box .item .inner_in{
+
+.top03 .box .item .inner_in {
 	text-align: left;
 	padding-left: 4.5rem;
 	position: relative;
@@ -404,7 +530,7 @@ footer .copy{
 	margin: 1rem 0;
 }
 
-.top03 .box .item p.number{
+.top03 .box .item p.number {
 	width: 3rem;
 	height: 3rem;
 	background: #fff;
@@ -413,25 +539,32 @@ footer .copy{
 	align-items: center;
 	color: #505076;
 	border-radius: 50%;
-	font-family: 'Century Gothic',sans-serif;
+	font-family: 'Century Gothic', sans-serif;
 	font-size: 1.5rem;
 }
-.top03 .box .item .inner_in p.number{
+
+.top03 .box .item .inner_in p.number {
 	position: absolute;
-	top:50%;
+	top: 50%;
 	transform: translateY(-50%);
-	left:1rem;
+	left: 1rem;
 }
-.top03 .box .item h3{
+
+.top03 .box .item h3 {
 	border-bottom: 1px solid #fff;
 	font-size: 1.2rem;
-	margin:0 0 0.5rem;
+	margin: 0 0 0.5rem;
 }
-.top03 .box .item h4{
+
+.top03 .box .item h4 {
 	font-size: 1rem;
 	font-weight: normal;
 }
-.top03 .box .inner_in p span.small{font-size: 0.7rem;}
+
+.top03 .box .inner_in p span.small {
+	font-size: 0.7rem;
+}
+
 /* .top03 .box .item .img{
 	height: 2.5rem;
 } */
@@ -439,17 +572,18 @@ footer .copy{
 	margin: 0 0 1rem;
 }
 
-.top03 .box .item .img img{
+.top03 .box .item .img img {
 	height: 100%;
-	width:auto;
+	width: auto;
 }
 
 .top03 .box .item .txt01 {
 	font-size: 0.9rem;
 
 }
-.top03_in .att{
-	text-align:center;
+
+.top03_in .att {
+	text-align: center;
 	margin: 2rem 0 0;
 	font-size: 0.8rem;
 	line-height: 2.5;
@@ -460,8 +594,9 @@ footer .copy{
 	margin: 3rem 0 0;
 }
 
-.top03 .box02 .item {
-	border:0.25rem solid #fff;
+.top03 .box02 .item,
+.top03 .box03 .item {
+	border: 0.25rem solid #fff;
 	padding: 1rem;
 }
 
@@ -477,18 +612,21 @@ footer .copy{
 	margin: 0 auto;
 }
 
-.top03 .box02 .item .txt .txt01 {
+.top03 .box02 .item .txt .txt01,
+.top03 .box03 .item .txt01 {
 	font-size: 1.1rem;
 	line-height: 1.5;
 	margin: 0 0 1rem;
 	font-family: "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "游明朝", YuMincho, "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 
-.top03 .box02 .item .txt .txt01 .big {
+.top03 .box02 .item .txt .txt01 .big,
+.top03 .box03 .item .txt01 .big {
 	font-size: 1.6rem;
 }
 
-.top03 .box02 .item .txt .txt01 .medium {
+.top03 .box02 .item .txt .txt01 .medium,
+.top03 .box03 .item .txt01 .medium {
 	font-size: 1.3rem;
 }
 
@@ -508,7 +646,7 @@ footer .copy{
 	margin: 1rem 0;
 }
 
-.top03 .box02 .item .txt ol li{
+.top03 .box02 .item .txt ol li {
 	list-style: decimal;
 }
 
@@ -531,202 +669,385 @@ footer .copy{
 .top03 .box02 .item .img img {
 	width: 100%;
 }
+
+.top03 .box03 .flex_wrap {
+	margin: 1rem 0;
+}
+
+.top03 .box03 .flex_wrap .l_inner,
+.top03 .box03 .flex_wrap .r_inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.top03 .box03 .flex_wrap .l_inner .img01 {
+	width: 30%;
+}
+
+.top03 .box03 .flex_wrap .r_inner .img01 {
+	width: 34%;
+}
+
+.top03 .box03 .flex_wrap .img01 img,
+.top03 .box03 .flex_wrap .img02 img {
+	width: 100%;
+	height: auto;
+}
+
+.top03 .box03 .flex_wrap .l_inner .txt {
+	width: 65%;
+}
+
+.top03 .box03 .flex_wrap .r_inner .txt {
+	width: 62%;
+}
+
+.top03 .box03 .flex_wrap .txt h4 {
+	width: auto;
+	height: 1.7rem;
+	margin-bottom: 1rem;
+}
+
+.top03 .box03 .flex_wrap .txt h4 img {
+	width: auto;
+	height: 100%;
+}
+
+.top03 .box03 .flex_wrap .r_inner ul {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	max-width: 10rem;
+	width: 100%;
+	margin: 0 auto 0 1rem;
+}
+
+.top03 .box03 .flex_wrap .r_inner ul li {
+	width: 3.8rem;
+	height: 3.8rem;
+	border-radius: 50%;
+	background: #f4eabc;
+	color: #7a74a2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1rem;
+	line-height: 1.2;
+	text-align: center;
+	margin: 1rem 1rem 0 0;
+}
+
+.top03 .box03 .flex_wrap .r_inner ul li:nth-of-type(-n+2) {
+	margin-top: 0;
+}
+
+.top03 .box03 .flex_wrap .r_inner ul li:nth-of-type(2n),
+.top03 .box03 .flex_wrap .r_inner ul li:last-of-type {
+	margin-right: 0;
+}
+
+.top03 .box03 p.txt02 {
+	font-size: 0.9rem;
+}
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ04 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.top04{
+.top04 {
 	background: #505076;
 	color: #fff;
 	padding: 3rem 0;
 	text-align: center;
 }
-.top04 h3{
+
+.top04 h3 {
 	font-size: 1.8rem;
 	text-shadow: 0.25rem 0.25rem 0.5rem #000;
 }
-.top04 p{
+
+.top04 p {
 	margin: 1rem 0 3rem;
 	font-size: 0.8rem;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ04 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ05 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.top05{
-	padding:3rem 0;
+.top05 {
+	padding: 3rem 0;
 }
-.top05 .ttl{
+
+.top05 .ttl {
 	text-align: center;
 }
-.top05 .ttl p{ 
+
+.top05 .ttl p {
 	font-size: 1.5rem;
 }
-.top05 .box{
+
+.top05 .box {
 	margin: 3rem 0;
 }
-.top05 .box .img{
+
+.top05 .box .img {
 	width: 35%;
 	float: left;
 	margin: 0 0.5rem 0 0;
 }
-.top05 .box.re .img{
+
+.top05 .box.re .img {
 	margin: 0 0 0 0.5rem;
 	float: right;
 }
-.top05 .box .txt h3{
+
+.top05 .box .txt h3 {
 	text-align: center;
 	font-size: 1.2rem;
 	color: #7a74a2;
 	line-height: 1.5;
 	padding: 2rem 0;
 }
-.top05 .box .txt p{
+
+.top05 .box .txt p {
 	margin: 1rem 0 2rem;
-	font-size:0.9rem;
+	font-size: 0.9rem;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ05 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ06 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.top06{
-	border-top:0.5rem solid #505076;
-	background-image: url(../images/common/cta.png) ,url(../images/common/cta02.png);
-	background-position: center top 15% ,bottom 40% right;
-	background-size: 80% auto , 40% auto;
+.top06 {
+	border-top: 0.5rem solid #505076;
+	background-image: url(../images/common/cta.png), url(../images/common/cta02.png);
+	background-position: center top 15%, bottom 40% right;
+	background-size: 80% auto, 40% auto;
 	background-repeat: no-repeat;
 	text-align: center;
 	overflow: hidden;
-	padding:3rem 0 0;
+	padding: 3rem 0 0;
 }
-.top06 h3{
+
+.top06 h3 {
 	font-size: 1.3rem;
 }
-.top06 p{
+
+.top06 p {
 	margin: 1rem 0 2rem;
 }
-.top06 a{
+
+.top06 a {
 	text-align: center;
 	display: block;
-	padding:1rem 1rem 0.5rem;
+	padding: 1rem 1rem 0.5rem;
 	z-index: 500;
-	font-family: kapital_t,"ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+	font-family: kapital_t, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
 	letter-spacing: 0.25rem;
 	font-size: 1.5rem;
 	color: #fff;
 	background: #505076;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ06 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ07 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.top07 .box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: flex-end;
+}
+
+.top07 .box .box_in {
+	position: relative;
+	padding-bottom: 27vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.top07 .box .box_in h2 {
+	max-width: 650px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.top07 .box .box_in figure {
+	max-width: 450px;
+	width: 75%;
+	margin: 0.5rem auto 0;
+}
+
+.top07 .box .box_in .txt {
+	/* ↓9/1に削除する */
+	background: rgba(95, 187, 207, .72);
+	/* ↓9/1にコメント外す */
+	/* background: rgba(207, 95, 100, .72); */
+	padding: 0.75rem 1rem;
+	transform: rotate(-4.83deg);
+	/* ↓9/1に削除する */
+	margin-top: 15vw;
+	/* ↓9/1にコメント外す */
+	/* margin-top: 7vw; */
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 8px 10px 7px rgba(10, 2, 4, .25);
+}
+
+.top07 .box .box_in .txt p {
+	color: #fdfcfc;
+	font-size: 1.1rem;
+	font-weight: 700;
+	line-height: 1.33;
+	letter-spacing: 0.1em;
+}
+
+.top07 .box .img {
+	position: absolute;
+	bottom: 1.5rem;
+	right: 1.5rem;
+	width: 9.5rem;
+}
+
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ07 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ 下層タイトル ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.lower_ttl{
+.lower_ttl {
 	background: #7a74a2;
 	padding: 4rem 0 2rem;
 	position: relative;
 }
-.lower_ttl::before{
+
+.lower_ttl::before {
 	position: absolute;
-	top:0;
-	left:0;
+	top: 0;
+	left: 0;
 	content: '';
 	width: 100%;
 	height: 100%;
 	background: #fff;
 	display: block;
-	transition: .5s cubic-bezier(.83,.06,.97,.59);
+	transition: .5s cubic-bezier(.83, .06, .97, .59);
 	transform-origin: right center;
 }
-.lower_ttl.active::before{
-	transform: scale(0,1);
+
+.lower_ttl.active::before {
+	transform: scale(0, 1);
 }
-.lower_ttl .ttl_in{
-	font-family: kapital_t,"ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+
+.lower_ttl .ttl_in {
+	font-family: kapital_t, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
 	color: #fff;
 	text-align: center;
 	font-size: 2rem;
 	letter-spacing: 0.5rem;
 	font-weight: normal;
 }
-.lower_ttl_bg{
+
+.lower_ttl_bg {
 	background: url(../images/common/cta.png) center top 10% / 80% auto no-repeat;
 	overflow: hidden;
 }
-.lower_ttl_bg h2{ 
+
+.lower_ttl_bg h2 {
 	line-height: 1.3;
 }
-.lower_ttl_bg p{
+
+.lower_ttl_bg p {
 	color: #6a6969;
 	line-height: 1.5;
 }
-.lower_ttl_bg .box .img{
-	transform:translate(0,100px);
+
+.lower_ttl_bg .box .img {
+	transform: translate(0, 100px);
 	transition: .8s;
 	opacity: 0.01;
 }
-.lower_ttl_bg .box .txt{
+
+.lower_ttl_bg .box .txt {
 	z-index: 500;
 }
-.lower_ttl_bg .box .txt .trans_wrap{
+
+.lower_ttl_bg .box .txt .trans_wrap {
 	overflow: hidden;
 	display: inline-block;
 }
-.lower_ttl_bg .box .txt .trans_in{
-	transform:translate(0,-50px);
+
+.lower_ttl_bg .box .txt .trans_in {
+	transform: translate(0, -50px);
 	display: inline-block;
 	transition: .5s .3s;
 	opacity: 0.01;
 }
-.lower_ttl_bg .box.active .txt .trans_in{
+
+.lower_ttl_bg .box.active .txt .trans_in {
 	opacity: 1;
-transform:translate(0,0);
+	transform: translate(0, 0);
 }
-.lower_ttl_bg .box.active .img{
+
+.lower_ttl_bg .box.active .img {
 	opacity: 1;
-transform:translate(0,0);
+	transform: translate(0, 0);
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ 下層タイトル ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ アバウト01 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.about01 .box{
+.about01 .box {
 	padding: 2rem 0 0;
 }
-.about01 .box .img{
+
+.about01 .box .img {
 	text-align: center;
 }
-.about01 .box .txt{
+
+.about01 .box .txt {
 	position: absolute;
 	width: 90%;
-	bottom:0;
-	left:50%;
-	transform: translate(-50%,0);
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
 	background: rgba(255, 255, 255, .8);
 	padding: 1rem 0;
 	text-align: center;
 }
-.about01 .box .txt p{
+
+.about01 .box .txt p {
 	white-space: nowrap;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ アバウト01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ アバウト02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.about02{
+.about02 {
 	padding: 3rem 0;
-	color: #6a6969;	
+	color: #6a6969;
 	background: #eae9e9;
 	text-align: center;
 }
-.about02 h2{
+
+.about02 h2 {
 	font-size: 1.3rem;
 	margin: 0 0 1rem;
 }
-.about02 .item .inner{
+
+.about02 .item .inner {
 	position: relative;
 	background: #fcf9f9;
 	padding: 2.5rem 0.5rem 2rem;
 	margin: 4rem 0 0;
 }
-.about02 .item .circle{
+
+.about02 .item .circle {
 	position: absolute;
-	top:0;
-	left:50%;
-	transform: translate(-50%,-50%);
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	border-radius: 50%;
 	border: 0.25rem solid #fcf9f9;
 	width: 4.5rem;
@@ -737,48 +1058,58 @@ transform:translate(0,0);
 	align-items: center;
 	justify-content: center;
 }
-.about02 .item .circle p{
+
+.about02 .item .circle p {
 	padding: 0.5rem 0 0;
 	font-size: 0.8rem;
 	line-height: 1.5;
 }
-.about02 .item h3{
+
+.about02 .item h3 {
 	font-size: 1.5rem;
 	font-weight: bold;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ アバウト02 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ アバウト03 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.about03{
+.about03 {
 	padding: 4rem 0;
 }
-.about03 .ttl{
-	margin:0 0 2rem;
+
+.about03 .ttl {
+	margin: 0 0 2rem;
 }
-.about03 .ttl p{
+
+.about03 .ttl p {
 	text-align: center;
 	color: #505076;
 	font-size: 1.5rem;
 }
-.about03 .box{
+
+.about03 .box {
 	margin: 2rem 0;
 }
-.about03 .box .img{
+
+.about03 .box .img {
 	width: 35%;
 	margin: 0 0.5rem 0.5rem 0;
 	float: left;
 }
-.about03 .box .txt{
+
+.about03 .box .txt {
 	text-align: center;
 	padding: 1.5rem 0 0;
 }
-.about03 .box .txt .number{
+
+.about03 .box .txt .number {
 	text-align: center;
 	font-size: 1.2rem;
 	letter-spacing: 0.5rem;
 	line-height: 1.5;
 }
-.about03 .box .txt h3{
+
+.about03 .box .txt h3 {
 	font-size: 1.3rem;
 	line-height: 1.8;
 	border-bottom: 0.4rem solid #b3b3ee;
@@ -788,65 +1119,82 @@ transform:translate(0,0);
 	display: inline-block;
 	position: relative;
 }
-.about03 .box .txt h3::before{
+
+.about03 .box .txt h3::before {
 	position: absolute;
-	left:0;
-	top:100%;
+	left: 0;
+	top: 100%;
 	width: 50%;
 	height: 0.4rem;
 	content: '';
 	background: #505076;
 }
-.about03 .box p{ text-align: left; }
-.about03 .icon{ text-align: center; }
-.about03 .icon img{
-	width:2rem;
+
+.about03 .box p {
+	text-align: left;
 }
-.about03 .link{
+
+.about03 .icon {
+	text-align: center;
+}
+
+.about03 .icon img {
+	width: 2rem;
+}
+
+.about03 .link {
 	margin-top: 5rem;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ アバウト03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ プライス01 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.price01 .box{
+.price01 .box {
 	padding: 2rem 0 0;
 }
-.price01 .box .img{
+
+.price01 .box .img {
 	text-align: center;
 }
-.price01 .box .txt{
+
+.price01 .box .txt {
 	position: absolute;
 	width: 90%;
-	bottom:0;
-	left:50%;
-	transform: translate(-50%,0);
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
 	background: rgba(255, 255, 255, .8);
 	padding: 1rem 0;
 	text-align: center;
 	z-index: 500;
 }
-.price01 .box .txt h2{
+
+.price01 .box .txt h2 {
 	font-size: 1.5rem;
 	margin: 0 0 1rem;
 	color: #7a74a2;
 	font-weight: normal;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ プライス01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ プライス03 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.price03{
+.price03 {
 	padding: 0 0 4rem;
 }
-.price03_in{
+
+.price03_in {
 	margin: 3rem 0;
 }
-.price03 .ttl{
+
+.price03 .ttl {
 	text-align: center;
 	color: #505076;
 	margin: 0 0 3rem;
 
 }
-.price03 .ttl h2{
+
+.price03 .ttl h2 {
 	display: inline-block;
 	position: relative;
 	font-size: 1.8rem;
@@ -854,181 +1202,295 @@ transform:translate(0,0);
 	padding: 0 1rem;
 	margin: 0 0 1rem;
 }
+
 .price03 .ttl h2::before,
-.price03 .ttl h2::after{
+.price03 .ttl h2::after {
 	position: absolute;
-	top:50%;
-	transform: translate(0,-50%);
+	top: 50%;
+	transform: translate(0, -50%);
 	content: '';
 	width: 1rem;
 	height: 0.2rem;
 	background: #505076;
 }
-.price03 .ttl h2::before{ right :100%; }
-.price03 .ttl h2::after{ left:100%; }
-.price03 .ttl p{ margin: -0.5rem 0 0; }
-.price03 .box{
+
+.price03 .ttl h2::before {
+	right: 100%;
+}
+
+.price03 .ttl h2::after {
+	left: 100%;
+}
+
+.price03 .ttl p {
+	margin: -0.5rem 0 0;
+}
+
+.price03 .ttl .type_b_shoplist {
+	border: solid 2px #505076;
+	padding: 0.75rem 1rem;
+	margin: 0 0 3rem;
+	text-align: left;
+}
+
+.price03 .ttl .type_b_shoplist ul {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -1.5rem;
+}
+
+.price03 .ttl .type_b_shoplist ul li {
+	list-style: disc;
+	margin-left: 2.5rem;
+	font-size: 0.85rem;
+}
+
+.price03 .ttl .type_b_shoplist p {
+	margin: 0.75rem 0 0;
+	font-size: 0.75rem;
+}
+
+.price03 .type_menu_tab {
+	position: relative;
+	margin-bottom: 1.5rem;
+	z-index: 2;
+}
+
+.price03 .type_menu_tab ul {
+	display: flex;
+	justify-content: center;
+}
+
+.price03 .type_menu_tab ul li {
+	width: 8rem;
+	padding: 0.4rem;
+	background: #eae9e9;
+	text-align: center;
+	margin-right: 1rem;
+	font-size: 0.9rem;
+	transition: .3s;
+}
+
+.price03 .type_menu_tab ul li:last-of-type {
+	margin-right: 0;
+}
+
+.price03 .type_menu_tab ul li.active {
+	color: #fff;
+	background: #505076;
+}
+
+.price03 .box {
 	margin: 0 -2rem;
-	padding:0  2rem 1rem;
+	padding: 0 2rem 1rem;
 	position: relative;
 	overflow-x: scroll;
 	-webkit-overflow-scrolling: touch
 }
-.price03 table{
+
+.price03 .box.hide {
+	display: none;
+}
+
+.price03 table {
 	width: 100%;
 	padding-right: 2rem;
 }
+
 .price03 table th,
-.price03 table td{
+.price03 table td {
 	font-weight: normal;
 	text-align: center;
 	border-bottom: 0.25rem solid #505076;
 	vertical-align: top;
 }
-.price03 table thead th{
+
+.price03 table thead th {
 	background: #505076;
 	color: #fff;
 	white-space: nowrap;
 }
-.price03 table th{
+
+.price03 table th {
 	padding: 0.5rem 1rem;
 }
-.price03 table tbody th{
+
+.price03 table tbody th {
 	white-space: nowrap;
 	text-align: left;
 	padding: 0.5rem 1rem;
 }
-.price03 table tbody th span{
+
+.price03 table tbody th span {
 	display: block;
 	font-size: 0.8rem;
 	white-space: nowrap;
 }
-.price03 table td{
+
+.price03 table td {
 	padding: 2rem 1rem;
 	color: #515251;
 	white-space: nowrap;
 }
-.price03 table .small{
+
+.price03 table td.facility_contents {
+	line-height: 1.5;
+}
+
+.price03 table .small {
 	font-size: 0.8rem;
 }
-.price03 table .middle{
+
+.price03 table .middle {
 	font-size: 0.9rem;
 }
-.price03 table .txt{
+
+.price03 table .txt {
 	font-size: 0.8rem;
 	white-space: nowrap;
 }
-.price03 table .left{
+
+.price03 table .left {
 	text-align: left;
 }
-.price03 table .purple{
+
+.price03 table .purple {
 	color: #505076;
 }
-.price03 .box .scrollable{
+
+.price03 .box .scrollable {
 	position: absolute;
-	top:50%;
+	top: 15rem;
 	left: 2rem;
-	transform: translate(0%,-50%);
+	/* transform: translate(0%,-50%); */
 	border-radius: 0.5rem;
 	background: rgba(0, 0, 0, .75);
 	color: #fff;
 	text-align: center;
-	padding:1rem;
+	padding: 1rem;
 }
-.price03 .box .scrollable svg{
+
+.price03 .box .scrollable svg {
 	font-size: 2rem;
 	display: inline-block;
-	transform: translate(-100%,0);
+	transform: translate(-100%, 0);
 	animation: scrollable 1.5s ease 1s infinite alternate-reverse;
 }
-@keyframes scrollable{
-	0%{transform: translate(-100%,0);}
-	50%{transform: translate(100%,0);}
-	100%{transform: translate(100%,0);}
+
+@keyframes scrollable {
+	0% {
+		transform: translate(-100%, 0);
+	}
+
+	50% {
+		transform: translate(100%, 0);
+	}
+
+	100% {
+		transform: translate(100%, 0);
+	}
 }
-.price03 .box .scrollable span{
+
+.price03 .box .scrollable span {
 	display: block;
 	font-size: 0.8rem;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ プライス03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ faq01 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.faq01 .box{
+.faq01 .box {
 	padding: 2rem 0 0;
 }
-.faq01 .box .img{
+
+.faq01 .box .img {
 	text-align: center;
 }
-.faq01 .box .img img{
+
+.faq01 .box .img img {
 	width: 80%;
 }
-.faq01 .box .txt{
+
+.faq01 .box .txt {
 	position: absolute;
 	width: 90%;
-	bottom:0;
-	left:50%;
-	transform: translate(-50%,0);
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
 	background: rgba(255, 255, 255, .8);
 	padding: 1rem 0;
 	text-align: center;
 }
-.faq01 .box .txt h2{
+
+.faq01 .box .txt h2 {
 	font-size: 1.5rem;
 	line-height: 1.5;
 	margin: 0 0 1rem;
 	color: #7a74a2;
 	font-weight: normal;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ faq01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ faq02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
- .faq02{
+.faq02 {
 	background: #505076;
 	opacity: 0.01;
 	transition: 1s 0.2s;
-	transform: translate(0,50px);
+	transform: translate(0, 50px);
 }
-.faq02.active{
+
+.faq02.active {
 	opacity: 1;
-	transform: translate(0,0);
+	transform: translate(0, 0);
 }
-.faq02 .box{
+
+.faq02 .box {
 	padding: 0.5rem 0;
 }
-.faq02 .box .link{margin:1rem 0;}
+
+.faq02 .box .link {
+	margin: 1rem 0;
+}
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ faq02 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ faq03 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.faq03{
+.faq03 {
 	margin: 3rem 0;
 }
-.faq03 h2{
+
+.faq03 h2 {
 	font-size: 1.2rem;
 	color: #515251;
 	border-bottom: solid 4px #b3b3ee;
 	position: relative;
-	padding:0 0 0.25rem;
+	padding: 0 0 0.25rem;
 	margin: 0 0 2rem;
 }
+
 .faq03 h2::after {
 	position: absolute;
 	content: '';
 	display: block;
 	border-bottom: solid 4px #505076;
 	top: 100%;
-	left:0;
+	left: 0;
 	width: 40%;
 	height: 4px;
 }
-.faq03 .box .item{
+
+.faq03 .box .item {
 	border-bottom: 3px solid #fff;
 }
-.faq03 .box .item .que{
+
+.faq03 .box .item .que {
 	background: #ececec;
 	padding: 1rem 3rem 1rem 4rem;
 	position: relative;
 	cursor: pointer;
 }
+
 .faq03 .box .item .que::before {
 	content: '';
 	background: url(../images/faq/q.png) center center/cover no-repeat;
@@ -1039,6 +1501,7 @@ transform:translate(0,0);
 	height: 2rem;
 	position: absolute;
 }
+
 .faq03 .box .item .que::after {
 	width: 0.7rem;
 	height: 0.7rem;
@@ -1055,16 +1518,19 @@ transform:translate(0,0);
 	margin-bottom: auto;
 	content: '';
 }
-.faq03 .box .item .que.active::after{
+
+.faq03 .box .item .que.active::after {
 	transform: rotate(-45deg);
 }
-.faq03 .box .item .ans{
+
+.faq03 .box .item .ans {
 	background: #c3c0c4;
 	color: #fff;
 	padding: 1rem 3rem 1rem 4rem;
 	position: relative;
 	display: none;
 }
+
 .faq03 .box .item .ans::before {
 	content: '';
 	background: url(../images/faq/a.png) center center/cover no-repeat;
@@ -1075,61 +1541,71 @@ transform:translate(0,0);
 	height: 2rem;
 	position: absolute;
 }
-.faq03 .box .item .ans a{
+
+.faq03 .box .item .ans a {
 	text-decoration: underline;
 	color: #fff;
 	display: inline;
 }
-.faq03 .link{
+
+.faq03 .link {
 	margin-top: 3rem;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ faq03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ サロンリスト01 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.salonlist01 .box{
+.salonlist01 .box {
 	padding: 2rem 0 0;
 }
-.salonlist01 .box .img{
+
+.salonlist01 .box .img {
 	text-align: center;
 }
-.salonlist01 .box .txt{
+
+.salonlist01 .box .txt {
 	position: absolute;
 	width: 90%;
-	bottom:0;
-	left:50%;
-	transform: translate(-50%,0);
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
 	background: rgba(255, 255, 255, .8);
 	padding: 1rem 0;
 	text-align: center;
 }
-.salonlist01 .box .txt h2{
+
+.salonlist01 .box .txt h2 {
 	font-size: 1.5rem;
 	line-height: 1.5;
 	margin: 0 0 1rem;
 	color: #7a74a2;
 	font-weight: normal;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ サロンリスト01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ サロンリスト02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.salonlist02{
+.salonlist02 {
 	background: #505076;
 	padding: 3rem 0 2rem;
 	opacity: 0.01;
 	transition: 1s .2s;
-	transform:translate(0,50px);
+	transform: translate(0, 50px);
 }
-.salonlist02.active{
+
+.salonlist02.active {
 	opacity: 1;
-	transform:translate(0,0);
+	transform: translate(0, 0);
 }
-.salonlist02 .box{
+
+.salonlist02 .box {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	margin: 0 -1rem;
 }
-.salonlist02 .box a{
+
+.salonlist02 .box a {
 	background: #fff;
 	padding: 0.75rem 0.5rem 1.25rem;
 	font-size: 0.8rem;
@@ -1140,281 +1616,351 @@ transform:translate(0,0);
 	position: relative;
 	margin: 0 0 1rem;
 }
-.salonlist02 .box a::before{
+
+.salonlist02 .box a::before {
 	position: absolute;
-	bottom:0.5rem;
-	left:50%;
-	transform: translate(-50%,0);
+	bottom: 0.5rem;
+	left: 50%;
+	transform: translate(-50%, 0);
 	content: '';
 	background: url(../images/salonlist/salonlist02_icon.png) center / contain no-repeat;
 	width: 1rem;
 	height: 0.5rem;
 	display: block;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ サロンリスト02 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ サロンリスト03 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.salonlist03{
+.salonlist03 {
 	padding: 0 0 6rem;
 }
-.salonlist03 .box{
+
+.salonlist03 .box {
 	color: #7a74a2;
 	margin: 3rem 0 0;
 }
-.salonlist03 .box h3{
+
+.salonlist03 .box h3 {
 	font-weight: normal;
 	font-size: 1.1rem;
 }
-.salonlist03 .box h4{
+
+.salonlist03 .box h4 {
 	font-size: 1.3rem;
 	margin: 0 0 0.5rem;
 }
-.salonlist03 .box .item.openplans h4{
+
+.salonlist03 .box .item.openplans h4 {
 	margin-bottom: 0;
 }
-.salonlist03 .box .item.openplans p{
+
+.salonlist03 .box .item.openplans p {
 	margin-bottom: 0.75rem;
 }
-.salonlist03 .box .item{
+
+.salonlist03 .box .item {
 	border-top: 1px solid #7a74a2;
 	margin: 0.5rem 0 2rem;
 	padding: 0.5rem 0 0;
 }
-.salonlist03 .box .item dl{
+
+.salonlist03 .box .item dl {
 	display: flex;
 }
-.salonlist03 .box .item dl dt{
+
+.salonlist03 .box .item dl dt {
 	white-space: nowrap;
 	width: 25%;
 }
-.salonlist03 .box .item dl dd span{
+
+.salonlist03 .box .item dl dd span {
 	font-size: 0.65rem;
 }
-.salonlist03 .box .link{
+
+.salonlist03 .box .link {
 	margin: 0.5rem 0;
 }
-.salonlist03 .box .bottom{
+
+.salonlist03 .box .link.instagram a {
+	background: #7a74a2 url(../images/common/f_icon.png) center center / 60% no-repeat;
+	height: 4rem;
+}
+
+.salonlist03 .box .bottom {
 	font-size: 0.8rem;
 }
-.salonlist03 .box .bottom p{
+
+.salonlist03 .box .bottom p {
 	text-indent: -0.8rem;
 	padding: 0 0 0 1rem;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ サロンリスト03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ サロンページ02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.salon02{
+.salon02 {
 	background: url(../images/salon/salon02_bg.png) center / cover no-repeat;
 	padding: 2rem 0;
 	opacity: 0.01;
-	transform:translate(0,50px);
+	transform: translate(0, 50px);
 	transition: 1s;
 }
-.salon02.active{
+
+.salon02.active {
 	opacity: 1;
-	transform:translate(0,0);
+	transform: translate(0, 0);
 }
-.salon02 .box{
+
+.salon02 .box {
 	background: rgba(255, 255, 255, .67);
-	padding:1rem;
+	padding: 1rem;
 	color: #505076;
 }
-.salon02 .box p{
+
+.salon02 .box p {
 	font-size: 1.2rem;
 	border-bottom: 1px solid #7a74a2;
 }
-.salon02 h1{
+
+.salon02 h1 {
 	font-size: 1.2rem;
 	margin: 1rem 0;
 	font-weight: normal;
 }
-.salon02 dl{
+
+.salon02 h1 span {
+	font-size: 1rem;
+}
+
+.salon02 dl {
 	margin: 1rem 0;
 }
-.salon02 dl dt{
+
+.salon02 dl dt {
 	background: #505076;
 	color: #fff;
 	padding: 0 1rem;
 }
-.salon02 dl dd{
+
+.salon02 dl dd {
 	padding: 0.5rem 1rem 0;
 }
-.salon02 dl dd span{
+
+.salon02 dl dd span {
 	font-size: 0.7rem;
 }
-.salon02 .slider{
+
+.salon02 .box .notes p {
+	font-size: 1rem;
+	border-bottom: none;
+}
+
+.salon02 .slider {
 	margin: 3rem 0;
 }
-.salon02 .bottom .map iframe{
+
+.salon02 .bottom .map iframe {
 	height: 250px;
 }
-.salon02 .bottom .cta_zone .link{
+
+.salon02 .bottom .cta_zone .link {
 	margin: 1rem 0 0;
 }
-.salon02 .bottom .cta_zone .link a{
+
+.salon02 .bottom .cta_zone .link a {
 	font-size: 1rem;
 	letter-spacing: 0;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ サロンページ02 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ サロンページ03 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.salon03{
+.salon03 {
 	padding: 3rem 0;
 }
-.salon03 .box{
+
+.salon03 .box {
 	background: #d9d8e0;
 	border-top: 1rem solid #505076;
 	padding: 0 1.5rem 1.5rem;
 	position: relative;
 }
-.salon03 .box .img{
+
+.salon03 .box .img {
 	position: absolute;
-	bottom:0;
-	right:0;
+	bottom: 0;
+	right: 0;
 	width: 70%;
 	max-width: 320px;
 	opacity: 0.3;
 }
-.salon03 .box .txt{
+
+.salon03 .box .txt {
 	position: relative;
 	z-index: 100;
 }
-.salon03 .box .txt h2{
+
+.salon03 .box .txt h2 {
 	color: #7a74a2;
 	font-size: 1.5rem;
 }
-.salon03 .box .txt h3{
+
+.salon03 .box .txt h3 {
 	font-size: 2rem;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ サロンページ03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.machine02{
+.machine02 {
 	padding: 3rem 0;
 	transition: 1s;
-	transform: translate(0,50px);
+	transform: translate(0, 50px);
 	opacity: 0.01;
 }
-.machine02.active{
-	transform: translate(0,0);
+
+.machine02.active {
+	transform: translate(0, 0);
 	opacity: 1;
 }
-.machine02 .box .img{
+
+.machine02 .box .img {
 	width: 70%;
 	margin: 0 auto;
 	padding-right: 30%;
 }
-.machine02 .box .txt{
+
+.machine02 .box .txt {
 	margin: 1.5rem 0 0;
 	z-index: 50;
 }
-.machine02 .box .txt h2{
+
+.machine02 .box .txt h2 {
 	color: #515251;
 	margin: 0 0 1rem;
 	font-weight: normal;
 	text-align: center;
 	font-size: 1.5rem;
 }
-.machine02 .box .txt p{
+
+.machine02 .box .txt p {
 	color: #2a6a7e;
 	font-size: 1.3rem;
 	line-height: 1.5;
 	text-align: center;
 }
-.machine02 .box .txt .item{
+
+.machine02 .box .txt .item {
 	margin: 1rem 0;
 }
-.machine02 .box .txt .inner p{
+
+.machine02 .box .txt .inner p {
 	text-align: left;
 	color: #515251;
 	font-size: 1rem;
 }
-.machine02 .box .img_bg{
+
+.machine02 .box .img_bg {
 	width: 40%;
 	margin-right: -3%;
 	position: absolute;
-	top:11%;
+	top: 11%;
 	opacity: 0.6;
-	right:5%;
+	right: 5%;
 	z-index: -1;
 }
 
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ マシン02 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン03 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.machine03{
+.machine03 {
 	background: #505076;
 	padding: 3rem 0 4rem;
 	color: #fff;
 }
-.machine03 .box{
+
+.machine03 .box {
 	position: relative;
 	z-index: 10;
 }
-.machine03 .box .img{
+
+.machine03 .box .img {
 	width: 55%;
 	z-index: -1;
 	position: absolute;
-	top:1rem;
+	top: 1rem;
 	left: -1rem;
 	width: 45%;
 	opacity: .7;
 }
-.machine03 .box .txt{
+
+.machine03 .box .txt {
 	display: flex;
 	flex-direction: column;
 }
-.machine03 .box .txt .item{
+
+.machine03 .box .txt .item {
 	order: 1;
 	width: 60%;
 	margin: 0 1rem 1.5rem auto;
 }
-.machine03 .box .txt h2{
+
+.machine03 .box .txt h2 {
 	order: 2;
 	margin: 0 0 1rem;
 	font-weight: normal;
 	text-align: center;
 	font-size: 1.3rem;
 }
-.machine03 .box .txt p{
+
+.machine03 .box .txt p {
 	order: 3;
 	text-align: center;
 	font-size: 1.2rem;
 }
-.machine03 .box .txt .inner{
+
+.machine03 .box .txt .inner {
 	order: 4;
 	margin: 1rem 0 0;
 }
-.machine03 .box .txt .inner p{
+
+.machine03 .box .txt .inner p {
 	font-size: 0.8rem;
 }
-.machine03 .bottom{
+
+.machine03 .bottom {
 	text-align: center;
 	margin: 2rem 0 3rem;
 }
-.machine03 .bottom h3{
+
+.machine03 .bottom h3 {
 	font-size: 1.5rem;
 }
-.machine03 .bottom h3 .small{
+
+.machine03 .bottom h3 .small {
 	font-size: 1.2rem;
 }
-.machine03 .bottom h3 .red{
+
+.machine03 .bottom h3 .red {
 	color: #fc3e01;
 }
-.machine03 .bottom .bottom_in .item{
+
+.machine03 .bottom .bottom_in .item {
 	position: relative;
-	z-index:  10;
+	z-index: 10;
 	padding: 1.5rem 2rem;
 	background: #fff;
-	margin:2rem 0;
+	margin: 2rem 0;
 	position: relative;
-		border: 2px dashed #fc3e01;
+	border: 2px dashed #fc3e01;
 }
-.machine03 .bottom .bottom_in .item .number{
+
+.machine03 .bottom .bottom_in .item .number {
 	position: absolute;
-	top:0;
-	left:0;
-	transform: translate(-50%,-50%);
+	top: 0;
+	left: 0;
+	transform: translate(-50%, -50%);
 	width: 3.5rem;
 	height: 3.5rem;
 	background: #7a74a2;
@@ -1424,9 +1970,10 @@ transform:translate(0,0);
 	justify-content: center;
 	color: #fff;
 	align-items: center;
-	border:1px solid #fff
+	border: 1px solid #fff
 }
-.machine03 .bottom .bottom_in .item h4{
+
+.machine03 .bottom .bottom_in .item h4 {
 	color: #2a6a7e;
 	font-size: 1rem;
 	line-height: 1.5;
@@ -1435,87 +1982,105 @@ transform:translate(0,0);
 	border-bottom: 3px solid #2a6a7e;
 	padding: 0 0 0.5rem;
 }
-.machine03 .bottom .bottom_in .item p{
+
+.machine03 .bottom .bottom_in .item p {
 	color: #fc3e01;
 	line-height: 1.5;
 	font-size: 0.9rem;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ マシン03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン04 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.machine04{
+.machine04 {
 	padding: 3rem 0;
 }
-.machine04 .box .img{
+
+.machine04 .box .img {
 	position: absolute;
-	top:1rem;
+	top: 1rem;
 	right: 0rem;
 	opacity: .7;
 	width: 45%;
 }
-.machine04 .box .txt{
+
+.machine04 .box .txt {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 }
-.machine04 .box .txt h2{
+
+.machine04 .box .txt h2 {
 	order: 2;
 	margin: 1rem 0;
 	font-weight: normal;
 	text-align: center;
 	font-size: 1.5rem;
 }
-.machine04 .box .txt p{
+
+.machine04 .box .txt p {
 	order: 3;
 	font-size: 1.2rem;
 }
-.machine04 .box .txt .item{
+
+.machine04 .box .txt .item {
 	order: 1;
 	width: 55%;
 }
-.machine04 .box .txt .inner{
+
+.machine04 .box .txt .inner {
 	order: 4;
 	margin: 0.5rem 0 0;
 }
-.machine04 .box .txt .inner p{
-		font-size: 0.8rem;
+
+.machine04 .box .txt .inner p {
+	font-size: 0.8rem;
 }
-.machine04 .bottom{
+
+.machine04 .bottom {
 	text-align: center;
 	margin: 2rem 0 3rem;
 }
-.machine04 .bottom h3{
+
+.machine04 .bottom h3 {
 	font-size: 1.6rem;
 }
-.machine04 .bottom h3 .small{
+
+.machine04 .bottom h3 .small {
 	font-size: 1.2rem;
 }
-.machine04 .bottom h3 .red{
+
+.machine04 .bottom h3 .red {
 	color: #fc3e01;
 }
-.machine04 .bottom h3{
+
+.machine04 .bottom h3 {
 	font-size: 1.5rem;
 }
-.machine04 .bottom h3 .small{
+
+.machine04 .bottom h3 .small {
 	font-size: 1.2rem;
 }
-.machine04 .bottom h3 .red{
+
+.machine04 .bottom h3 .red {
 	color: #fc3e01;
 }
-.machine04 .bottom .bottom_in .item{
+
+.machine04 .bottom .bottom_in .item {
 	position: relative;
-	z-index:  10;
+	z-index: 10;
 	padding: 1.5rem 2rem;
 	background: #fff;
-	margin:2rem 0;
+	margin: 2rem 0;
 	position: relative;
 	border: 2px dashed #505076;
 }
-.machine04 .bottom .bottom_in .item .number{
+
+.machine04 .bottom .bottom_in .item .number {
 	position: absolute;
-	top:0;
-	left:0;
-	transform: translate(-50%,-50%);
+	top: 0;
+	left: 0;
+	transform: translate(-50%, -50%);
 	width: 3.5rem;
 	height: 3.5rem;
 	background: #7a74a2;
@@ -1525,9 +2090,10 @@ transform:translate(0,0);
 	justify-content: center;
 	color: #fff;
 	align-items: center;
-	border:1px solid #fff
+	border: 1px solid #fff
 }
-.machine04 .bottom .bottom_in .item h4{
+
+.machine04 .bottom .bottom_in .item h4 {
 	color: #2a6a7e;
 	font-size: 1rem;
 	line-height: 1.5;
@@ -1536,193 +2102,324 @@ transform:translate(0,0);
 	border-bottom: 3px solid #2a6a7e;
 	padding: 0 0 0.5rem;
 }
-.machine04 .bottom .bottom_in .item p{
+
+.machine04 .bottom .bottom_in .item p {
 	color: #fc3e01;
 	line-height: 1.5;
 	font-size: 0.9rem;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ マシン04 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン05 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.machine05{
-	padding:3rem 0;
+.machine05 {
+	padding: 3rem 0;
 	background: #505076;
 	color: #fff;
 }
-.machine05 .box .img{
+
+.machine05 .box .img {
 	position: absolute;
-	top:3.5rem;
-	left:0;
+	top: 3.5rem;
+	left: 0;
 	opacity: .8;
 	width: 45%;
 }
-.machine05 .box .txt{
+
+.machine05 .box .txt {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	margin: 0 0 3rem;
 }
-.machine05 .box .txt h2{
+
+.machine05 .box .txt h2 {
 	margin: 1rem 0;
 	font-weight: normal;
 	text-align: center;
 	font-size: 1.5rem;
 	order: 2;
 }
-.machine05 .box .txt p{
+
+.machine05 .box .txt p {
 	order: 3;
 	font-size: 1.2rem;
 }
-.machine05 .box .txt .inner{
+
+.machine05 .box .txt .inner {
 	order: 4;
 	margin: 1rem 0 0;
 }
-.machine05 .box .txt .inner p{
+
+.machine05 .box .txt .inner p {
 	font-size: 0.8rem;
 }
-.machine05 .box .txt .item{
+
+.machine05 .box .txt .item {
 	order: 1;
 	width: 55%;
 	margin-right: -1rem;
 	margin-left: auto;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ マシン05 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン06 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.machine06{
+.machine06 {
 	padding: 3rem 0;
 }
-.machine06 .box{
+
+.machine06 .box {
 	display: flex;
 	flex-direction: column-reverse;
 	margin: 0 0 3rem;
 }
-.machine06 .box .img{
+
+.machine06 .box .img {
 	width: 65%;
 	margin: 0 auto;
 }
-.machine06 .box .txt{
+
+.machine06 .box .txt {
 	text-align: center;
 }
-.machine06 .box .txt h2{
+
+.machine06 .box .txt h2 {
 	font-size: 1.5rem;
 	font-weight: 100;
 	margin: 1rem 0;
 	color: #515251;
 }
-.machine06 .box .txt p{
+
+.machine06 .box .txt p {
 	font-size: 1.2rem;
 	color: #2a6a7e;
 	margin: 1rem 0 0;
 }
-.machine06 .box .txt .inner{
+
+.machine06 .box .txt .inner {
 	margin: 2rem 0 0;
 }
-.machine06 .box .txt .inner p{
+
+.machine06 .box .txt .inner p {
 	margin: 0;
 	font-size: 0.8em;
 	color: #515251;
 
 }
+
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ マシン06 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン07 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.machine07 {
+	padding: 3rem 0;
+	background: #505076;
+	color: #fff;
+}
+
+.machine07 .box .img {
+	width: 35%;
+	margin: 0 auto;
+}
+
+.machine07 .box .txt {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 0 0 3rem;
+}
+
+.machine07 .box .txt h2 {
+	margin: 1rem 0;
+	font-weight: normal;
+	text-align: center;
+	font-size: 1.5rem;
+	order: 2;
+}
+
+.machine07 .box .txt p {
+	order: 3;
+	font-size: 1.2rem;
+}
+
+.machine07 .box .txt .inner {
+	order: 4;
+	margin: 1rem 0 0;
+}
+
+.machine07 .box .txt .inner p {
+	font-size: 0.8rem;
+}
+
+/* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ マシン07 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
+
+/* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン08 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+.machine08 {
+	padding: 3rem 0;
+}
+
+.machine08 .box {
+	display: flex;
+	flex-direction: column-reverse;
+	margin: 0 0 3rem;
+}
+
+.machine08 .box .img {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.machine08 .box .txt {
+	text-align: center;
+}
+
+.machine08 .box .txt h2 {
+	font-size: 1.5rem;
+	font-weight: 100;
+	margin: 1rem 0;
+	color: #515251;
+}
+
+.machine08 .box .txt p {
+	font-size: 1.2rem;
+	color: #2a6a7e;
+	margin: 1rem 0 0;
+}
+
+.machine08 .box .txt p span {
+	font-size: 1.6rem;
+}
+
+.machine08 .box .txt .inner {
+	margin: 2rem 0 0;
+}
+
+.machine08 .box .txt .inner p {
+	margin: 0;
+	font-size: 0.8em;
+	color: #515251;
+
+}
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ マシン06 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ お知らせ02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.topics02{
-	padding:3rem 0;
+.topics02 {
+	padding: 3rem 0;
 }
-.topics02 h2{
+
+.topics02 h2 {
 	font-size: 1.5rem;
 	margin: 0 0 2rem;
 	color: #7a74a2;
 	font-weight: normal;
 	text-align: center;
 }
-.topics02 .item{
+
+.topics02 .item {
 	margin: 2rem 0;
 }
-.topics02 .item h3{
+
+.topics02 .item h3 {
 	font-weight: normal;
 	margin: 0 0 1rem;
 }
-.topics02 .item p{
+
+.topics02 .item p {
 	margin: 2rem 0;
 }
-.topics02 ol{
+
+.topics02 ol {
 	margin-left: 1rem;
 }
-.topics02 ol li{
+
+.topics02 ol li {
 	list-style: decimal;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ お知らせ02 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ fc01 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.fc01 .ttl_in{
+.fc01 .ttl_in {
 	font-size: 1.6rem;
 }
-.fc01 .box{
+
+.fc01 .box {
 	padding: 2rem 0 0;
 }
-.fc01 .box .img{
+
+.fc01 .box .img {
 	text-align: center;
 }
-.fc01 .box .txt{
+
+.fc01 .box .txt {
 	position: absolute;
 	width: 90%;
-	bottom:0;
-	left:50%;
-	transform: translate(-50%,0);
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
 	background: rgba(255, 255, 255, .8);
 	padding: 1rem 0;
 	text-align: center;
 }
-.fc01 .box .txt h2{
+
+.fc01 .box .txt h2 {
 	font-size: 1.5rem;
 	line-height: 1.5;
 	margin: 0 0 1rem;
 	color: #7a74a2;
 	font-weight: normal;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ fc01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ fc02 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.fc02{
+.fc02 {
 	background: #505076;
 	padding: 2rem 0;
 }
-.fc02 a{ font-size: 1rem; }
+
+.fc02 a {
+	font-size: 1rem;
+}
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ fc02 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ fc03 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.fc03{
-	padding:3rem 0 1rem;
+.fc03 {
+	padding: 3rem 0 1rem;
 }
-.fc03 .box h2{
+
+.fc03 .box h2 {
 	font-size: 1.3rem;
 	border-bottom: 4px solid #b3b3ee;
 	padding: 0 0 0.5rem;
 	position: relative;
 }
-.fc03 .box h2::before{
+
+.fc03 .box h2::before {
 	position: absolute;
-	top:100%;
-	left:0;
+	top: 100%;
+	left: 0;
 	width: 40%;
 	content: '';
 	background: #505076;
 	height: 4px;
 }
-.fc03 .box .item{
+
+.fc03 .box .item {
 	margin: 3rem 0 3rem;
 	position: relative;
 	padding: 1rem;
 	background: #fcf9f9;
 }
-.fc03 .box .item p.number{
+
+.fc03 .box .item p.number {
 	position: absolute;
 	line-height: 1.2;
-	top:0;
-	left:0;
-	transform: translate(-50%,-50%);
+	top: 0;
+	left: 0;
+	transform: translate(-50%, -50%);
 	width: 3rem;
 	height: 3rem;
 	font-size: 0.8rem;
@@ -1735,53 +2432,62 @@ transform:translate(0,0);
 	font-weight: bold;
 	color: #fff;
 }
-.fc03 .box .item h3{
+
+.fc03 .box .item h3 {
 	font-weight: normal;
 	font-size: 1.1rem;
 }
-.fc03 .box .item p{
+
+.fc03 .box .item p {
 	color: #505076;
 	line-height: 1.5;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ fc03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ fc04 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.fc04{
-	padding:1rem 0 3rem;
+.fc04 {
+	padding: 1rem 0 3rem;
 }
-.fc04 .box h2{
+
+.fc04 .box h2 {
 	font-size: 1.3rem;
 	border-bottom: 4px solid #b3b3ee;
 	padding: 0 0 0.5rem;
 	position: relative;
 	margin: 0 0 2rem;
 }
-.fc04 .box h2::before{
+
+.fc04 .box h2::before {
 	position: absolute;
-	top:100%;
-	left:0;
+	top: 100%;
+	left: 0;
 	width: 40%;
 	content: '';
 	background: #505076;
 	height: 4px;
 }
-.fc04 .box .red{
+
+.fc04 .box .red {
 	color: #f00;
 }
-.fc04 .box .input_wrap{
+
+.fc04 .box .input_wrap {
 	margin: 1.5rem 0;
 }
-.fc04 .box .input_wrap .select label.cal{
+
+.fc04 .box .input_wrap .select label.cal {
 	position: relative;
 	display: block;
 }
-.fc04 .box .input_wrap .select label.cal .icon{
+
+.fc04 .box .input_wrap .select label.cal .icon {
 	position: absolute;
 	width: 3rem;
 	height: 100%;
 	background: #eee;
-	right:0;
-	top:0;
+	right: 0;
+	top: 0;
 	border: 1px solid #505076;
 	border-left: 1px solid transparent;
 	border-radius: 0 0.25rem 0.25rem 0;
@@ -1789,44 +2495,52 @@ transform:translate(0,0);
 	justify-content: center;
 	align-items: center;
 }
+
 .fc04 .box .input_wrap input:not([type="radio"]),
 .fc04 .box .input_wrap textarea,
-.fc04 .box .input_wrap select{
+.fc04 .box .input_wrap select {
 	width: 100%;
 	padding: 0.5rem 1rem;
 	border: 1px solid #7a74a2;
 	border-radius: 0.25rem;
 	font-size: 16px;
 }
-.fc04 .box .input_wrap select{
+
+.fc04 .box .input_wrap select {
 	-webkit-appearance: none;
-  appearance: none;
+	appearance: none;
 }
-.fc04 .box .input_wrap textarea{
+
+.fc04 .box .input_wrap textarea {
 	height: 10rem;
 }
-.fc04 .box .input_wrap .radio{
+
+.fc04 .box .input_wrap .radio {
 	display: flex;
 	align-items: center;
 }
-.fc04 .box .input_wrap .radio label.label02{
+
+.fc04 .box .input_wrap .radio label.label02 {
 	display: flex;
 	align-items: center;
 	margin-right: 3rem;
 }
-.fc04 .box .input_wrap .radio label.label02 span{
+
+.fc04 .box .input_wrap .radio label.label02 span {
 	margin-left: 0.5rem;
 }
-.fc04 .box .input_wrap .select02{
+
+.fc04 .box .input_wrap .select02 {
 	position: relative;
 }
-.fc04 .box .input_wrap .select02 .icon{
+
+.fc04 .box .input_wrap .select02 .icon {
 	position: absolute;
 	width: 2.5rem;
 	height: 100%;
 	background: #eee;
-	right:0;
-	top:0;
+	right: 0;
+	top: 0;
 	border: 1px solid #505076;
 	border-left: 1px solid transparent;
 	border-radius: 0 0.25rem 0.25rem 0;
@@ -1835,122 +2549,158 @@ transform:translate(0,0);
 	align-items: center;
 	z-index: -1;
 }
-.fc04 .inner{
+
+.fc04 .inner {
 	font-size: 0.8rem;
 }
-.fc04 .box .submit_btn{
+
+.fc04 .box .submit_btn {
 	text-align: center;
 	margin: 1rem 0 0;
 }
-.fc04 .box .submit_btn input{
+
+.fc04 .box .submit_btn input {
 	background: #505076;
 	color: #fff;
 	width: 100%;
 	padding: 1rem;
-	border:1px solid #505076;
+	border: 1px solid #505076;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ fc04 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ fc01 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.thanks01 .box{
+.thanks01 .box {
 	padding: 2rem 0 0;
 }
-.thanks01 .box .img{
+
+.thanks01 .box .img {
 	text-align: center;
 }
-.thanks01 .box .txt{
+
+.thanks01 .box .txt {
 	position: absolute;
 	width: 90%;
-	bottom:0;
-	left:50%;
-	transform: translate(-50%,0);
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
 	background: rgba(255, 255, 255, .8);
 	padding: 1rem 0;
 	text-align: center;
 }
-.thanks01 .box .txt h2{
+
+.thanks01 .box .txt h2 {
 	font-size: 1.5rem;
 	line-height: 1.5;
 	margin: 0 0 1rem;
 	color: #7a74a2;
 	font-weight: normal;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ fc01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ プライバシー01 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.privacy01{
+.privacy01 {
 	padding: 4rem 0 2rem;
 	text-align: center;
 }
-.privacy01 h1{
+
+.privacy01 h1 {
 	font-size: 1.6rem;
 }
-.privacy01 .box{
+
+.privacy01 .box {
 	text-align: left;
 	margin: 1.5rem 0;
 }
-.privacy01 .item h2{
+
+.privacy01 .item h2 {
 	font-size: 1.2rem;
 	margin-bottom: 1rem;
 }
-.privacy01 .item{
+
+.privacy01 .item {
 	margin-bottom: 2rem;
 }
-.privacy01 .item p{
+
+.privacy01 .item p {
 	margin-bottom: 1rem;
 }
-.privacy01 .item ol{
+
+.privacy01 .item ol {
 	margin-left: 1.5rem;
 }
-.privacy01 .item ol.brackets{
+
+.privacy01 .item ol.brackets {
 	counter-reset: li;
 }
-.privacy01 .item ol > li{
+
+.privacy01 .item ol>li {
 	list-style: decimal;
 	margin-top: 0.5rem;
 }
-.privacy01 .item ol.brackets > li{
+
+.privacy01 .item ol.brackets>li {
 	list-style: none;
 	margin-top: 0.5rem;
 }
-.privacy01 .item ol.brackets > li::before{
+
+.privacy01 .item ol.brackets>li::before {
 	counter-increment: li;
-	content: '（'counter(li)'）';
+	content: '（' counter(li)'）';
 	line-height: 1.6;
 	margin-left: -2.5rem;
 }
-.privacy01 .item address{
+
+.privacy01 .item address {
 	font-style: normal;
 }
-.privacy01 .item address a{
+
+.privacy01 .item address a {
 	color: #696868;
 	text-decoration: underline;
 	display: inline;
 }
-.privacy01 .item .notes{
+
+.privacy01 .item .notes {
 	margin-top: 1rem;
 }
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ プライバシー01 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ 特商法 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
-.trandsaction{
+.trandsaction {
 	padding: 2rem 0 0;
 	text-align: center;
 }
-.trandsaction h1{font-size: 1.6rem;}
-.trandsaction .box{
+
+.trandsaction h1 {
+	font-size: 1.6rem;
+}
+
+.trandsaction .box {
 	text-align: left;
 	margin: 1.5rem 0;
 }
+
 .trandsaction table th,
-.trandsaction table td{
+.trandsaction table td {
 	border: 1px solid #505076;
 	padding: 0.5rem 1rem;
 	font-size: 0.8rem;
 }
-.trandsaction table th{ width: 40%;}
+
+.trandsaction table th {
+	width: 40%;
+}
+
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ 特商法 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 
-@media screen and (orientation:portrait) {/* 縦向き */}
-@media screen and (orientation:landscape) {/* 横向き */}
+@media screen and (orientation:portrait) {
+	/* 縦向き */
+}
+
+@media screen and (orientation:landscape) {
+	/* 横向き */
+}

@@ -31,9 +31,9 @@ $msg = mb_convert_kana($msg,"sKV");
 //管理者受信用メール送信処理
 function funcManagerAddress($user, $user_kana, $zip1, $pref1, $addr1, $addr2, $addr3, $tel, $email, $type, $opening_fund, $opening_time, $agree02){
 
-    $mailto = 'info@tree-co.net,tsukiyama@tree-co.net,e-tamura@tree-co.net'; 
+    $mailto = 'info@tree-co.net,tsukiyama@tree-co.net,n-sato@tree-co.net'; 
     // $mailto = 'register@qu-bic.jp'; 
-    // $mailto = 'miura@qu-bic.jp'; 
+    // $mailto = 'a-nishikawa@qu-bic.jp'; 
     $subject = "個別説明会申込メール"; 
 
     $content = "MYTHEL FCページより、個別説明会申込がありました。\n\n";
@@ -126,7 +126,7 @@ function funcContactAddress($comp_name, $user, $user_kana, $email, $tel, $date01
 
     $mailfrom="From:" .mb_encode_mimeheader("MYTHEL FC本部") ."<'info@tree-co.net'>";
     // $mailfrom="From:" .mb_encode_mimeheader("MYTHEL FC本部") . "<'register@qu-bic.jp'>";
-    // $mailfrom="From:" .mb_encode_mimeheader("MYTHEL FC本部") . "<'miura@qu-bic.jp'>";
+    // $mailfrom="From:" .mb_encode_mimeheader("MYTHEL FC本部") . "<'a-nishikawa@qu-bic.jp'>";
 
     if(mb_send_mail($mailto,$subject,$content,$mailfrom) == true){
         $contactFlag = "○";
