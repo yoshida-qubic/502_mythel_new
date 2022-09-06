@@ -132,7 +132,8 @@ include($root . "/include/header.php");
 									<span class="txt">キャビテーション</span><br>
 									<span class="txt">フェイシャル</span><br>
 									<span class="txt">ホワイトニング</span><br>
-									<span class="txt">セルバーン or MAGWAVE</span>
+									<span class="txt">MAGWAVE</span><br>
+									<span class="txt">セルバーン</span>
 								</td>
 							</tr>
 
