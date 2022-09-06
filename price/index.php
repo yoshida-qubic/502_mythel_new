@@ -23,7 +23,8 @@ include($root . "/include/header.php");
 				<div class="box">
 					<div class="txt">
 						<h2><span class="trans_wrap"><span class="trans_in">MYTHELの</span></span><br>
-							<span class="trans_wrap"><span class="trans_in">利用料金について</span></span></h2>
+							<span class="trans_wrap"><span class="trans_in">利用料金について</span></span>
+						</h2>
 
 						<p><span class="trans_wrap"><span class="trans_in">MYTHEL（ミセル）ではお客様ひとり一人に合わせて選べるコースをご用意しております。</span></span>
 						</p>
@@ -54,10 +55,10 @@ include($root . "/include/header.php");
 				<div class="ttl">
 					<h2 class="kapital_t fadeup">PRICE</h2>
 					<div class="type_b_shoplist fadeup">
-						<ul>
+						<!-- <ul>
 							<li>京都烏丸店</li>
-						</ul>
-						<p>※上記店舗に限り、Bタイプの料金が適用されます。</p>
+						</ul> -->
+						<p>店舗によりメニュー・金額・導入機器は異なります。<br class="is_sp">詳しくは各店舗にお問い合わせくださいませ。</p>
 					</div>
 					<h3 class="sub_ttl fadeup">MONTHLY</h3>
 					<p class="fadeup"><strong>月額利用料</strong></p>
@@ -66,7 +67,7 @@ include($root . "/include/header.php");
 				<div class="type_menu_tab fadeup">
 					<ul>
 						<li class="active">Aタイプ</li>
-						<li>Bタイプ</li>
+						<!-- <li>Bタイプ</li> -->
 					</ul>
 				</div>
 
@@ -117,12 +118,12 @@ include($root . "/include/header.php");
 									<span class="txt">キャビテーション</span><br>
 									<span class="txt">フェイシャル</span><br>
 									<span class="txt">ホワイトニング</span><br>
-									<span class="txt">MAGWAVE</span>
+									<span class="txt">セルバーン or MAGWAVE</span>
 								</td>
 							</tr>
 
 							<tr>
-								<th>ダイア<br class="is_tab">モンド</th>
+								<th>ダイヤ<br class="is_tab">モンド</th>
 								<th>AllTime <span>Open〜最終受付まで</span></th>
 								<td>45<span class="small">min</span></td>
 								<td class="purple">21,980<span class="middle">円(税込)</span></td>
@@ -131,7 +132,7 @@ include($root . "/include/header.php");
 									<span class="txt">キャビテーション</span><br>
 									<span class="txt">フェイシャル</span><br>
 									<span class="txt">ホワイトニング</span><br>
-									<span class="txt">MAGWAVE・HIFU</span>
+									<span class="txt">セルバーン or MAGWAVE</span>
 								</td>
 							</tr>
 
@@ -145,29 +146,30 @@ include($root . "/include/header.php");
 									<span class="txt">キャビテーション</span><br>
 									<span class="txt">フェイシャル</span><br>
 									<span class="txt">ホワイトニング</span><br>
-									<span class="txt">MAGWAVE</span>
+									<span class="txt">MAGWAVE</span><br>
+									<span class="txt">セルバーン</span>
 								</td>
 							</tr>
 
 							<tr>
-								<th>ハイフ＆<br class="is_tab">ラジオ波<br class="is_tab">プラン</th>
+								<th>セルバーン<br class="is_tab">プラン</th>
 								<th>AllTime <span>Open〜最終受付まで</span></th>
 								<td>45<span class="small">min</span></td>
 								<td class="purple">10,980<span class="middle">円(税込)</span></td>
 								<td class="facility_contents">
-									<span class="txt">※ハイフ</span><br>
-									<span class="txt">し放題プラン</span>
+									<span class="txt">※セルバーン</span><br>
+									<span class="txt">使い放題</span>
 								</td>
 							</tr>
 
 							<tr>
 								<th>MAGWAVE<br class="is_tab">プラン</th>
 								<th>AllTime <span>Open〜最終受付まで</span></th>
-								<td>40<span class="small">min</span></td>
+								<td>45<span class="small">min</span></td>
 								<td class="purple">13,980<span class="middle">円(税込)</span></td>
 								<td class="facility_contents">
 									<span class="txt">※MAGWAVE</span><br>
-									<span class="txt">し放題プラン</span>
+									<span class="txt">使い放題</span>
 								</td>
 							</tr>
 
@@ -179,7 +181,7 @@ include($root . "/include/header.php");
 					</div>
 				</div>
 
-				<div class="box monthly hide">
+				<!-- <div class="box monthly hide">
 					<table>
 						<thead>
 							<tr>
@@ -236,7 +238,7 @@ include($root . "/include/header.php");
 						<i class="far fa-hand-point-up"></i>
 						<span>スクロールできます</span>
 					</div>
-				</div>
+				</div> -->
 			</div>
 
 

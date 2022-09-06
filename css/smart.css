@@ -1233,20 +1233,20 @@ footer .copy {
 	text-align: left;
 }
 
-.price03 .ttl .type_b_shoplist ul {
+/* .price03 .ttl .type_b_shoplist ul {
 	display: flex;
 	flex-wrap: wrap;
 	margin-left: -1.5rem;
-}
+} */
 
-.price03 .ttl .type_b_shoplist ul li {
+/* .price03 .ttl .type_b_shoplist ul li {
 	list-style: disc;
 	margin-left: 2.5rem;
 	font-size: 0.85rem;
-}
+} */
 
 .price03 .ttl .type_b_shoplist p {
-	margin: 0.75rem 0 0;
+	padding: 0.75rem 0 0;
 	font-size: 0.75rem;
 }
 

@@ -326,7 +326,7 @@ include($root . "/include/header.php");
 				<div class="img"><img src="./images/top/top05_img01.jpg"></div>
 				<div class="txt">
 					<h3>PRO使用の<br>エステ機器が使い放題</h3>
-					<p>MYTHELでは結果重視のマシンを導入しています。<br>高品質で安全・簡単操作可能な美容マシンを使用しお客様にご満足頂いております。<br>更に、キャビテーション・脱毛・ホワイトニング・フェイシャル・ネイルが全て使い放題！<br>時間いっぱい施術可能です。</p>
+					<p>MYTHELでは結果重視のマシンを導入しています。<br>高品質で安全・簡単操作可能な美容マシンを使用しお客様にご満足頂いております。<br>更に、キャビテーション・脱毛・ホワイトニング・フェイシャルや最新の筋肉トレーニングマシンが全て使い放題！<br>時間いっぱい施術可能です。</p>
 					<div class="link left small purple">
 						<a href="<?php echo $dir; ?>about/">WHAT’S MYTHEL</a>
 					</div>
