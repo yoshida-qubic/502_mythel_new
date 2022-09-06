@@ -63,13 +63,13 @@ include($root . "/include/header.php");
 					<h3 class="sub_ttl fadeup">MONTHLY</h3>
 					<p class="fadeup"><strong>月額利用料</strong></p>
 				</div>
-
+				<!-- 
 				<div class="type_menu_tab fadeup">
 					<ul>
 						<li class="active">Aタイプ</li>
-						<!-- <li>Bタイプ</li> -->
+						<li>Bタイプ</li>
 					</ul>
-				</div>
+				</div> -->
 
 				<div class="box monthly fadeup">
 					<table>
@@ -132,7 +132,8 @@ include($root . "/include/header.php");
 									<span class="txt">キャビテーション</span><br>
 									<span class="txt">フェイシャル</span><br>
 									<span class="txt">ホワイトニング</span><br>
-									<span class="txt">セルバーン or MAGWAVE</span>
+									<span class="txt">MAGWAVE</span><br>
+									<span class="txt">セルバーン</span>
 								</td>
 							</tr>
 
