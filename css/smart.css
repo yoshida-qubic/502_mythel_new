@@ -40,6 +40,11 @@ section,
 	padding: 0 2rem;
 }
 
+.l_container {
+	width: 100%;
+	padding: 0 1rem;
+}
+
 .is_pc {
 	display: none;
 }
@@ -851,60 +856,120 @@ footer .copy {
 /* ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ06 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ */
 
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ07 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
+
+.top07 {
+	overflow: hidden;
+}
+
+.top07 .bg img {
+	width: 100%;
+}
+
 .top07 .box {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	display: flex;
-	align-items: flex-end;
+	/* display: flex;
+	align-items: flex-end; */
 }
 
 .top07 .box .box_in {
 	position: relative;
-	padding-bottom: 27vw;
-	display: flex;
+	/* padding-bottom: 27vw; */
+	/* display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-direction: column;
+	flex-direction: column; */
+	margin: 45vw auto 0;
+	width: 80%;
 }
 
 .top07 .box .box_in h2 {
 	max-width: 650px;
-	width: 100%;
-	margin: 0 auto;
+	margin: 0 auto 6vw;
+}
+
+.top07 .box .box_in h2 picture:first-of-type img {
+	margin-bottom: 6vw;
+	width: 90%;
 }
 
 .top07 .box .box_in figure {
-	max-width: 450px;
-	width: 75%;
-	margin: 0.5rem auto 0;
+	max-width: 650px;
+	/* margin: 0 0 4vw; */
 }
+
+.top07 .box .box_in figure+figure {
+	margin: 6vw 0 4vw;
+}
+
+.top07 .box .box_in figure.first {
+	width: 90%;
+}
+
+.top07 .box .box_in figure.second {
+	width: 80%;
+	position: relative;
+	padding: 0 0 0.5rem;
+	margin: 6vw auto 4vw;
+}
+
+.top07 .box .box_in figure.second::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 200%;
+	height: 100%;
+	background: #fd7070;
+	z-index: -1;
+}
+
+.top07 .box .box_in figure.third {
+	width: 85%;
+}
+
+.top07 .box .box_in .reserve {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.top07 .box .box_in .reserve>figure {
+	width: 48%;
+}
+
+.top07 .box .box_in .reserve a {
+	width: 48%;
+}
+
 
 .top07 .box .box_in .txt {
 	/* ↓9/1に削除する */
-	background: rgba(95, 187, 207, .72);
+	/* background: rgba(95, 187, 207, .72); */
 	/* ↓9/1にコメント外す */
 	/* background: rgba(207, 95, 100, .72); */
-	padding: 0.75rem 1rem;
-	transform: rotate(-4.83deg);
+	/* padding: 0.75rem 1rem;
+	transform: rotate(-4.83deg); */
 	/* ↓9/1に削除する */
-	margin-top: 15vw;
+	/* margin-top: 15vw; */
 	/* ↓9/1にコメント外す */
 	/* margin-top: 7vw; */
-	display: inline-flex;
+	/* display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	box-shadow: 8px 10px 7px rgba(10, 2, 4, .25);
+	box-shadow: 8px 10px 7px rgba(10, 2, 4, .25); */
 }
 
 .top07 .box .box_in .txt p {
-	color: #fdfcfc;
+	/* color: #fdfcfc;
 	font-size: 1.1rem;
 	font-weight: 700;
 	line-height: 1.33;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.1em; */
 }
 
 .top07 .box .img {

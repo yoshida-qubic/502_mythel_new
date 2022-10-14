@@ -61,13 +61,15 @@ include($root . "/include/header.php");
 		<div class="container">
 
 			<!-- <div class="box" id="area01"> -->
-				<!-- <h3>北海道エリア</h3> -->
+			<!-- <h3>北海道エリア</h3> -->
 
-				<!-- 札幌店 -->
-				<!-- 2022/06/03 削除 -->
-				<?php //include("./sapporo/info.php"); ?>
-				<?php //include("./template.php"); ?>
-				<!-- 札幌店 -->
+			<!-- 札幌店 -->
+			<!-- 2022/06/03 削除 -->
+			<?php //include("./sapporo/info.php"); 
+			?>
+			<?php //include("./template.php"); 
+			?>
+			<!-- 札幌店 -->
 
 
 
@@ -78,15 +80,19 @@ include($root . "/include/header.php");
 
 				<!-- 仙台駅前店 -->
 				<!-- 2022/06/03 削除 -->
-				<?php //include("./sendai/info.php"); ?>
-				<?php //include("./template.php"); ?>
+				<?php //include("./sendai/info.php"); 
+				?>
+				<?php //include("./template.php"); 
+				?>
 				<!-- 仙台駅前店 -->
 
 
 				<!-- 仙台国分町店 -->
 				<!-- 2022/03/01 削除 -->
-				<?php //include("./sendaikokubuncho/info.php"); ?>
-				<?php //include("./template.php"); ?>
+				<?php //include("./sendaikokubuncho/info.php"); 
+				?>
+				<?php //include("./template.php"); 
+				?>
 				<!-- 仙台国分町店 -->
 
 				<!-- 盛岡菜園店 -->
@@ -106,8 +112,10 @@ include($root . "/include/header.php");
 
 				<!-- モザイクモール港北店 -->
 				<!-- 2022/08/04 削除 -->
-				<?php //include("./mosaicmall_kouhoku/info.php"); ?>
-				<?php //include("./template.php"); ?>
+				<?php //include("./mosaicmall_kouhoku/info.php"); 
+				?>
+				<?php //include("./template.php"); 
+				?>
 				<!-- モザイクモール港北店 -->
 
 				<!-- トレッサ横浜店 -->
@@ -122,14 +130,18 @@ include($root . "/include/header.php");
 
 				<!-- 水戸店 -->
 				<!-- 2022/01/31 削除 -->
-				<?php //include("./mito/info.php"); ?>
-				<?php //include("./template.php"); ?>
+				<?php //include("./mito/info.php"); 
+				?>
+				<?php //include("./template.php"); 
+				?>
 				<!-- 水戸店 -->
 
 				<!-- ひたちの店 -->
 				<!-- 2022/06/03 削除 -->
-				<?php //include("./hitachino/info.php"); ?>
-				<?php //include("./template.php"); ?>
+				<?php //include("./hitachino/info.php"); 
+				?>
+				<?php //include("./template.php"); 
+				?>
 				<!-- ひたちの店 -->
 			</div>
 
@@ -143,8 +155,10 @@ include($root . "/include/header.php");
 
 				<!-- ながの東急百貨店内 -->
 				<!-- 2022/06/03 削除 -->
-				<?php //include("./nagano_tokyu/info.php"); ?>
-				<?php //include("./template.php"); ?>
+				<?php //include("./nagano_tokyu/info.php"); 
+				?>
+				<?php //include("./template.php"); 
+				?>
 				<!-- ながの東急百貨店内 -->
 			</div>
 
@@ -156,8 +170,10 @@ include($root . "/include/header.php");
 
 				<!-- 栄店 -->
 				<!-- 2022/03/01 削除 -->
-				<?php //include("./sakae/info.php"); ?>
-				<?php //include("./template.php"); ?>
+				<?php //include("./sakae/info.php"); 
+				?>
+				<?php //include("./template.php"); 
+				?>
 				<!-- 栄店 -->
 
 				<!-- 星ヶ丘店 -->
@@ -184,11 +200,13 @@ include($root . "/include/header.php");
 				<?php include("./megadonki_toyohashi/info.php"); ?>
 				<?php include("./template.php"); ?>
 				<!-- MEGAドン・キホーテ豊橋店 -->
-				
+
 				<!-- 新静岡セノバ店 -->
 				<!-- 2022/06/03 削除 -->
-				<?php //include("./shinshizuoka_cenova/info.php"); ?>
-				<?php //include("./template.php"); ?>
+				<?php //include("./shinshizuoka_cenova/info.php"); 
+				?>
+				<?php //include("./template.php"); 
+				?>
 				<!-- 新静岡セノバ店-->
 
 
@@ -215,13 +233,17 @@ include($root . "/include/header.php");
 
 				<!-- 豊中駅前店 -->
 				<!-- 2022/03/01 削除 -->
-				<?php //include("./toyonaka/info.php"); ?>
-				<?php //include("./template.php"); ?>
+				<?php //include("./toyonaka/info.php"); 
+				?>
+				<?php //include("./template.php"); 
+				?>
 				<!-- 豊中駅前店 -->
 
 				<!-- アリオ鳳 2022/01/31削除 -->
-				<?php //include("./ario_otori/info.php"); ?>
-				<?php //include("./template.php"); ?>
+				<?php //include("./ario_otori/info.php"); 
+				?>
+				<?php //include("./template.php"); 
+				?>
 				<!-- アリオ鳳 -->
 
 				<!-- アルザ泉大津店 -->
@@ -239,6 +261,11 @@ include($root . "/include/header.php");
 				<?php include("./template.php"); ?>
 				<!-- 枚方店 -->
 
+				<!-- ららぽーと堺店 -->
+				<?php include("./lalaport_sakai/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- ららぽーと堺店 -->
+
 				<!-- あまがさきキューズモール店 -->
 				<?php include("./amagasaki_qs_mall/info.php"); ?>
 				<?php include("./template.php"); ?>
@@ -250,11 +277,13 @@ include($root . "/include/header.php");
 				<!-- 京都烏丸店 -->
 
 				<!-- MENS京都西院店 2022/02/01削除 -->
-				<?php //include("./kyotosaiin/info.php"); ?>
-				<?php //include("./template.php"); ?>
+				<?php //include("./kyotosaiin/info.php"); 
+				?>
+				<?php //include("./template.php"); 
+				?>
 				<!-- MENS京都西院店 -->
 				<!-- <div class="bottom"> -->
-					<!-- <p>※京都烏丸店と西院店で入会の方はどちらの店舗でもご使用頂けます。</p> -->
+				<!-- <p>※京都烏丸店と西院店で入会の方はどちらの店舗でもご使用頂けます。</p> -->
 				<!-- </div> -->
 
 
@@ -283,6 +312,11 @@ include($root . "/include/header.php");
 				<?php include("./kokuraminami_moritsune/info.php"); ?>
 				<?php include("./template.php"); ?>
 				<!-- 小倉南守恒店 -->
+
+				<!-- 山鹿店 -->
+				<?php include("./yamaga/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- 山鹿店 -->
 
 
 

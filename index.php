@@ -256,15 +256,15 @@ include($root . "/include/header.php");
 
 	<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ07 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
 	<section class="top07 fadeup">
-		<div class="top07_in">
+		<!-- <div class="top07_in">
 			<div class="bg">
-				<!-- ↓9/1に削除する -->
-				<!-- <picture>
+				↓9/1に削除する
+				<picture>
 					<source media="(min-width: 768px)" srcset="./images/top/top07_bg01.jpg">
 					<source media="(max-width: 767px)" srcset="./images/top/top07_bg01_sp.jpg">
 					<img src="./images/top/top07_bg01.jpg" alt="">
-				</picture> -->
-				<!-- ↓9/1にコメント外す -->
+				</picture>
+				↓9/1にコメント外す
 				<picture>
 					<source media="(min-width: 768px)" srcset="./images/top/top07_bg02.jpg">
 					<source media="(max-width: 767px)" srcset="./images/top/top07_bg02_sp.jpg">
@@ -275,15 +275,15 @@ include($root . "/include/header.php");
 				<div class="container">
 					<div class="box_in">
 						<h2 class="fadeup">
-							<!-- ↓9/1に削除する -->
-							<!-- <img src="./images/top/top07_txt01.png" alt="2022 SUMMER CAMPAING"> -->
-							<!-- ↓9/1にコメント外す -->
+							↓9/1に削除する
+							<img src="./images/top/top07_txt01.png" alt="2022 SUMMER CAMPAING">
+							↓9/1にコメント外す
 							<img src="./images/top/top07_txt04.png" alt="2022 AUTUMN CAMPAING">
 						</h2>
 						<figure class="fadeup">
-							<!-- ↓9/1に削除する -->
-							<!-- <img src="./images/top/top07_txt02.png" alt="7.1 fri - 8.31 WED"> -->
-							<!-- ↓9/1にコメント外す -->
+							↓9/1に削除する
+							<img src="./images/top/top07_txt02.png" alt="7.1 fri - 8.31 WED">
+							↓9/1にコメント外す
 							<img src="./images/top/top07_txt05.png" alt="9.1 - 10.31">
 						</figure>
 
@@ -297,6 +297,76 @@ include($root . "/include/header.php");
 				</div>
 				<div class="img fadeup">
 					<img src="./images/top/top07_txt03.png" alt="">
+				</div>
+			</div>
+		</div> -->
+
+
+		<!-- ↓10/14に変更（ららぽーと堺店　11月8日グランドオープン） -->
+		<div class="top07_in">
+			<div class="bg">
+				<picture>
+					<source media="(min-width: 768px)" srcset="./images/top/top07_bg03.jpg">
+					<source media="(max-width: 767px)" srcset="./images/top/top07_bg03_sp.jpg">
+					<img src="./images/top/top07_bg03.jpg" alt="">
+				</picture>
+			</div>
+
+			<div class="box">
+				<div class="l_container">
+					<div class="box_in">
+						<h2 class="fadeup">
+							<picture>
+								<source media="(min-width: 768px)" srcset="./images/top/top07_txt03_01.png">
+								<source media="(max-width: 767px)" srcset="./images/top/top07_txt03_01_sp.png">
+								<img src="./images/top/top07_txt03_01.png" alt="2022月11月8日(tue)">
+							</picture>
+							<picture>
+								<source media="(min-width: 768px)" srcset="./images/top/top07_txt03_02.png">
+								<source media="(max-width: 767px)" srcset="./images/top/top07_txt03_02_sp.png">
+								<img src="./images/top/top07_txt03_02.png" alt="MYTHELららぽーと堺店GRAND OPEN">
+							</picture>
+						</h2>
+						<figure class="first fadeup">
+							<picture>
+								<source media="(min-width: 768px)" srcset="./images/top/top07_txt03_03.png">
+								<source media="(max-width: 767px)" srcset="./images/top/top07_txt03_03_sp.png">
+								<img src="./images/top/top07_txt03_03.png" alt="GRAND OPEN記念で2022年11月12日(sat)">
+							</picture>
+						</figure>
+						<figure class="second fadeup">
+							<picture>
+								<source media="(min-width: 768px)" srcset="./images/top/top07_txt03_04.jpg">
+								<source media="(max-width: 767px)" srcset="./images/top/top07_txt03_04_sp.png">
+								<img src="./images/top/top07_txt03_04.jpg" alt="梅宮アンナさんご来店！">
+							</picture>
+						</figure>
+						<figure class="third fadeup">
+							<picture>
+								<source media="(min-width: 768px)" srcset="./images/top/top07_txt03_05.png">
+								<source media="(max-width: 767px)" srcset="./images/top/top07_txt03_05_sp.png">
+								<img src="./images/top/top07_txt03_05.png" alt="当日ご入会のお客様には豪華特典有り！">
+							</picture>
+						</figure>
+						<div class="reserve">
+							<figure class="fadeup">
+								<picture>
+									<source media="(min-width: 768px)" srcset="./images/top/top07_txt03_06.png">
+									<source media="(max-width: 767px)" srcset="./images/top/top07_txt03_06_sp.png">
+									<img src="./images/top/top07_txt03_06.png" alt="ご予約はこちら">
+								</picture>
+							</figure>
+							<a href="./salonlist/lalaport_sakai/index.php">
+								<figure class="fadeup">
+									<picture>
+										<source media="(min-width: 768px)" srcset="./images/top/top07_txt03_btn.png">
+										<source media="(max-width: 767px)" srcset="./images/top/top07_txt03_btn_sp.png">
+										<img src="./images/top/top07_txt03_btn.png" alt="クリック">
+									</picture>
+								</figure>
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
