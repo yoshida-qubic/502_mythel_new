@@ -41,6 +41,12 @@ section,
 	padding: 0 3rem;
 }
 
+.l_container {
+	width: 95%;
+	margin: 0 auto;
+	/* max-width: 1480px; */
+}
+
 /* @media screen and (min-width:1540px) {
 	.container{max-width: 1480px;}
 } */
@@ -1038,64 +1044,101 @@ footer .copy {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	display: flex;
-	align-items: flex-end;
+	/* display: flex;
+	align-items: flex-end; */
 }
 
 .top07 .box .box_in {
 	position: relative;
 	/* ↓9/1に削除する */
-	padding-bottom: 18vw;
+	/* padding-bottom: 18vw; */
 	/* ↓9/1にコメント外す */
 	/* padding-bottom: 16vw; */
-	display: flex;
+	/* display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-direction: column;
+	flex-direction: column; */
+	margin: 0 0 0 48%;
 }
 
 .top07 .box .box_in h2 {
 	max-width: 1180px;
 	width: 90%;
-	margin: 0 auto;
+	margin: 5vw 0 6vw;
+}
+
+.top07 .box .box_in h2 picture:first-of-type img:first-of-type {
+	margin-bottom: 2vw;
 }
 
 .top07 .box .box_in figure {
 	/* ↓9/1に削除する */
-	max-width: 735px;
+	/* max-width: 735px; */
 	/* ↓9/1にコメント外す */
-	max-width: 980px;
+	max-width: 1180px;
 	/* ↓9/1に削除する */
-	width: 57%;
+	/* width: 57%; */
 	/* ↓9/1にコメント外す */
-	/* width: 70%; */
-	margin: 0.5rem auto 0;
+	width: 90%;
+	margin: 0 0 4vw 0;
 }
 
-.top07 .box .box_in .txt {
-	/* ↓9/1に削除する */
+.top07 .box .box_in .reserve {
+	max-width: 1180px;
+	width: 90%;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	margin: 0;
+}
+
+.top07 .box .box_in .reserve figure {
+	width: 42%;
+	margin: 0;
+}
+
+.top07 .box .box_in .reserve a {
+	width: 50%;
+	padding-left: 0.5rem;
+	transition: .3s;
+}
+
+.top07 .box .box_in .reserve a :hover {
+	opacity: 0.9;
+	transition: .3s;
+}
+
+.top07 .box .box_in .reserve a figure {
+	width: 80%;
+	margin: 0;
+}
+
+
+/* .top07 .box .box_in .txt {
+	↓9/1に削除する
 	background: rgba(95, 187, 207, .72);
-	/* ↓9/1にコメント外す */
-	/* background: rgba(207, 95, 100, .72); */
+	↓9/1にコメント外す
+	background: rgba(207, 95, 100, .72);
 	padding: 1rem 2.5rem;
 	transform: rotate(-4.83deg);
-	/* ↓9/1に削除する */
+	↓9/1に削除する
 	margin-top: 11vw;
-	/* ↓9/1にコメント外す */
-	/* margin-top: 5vw; */
+	↓9/1にコメント外す
+	margin-top: 5vw;
+	
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
 	box-shadow: 15px 20px 7px rgba(10, 2, 4, .25);
-}
+} */
 
-.top07 .box .box_in .txt p {
+/* .top07 .box .box_in .txt p {
 	color: #fdfcfc;
 	font-size: 2.2rem;
 	font-weight: 700;
 	line-height: 1.33;
 	letter-spacing: 0.15em;
-}
+} */
 
 .top07 .box .img {
 	position: absolute;
@@ -1111,20 +1154,20 @@ footer .copy {
 	}
 
 	.top07 .box .box_in figure {
-		width: 50%;
+		width: 83%;
 	}
 
 	.top07 .box .box_in .txt {
 		/* ↓9/1に削除する */
-		margin-top: 8vw;
+		/* margin-top: 8vw; */
 		/* ↓9/1にコメント外す */
 		/* margin-top: 4vw; */
-		padding: 1rem 2rem;
+		/* padding: 1rem 2rem; */
 	}
 
-	.top07 .box .box_in .txt p {
+	/* .top07 .box .box_in .txt p {
 		font-size: 2rem;
-	}
+	} */
 }
 
 @media screen and (min-width:768px) and (max-width:1025px) {
