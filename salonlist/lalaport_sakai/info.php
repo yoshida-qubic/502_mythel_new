@@ -27,4 +27,4 @@ $slug = 'lalaport_sakai';
 
 $schedule = '11月8日';
 
-$instagram_link = '';
+$instagram_link = 'https://www.instagram.com/mythel_lalaport.sakai/';
