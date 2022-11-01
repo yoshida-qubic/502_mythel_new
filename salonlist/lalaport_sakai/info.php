@@ -10,7 +10,7 @@ $access = '近鉄南大阪線「河内松原駅」より近鉄バス余部平尾
 $room_number = '';
 $machine = '脱毛1台・ラジオ派1台・MAGWAVE EX2台・ハーブテントスチームアップ2台';
 
-$tel = '未定';
+$tel = '072-284-8919';
 
 $map = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.510689257475!2d135.55851631619333!3d34.54062298047604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000d939b7dfc2a7%3A0xce91573de5b20e04!2z5LiJ5LqV44K344On44OD44OU44Oz44Kw44OR44O844KvIOOCieOCieOBveODvOOBqOWguiDjgIoyMDIy5bm0MTHmnIg45pel44Kw44Op44Oz44OJ44Kq44O844OX44Oz44CL!5e0!3m2!1sja!2sjp!4v1665720848060!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
 
