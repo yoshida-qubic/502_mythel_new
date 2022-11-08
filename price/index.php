@@ -85,7 +85,7 @@ include($root . "/include/header.php");
 						<tbody>
 							<tr>
 								<th>シルバー</th>
-								<th>DayTime <span>Open〜15時までに入店</span><span>平日のみ利用可能</span></th>
+								<th>DayTime <span>Open〜15時まで</span><span>平日のみ利用可能</span></th>
 								<td>45<span class="small">min</span></td>
 								<td class="purple">6,578<span class="middle">円(税込)</span></td>
 								<td class="facility_contents">

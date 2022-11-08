@@ -2,7 +2,7 @@
 $area = '東北エリア';
 $salonname = '盛岡菜園店';
 $holiday = '不定休<span>（研修等で店休になる場合があります）</span>';
-$buisiness_hours = 'OPEN 10:00 〜 CLOSE 21:00';
+$buisiness_hours = 'OPEN 10:00 〜 CLOSE 20:00';
 $address = '〒020-0024 岩手県盛岡市菜園２丁目２番２号';
 $access = 'JR東北本線 盛岡駅より徒歩14分';
 
@@ -25,5 +25,3 @@ $reserved = 'https://mythel.hacomono.jp/reserve/schedule/9/49/';
 $slug = 'morioka_saien';
 
 $instagram_link = 'https://www.instagram.com/mythel_moriokasaien/';
-
-?>
