@@ -309,8 +309,11 @@ include($root . "/include/header.php");
 				<h3>九州・沖縄エリア</h3>
 
 				<!-- 小倉南守恒店 -->
-				<?php include("./kokuraminami_moritsune/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<!-- 2022/11/08 削除 -->
+				<?php //include("./kokuraminami_moritsune/info.php"); 
+				?>
+				<?php //include("./template.php"); 
+				?>
 				<!-- 小倉南守恒店 -->
 
 				<!-- 山鹿店 -->
