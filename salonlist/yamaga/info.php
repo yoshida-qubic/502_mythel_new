@@ -21,10 +21,10 @@ $map_link = 'https://goo.gl/maps/k8ebnwoSWyCFXui4A';
 
 
 
-$reserved = '';
+$reserved = 'https://mythel.hacomono.jp/reserve/schedule/20/120/';
 
 $slug = 'yamaga';
 
 $schedule = '11月21日';
 
-$instagram_link = '';
+$instagram_link = 'https://www.instagram.com/mythel.yamaga/';
