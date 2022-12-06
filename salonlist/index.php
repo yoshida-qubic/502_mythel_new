@@ -231,8 +231,7 @@ include($root . "/include/header.php");
 				<?php include("./template.php"); ?>
 				<!-- あべのキューズモール店-->
 
-				<!-- 豊中駅前店 -->
-				<!-- 2022/03/01 削除 -->
+				<!-- 豊中駅前店 2022/03/01 削除-->
 				<?php //include("./toyonaka/info.php"); 
 				?>
 				<?php //include("./template.php"); 
@@ -256,9 +255,11 @@ include($root . "/include/header.php");
 				<?php include("./template.php"); ?>
 				<!-- 守口店 -->
 
-				<!-- 枚方店 -->
-				<?php include("./hirakata/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<!-- 枚方店 2022/12/6削除 -->
+				<?php //include("./hirakata/info.php"); 
+				?>
+				<?php //include("./template.php"); 
+				?>
 				<!-- 枚方店 -->
 
 				<!-- ららぽーと堺店 -->
