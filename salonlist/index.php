@@ -128,6 +128,11 @@ include($root . "/include/header.php");
 				<?php include("./template.php"); ?>
 				<!-- ドン・キホーテ二俣川店 -->
 
+				<!-- 鹿島店 -->
+				<?php include("./kashima/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- 鹿島店 -->
+
 				<!-- 水戸店 -->
 				<!-- 2022/01/31 削除 -->
 				<?php //include("./mito/info.php"); 
@@ -276,6 +281,11 @@ include($root . "/include/header.php");
 				<?php include("./kyotokarasuma/info.php"); ?>
 				<?php include("./template.php"); ?>
 				<!-- 京都烏丸店 -->
+
+				<!-- 阪急東向日駅前店 -->
+				<?php include("./higashi_muko_ekimae/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- 阪急東向日駅前店 -->
 
 				<!-- MENS京都西院店 2022/02/01削除 -->
 				<?php //include("./kyotosaiin/info.php"); 
