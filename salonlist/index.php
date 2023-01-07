@@ -277,9 +277,11 @@ include($root . "/include/header.php");
 				<?php include("./template.php"); ?>
 				<!-- あまがさきキューズモール店 -->
 
-				<!-- 京都烏丸店 -->
-				<?php include("./kyotokarasuma/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<!-- 京都烏丸店 2023/1/6削除 -->
+				<?php //include("./kyotokarasuma/info.php"); 
+				?>
+				<?php //include("./template.php"); 
+				?>
 				<!-- 京都烏丸店 -->
 
 				<!-- 阪急東向日駅前店 -->
