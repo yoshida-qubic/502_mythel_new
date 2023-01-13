@@ -255,8 +255,19 @@ include($root . "/include/header.php");
 	<!-- ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ03 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ -->
 
 	<!-- ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ トップ07 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ -->
+
 	<section class="top07 fadeup">
 		<div class="box">
+			<picture>
+				<source media="(min-width: 768px)" srcset="./images/top/top07_8_img.png">
+				<source media="(max-width: 767px)" srcset="./images/top/top07_8_img_sp.png">
+				<img src="./images/top/top07_8_img.png" alt="">
+			</picture>
+		</div>
+
+
+		<!-- 2023.1/1-1/3福袋キャンペーン -->
+		<!-- <div class="box">
 			<div class="box_in">
 				<div class="top07_ttl">
 					<picture>
@@ -280,41 +291,8 @@ include($root . "/include/header.php");
 					</picture>
 				</div>
 			</div>
-		</div>
-
-
-		<!-- 2022.9/1-10.31キャンペーン -->
-		<!-- <div class="top07_in">
-			<div class="bg">
-				<picture>
-					<source media="(min-width: 768px)" srcset="./images/top/top07_bg02.jpg">
-					<source media="(max-width: 767px)" srcset="./images/top/top07_bg02_sp.jpg">
-					<img src="./images/top/top07_bg02.jpg" alt="">
-				</picture>
-			</div>
-			<div class="box">
-				<div class="container">
-					<div class="box_in">
-						<h2 class="fadeup">
-							<img src="./images/top/top07_txt04.png" alt="2022 AUTUMN CAMPAING">
-						</h2>
-						<figure class="fadeup">
-							<img src="./images/top/top07_txt05.png" alt="9.1 - 10.31">
-						</figure>
-
-						<div class="txt fadeup">
-							<p>
-								ご入会されたお客様全員に<br>
-								契約コースに応じたお店で使える<br class="is_sp">チケットをプレゼント！
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="img fadeup">
-					<img src="./images/top/top07_txt03.png" alt="">
-				</div>
-			</div>
 		</div> -->
+
 	</section>
 	<!-- ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ トップ07 ▲▲▲▲▲▲▲▲▲▲▲▲▲▲ -->
 

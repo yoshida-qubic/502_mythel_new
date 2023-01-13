@@ -25,6 +25,6 @@ $reserved = '';
 
 $slug = 'higashi_muko_ekimae';
 
-$schedule = '2月2日';
+$schedule = '2月6日';
 
-$instagram_link = '';
+$instagram_link = 'https://instagram.com/mythel_kyoto.higashimukou?igshid=YmMyMTA2M2Y=';
