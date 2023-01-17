@@ -206,6 +206,11 @@ include($root . "/include/header.php");
 				<?php include("./template.php"); ?>
 				<!-- MEGAドン・キホーテ豊橋店 -->
 
+				<!-- イオンタウン刈谷店 -->
+				<?php include("./aeontown_kariya/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- イオンタウン刈谷店 -->
+
 				<!-- 新静岡セノバ店 -->
 				<!-- 2022/06/03 削除 -->
 				<?php //include("./shinshizuoka_cenova/info.php"); 

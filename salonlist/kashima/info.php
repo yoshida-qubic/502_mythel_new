@@ -1,6 +1,6 @@
 <?php
 $area = '関東エリア';
-$salonname = '鹿島店';
+$salonname = '鹿嶋店';
 $salontype = '';
 $holiday = '水曜日';
 $buisiness_hours = '平日、土 OPEN 10:00 〜 CLOSE 20:00 / 日祝 OPEN 10:00 〜 CLOSE 18:00';
