@@ -1740,6 +1740,13 @@ footer .copy {
 	margin: 3rem 0;
 }
 
+.salon02 .slider .subsidy_txt {
+	font-size: 0.6rem;
+	text-align: right;
+	border-bottom: none;
+	margin: 0.3rem 0.2rem 0 0;
+}
+
 .salon02 .bottom .map iframe {
 	height: 250px;
 }

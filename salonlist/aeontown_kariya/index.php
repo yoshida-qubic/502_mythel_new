@@ -84,7 +84,6 @@ include($root . "/include/header.php");
 							</div>
 						</div>
 					</div>
-					<p class="subsidy_txt">令和2年度 第3次補正事業再構築補助金により作成</p>
 				</div>
 
 				<script>
@@ -120,7 +119,7 @@ include($root . "/include/header.php");
 						<div class="link purple is_sp"><a href="tel:<?php echo $tel_tag; ?>"><i class="far fa-mobile-android"></i> <?php echo $tel; ?></a></div>
 						<div class="link purple"><a href="<?php echo $map_link; ?>" target="_blank">GoogleMap</a></div>
 						<!-- <div class="link purple"><a href="<?php echo $reserved; ?>" target="_blank"><?php echo $salonname; ?>の予約はこちら ▶︎</a></div> -->
-						<div class="link notice"><a><?php echo $schedule; ?>coming soon</a></div>
+						<div class="link notice"><a><?php echo $schedule; ?>GRAND OPEN</a></div>
 					</div>
 				</div>
 			</div>
