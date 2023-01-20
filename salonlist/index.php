@@ -110,6 +110,11 @@ include($root . "/include/header.php");
 				<?php include("./template.php"); ?>
 				<!-- キュープラザ原宿店-->
 
+				<!-- 御茶ノ水店 -->
+				<?php include("./ochanomizu/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- 御茶ノ水店-->
+
 				<!-- モザイクモール港北店 -->
 				<!-- 2022/08/04 削除 -->
 				<?php //include("./mosaicmall_kouhoku/info.php"); 
