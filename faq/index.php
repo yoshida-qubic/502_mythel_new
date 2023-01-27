@@ -26,7 +26,8 @@ include($root . "/include/header.php");
 						<p><span class="trans_wrap"><span class="trans_in">MYTHELご来店時に、<br class="is_sp">いただくご質問にお答えします。</span></span><br>
 							<span class="trans_wrap"><span class="trans_in">料金からマシンのことまで、<br class="is_sp">不明な点がございましたら、</span></span><br class="is_pc">
 							<span class="trans_wrap"><span class="trans_in">スタッフ、またはお問い合わせフォームより</span></span><br class="is_pc">
-							<span class="trans_wrap"><span class="trans_in">お気軽にお問い合わせください。</span></span></p>
+							<span class="trans_wrap"><span class="trans_in">お気軽にお問い合わせください。</span></span>
+						</p>
 					</div>
 					<div class="img"><img src="<?php echo $imgDir; ?>faq01_mv.png"></div>
 				</div>
@@ -71,7 +72,7 @@ include($root . "/include/header.php");
 						<p>トータルセルフエステってなんですか？</p>
 					</div>
 					<div class="ans">
-						<p>エステサロンで使用している業務用の脱毛機・キャビテーション・フェイシャルマシン ・ホワイトニング・ネイルプリンターなどを好きなだけ使ってお客様ご自身でお手入れができる最新のセルフエステです。</p>
+						<p>エステサロンで使用している業務用の脱毛機・キャビテーション・ラジオ波・フェイシャルマシン ・ホワイトニング・筋肉トレーニングマシンなどを好きなだけ使ってお客様ご自身でお手入れができる最新のセルフエステです。</p>
 					</div>
 				</div>
 
@@ -80,16 +81,16 @@ include($root . "/include/header.php");
 						<p>体験はできますか？</p>
 					</div>
 					<div class="ans">
-						<p>お住まいのエリアをご選択いただき初回は無料で体験できます。</p>
+						<p>お住まいのエリアをご選択いただき体験できます。</p>
 					</div>
 				</div>
 
 				<div class="item fadeup">
 					<div class="que">
-						<p>セルフエステ初めてなので、上手くできますか？</p>
+						<p>セルフエステ初めてなのですが、上手くできますか？</p>
 					</div>
 					<div class="ans">
-						<p>各部屋に施術動画マニュアルを完備しておりますのでご安心ください。</p>
+						<p>スタッフの丁寧な説明と、各部屋に施術動画マニュアルを完備しておりますのでご安心ください。</p>
 					</div>
 				</div>
 
@@ -107,7 +108,7 @@ include($root . "/include/header.php");
 						<p>部屋数は何部屋ですか？</p>
 					</div>
 					<div class="ans">
-						<p>各エリアごとに部屋数が異なります。詳細は各エリア店のページでご確認ください。</p>
+						<p>各店舗ごとに部屋数が異なります。詳細は各店舗のページでご確認ください。</p>
 					</div>
 				</div>
 
@@ -116,7 +117,7 @@ include($root . "/include/header.php");
 						<p>1日に何回通えますか？</p>
 					</div>
 					<div class="ans">
-						<p>１日にご利用頂ける回数はプランによって異なりますが、１枠（４０分）もしくは１枠（７５分）となります。</p>
+						<p>1日にご利用頂ける回数はプランによって異なりますが、1枠（45分）となります。</p>
 					</div>
 				</div>
 
@@ -125,7 +126,7 @@ include($root . "/include/header.php");
 						<p>体験の際には何を持っていけばいいですか？</p>
 					</div>
 					<div class="ans">
-						<p>年齢認やご本人確認をさせていただく場合がありますので、免許証・保険証・学生証など生年月日や写真付きの身分証明書をご持参ください。体験後に定額制で通う手続きをお考えの方はクレジットカードか口座振替登録手続に必要なキャッシュカードをお持ちくださいませ。</p>
+						<p>体験は手ぶらでOKです。体験後に定額制で通う手続きをお考えの方はクレジットカードか口座振替登録手続に必要なキャッシュカード、学生の方は学生証をお持ちくださいませ。</p>
 					</div>
 				</div>
 
@@ -134,7 +135,7 @@ include($root . "/include/header.php");
 						<p>何分前にお店に行けばいいですか？</p>
 					</div>
 					<div class="ans">
-						<p>初回のお客様はご予約時間の１０分前にはお越しください。</p>
+						<p>ご予約の時間にお越し下さい。</p>
 					</div>
 				</div>
 
@@ -143,25 +144,25 @@ include($root . "/include/header.php");
 						<p>体験当日は、どれくらい時間がかかりますか？</p>
 					</div>
 					<div class="ans">
-						<p>体験前と施術、体験後に入会のお手続きを希望される時は2時間ほど空けておいて下さい。</p>
+						<p>カウンセリング、施術時間含め90分ほど空けておいて下さい。</p>
 					</div>
 				</div>
 
-				<div class="item fadeup">
+				<!-- <div class="item fadeup">
 					<div class="que">
 						<p>予約は何回分できますか？</p>
 					</div>
 					<div class="ans">
 						<p>施術後次回来店のご予約はお一人様1回のご予約とさせて頂いております。</p>
 					</div>
-				</div>
+				</div> -->
 
 				<div class="item fadeup">
 					<div class="que">
 						<p>友達（家族）同士で体験に行くことは可能ですか？</p>
 					</div>
 					<div class="ans">
-						<p>可能です。ペア利用のお部屋もございます。ペアルームが開いてない場合は別々の個室へご案内となりますのでご了承くださいませ。</p>
+						<p>可能です。同じ時間帯にご予約をお取り下さい。</p>
 					</div>
 				</div>
 
@@ -170,7 +171,7 @@ include($root . "/include/header.php");
 						<p>見学はできますか？</p>
 					</div>
 					<div class="ans">
-						<p>見学のみは受け付けておりません。</p>
+						<p>見学のみもOKです。店舗に直接ご連絡下さい。</p>
 					</div>
 				</div>
 
@@ -197,7 +198,7 @@ include($root . "/include/header.php");
 						<p>入会は何歳から可能ですか？</p>
 					</div>
 					<div class="ans">
-						<p>成人（２０歳）であれば可能です。未成年のお客様につきましては親権者の同意書が必要になります。</p>
+						<p>入会に年齢制限はございませんが、未成年のお客様につきましては親権者の同意書が必要になります。</p>
 					</div>
 				</div>
 
@@ -215,7 +216,7 @@ include($root . "/include/header.php");
 						<p>月会費はいくらですか？</p>
 					</div>
 					<div class="ans">
-						<p><a href="../price/">ご利用料金表</a>をご覧ください。</p>
+						<p><a href="../price/">ご利用料金表</a>をご覧ください。 ※店舗によって異なります</p>
 					</div>
 				</div>
 
@@ -224,18 +225,18 @@ include($root . "/include/header.php");
 						<p>使用できるクレジットカードの種類を教えてください。</p>
 					</div>
 					<div class="ans">
-						<p>現在利用可能なクレジットカードはVISA、MasterCard、JCB、ダイナースクラブ、ディスカバーカード、アメリカン・エキスプレスが使用できます。</p>
+						<p>現在利用可能なクレジットカードはVISA、MasterCard、JCB、ディスカバーカード、アメリカン・エキスプレスが使用できます。</p>
 					</div>
 				</div>
 
-				<div class="item fadeup">
+				<!-- <div class="item fadeup">
 					<div class="que">
 						<p>自分の名義ではないクレジットカードでも登録は可能ですか？</p>
 					</div>
 					<div class="ans">
 						<p>ご本人様のクレジットカードのみとなります。</p>
 					</div>
-				</div>
+				</div> -->
 
 				<div class="item fadeup">
 					<div class="que">
@@ -260,7 +261,7 @@ include($root . "/include/header.php");
 						<p>子供を連れて行ってもいいですか？</p>
 					</div>
 					<div class="ans">
-						<p>申し訳ございません。お子様の待合スペースがなく精密機械なども多いためご遠慮いただいております。</p>
+						<p>店舗に直接ご確認下さい。</p>
 					</div>
 				</div>
 
@@ -349,7 +350,7 @@ include($root . "/include/header.php");
 						<p>予約なしでも大丈夫ですか？</p>
 					</div>
 					<div class="ans">
-						<p>完全予約制となっております。WEBからのご予約が必須となります。</p>
+						<p>ご予約なしでもご利用頂けますが、ご予約優先となります。</p>
 					</div>
 				</div>
 
@@ -358,7 +359,7 @@ include($root . "/include/header.php");
 						<p>当日予約はできますか？</p>
 					</div>
 					<div class="ans">
-						<p>ご予約1時間前にお部屋が空いていれば可能です。</p>
+						<p>WEBの場合は1時間前まで、お電話の場合は予約に空きがございましたら直前まで可能です。</p>
 					</div>
 				</div>
 
@@ -367,7 +368,7 @@ include($root . "/include/header.php");
 						<p>予約の変更・キャンセルはできますか？</p>
 					</div>
 					<div class="ans">
-						<p>6時間前までに行って頂ければ可能です。</p>
+						<p>WEBの場合30分前まで、直前のキャンセルはお電話にてお願い致します。</p>
 					</div>
 				</div>
 
@@ -376,7 +377,7 @@ include($root . "/include/header.php");
 						<p>キャンセル料はかかりますか？</p>
 					</div>
 					<div class="ans">
-						<p>キャンセル料はありません。</p>
+						<p>キャンセル料はかかりませんが、お早目にご連絡下さい。</p>
 					</div>
 				</div>
 
@@ -385,7 +386,88 @@ include($root . "/include/header.php");
 						<p>遅刻するとどうなりますか？</p>
 					</div>
 					<div class="ans">
-						<p>施術時間は少なくなります。延長などはできません。</p>
+						<p>施術時間が短くなる可能性がございます。</p>
+					</div>
+				</div>
+
+				<div class="item fadeup">
+					<div class="que">
+						<p>目に見える効果がなかなか見えないです。</p>
+					</div>
+					<div class="ans">
+						<p>まずは○kg痩せたい、お肌をキレイにしたい、など具体的な目標を立てて下さい。スタッフが目標に合わせて無理なく継続できるアドバイスをさせて頂きます。</p>
+					</div>
+				</div>
+
+				<div class="item fadeup">
+					<div class="que">
+						<p>脱毛はどのくらいの期間で効果が出ますか？</p>
+					</div>
+					<div class="ans">
+						<p>2週間に1回施術して頂くと最短6ヶ月で70～75%、最短9ヶ月で脱毛完了となります。<br class="is_pc">※毛量、毛質、肌質によっても変わります</p>
+					</div>
+				</div>
+
+				<div class="item fadeup">
+					<div class="que">
+						<p>キャビテーション、セルバーンはどれくらいの期間で効果が分かりますか？</p>
+					</div>
+					<div class="ans">
+						<p>5日に1回施術して頂き、8ヶ月継続して下さい。結果が出るには継続が大切です。 ※個人差があります</p>
+					</div>
+				</div>
+
+				<div class="item fadeup">
+					<div class="que">
+						<p>フェイシャルはどれくらいの期間で効果が分かりますか？</p>
+					</div>
+					<div class="ans">
+						<p>1週間に1回ご利用頂き、効果はすぐに実感出来ますが、継続してご利用頂くことにより効果が持続します。<br class="is_pc">※個人差があります</p>
+					</div>
+				</div>
+
+				<div class="item fadeup">
+					<div class="que">
+						<p>ホワイトニングはどれくらいの期間で効果が分かりますか？</p>
+					</div>
+					<div class="ans">
+						<p>5日に1回ご利用頂き、効果はすぐに実感出来ますが、継続してご利用頂くことにより効果が持続します。また、ご自宅でホワイトニングジェルを使用するとより効果が持続します。 ※個人差があります</p>
+					</div>
+				</div>
+
+				<div class="item fadeup">
+					<div class="que">
+						<p>マグウェーブはどれくらいの期間で効果が分かりますか？</p>
+					</div>
+					<div class="ans">
+						<p>1部位3日に1回ご利用頂き、効果はすぐに実感出来ますが、継続してご利用頂くことにより効果が持続します。<br class="is_pc">※個人差があります</p>
+					</div>
+				</div>
+
+				<div class="item fadeup">
+					<div class="que">
+						<p>DPTシルクライト、コラーゲンマシンはどれくらいの期間で効果が分かりますか？</p>
+					</div>
+					<div class="ans">
+						<p>3日に1回ご利用頂き、半年以上続けて頂くと効果が実感出来ます。結果が出るには継続が大切です。<br class="is_pc">※個人差があります</p>
+					</div>
+				</div>
+
+				<div class="item fadeup">
+					<div class="que">
+						<p>スチームアップはどれくらいの期間で効果が分かりますか？</p>
+					</div>
+					<div class="ans">
+						<p>3日に1回ご利用頂き、効果はすぐに実感出来ますが、継続してご利用頂くことにより効果が持続します。また、スチームアップ後にマグウェーブまたはセルバーンを使って頂くことで体質改善、ダイエット効果が期待されます。<br class="is_pc">※個人差があります</p>
+					</div>
+				</div>
+
+				<div class="item fadeup">
+					<div class="que">
+						<p>ジェル・クリームの量によって効果は変わりますか？</p>
+					</div>
+					<div class="ans">
+						<p>効果は変わりません。適量をお使い下さい。</p>
 					</div>
 				</div>
 
