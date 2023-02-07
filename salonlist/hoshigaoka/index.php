@@ -32,7 +32,7 @@ include($root . "/include/header.php");
 					<dt>営業時間：</dt>
 					<dd><?php echo $buisiness_hours; ?></dd>
 				</dl>
-				
+
 				<dl>
 					<dt>定休日：</dt>
 					<dd><?php echo $holiday; ?></dd>
@@ -68,25 +68,32 @@ include($root . "/include/header.php");
 					<div class="swiper-container">
 						<div class="swiper-wrapper">
 							<!-- <div class="swiper-slide">
-								<img src="<?php //echo $imgDir; ?>slider01.jpg">
+								<img src="<?php //echo $imgDir; 
+													?>slider01.jpg">
 							</div>
 							<div class="swiper-slide">
-								<img src="<?php //echo $imgDir; ?>slider02.jpg">
+								<img src="<?php //echo $imgDir; 
+													?>slider02.jpg">
 							</div>
 							<div class="swiper-slide">
-								<img src="<?php //echo $imgDir; ?>slider03.jpg">
+								<img src="<?php //echo $imgDir; 
+													?>slider03.jpg">
 							</div>
 							<div class="swiper-slide">
-								<img src="<?php //echo $imgDir; ?>slider04.jpg">
+								<img src="<?php //echo $imgDir; 
+													?>slider04.jpg">
 							</div>
 							<div class="swiper-slide">
-								<img src="<?php //echo $imgDir; ?>slider05.jpg">
+								<img src="<?php //echo $imgDir; 
+													?>slider05.jpg">
 							</div>
 							<div class="swiper-slide">
-								<img src="<?php //echo $imgDir; ?>slider06.jpg">
+								<img src="<?php //echo $imgDir; 
+													?>slider06.jpg">
 							</div>
 							<div class="swiper-slide">
-								<img src="<?php //echo $imgDir; ?>slider07.jpg">
+								<img src="<?php //echo $imgDir; 
+													?>slider07.jpg">
 							</div> -->
 							<div class="swiper-slide">
 								<img src="<?php echo $imgDir; ?>slider08.jpg">
@@ -140,7 +147,8 @@ include($root . "/include/header.php");
 						<div class="link purple is_sp"><a href="tel:<?php echo $tel_tag; ?>"><i class="far fa-mobile-android"></i> <?php echo $tel; ?></a></div>
 						<div class="link purple"><a href="<?php echo $map_link; ?>" target="_blank">GoogleMap</a></div>
 						<div class="link purple"><a href="<?php echo $reserved; ?>" target="_blank"><?php echo $salonname; ?>の予約はこちら ▶︎</a></div>
-						<!-- <div class="link notice"><a><?php //echo $schedule; ?>OPEN予定</a></div> -->
+						<!-- <div class="link notice"><a><?php //echo $schedule; 
+																							?>OPEN予定</a></div> -->
 					</div>
 				</div>
 			</div>

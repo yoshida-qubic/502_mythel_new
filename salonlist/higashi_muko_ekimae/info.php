@@ -8,7 +8,7 @@ $address = '〒617-0002 京都府向日市寺戸町小佃11-3 1F';
 $access = '阪急京都本線「東向日駅」より徒歩4分、JR東海道・山陽本線「向日町駅」より徒歩10分';
 
 $room_number = '';
-$machine = '脱毛1台・キャビテーション1台・フェイシャル1台・ラジオ派1台・MAGWAVE EX1台・ハーブテントスチームアップ1台・シルクライト1台';
+$machine = '脱毛1台・キャビテーション1台・フェイシャル1台・ラジオ波1台・MAGWAVE EX1台・ハーブテントスチームアップ1台・シルクライト1台';
 
 $tel = '070-9007-9723';
 
@@ -21,7 +21,7 @@ $map_link = 'https://goo.gl/maps/4mU1vatyM7W53EDm8';
 
 
 
-$reserved = '';
+$reserved = 'https://mythel.hacomono.jp/reserve/schedule/24/138/';
 
 $slug = 'higashi_muko_ekimae';
 

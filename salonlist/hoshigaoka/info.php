@@ -21,10 +21,8 @@ $map_link = 'https://goo.gl/maps/XY5U14jHo1ugXSTeA';
 $schedule = '2月16日';
 
 
-$reserved = 'https://1cs.jp/mythelhoshigaoka/r';
+$reserved = 'https://mythel.hacomono.jp/reserve/schedule/7/37/';
 
 $slug = 'hoshigaoka';
 
 $instagram_link = 'https://www.instagram.com/mythel_hoshigaoka/';
-
-?>
