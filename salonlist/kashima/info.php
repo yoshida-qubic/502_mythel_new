@@ -8,7 +8,7 @@ $address = '〒314-0031 茨城県鹿嶋市宮中4670-4 2F';
 $access = 'JR鹿島線「鹿島神宮駅」から車で5分、JR鹿島線「鹿島サッカースタジアム駅」から徒歩21分';
 
 $room_number = '';
-$machine = '脱毛1台・キャビテーション1台・フェイシャル1台・ホワイトニング1台・ラジオ派1台';
+$machine = '脱毛1台・キャビテーション1台・フェイシャル1台・ホワイトニング1台・ラジオ波1台';
 
 $tel = '050-1467-7050';
 
@@ -21,10 +21,10 @@ $map_link = 'https://goo.gl/maps/wU8DruYWrV3PLkNs9';
 
 
 
-$reserved = '';
+$reserved = 'https://mythel.hacomono.jp/reserve/schedule/25/145/';
 
 $slug = 'kashima';
 
 $schedule = '';
 
-$instagram_link = '';
+$instagram_link = 'https://instagram.com/mythel_kashimaten?igshid=YmMyMTA2M2Y=';
