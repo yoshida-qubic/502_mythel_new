@@ -27,4 +27,4 @@ $slug = 'aeontown_kariya';
 
 $schedule = '2月10日';
 
-$instagram_link = '';
+$instagram_link = 'https://instagram.com/mythel_ieontown_kariya?igshid=YmMyMTA2M2Y=';
