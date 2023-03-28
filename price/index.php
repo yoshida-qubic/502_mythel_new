@@ -40,7 +40,7 @@ include($root . "/include/header.php");
 	<section class="top04 price02">
 		<div class="container">
 			<h3 class="fadeup">今なら45分体験無料</h3>
-			<p class="fadeup">月額6,578円（税込）のセルフエステが今なら体験無料。<br>脱毛・痩身・フェイシャル・ホワイトニングから選べる！<br>MYTHELならではのトータルセルフエステを是非お試し下さい。</p>
+			<p class="fadeup">セルフエステが今なら体験無料。<br>脱毛・痩身・フェイシャル・ホワイトニングから選べる！<br>MYTHELならではのトータルセルフエステを是非お試し下さい。</p>
 			<div class="link white fadeup">
 				<a href="<?php echo $dir; ?>salonlist/">無料体験のお申込み ▶︎</a>
 			</div>
@@ -87,7 +87,7 @@ include($root . "/include/header.php");
 								<th>シルバー</th>
 								<th>DayTime <span>Open〜15時まで</span><span>平日のみ利用可能</span></th>
 								<td>45<span class="small">min</span></td>
-								<td class="purple">6,578<span class="middle">円(税込)</span></td>
+								<td class="purple">7,700<span class="middle">円(税込)</span></td>
 								<td class="facility_contents">
 									<span class="txt">脱毛</span><br>
 									<span class="txt">キャビテーション</span><br>
@@ -99,7 +99,7 @@ include($root . "/include/header.php");
 								<th>ゴールド</th>
 								<th>AllTime <span>Open〜最終受付まで</span></th>
 								<td>45<span class="small">min</span></td>
-								<td class="purple">10,980<span class="middle">円(税込)</span></td>
+								<td class="purple">12,100<span class="middle">円(税込)</span></td>
 								<td class="facility_contents">
 									<span class="txt">脱毛</span><br>
 									<span class="txt">キャビテーション</span><br>
@@ -112,7 +112,7 @@ include($root . "/include/header.php");
 								<th>プラチナ</th>
 								<th>AllTime <span>Open〜最終受付まで</span></th>
 								<td>45<span class="small">min</span></td>
-								<td class="purple">15,980<span class="middle">円(税込)</span></td>
+								<td class="purple">16,500<span class="middle">円(税込)</span></td>
 								<td class="facility_contents">
 									<span class="txt">脱毛</span><br>
 									<span class="txt">キャビテーション</span><br>
@@ -126,7 +126,7 @@ include($root . "/include/header.php");
 								<th>ダイヤ<br class="is_tab">モンド</th>
 								<th>AllTime <span>Open〜最終受付まで</span></th>
 								<td>45<span class="small">min</span></td>
-								<td class="purple">21,980<span class="middle">円(税込)</span></td>
+								<td class="purple">23,100<span class="middle">円(税込)</span></td>
 								<td class="facility_contents">
 									<span class="txt">脱毛</span><br>
 									<span class="txt">キャビテーション</span><br>
@@ -141,7 +141,7 @@ include($root . "/include/header.php");
 								<th>ホリデー<br class="is_tab">プラン</th>
 								<th>AllTime <span>Open〜最終受付まで</span><span>土日祝のみ利用可能</span></th>
 								<td>45<span class="small">min</span></td>
-								<td class="purple">10,980<span class="middle">円(税込)</span></td>
+								<td class="purple">12,100<span class="middle">円(税込)</span></td>
 								<td class="facility_contents">
 									<span class="txt">脱毛</span><br>
 									<span class="txt">キャビテーション</span><br>
@@ -156,7 +156,7 @@ include($root . "/include/header.php");
 								<th>セルバーン<br class="is_tab">プラン</th>
 								<th>AllTime <span>Open〜最終受付まで</span></th>
 								<td>45<span class="small">min</span></td>
-								<td class="purple">10,980<span class="middle">円(税込)</span></td>
+								<td class="purple">12,100<span class="middle">円(税込)</span></td>
 								<td class="facility_contents">
 									<span class="txt">※セルバーン</span><br>
 									<span class="txt">使い放題</span>
@@ -167,7 +167,7 @@ include($root . "/include/header.php");
 								<th>MAGWAVE<br class="is_tab">プラン</th>
 								<th>AllTime <span>Open〜最終受付まで</span></th>
 								<td>45<span class="small">min</span></td>
-								<td class="purple">13,980<span class="middle">円(税込)</span></td>
+								<td class="purple">14,300<span class="middle">円(税込)</span></td>
 								<td class="facility_contents">
 									<span class="txt">※MAGWAVE</span><br>
 									<span class="txt">使い放題</span>
@@ -260,17 +260,17 @@ include($root . "/include/header.php");
 						</thead>
 						<tbody>
 							<tr>
-								<th>DayTime <span>Open〜15時までに入店</span></th>
+								<th>AllTime <span>Open〜最終受付までに入店</span></th>
 								<td>45<span class="small">min</span></td>
 								<td class="purple">4,400<span class="middle">円(税込)</span></td>
 								<td><span class="txt">全てのマシン</span></td>
 							</tr>
-							<tr>
+							<!-- <tr>
 								<th>NightTime <span>15時〜最終受付まで</span></th>
 								<td>45<span class="small">min</span></td>
 								<td class="purple">6,600<span class="middle">円(税込)</span></td>
 								<td><span class="txt">全てのマシン</span></td>
-							</tr>
+							</tr> -->
 
 						</tbody>
 					</table>

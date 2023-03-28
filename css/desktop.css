@@ -2412,8 +2412,9 @@ footer .copy {
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン07 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .machine07 {
 	padding: 6rem 0;
-	background: #505076;
-	color: #fff;
+	/* background: #505076; */
+	/* color: #fff; */
+	color: #505076;
 }
 
 .machine07 .box {
@@ -2436,6 +2437,7 @@ footer .copy {
 	font-size: 2.5rem;
 	font-weight: 100;
 	margin: 0 0 0.5rem;
+	color: #515251;
 }
 
 .machine07 .box .txt p {
@@ -2462,6 +2464,8 @@ footer .copy {
 /* ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ マシン08 ▼▼▼▼▼▼▼▼▼▼▼▼▼▼ */
 .machine08 {
 	padding: 6rem 0 8rem;
+	background: #505076;
+	color: #fff;
 }
 
 .machine08 .box {
@@ -2482,13 +2486,13 @@ footer .copy {
 	font-size: 2.5rem;
 	font-weight: 100;
 	margin: 0 0 0.5rem;
-	color: #515251;
+	/* color: #515251; */
 }
 
 .machine08 .box .txt p {
 	font-size: 1.5rem;
 	margin: 2rem 0 0;
-	color: #2a6a7e;
+	/* color: #2a6a7e; */
 }
 
 .machine08 .box .txt p span {
@@ -2503,7 +2507,7 @@ footer .copy {
 .machine08 .box .txt .inner p {
 	margin: 0;
 	font-size: 1rem;
-	color: #515251;
+	/* color: #515251; */
 	line-height: 2.5rem;
 }
 
