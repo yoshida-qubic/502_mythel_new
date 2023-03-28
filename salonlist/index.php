@@ -42,7 +42,7 @@ include($root . "/include/header.php");
 		<div class="container">
 			<div class="box">
 				<!-- <a href="#area01">北海道</a> -->
-				<a href="#area02">東北</a>
+				<!-- <a href="#area02">東北</a> -->
 				<a href="#area03">関東</a>
 				<a href="#area04">北陸・甲信越</a>
 				<a href="#area05">東海</a>
@@ -75,32 +75,34 @@ include($root . "/include/header.php");
 
 			<!-- </div> -->
 
-			<div class="box" id="area02">
-				<h3>東北エリア</h3>
+			<!-- <div class="box" id="area02"> -->
+			<!-- <h3>東北エリア</h3> -->
 
-				<!-- 仙台駅前店 -->
-				<!-- 2022/06/03 削除 -->
-				<?php //include("./sendai/info.php"); 
-				?>
-				<?php //include("./template.php"); 
-				?>
-				<!-- 仙台駅前店 -->
+			<!-- 仙台駅前店 -->
+			<!-- 2022/06/03 削除 -->
+			<?php //include("./sendai/info.php"); 
+			?>
+			<?php //include("./template.php"); 
+			?>
+			<!-- 仙台駅前店 -->
 
 
-				<!-- 仙台国分町店 -->
-				<!-- 2022/03/01 削除 -->
-				<?php //include("./sendaikokubuncho/info.php"); 
-				?>
-				<?php //include("./template.php"); 
-				?>
-				<!-- 仙台国分町店 -->
+			<!-- 仙台国分町店 -->
+			<!-- 2022/03/01 削除 -->
+			<?php //include("./sendaikokubuncho/info.php"); 
+			?>
+			<?php //include("./template.php"); 
+			?>
+			<!-- 仙台国分町店 -->
 
-				<!-- 盛岡菜園店 -->
-				<?php include("./morioka_saien/info.php"); ?>
-				<?php include("./template.php"); ?>
-				<!-- 盛岡菜園店 -->
+			<!-- 盛岡菜園店 2023/03/10削除 -->
+			<?php //include("./morioka_saien/info.php"); 
+			?>
+			<?php //include("./template.php"); 
+			?>
+			<!-- 盛岡菜園店 -->
 
-			</div>
+			<!-- </div> -->
 
 			<div class="box" id="area03">
 				<h3>関東エリア</h3>

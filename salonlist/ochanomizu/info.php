@@ -27,4 +27,4 @@ $slug = 'ochanomizu';
 
 $schedule = '';
 
-$instagram_link = '';
+$instagram_link = 'https://instagram.com/mythel.ochanomizu?igshid=YmMyMTA2M2Y=';

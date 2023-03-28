@@ -2,7 +2,7 @@
 $area = '関東エリア';
 $salonname = 'トレッサ横浜店';
 $holiday = '不定休<span>（研修等で店休になる場合があります）</span>';
-$buisiness_hours = 'OPEN 10:00 〜 CLOSE 21:00';
+$buisiness_hours = 'OPEN 10:00 〜 CLOSE 20:00';
 $address = '〒222-0002 神奈川県横浜市港北区師岡町700 2F';
 $access = '東急東横線 綱島駅 東口のりば系統 「鶴見駅西口」行トレッサ横浜前下車（約10分）';
 
@@ -27,5 +27,3 @@ $slug = 'tressa_yokohama';
 $schedule = '7月8日';
 
 $instagram_link = 'https://www.instagram.com/mythel_tressayokohama/';
-
-?>
