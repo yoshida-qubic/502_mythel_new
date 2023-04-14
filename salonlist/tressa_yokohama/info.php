@@ -20,7 +20,7 @@ $map_link = 'https://goo.gl/maps/1KVjHnMvgRbEAsSJA';
 
 
 
-$reserved = 'https://1cs.jp/mytheltressayokohama/r';
+$reserved = 'https://mythel.hacomono.jp/reserve/schedule/21/129/';
 
 $slug = 'tressa_yokohama';
 

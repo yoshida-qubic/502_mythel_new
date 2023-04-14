@@ -14,8 +14,8 @@ include($root . "/include/header.php");
 				<h1>
 					<img src="./images/top/top01_txt01.png" alt="定額制セルフエステ MUTHEL">
 				</h1>
-
-				<p class="mincho">月額<span>6,578</span>円<span class="small">（税込）</span>で<br class="is_sp">通い放題の<br class="is_pc">セルフエステ</p>
+				<!-- <p class="mincho">月額<span>6,578</span>円<span class="small">（税込）</span>で<br class="is_sp">通い放題の<br class="is_pc">セルフエステ</p> -->
+				<p class="mincho"><span>定額制</span>で<br class="is_sp">通い放題の<br class="is_pc">セルフエステ</p>
 
 			</div>
 		</div>
@@ -258,11 +258,14 @@ include($root . "/include/header.php");
 
 	<section class="top07 fadeup">
 		<div class="box">
-			<picture>
+			<figure>
+				<img src="./images/top/top07_bg05.png" alt="">
+			</figure>
+			<!-- <picture>
 				<source media="(min-width: 768px)" srcset="./images/top/top07_8_img.png">
 				<source media="(max-width: 767px)" srcset="./images/top/top07_8_img_sp.png">
 				<img src="./images/top/top07_8_img.png" alt="">
-			</picture>
+			</picture> -->
 		</div>
 
 
@@ -330,7 +333,8 @@ include($root . "/include/header.php");
 				<div class="img"><img src="./images/top/top05_img02.jpg"></div>
 				<div class="txt">
 					<h3>全国初の<br>定額制トータル<br class="is_sp">セルフエステ</h3>
-					<p>MYTHELはセルフエステ史上初の<br class="is_sp">トータルセルフエステ！<br>さらに月額6,578円（税込）からで全てのマシンを使い放題！何回通ってもOKなので通常のエステサロンに行くより何倍もお得！<br>まずは料金をチェックして下さい。</p>
+					<p>MYTHELはセルフエステ史上初の<br class="is_sp">トータルセルフエステ！<br>
+						定額制でお得にエステマシンを使い放題！何回通ってもOKなので通常のエステサロンに行くより何倍もお得！<br>まずは料金をチェックして下さい。</p>
 					<div class="link left small purple">
 						<a href="<?php echo $dir; ?>price/">PRICE</a>
 					</div>
