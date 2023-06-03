@@ -112,10 +112,12 @@ include($root . "/include/header.php");
 				<?php include("./template.php"); ?>
 				<!-- キュープラザ原宿店-->
 
-				<!-- 御茶ノ水店 -->
-				<?php include("./ochanomizu/info.php"); ?>
-				<?php include("./template.php"); ?>
-				<!-- 御茶ノ水店-->
+				<!-- 御茶ノ水店 2023/06/2削除-->
+				<?php //include("./ochanomizu/info.php"); 
+				?>
+				<?php //include("./template.php"); 
+				?>
+				<!-- 御茶ノ水店 2023/06/2削除-->
 
 				<!-- モザイクモール港北店 -->
 				<!-- 2022/08/04 削除 -->
