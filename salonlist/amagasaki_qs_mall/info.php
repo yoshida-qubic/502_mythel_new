@@ -7,7 +7,8 @@ $address = '〒661-0976 兵庫県尼崎市潮江1-3-1 2F';
 $access = 'JR神戸線・宝塚線・東西線「尼崎駅」北口より直結';
 
 $room_number = '';
-$machine = '脱毛器 1台・キャビテーション 4台・フェイシャル 1台・ホワイトニング 1台・HIFU 2台・MAGWAVE 2台';
+$machine = 'Ladies ▶︎ MAGWAVE1台・ホワイトニング1台・フェイシャル1台・キャビテーション2台・ラジオ波1台・シルクライト1台・脱毛1台・リフトアップ1台<br>
+Mens ▶︎ MAGWAVE1台・ ホワイトニング1台・脱毛1台';
 
 $tel = '06-6423-8660';
 
@@ -25,5 +26,3 @@ $reserved = 'https://mythel.hacomono.jp/reserve/schedule/13/53/';
 $slug = 'amagasaki_qs_mall';
 
 $instagram_link = 'https://www.instagram.com/mythel_amagasaki/';
-
-?>

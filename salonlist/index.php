@@ -269,10 +269,12 @@ include($root . "/include/header.php");
 				<?php include("./template.php"); ?>
 				<!-- アルザ泉大津店 -->
 
-				<!-- 守口店 -->
-				<?php include("./moriguchi/info.php"); ?>
-				<?php include("./template.php"); ?>
-				<!-- 守口店 -->
+				<!-- 守口店 2023/8/18削除-->
+				<?php //include("./moriguchi/info.php"); 
+				?>
+				<?php //include("./template.php"); 
+				?>
+				<!-- 守口店 2023/8/18削除-->
 
 				<!-- 枚方店 2022/12/6削除 -->
 				<?php //include("./hirakata/info.php"); 
@@ -326,6 +328,10 @@ include($root . "/include/header.php");
 				<?php include("./template.php"); ?>
 				<!-- 島根出雲店 -->
 
+				<!-- 尾道店 -->
+				<?php include("./onomichi/info.php"); ?>
+				<?php include("./template.php"); ?>
+				<!-- 尾道店 -->
 
 
 			</div>

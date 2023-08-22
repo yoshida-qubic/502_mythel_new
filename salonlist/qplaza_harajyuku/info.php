@@ -7,7 +7,7 @@ $address = '〒150-0001 東京都渋谷区神宮前6-28-6 B1';
 $access = '東京メトロ千代田線・副都心線 明治神宮前駅 7番出口より徒歩2分、JR山手線 原宿駅 徒歩6分';
 
 $room_number = '';
-$machine = '脱毛機 1台・キャビテーション 2台・ハイドラフェイシャル 1台・ホワイトニング 1台・MAGWAVE EX 1台・HIFU 2台';
+$machine = '脱毛機1台・キャビテーション1台・ラジオ波1台・ハイドラフェイシャル1台・MAGWAVE2台・スチームアップ1台・リフトアップ1台';
 
 $tel = '03-6805-1123';
 
@@ -25,5 +25,3 @@ $reserved = 'https://mythel.hacomono.jp/reserve/schedule/11/50/';
 $slug = 'qplaza_harajyuku';
 
 $instagram_link = 'https://www.instagram.com/mythel_harajuku/?hl=ja';
-
-?>
