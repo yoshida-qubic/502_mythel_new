@@ -7,7 +7,7 @@ $address = '〒545-0052 大阪市阿倍野区阿倍野筋1-6-1 3F';
 $access = 'Osaka Metro 御堂筋線・谷町線「天王寺駅」12号出口より直結、谷町線「阿倍野駅」2号出口より直結、JR環状線・阪和線・大和路線「天王寺駅」南口より徒歩3分、近鉄南大阪線「大阪阿部野橋駅」西改札より徒歩3分、阪堺電車上町線「天王寺駅前駅」より徒歩2分';
 
 $room_number = '';
-$machine = '脱毛1台・キャビテーション3台・フェイシャル3台・MAGWAVE EX2台・ハイフ2台';
+$machine = '脱毛機1台・キャビテーション2台・フェイシャル3台・ラジオ波1台・リフトアップ1台・MAGWAVE2台・ホワイトニング1台・スチームアップ1台';
 
 $tel = '06-6616-9688';
 
@@ -25,5 +25,3 @@ $reserved = 'https://mythel.hacomono.jp/reserve/schedule/1/1/';
 $slug = 'abeno_qs_mall';
 
 $instagram_link = 'https://www.instagram.com/mythel.abenoqs/';
-
-?>
