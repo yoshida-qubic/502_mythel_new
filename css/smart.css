@@ -2550,11 +2550,21 @@ footer .copy {
   margin: 1rem 0 0;
 }
 
-.fc04 .box .submit_btn input {
+/* .fc04 .box .submit_btn input {
   background: #505076;
   color: #fff;
   width: 100%;
   padding: 1rem;
+  border: 1px solid #505076;
+} */
+
+.fc04 .box .submit_btn a {
+  background: #505076;
+  color: #fff;
+  line-height: 1.6;
+  width: 100%;
+  padding: 1rem;
+  margin: 2rem auto 0;
   border: 1px solid #505076;
 }
 

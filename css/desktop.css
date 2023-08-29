@@ -2813,15 +2813,30 @@ footer .copy {
 	margin: 3rem 0 0;
 }
 
-.fc04 .box .submit_btn input {
+/* .fc04 .box .submit_btn input {
 	background: #505076;
 	color: #fff;
 	border: 1px solid #505076;
 	padding: 1rem 5rem;
 	transition: .3s;
+} */
+
+.fc04 .box .submit_btn a {
+	max-width: 215px;
+	background: #505076;
+	color: #fff;
+	border: 1px solid #505076;
+	padding: 1rem;
+	margin: 0 auto;
+	transition: .3s;
 }
 
-.fc04 .box .submit_btn input:hover {
+/* .fc04 .box .submit_btn input:hover {
+	background: #fff;
+	color: #505076;
+} */
+
+.fc04 .box .submit_btn a:hover {
 	background: #fff;
 	color: #505076;
 }
