@@ -44,7 +44,7 @@ include($root . "/include/header.php");
 				<!-- <a href="#area01">北海道</a> -->
 				<!-- <a href="#area02">東北</a> -->
 				<a href="#area03">関東</a>
-				<a href="#area04">北陸・甲信越</a>
+				<!-- <a href="#area04">北陸・甲信越</a> -->
 				<a href="#area05">東海</a>
 				<a href="#area06">関西</a>
 				<a href="#area07">中国・四国</a>
@@ -159,22 +159,24 @@ include($root . "/include/header.php");
 				<!-- ひたちの店 -->
 			</div>
 
-			<div class="box" id="area04">
-				<h3>北陸・甲信越エリア</h3>
+			<!-- <div class="box" id="area04"> -->
+			<!-- <h3>北陸・甲信越エリア</h3> -->
 
-				<!-- イオンモール白山店 -->
-				<?php include("./aeonmall_hakusan/info.php"); ?>
-				<?php include("./template.php"); ?>
-				<!-- イオンモール白山店 -->
+			<!-- イオンモール白山店 2023/09/15 削除-->
+			<?php //include("./aeonmall_hakusan/info.php"); 
+			?>
+			<?php //include("./template.php"); 
+			?>
+			<!-- イオンモール白山店 -->
 
-				<!-- ながの東急百貨店内 -->
-				<!-- 2022/06/03 削除 -->
-				<?php //include("./nagano_tokyu/info.php"); 
-				?>
-				<?php //include("./template.php"); 
-				?>
-				<!-- ながの東急百貨店内 -->
-			</div>
+			<!-- ながの東急百貨店内 -->
+			<!-- 2022/06/03 削除 -->
+			<?php //include("./nagano_tokyu/info.php"); 
+			?>
+			<?php //include("./template.php"); 
+			?>
+			<!-- ながの東急百貨店内 -->
+			<!-- </div> -->
 
 			<div class="box" id="area05">
 				<h3>東海エリア</h3>
