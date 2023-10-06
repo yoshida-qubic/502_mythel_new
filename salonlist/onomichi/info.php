@@ -3,7 +3,7 @@ $area = '中国・四国エリア';
 $salonname = '尾道店';
 $salontype = '';
 $holiday = '不定休<span>（研修等で店休になる場合があります）</span>';
-$buisiness_hours = '平日 OPEN 10:00 〜 CLOSE 20:00 / 土日祝 OPEN 10:00 〜 CLOSE 18:00';
+$buisiness_hours = '平日 OPEN 10:00 〜 CLOSE 20:00 / <br class="paragraph">土日祝 OPEN 10:00 〜 CLOSE 18:00';
 $address = '〒722-0022 広島県尾道市栗原町5363-1 2F';
 $access = 'おのみちバス尾道市立大学行「栗原小学校北」下車（約2分）、JR山陽新幹線「新尾道駅」より徒歩10分、西瀬戸尾道ICより2.9km';
 

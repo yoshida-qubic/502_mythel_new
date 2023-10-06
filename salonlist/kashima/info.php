@@ -3,7 +3,7 @@ $area = '関東エリア';
 $salonname = '鹿嶋店';
 $salontype = '';
 $holiday = '水曜日';
-$buisiness_hours = '平日、土 OPEN 10:00 〜 CLOSE 20:00 / 日祝 OPEN 10:00 〜 CLOSE 18:00';
+$buisiness_hours = '平日、土 OPEN 10:00 〜 CLOSE 20:00 / <br class="paragraph">日祝 OPEN 10:00 〜 CLOSE 18:00';
 $address = '〒314-0031 茨城県鹿嶋市宮中4670-4 2F';
 $access = 'JR鹿島線「鹿島神宮駅」から車で5分、JR鹿島線「鹿島サッカースタジアム駅」から徒歩21分';
 

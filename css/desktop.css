@@ -1908,6 +1908,10 @@ footer .copy {
 	white-space: nowrap;
 }
 
+.salon02 dd .paragraph {
+	display: none;
+}
+
 .salon02 .box .notes p {
 	font-size: 1.1rem;
 	border-bottom: none;

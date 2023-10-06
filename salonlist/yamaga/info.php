@@ -3,7 +3,7 @@ $area = '九州・沖縄エリア';
 $salonname = '山鹿店';
 $salontype = '';
 $holiday = '火曜日<span>（隔遇）</span>';
-$buisiness_hours = '平日 OPEN 10:00 〜 CLOSE 20:00 / 土日祝 OPEN 10:00 〜 CLOSE 18:00';
+$buisiness_hours = '平日 OPEN 10:00 〜 CLOSE 20:00 / <br class="paragraph">土日祝 OPEN 10:00 〜 CLOSE 18:00';
 $address = '〒861-0382 熊本県山鹿市方保田3497-7';
 $access = '植木インターから車で15分';
 
