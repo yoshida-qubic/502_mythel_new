@@ -1580,9 +1580,10 @@ footer .copy {
 
 .salonlist02 .box {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 0 -1rem;
+  gap: 1rem;
 }
 
 .salonlist02 .box a {
@@ -1594,7 +1595,7 @@ footer .copy {
   width: 30%;
   margin: 0 0.25rem;
   position: relative;
-  margin: 0 0 1rem;
+  margin: 0;
 }
 
 .salonlist02 .box a::before {
@@ -1654,9 +1655,14 @@ footer .copy {
   width: 25%;
 }
 
+.salonlist03 .box .item dl dd .paragraph {
+  display: none;
+}
+
 .salonlist03 .box .item dl dd span {
   font-size: 0.65rem;
 }
+
 
 .salonlist03 .box .link {
   margin: 0.5rem 0;
@@ -1725,6 +1731,10 @@ footer .copy {
 
 .salon02 dl dd {
   padding: 0.5rem 1rem 0;
+}
+
+.salon02 dl dd .paragraph {
+  display: none;
 }
 
 .salon02 dl dd span {

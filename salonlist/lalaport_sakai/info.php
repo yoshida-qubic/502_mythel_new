@@ -3,7 +3,7 @@ $area = '関西エリア';
 $salonname = 'ららぽーと堺店';
 $salontype = '';
 $holiday = '不定休<span>（研修等で店休になる場合があります）</span>';
-$buisiness_hours = '平日 OPEN 10:00 〜 CLOSE 20:00 / 土日祝・特定日 OPEN 10:00 〜 CLOSE 21:00';
+$buisiness_hours = '平日 OPEN 10:00 〜 CLOSE 20:00 / <br class="paragraph">土日祝・特定日 OPEN 10:00 〜 CLOSE 21:00';
 $address = '〒587-8577 大阪府堺市美原区黒山22-1';
 $access = '近鉄南大阪線「河内松原駅」より近鉄バス余部平尾行「美原区役所東口」下車（約5分）、南海高野線「初芝駅」・地下鉄御堂筋線「新金岡駅」より南海バス美原区役所前行「美原区役所前」下車（約3分）';
 

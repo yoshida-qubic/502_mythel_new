@@ -3,7 +3,7 @@ $area = '関西エリア';
 $salonname = '阪急東向日駅前店';
 $salontype = '';
 $holiday = '水曜日';
-$buisiness_hours = '平日 OPEN 10:00 〜 CLOSE 20:00 / 土日祝 OPEN 10:00 〜 CLOSE 18:00';
+$buisiness_hours = '平日 OPEN 10:00 〜 CLOSE 20:00 / <br class="paragraph">土日祝 OPEN 10:00 〜 CLOSE 18:00';
 $address = '〒617-0002 京都府向日市寺戸町小佃11-3 1F';
 $access = '阪急京都本線「東向日駅」より徒歩4分、JR東海道・山陽本線「向日町駅」より徒歩10分';
 
