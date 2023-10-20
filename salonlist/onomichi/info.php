@@ -21,7 +21,7 @@ $map_link = 'https://goo.gl/maps/RRgPAPXX6s9PQipQ9';
 
 
 
-$reserved = '';
+$reserved = 'https://mythel.hacomono.jp/reserve/schedule/30/176';
 
 $slug = 'onomichi';
 
