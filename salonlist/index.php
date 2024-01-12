@@ -266,9 +266,11 @@ include($root . "/include/header.php");
 				?>
 				<!-- アリオ鳳 -->
 
-				<!-- アルザ泉大津店 -->
-				<?php include("./alzar_izumiotsu/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<!-- アルザ泉大津店 2024/01/12削除 -->
+				<?php //include("./alzar_izumiotsu/info.php"); 
+				?>
+				<?php //include("./template.php"); 
+				?>
 				<!-- アルザ泉大津店 -->
 
 				<!-- 守口店 2023/8/18削除-->
