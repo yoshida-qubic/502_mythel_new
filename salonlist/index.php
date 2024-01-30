@@ -304,9 +304,11 @@ include($root . "/include/header.php");
 				?>
 				<!-- 京都烏丸店 -->
 
-				<!-- 阪急東向日駅前店 -->
-				<?php include("./higashi_muko_ekimae/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<!-- 阪急東向日駅前店 2024/1/30削除 -->
+				<?php //include("./higashi_muko_ekimae/info.php"); 
+				?>
+				<?php //include("./template.php"); 
+				?>
 				<!-- 阪急東向日駅前店 -->
 
 				<!-- MENS京都西院店 2022/02/01削除 -->
