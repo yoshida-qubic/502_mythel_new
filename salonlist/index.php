@@ -132,10 +132,12 @@ include($root . "/include/header.php");
 				<?php include("./template.php"); ?>
 				<!-- トレッサ横浜店-->
 
-				<!-- ドン・キホーテ二俣川店 -->
-				<?php include("./donki_futamatagawa/info.php"); ?>
-				<?php include("./template.php"); ?>
-				<!-- ドン・キホーテ二俣川店 -->
+				<!-- ドン・キホーテ二俣川店 2024/02/27 削除-->
+				<?php //include("./donki_futamatagawa/info.php"); 
+				?>
+				<?php //include("./template.php"); 
+				?>
+				<!-- ドン・キホーテ二俣川店 2024/02/27 削除-->
 
 				<!-- 鹿島店 -->
 				<?php include("./kashima/info.php"); ?>
