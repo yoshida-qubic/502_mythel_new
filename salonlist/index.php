@@ -232,11 +232,12 @@ include($root . "/include/header.php");
 				?>
 				<!-- 新静岡セノバ店-->
 
-
-				<!-- モレラ岐阜店 -->
-				<?php include("./malera_gifu/info.php"); ?>
-				<?php include("./template.php"); ?>
-				<!-- モレラ岐阜店 -->
+				<!-- モレラ岐阜店 2024/04/05 削除-->
+				<?php //include("./malera_gifu/info.php"); 
+				?>
+				<?php //include("./template.php"); 
+				?>
+				<!-- モレラ岐阜店 2024/04/05 削除-->
 
 
 
