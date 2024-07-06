@@ -107,9 +107,12 @@ include($root . "/include/header.php");
 			<div class="box" id="area03">
 				<h3>関東エリア</h3>
 
+				<!-- キュープラザ原宿店 2024/07/6削除 -->
 				<!-- キュープラザ原宿店 -->
-				<?php include("./qplaza_harajyuku/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<?php //include("./qplaza_harajyuku/info.php"); 
+				?>
+				<?php //include("./template.php"); 
+				?>
 				<!-- キュープラザ原宿店-->
 
 				<!-- 御茶ノ水店 2023/06/2削除-->
