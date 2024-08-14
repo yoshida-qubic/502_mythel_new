@@ -362,8 +362,9 @@ include($root . "/include/header.php");
 				<!-- 小倉南守恒店 -->
 
 				<!-- 山鹿店 -->
-				<?php include("./yamaga/info.php"); ?>
-				<?php include("./template.php"); ?>
+				 <!-- 2024/8/14 削除 -->
+				<?php //include("./yamaga/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- 山鹿店 -->
 
 
