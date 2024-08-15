@@ -48,7 +48,7 @@ include($root . "/include/header.php");
 				<a href="#area05">東海</a>
 				<a href="#area06">関西</a>
 				<a href="#area07">中国・四国</a>
-				<a href="#area08">九州・沖縄</a>
+				<!-- <a href="#area08">九州・沖縄</a> -->
 				<!-- <a href="#area09">OPEN予定</a> -->
 			</div>
 		</div>
@@ -350,8 +350,8 @@ include($root . "/include/header.php");
 
 
 
-			<div class="box" id="area08">
-				<h3>九州・沖縄エリア</h3>
+			<!-- <div class="box" id="area08"> -->
+				<!-- <h3>九州・沖縄エリア</h3> -->
 
 				<!-- 小倉南守恒店 -->
 				<!-- 2022/11/08 削除 -->
@@ -369,7 +369,7 @@ include($root . "/include/header.php");
 
 
 
-			</div>
+			<!-- </div> -->
 
 
 
