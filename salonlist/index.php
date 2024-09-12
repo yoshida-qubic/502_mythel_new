@@ -351,21 +351,23 @@ include($root . "/include/header.php");
 
 
 			<!-- <div class="box" id="area08"> -->
-				<!-- <h3>九州・沖縄エリア</h3> -->
+			<!-- <h3>九州・沖縄エリア</h3> -->
 
-				<!-- 小倉南守恒店 -->
-				<!-- 2022/11/08 削除 -->
-				<?php //include("./kokuraminami_moritsune/info.php"); 
-				?>
-				<?php //include("./template.php"); 
-				?>
-				<!-- 小倉南守恒店 -->
+			<!-- 小倉南守恒店 -->
+			<!-- 2022/11/08 削除 -->
+			<?php //include("./kokuraminami_moritsune/info.php"); 
+			?>
+			<?php //include("./template.php"); 
+			?>
+			<!-- 小倉南守恒店 -->
 
-				<!-- 山鹿店 -->
-				 <!-- 2024/8/14 削除 -->
-				<?php //include("./yamaga/info.php"); ?>
-				<?php //include("./template.php"); ?>
-				<!-- 山鹿店 -->
+			<!-- 山鹿店 -->
+			<!-- 2024/8/14 削除 -->
+			<?php //include("./yamaga/info.php"); 
+			?>
+			<?php //include("./template.php"); 
+			?>
+			<!-- 山鹿店 -->
 
 
 
@@ -425,7 +427,7 @@ include($root . "/include/header.php");
 	<section class="top06">
 
 		<h2 class="sub_ttl">TRIAL</h2>
-		<h3>初回無料体験</h3>
+		<h3>初回体験受付中</h3>
 		<p>お近くの店舗を選択してください。<br>店舗ごとにご予約可能です。</p>
 		<div class="link purple">
 			<a href="<?php echo $dir; ?>salonlist/">RESERVED</a>
