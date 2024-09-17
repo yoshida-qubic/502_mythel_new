@@ -18,11 +18,11 @@ include($root . "/include/header.php");
         <table>
           <tr>
             <th>事業者名</th>
-            <td>Tree company株式会社</td>
+            <td>アプロディーテ株式会社</td>
           </tr>
           <tr>
             <th>所在地</th>
-            <td>〒550-0015 大阪市西区南堀江2-13-30 サンイートビル901</td>
+            <td>〒460-0002 愛知県名古屋市中区丸の内2-2-10 レジディア丸の内1F</td>
           </tr>
           <tr>
             <th>代表者</th>
@@ -30,7 +30,7 @@ include($root . "/include/header.php");
           </tr>
           <tr>
             <th>電話番号</th>
-            <td>06-6684-9193</td>
+            <td>052-325-5600</td>
           </tr>
           <tr>
             <th>メールアドレス</th>
