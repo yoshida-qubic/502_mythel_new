@@ -298,9 +298,9 @@ include($root . "/include/header.php");
 				<?php include("./template.php"); ?>
 				<!-- ららぽーと堺店 -->
 
-				<!-- あまがさきキューズモール店 -->
-				<?php include("./amagasaki_qs_mall/info.php"); ?>
-				<?php include("./template.php"); ?>
+				<!-- あまがさきキューズモール店 2024/09/28削除 -->
+				<?php //include("./amagasaki_qs_mall/info.php"); ?>
+				<?php //include("./template.php"); ?>
 				<!-- あまがさきキューズモール店 -->
 
 				<!-- 京都烏丸店 2023/1/6削除 -->
